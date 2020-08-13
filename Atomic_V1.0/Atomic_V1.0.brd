@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.127" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,43 +23,43 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -79,51 +79,45 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="BK_sw" color="32" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="BN_bn" color="33" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="RD_rt" color="34" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="OE_or" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="YW_ge" color="36" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="GN_gn" color="37" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="BE_bl" color="38" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="VT_vi" color="39" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="GY_gr" color="48" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="WE_ws" color="49" fill="0" visible="yes" active="yes"/>
-<layer number="110" name="GD_gd" color="50" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="SR_sr" color="51" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="GNYW_gnge" color="52" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="PK_rs" color="53" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="Mechanic1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="Mechanic2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="Mechanic3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="Artikel_Nr" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="Document_SCH" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="Language_DE" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="BK_sw" color="32" fill="1" visible="no" active="yes"/>
+<layer number="101" name="BN_bn" color="33" fill="1" visible="no" active="yes"/>
+<layer number="102" name="RD_rt" color="34" fill="1" visible="no" active="yes"/>
+<layer number="103" name="OE_or" color="35" fill="1" visible="no" active="yes"/>
+<layer number="104" name="YW_ge" color="36" fill="1" visible="no" active="yes"/>
+<layer number="105" name="GN_gn" color="37" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BE_bl" color="38" fill="1" visible="no" active="yes"/>
+<layer number="107" name="VT_vi" color="39" fill="1" visible="no" active="yes"/>
+<layer number="108" name="GY_gr" color="48" fill="1" visible="no" active="yes"/>
+<layer number="109" name="WE_ws" color="49" fill="0" visible="no" active="yes"/>
+<layer number="110" name="GD_gd" color="50" fill="1" visible="no" active="yes"/>
+<layer number="111" name="SR_sr" color="51" fill="1" visible="no" active="yes"/>
+<layer number="112" name="GNYW_gnge" color="52" fill="1" visible="no" active="yes"/>
+<layer number="113" name="PK_rs" color="53" fill="1" visible="no" active="yes"/>
+<layer number="121" name="Mechanic1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="Mechanic2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="Mechanic3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="Artikel_Nr" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="Document_SCH" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="Language_DE" color="5" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Language_EN" color="3" fill="1" visible="no" active="yes"/>
-<layer number="200" name="PlacementReference" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="PlacementReference" color="12" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
-<text x="3.52" y="0.12" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">GND</text>
-<text x="3.52" y="2.62" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">5V</text>
-<text x="3.556" y="5.1816" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">SDA</text>
-<text x="3.5306" y="7.7724" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">SCL</text>
-<text x="18.029" y="9.939" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">3V3</text>
-<text x="10.345" y="8.52" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">22</text>
-<text x="10.345" y="5.945" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">19</text>
-<text x="10.37" y="3.395" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">23</text>
-<text x="10.37" y="0.695" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">33</text>
-<text x="10.3378" y="7.366" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">Tx</text>
-<text x="10.3378" y="4.826" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">Rx</text>
-<text x="9.8552" y="2.2606" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">Neo</text>
-<text x="9.67" y="-0.455" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">Adc</text>
-<text x="-0.38" y="30.58" size="1.6" layer="21" font="vector" ratio="16" rot="SR0">B</text>
-<text x="31.46" y="30.58" size="1.6" layer="21" font="vector" ratio="16" rot="SR0">A</text>
-<text x="38.86" y="30.58" size="1.6" layer="21" font="vector" ratio="16" rot="SR0">V</text>
-<text x="14.82" y="30.58" size="1.6" layer="21" font="vector" ratio="16" rot="SR0">G</text>
-<text x="-11.29" y="12.165" size="2.13333125" layer="21" font="vector" ratio="12" rot="SR90">Atomic</text>
+<text x="2.123" y="-0.515" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">GND</text>
+<text x="2.123" y="2.239" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">5V</text>
+<text x="2.159" y="4.5466" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">G25</text>
+<text x="2.1336" y="7.1374" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">G21</text>
+<text x="10.79" y="9.05" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">3V3</text>
+<text x="10.599" y="6.996" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">G22</text>
+<text x="10.599" y="4.421" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">G19</text>
+<text x="10.624" y="1.998" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">G23</text>
+<text x="10.497" y="-0.575" size="1.06666875" layer="21" font="vector" ratio="24" rot="SR0">G33</text>
+<text x="1.234" y="37.438" size="1.6" layer="21" font="vector" ratio="16" rot="SR0">L</text>
+<text x="9.396" y="37.311" size="1.6" layer="21" font="vector" ratio="16" rot="SR0">V</text>
+<text x="13.042" y="37.438" size="1.6" layer="21" font="vector" ratio="16" rot="SR0">G</text>
 <wire x1="-2.03" y1="41.02" x2="-0.73" y2="41.02" width="0" layer="20" curve="180"/>
 <wire x1="-0.38" y1="12.02" x2="-0.38" y2="19.22" width="0" layer="20" curve="180"/>
 <wire x1="3.07" y1="41.12" x2="4.17" y2="41.12" width="0" layer="20" curve="180"/>
@@ -176,6 +170,11 @@
 <wire x1="15.62" y1="19.22" x2="17.62" y2="19.22" width="0" layer="20"/>
 <hole x="7.62" y="7.62" drill="4.2"/>
 <hole x="7.62" y="-0.38" drill="2"/>
+<text x="5.044" y="37.438" size="1.6" layer="21" font="vector" ratio="16" rot="SR0">H</text>
+<text x="1.869" y="37.438" size="1.6" layer="26" font="vector" ratio="16" rot="SMR0">L</text>
+<text x="10.031" y="37.311" size="1.6" layer="26" font="vector" ratio="16" rot="SMR0">V</text>
+<text x="13.677" y="37.438" size="1.6" layer="26" font="vector" ratio="16" rot="SMR0">G</text>
+<text x="5.679" y="37.438" size="1.6" layer="26" font="vector" ratio="16" rot="SMR0">H</text>
 </plain>
 <libraries>
 <library name="Wurth_Connectors_WR-PHD" urn="urn:adsk.eagle:library:14804658">
@@ -901,7 +900,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.4mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -912,7 +911,7 @@ design rules under a new name.</description>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
+<param name="checkStop" value="1"/>
 <param name="checkValues" value="0"/>
 <param name="checkNames" value="1"/>
 <param name="checkWireStubs" value="1"/>
@@ -1017,45 +1016,45 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300411121" package3d_urn="urn:adsk.eagle:package:14805429/2" value="" x="0" y="3.81" locked="yes" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/61300411121.pdf" x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="GENDER" value="Pin Header" x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="3A" x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MATES" value="WR-PHD 2.54mm Angled Socket Header /SMT Socket Header/Socket Header" x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="2.2676" y="9.9039" locked="yes" size="0.8128" layer="25" rot="R180" align="bottom-right"/>
-<attribute name="PACKAGING" value="Bag" x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART-NUMBER" value=" 61300411121 " x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PINS" value=" 4 " x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROWS" value="Single" x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="Straight" x="0" y="3.81" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="1.4442" y="-2.1876" locked="yes" size="0.8128" layer="27" rot="R90" align="bottom-right"/>
+<element name="J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300411121" package3d_urn="urn:adsk.eagle:package:14805429/2" value="" x="0" y="3.81" smashed="yes" rot="R90">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/61300411121.pdf" x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="GENDER" value="Pin Header" x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IR" value="3A" x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MATES" value="WR-PHD 2.54mm Angled Socket Header /SMT Socket Header/Socket Header" x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-0.9074" y="10.5389" size="0.8" layer="25" rot="R180" align="bottom-right"/>
+<attribute name="PACKAGING" value="Bag" x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART-NUMBER" value=" 61300411121 " x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PINS" value=" 4 " x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROWS" value="Single" x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="Straight" x="0" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="1.4442" y="-2.1876" size="0.8128" layer="27" rot="R90" align="bottom-right"/>
 </element>
-<element name="J2" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300511121" package3d_urn="urn:adsk.eagle:package:14805428/2" value="" x="15.24" y="5.08" locked="yes" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/61300511121.pdf" x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="GENDER" value="Pin Header" x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="3A" x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MATES" value="WR-PHD 2.54mm Angled Socket Header /SMT Socket Header/Socket Header" x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="12.1576" y="9.9039" locked="yes" size="0.8128" layer="25" rot="R180" align="bottom-right"/>
-<attribute name="PACKAGING" value="Bag" x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART-NUMBER" value=" 61300511121 " x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PINS" value=" 5 " x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROWS" value="Single" x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="Straight" x="15.24" y="5.08" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="16.6842" y="-1.9176" locked="yes" size="0.8128" layer="27" rot="R90" align="bottom-right"/>
+<element name="J2" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300511121" package3d_urn="urn:adsk.eagle:package:14805428/2" value="" x="15.24" y="5.08" smashed="yes" rot="R90">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/61300511121.pdf" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="GENDER" value="Pin Header" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IR" value="3A" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MATES" value="WR-PHD 2.54mm Angled Socket Header /SMT Socket Header/Socket Header" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="13.3694" y="-2.0299" size="0.8" layer="25" align="bottom-right"/>
+<attribute name="PACKAGING" value="Bag" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART-NUMBER" value=" 61300511121 " x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PINS" value=" 5 " x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROWS" value="Single" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="Straight" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="16.6842" y="-1.9176" size="0.8128" layer="27" rot="R90" align="bottom-right"/>
 </element>
 <element name="X1" library="con-JST VH" package="S4P-VH" value="S4P-VH" x="7.62" y="33.92" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.1" y="38.365" locked="yes" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="16.1" y="38.365" locked="yes" size="0.8" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="11.02" y="38.365" locked="yes" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U4" library="TLE9250VSJ" package="SOIC127P602X173-8N-V" value="TLE9250VSJ" x="7.62" y="13.01" smashed="yes">
 <attribute name="ARTIKEL_NR" value="545599" x="-5.08" y="25.71" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-12.404" y="7.63" size="2.032" layer="25" font="vector" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="7.662" y="12.964" size="0.8" layer="25" font="vector" ratio="10" rot="SR90"/>
 <attribute name="VALUE" x="-8.848" y="5.852" size="2.032" layer="27" font="vector" ratio="10" rot="SR90"/>
 </element>
 <element name="C15" library="fliegl-wuerth" package="WCAP-CSGP_0402" value="47 nF" x="7.62" y="17.145" smashed="yes" rot="R270">
 <attribute name="ARTIKEL_NR" value="545508" x="11.43" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CERAMIC-TYPE" value="X7R Class II" x="11.43" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.022" y="17.41" size="0.3048" layer="25"/>
+<attribute name="NAME" x="6.466" y="18.553" size="0.8" layer="25"/>
 <attribute name="PART-NUMBER" value="885012205054" x="11.43" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL-VALUE" value="±10%" x="11.43" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.895" y="17.869" size="0.3048" layer="27"/>
@@ -1064,26 +1063,26 @@ design rules under a new name.</description>
 <element name="R22" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402" value="60.4R 1%" x="8.89" y="17.145" smashed="yes" rot="R90">
 <attribute name="ARTIKEL_NR" value="546940" x="5.08" y="-36.195" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="N" value="SMD 0402 60.4ohms 1% AEC-Q200" x="5.08" y="-36.195" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="10.187" y="16.618" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="9.925" y="17.172" size="0.8" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="10.568" y="17.129" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
 </element>
 <element name="R21" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402" value="60.4R 1%" x="6.35" y="17.145" smashed="yes" rot="R270">
 <attribute name="ARTIKEL_NR" value="546940" x="10.16" y="70.485" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="N" value="SMD 0402 60.4ohms 1% AEC-Q200" x="10.16" y="70.485" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.261" y="17.972" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="5.523" y="17.072" size="0.8" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="4.753" y="17.334" size="0.3048" layer="27" align="bottom-center"/>
 </element>
 <element name="D6" library="fliegl-wuerth" package="WE-TVS_SOT23-3L" value="26.2V / 35pF" x="9.883" y="20.447" smashed="yes" rot="R90">
 <attribute name="ARTIKEL_NR" value="531887" x="2.263" y="-22.733" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="KOMPONENTENNUMMER" value="617684" x="2.263" y="-22.733" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.601" y="20.642" size="0.6096" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="12.632" y="20.428" size="0.8" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.535" y="18.842" size="0.6096" layer="27" rot="R90"/>
 <attribute name="WE-NUMBER" value="824098024" x="2.263" y="-22.733" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C17" library="fliegl-wuerth" package="WCAP-CSGP_0402" value="100 nF" x="3.175" y="11.645" smashed="yes" rot="R270">
 <attribute name="ARTIKEL_NR" value="545504" x="6.985" y="67.525" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CERAMIC-TYPE" value="X7R Class II" x="6.985" y="67.525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="3.925" y="12.395" size="0.3048" layer="25" rot="R270"/>
+<attribute name="NAME" x="1.956" y="9.386" size="0.8" layer="25"/>
 <attribute name="PART-NUMBER" value="885012205037" x="6.985" y="67.525" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL-VALUE" value="±10%" x="6.985" y="67.525" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.225" y="12.395" size="0.3048" layer="27" rot="R270"/>
@@ -1092,7 +1091,7 @@ design rules under a new name.</description>
 <element name="C19" library="fliegl-wuerth" package="WCAP-CSGP_0402" value="100 nF" x="12.065" y="12.485" smashed="yes" rot="R90">
 <attribute name="ARTIKEL_NR" value="545504" x="8.255" y="-48.475" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CERAMIC-TYPE" value="X7R Class II" x="8.255" y="-48.475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="11.315" y="11.735" size="0.3048" layer="25" rot="R90"/>
+<attribute name="NAME" x="13.411" y="11.188" size="0.8" layer="25" rot="R180"/>
 <attribute name="PART-NUMBER" value="885012205037" x="8.255" y="-48.475" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL-VALUE" value="±10%" x="8.255" y="-48.475" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="13.015" y="11.735" size="0.3048" layer="27" rot="R90"/>
@@ -1102,7 +1101,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010542.pdf" x="0.988" y="25.527" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="I-OUTPUT" value="1A" x="0.988" y="25.527" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT" value="THT" x="0.988" y="25.527" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="8.608" y="25.527" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="2.258" y="24.511" size="0.8" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="PART-NUMBER" value=" 173010542 " x="0.988" y="25.527" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="V-INPUT" value="8-42V" x="0.988" y="25.527" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="V-OUTPUT" value="5V" x="0.988" y="25.527" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1112,7 +1111,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501261.pdf" x="14.478" y="28.321" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="IPEAK" value="9.5A" x="14.478" y="28.321" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT" value="SMT" x="14.478" y="28.321" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.618" y="28.321" size="1.016" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="16.11" y="25.908" size="0.8" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="PART-NUMBER" value=" 824501261 " x="14.478" y="28.321" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PDISS" value="400W" x="14.478" y="28.321" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="11.468" y="31.031" size="1.016" layer="27" rot="R270"/>
@@ -1121,7 +1120,7 @@ design rules under a new name.</description>
 </element>
 <element name="D2" library="fliegl-elektronik" package="SMA" value="S1ML" x="10.033" y="28.702" smashed="yes" rot="R90">
 <attribute name="ARTIKEL_NR" value="505165" x="10.033" y="28.702" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="8.033" y="25.952" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="10.497" y="24.924" size="0.8" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="OC" value="Farnell 1559155" x="10.033" y="28.702" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="13.533" y="25.952" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
@@ -1130,7 +1129,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012109014.pdf" x="14.859" y="22.606" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DF" value=" 0.05 " x="14.859" y="22.606" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="H" value="2.5mm" x="14.859" y="22.606" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.859" y="20.856" size="0.4064" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="11.938" y="23.269" size="0.8" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" x="14.859" y="22.606" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART-NUMBER" value=" 885012109014 " x="14.859" y="22.606" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="QMIN" value="-" x="14.859" y="22.606" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1156,14 +1155,13 @@ design rules under a new name.</description>
 <contactref element="J1" pad="1"/>
 <contactref element="D1" pad="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="7.62" y1="16.645" x2="7.62" y2="15.875" width="0.2" layer="1"/>
-<via x="7.62" y="15.875" extent="1-16" drill="0.35"/>
+<wire x1="7.62" y1="16.645" x2="7.62" y2="15.8" width="0.2" layer="1"/>
+<via x="7.62" y="15.8" extent="1-16" drill="0.35"/>
 <wire x1="9.883" y1="21.497" x2="9.883" y2="22.837" width="0.2" layer="1"/>
 <wire x1="9.883" y1="22.837" x2="9.906" y2="22.86" width="0.2" layer="1"/>
 <via x="9.906" y="22.86" extent="1-16" drill="0.35"/>
 <wire x1="3.175" y1="11.145" x2="3.175" y2="10.541" width="0.2" layer="1"/>
 <wire x1="3.175" y1="10.541" x2="2.9845" y2="10.3505" width="0.2" layer="1"/>
-<wire x1="2.9845" y1="10.3505" x2="2.921" y2="10.287" width="0.2" layer="1"/>
 <wire x1="2.9845" y1="10.3505" x2="2.7240625" y2="10.3505" width="0.2" layer="1"/>
 <wire x1="2.7240625" y1="10.3505" x2="2.53678125" y2="10.16321875" width="0.2" layer="1"/>
 <via x="2.53678125" y="10.16321875" extent="1-16" drill="0.35"/>
@@ -1179,6 +1177,45 @@ design rules under a new name.</description>
 <vertex x="19.05" y="-3.175"/>
 <vertex x="-4.445" y="-3.175"/>
 </polygon>
+<via x="-1.27321875" y="11.43321875" extent="1-16" drill="0.35"/>
+<via x="-1.27321875" y="10.16321875" extent="1-16" drill="0.35"/>
+<via x="2.53678125" y="0.00321875" extent="1-16" drill="0.35"/>
+<via x="3.80678125" y="0.00321875" extent="1-16" drill="0.35"/>
+<via x="5.07678125" y="0.00321875" extent="1-16" drill="0.35"/>
+<via x="9.52178125" y="0.00321875" extent="1-16" drill="0.35"/>
+<via x="10.79178125" y="0.00321875" extent="1-16" drill="0.35"/>
+<via x="12.06178125" y="0.00321875" extent="1-16" drill="0.35"/>
+<via x="7.61678125" y="13.97321875" extent="1-16" drill="0.35"/>
+<via x="7.23578125" y="11.94121875" extent="1-16" drill="0.35"/>
+<via x="11.42678125" y="15.87821875" extent="1-16" drill="0.35"/>
+<via x="16.50678125" y="20.32321875" extent="1-16" drill="0.35"/>
+<via x="16.50678125" y="24.76821875" extent="1-16" drill="0.35"/>
+<via x="13.96678125" y="38.10321875" extent="1-16" drill="0.35"/>
+<via x="16.50678125" y="36.19821875" extent="1-16" drill="0.35"/>
+<via x="-0.63821875" y="26.67321875" extent="1-16" drill="0.35"/>
+<via x="-1.27321875" y="22.22821875" extent="1-16" drill="0.35"/>
+<via x="-1.27321875" y="24.76821875" extent="1-16" drill="0.35"/>
+<via x="3.80678125" y="23.49821875" extent="1-16" drill="0.35"/>
+<via x="8.25178125" y="24.13321875" extent="1-16" drill="0.35"/>
+<via x="7.61678125" y="32.38821875" extent="1-16" drill="0.35"/>
+<via x="2.53678125" y="31.11821875" extent="1-16" drill="0.35"/>
+<via x="3.80678125" y="36.19821875" extent="1-16" drill="0.35"/>
+<via x="7.61678125" y="36.19821875" extent="1-16" drill="0.35"/>
+<via x="11.42678125" y="36.19821875" extent="1-16" drill="0.35"/>
+<via x="14.47478125" y="28.32421875" extent="1-16" drill="0.35"/>
+<via x="12.44278125" y="31.24521875" extent="1-16" drill="0.35"/>
+<via x="12.06178125" y="26.03821875" extent="1-16" drill="0.35"/>
+<via x="7.61678125" y="29.84821875" extent="1-16" drill="0.35"/>
+<via x="2.53678125" y="26.67321875" extent="1-16" drill="0.35"/>
+<via x="-0.00321875" y="29.84821875" extent="1-16" drill="0.35"/>
+<via x="11.42678125" y="17.78321875" extent="1-16" drill="0.35"/>
+<via x="8.25178125" y="13.33821875" extent="1-16" drill="0.35"/>
+<via x="8.63278125" y="11.75" extent="1-16" drill="0.35"/>
+<via x="9.77578125" y="9.40121875" extent="1-16" drill="0.35"/>
+<via x="12.31578125" y="8.76621875" extent="1-16" drill="0.35"/>
+<via x="12.31578125" y="6.22621875" extent="1-16" drill="0.35"/>
+<via x="12.31578125" y="3.68621875" extent="1-16" drill="0.35"/>
+<via x="9.77578125" y="2.41621875" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+5V">
 <contactref element="U4" pad="3"/>
@@ -1239,7 +1276,9 @@ design rules under a new name.</description>
 <via x="5.715" y="26.035" extent="1-16" drill="0.35"/>
 <wire x1="5.715" y1="26.035" x2="5.715" y2="33.845" width="0.2" layer="16"/>
 <wire x1="5.715" y1="33.845" x2="5.64" y2="33.92" width="0.2" layer="16"/>
-<wire x1="8.89" y1="16.645" x2="10.385" y2="13.645" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="16.645" x2="8.89" y2="13.97" width="0.1524" layer="1"/>
+<wire x1="8.89" y1="13.97" x2="9.215" y2="13.645" width="0.1524" layer="1"/>
+<wire x1="9.215" y1="13.645" x2="10.385" y2="13.645" width="0.1524" layer="1"/>
 </signal>
 <signal name="CAN_L">
 <contactref element="R21" pad="1"/>
@@ -1259,7 +1298,9 @@ design rules under a new name.</description>
 <via x="4.445" y="26.035" extent="1-16" drill="0.35"/>
 <wire x1="4.445" y1="26.035" x2="4.445" y2="31.155" width="0.2" layer="16"/>
 <wire x1="4.445" y1="31.155" x2="1.68" y2="33.92" width="0.2" layer="16"/>
-<wire x1="6.35" y1="16.645" x2="10.385" y2="12.375" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="16.645" x2="6.35" y2="13.97" width="0.1524" layer="1"/>
+<wire x1="6.35" y1="13.97" x2="7.945" y2="12.375" width="0.1524" layer="1"/>
+<wire x1="7.945" y1="12.375" x2="10.385" y2="12.375" width="0.1524" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U4" pad="5"/>
@@ -1303,6 +1344,12 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="18,29,2a8bb01cac300357"/>
+<approved hash="18,29,57509528915766df"/>
+<approved hash="18,29,be39aecc853297d7"/>
+<approved hash="18,29,8db7bdd1bc33a317"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
