@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4226,7 +4226,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-1210/"&g
 <label x="30.48" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="CAN_H" class="0">
+<net name="CAN_P" class="0">
 <segment>
 <wire x1="149.86" y1="81.28" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
@@ -4247,7 +4247,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-1210/"&g
 <label x="-43.18" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CAN_L" class="0">
+<net name="CAN_N" class="0">
 <segment>
 <wire x1="149.86" y1="76.2" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
