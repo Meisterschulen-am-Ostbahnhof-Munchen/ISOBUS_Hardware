@@ -1109,16 +1109,16 @@ design rules under a new name.</description>
 <attribute name="V-OUTPUT" value="5V" x="8.24" y="30.285" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="11.74" y="34.285" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D1" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AC_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146531/2" value="26V" x="0.299" y="29.053" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501261.pdf" x="0.299" y="29.053" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IPEAK" value="9.5A" x="0.299" y="29.053" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="0.299" y="29.053" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-1.46" y="29.688" size="0.8" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 824501261 " x="0.299" y="29.053" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PDISS" value="400W" x="0.299" y="29.053" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-1.39" y="26.343" size="1.016" layer="27" rot="R90"/>
-<attribute name="VBR" value="30.4V" x="0.299" y="29.053" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VCLAMP" value="42.1V" x="0.299" y="29.053" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D1" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AC_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146531/2" value="26V" x="0.299" y="28.321" smashed="yes" rot="R90">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501261.pdf" x="0.299" y="28.321" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IPEAK" value="9.5A" x="0.299" y="28.321" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUNT" value="SMT" x="0.299" y="28.321" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-1.46" y="28.956" size="0.8" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 824501261 " x="0.299" y="28.321" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PDISS" value="400W" x="0.299" y="28.321" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-1.39" y="25.611" size="1.016" layer="27" rot="R90"/>
+<attribute name="VBR" value="30.4V" x="0.299" y="28.321" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VCLAMP" value="42.1V" x="0.299" y="28.321" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_1210_H2.5" package3d_urn="urn:adsk.eagle:package:18489097/2" value="47uF" x="16.042" y="25.356" smashed="yes" rot="R90">
 <attribute name="CERAMIC-TYPE" value="X5R Class II" x="16.042" y="25.356" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1347,10 +1347,10 @@ design rules under a new name.</description>
 <wire x1="12.197" y1="31.689" x2="9.966" y2="33.92" width="1.27" layer="1"/>
 <wire x1="9.6" y1="33.92" x2="9.966" y2="33.92" width="1.27" layer="1"/>
 <wire x1="12.197" y1="31.689" x2="15.499" y2="31.689" width="1.27" layer="1"/>
-<wire x1="0.9666" y1="31.8206" x2="0.299" y2="31.153" width="1.1" layer="1"/>
+<wire x1="1.6986" y1="31.8206" x2="0.299" y2="30.421" width="1.1" layer="1"/>
 <wire x1="9.6" y1="33.92" x2="8.975" y2="33.92" width="1.1" layer="1"/>
 <wire x1="8.975" y1="33.92" x2="6.8756" y2="31.8206" width="1.1" layer="1"/>
-<wire x1="6.8756" y1="31.8206" x2="0.9666" y2="31.8206" width="1.1" layer="1"/>
+<wire x1="6.8756" y1="31.8206" x2="1.6986" y2="31.8206" width="1.1" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="1"/>
@@ -1370,13 +1370,10 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="18,29,29f84ac79ba6ee68"/>
 <approved hash="18,29,a3787912a43c41b6"/>
 <approved hash="18,29,95a6ec8604a8fd72"/>
 <approved hash="18,29,7363ad7c464fc3af"/>
 <approved hash="18,29,fb61f5212a10ffac"/>
-<approved hash="18,29,7bcd7cbd0fcd08bd"/>
-<approved hash="18,29,e58298b8b8a7506c"/>
 <approved hash="18,29,402220a68c101ca3"/>
 <approved hash="18,29,4d4baa3e846f19ea"/>
 </errors>
