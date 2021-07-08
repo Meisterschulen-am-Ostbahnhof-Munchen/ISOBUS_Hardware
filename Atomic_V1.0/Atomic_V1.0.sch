@@ -471,10 +471,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 &lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, horizontal (side entry type), 4 pins&lt;p&gt;
 
 </description>
-<pad name="1" x="-5.94" y="0" drill="1.7" diameter="3" shape="square"/>
-<pad name="2" x="-1.98" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<pad name="3" x="1.98" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<pad name="4" x="5.94" y="0" drill="1.7" diameter="3" shape="octagon"/>
+<pad name="1" x="-5.94" y="0" drill="1.7" diameter="2.794"/>
+<pad name="2" x="-1.98" y="0" drill="1.7" diameter="2.794"/>
+<pad name="3" x="1.98" y="0" drill="1.7" diameter="2.794"/>
+<pad name="4" x="5.94" y="0" drill="1.7" diameter="2.794"/>
 <text x="-8.48" y="-4.445" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="-5.94" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-7.89" y1="-5.7" x2="-6.64" y2="-5.7" width="0.1524" layer="21"/>
@@ -3468,71 +3468,6 @@ Updated by Ella Wu 2019-07-05&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="fliegl-elektronik">
-<packages>
-<package name="SMA">
-<description>&lt;b&gt;SMA&lt;/b&gt; CASE 403D-02&lt;p&gt;
-Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
-<wire x1="-2.25" y1="1.825" x2="2.25" y2="1.825" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-1.825" x2="-2.25" y2="-1.825" width="0.254" layer="21"/>
-<wire x1="-2.25" y1="1.825" x2="-2.25" y2="1.25" width="0.254" layer="21"/>
-<wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.254" layer="51"/>
-<wire x1="-2.25" y1="-1.825" x2="-2.25" y2="-1.25" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-1.825" x2="2.25" y2="-1.25" width="0.254" layer="21" curve="-1.904406"/>
-<wire x1="2.25" y1="1.825" x2="2.25" y2="1.25" width="0.254" layer="21"/>
-<wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
-<smd name="C" x="-2" y="0" dx="2" dy="2" layer="1"/>
-<smd name="A" x="2" y="0" dx="2" dy="2" layer="1"/>
-<text x="-2.75" y="2" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-2.75" y="-3.5" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
-<rectangle x1="-2.8" y1="-0.8" x2="-2.38" y2="0.8" layer="51"/>
-<rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="1.75" layer="51"/>
-<rectangle x1="-1.5" y1="1.25" x2="-0.75" y2="1.75" layer="21"/>
-<rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="-1.25" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="D">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<text x="-1.27" y="-6.35" size="1.27" layer="96">&gt;ARTIKEL_NR</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="S1ML" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-general purpose rectifier, 1000V, 1 A&lt;p&gt;
-Kompatibel mit 1N4007</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SMA">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARTIKEL_NR" value="505165"/>
-<attribute name="OC" value="Farnell 1559155"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Wurth_Capacitors_WCAP-CSGP" urn="urn:adsk.eagle:library:18488985">
 <description>&lt;BR&gt;Wurth Elektronik - Capacitors - MLCCs-Multilayer Ceramic Chip Capacitors - WCAP-CSGP&lt;br&gt;&lt;Hr&gt;
 
@@ -3943,6 +3878,70 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-1210/"&g
 </deviceset>
 </devicesets>
 </library>
+<library name="SS12L_R3">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SODFL3618X143N">
+<description>&lt;b&gt;Sub SMA&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.55" y="0" dx="1.22" dy="1.12" layer="1" rot="R90"/>
+<smd name="2" x="1.55" y="0" dx="1.22" dy="1.12" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.26" y1="1.1" x2="2.26" y2="1.1" width="0.05" layer="51"/>
+<wire x1="2.26" y1="1.1" x2="2.26" y2="-1.1" width="0.05" layer="51"/>
+<wire x1="2.26" y1="-1.1" x2="-2.26" y2="-1.1" width="0.05" layer="51"/>
+<wire x1="-2.26" y1="-1.1" x2="-2.26" y2="1.1" width="0.05" layer="51"/>
+<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.1" layer="51"/>
+<wire x1="1.4" y1="0.9" x2="1.4" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="1.4" y1="-0.9" x2="-1.4" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="-0.9" x2="-1.4" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="0.34" x2="-0.84" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-2.11" y1="0.9" x2="1.4" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SS12L_R3">
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="middle"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SS12L_R3" prefix="D">
+<description>&lt;b&gt;Taiwan Semi SS12L R3, SMT Schottky Diode, 20V 1A, 2-Pin Sub SMA&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SS12L_R3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SODFL3618X143N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Taiwan Semi SS12L R3, SMT Schottky Diode, 20V 1A, 2-Pin Sub SMA" constant="no"/>
+<attribute name="HEIGHT" value="1.43mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Taiwan Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SS12L R3" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="821-SS12LR3" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=821-SS12LR3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3989,10 +3988,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-1210/"&g
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="D1" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AC_400W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146531/2" technology="_824501261" value="26V"/>
-<part name="D2" library="fliegl-elektronik" deviceset="S1ML" device="" value="SS12L R3"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1210_H2.5" device="_25V(DC)" package3d_urn="urn:adsk.eagle:package:18489097/2" technology="_885012109014" value="47uF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="D3" library="SS12L_R3" deviceset="SS12L_R3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4025,11 +4024,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-1210/"&g
 <attribute name="NAME" x="-17.78" y="120.65" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-11.43" y="116.84" size="1.27" layer="95" rot="R90"/>
 </instance>
-<instance part="D2" gate="G$1" x="-7.62" y="127" smashed="yes">
-<attribute name="NAME" x="-8.89" y="129.54" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-8.89" y="123.19" size="1.778" layer="96"/>
-<attribute name="ARTIKEL_NR" x="-8.89" y="120.65" size="1.27" layer="96"/>
-</instance>
 <instance part="GND4" gate="1" x="-15.24" y="111.76" smashed="yes">
 <attribute name="VALUE" x="-17.78" y="106.68" size="1.778" layer="96"/>
 </instance>
@@ -4039,6 +4033,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-1210/"&g
 </instance>
 <instance part="GND6" gate="1" x="7.62" y="114.3" smashed="yes">
 <attribute name="VALUE" x="5.08" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="D3" gate="G$1" x="5.08" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="1.27" y="139.7" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="1.27" y="134.62" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -4091,22 +4089,22 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-1210/"&g
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="129.54" x2="-27.94" y2="127" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="-10.16" y1="127" x2="-15.24" y2="127" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="127" x2="-15.24" y2="127" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="127" x2="-27.94" y2="127" width="0.1524" layer="91"/>
 <junction x="-15.24" y="127"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VIN"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-5.08" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="124.46" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <junction x="7.62" y="127"/>
+<pinref part="D3" gate="G$1" pin="K"/>
 </segment>
 </net>
 </nets>

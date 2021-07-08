@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1582,10 +1583,10 @@ with VH connector receptacle</text>
 &lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, horizontal (side entry type), 4 pins&lt;p&gt;
 
 </description>
-<pad name="1" x="-5.94" y="0" drill="1.7" diameter="3" shape="square"/>
-<pad name="2" x="-1.98" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<pad name="3" x="1.98" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<pad name="4" x="5.94" y="0" drill="1.7" diameter="3" shape="octagon"/>
+<pad name="1" x="-5.94" y="0" drill="1.7" diameter="2.794"/>
+<pad name="2" x="-1.98" y="0" drill="1.7" diameter="2.794"/>
+<pad name="3" x="1.98" y="0" drill="1.7" diameter="2.794"/>
+<pad name="4" x="5.94" y="0" drill="1.7" diameter="2.794"/>
 <text x="-8.48" y="-4.445" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="-5.94" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-7.89" y1="-5.7" x2="-6.64" y2="-5.7" width="0.1524" layer="21"/>
