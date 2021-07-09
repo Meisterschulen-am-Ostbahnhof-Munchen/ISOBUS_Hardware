@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="8" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1.98" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -700,112 +700,6 @@ Max Component Height - 1.73mm</description>
 </package3d>
 </packages3d>
 </library>
-<library name="Wurth_Step Down Converter_MagI³C-FDSM" urn="urn:adsk.eagle:library:13379781">
-<description>&lt;BR&gt;Wurth Elektronik - Power Modules - Step Down Converter - MagI³C-FDSM &lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-
-&lt;HR&gt;
-Eagle Version 9, Library Revision 2020a, 2020-03-17&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="MAGI³C-FDSM_173XXXX42" urn="urn:adsk.eagle:footprint:13379783/1" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<wire x1="-5.8" y1="6.5" x2="5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="5.8" y1="6.5" x2="5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2" x2="-5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="6.6" x2="5.9" y2="6.6" width="0.2" layer="21"/>
-<wire x1="5.9" y1="6.6" x2="5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.1" x2="-5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-2.1" x2="-5.9" y2="6.6" width="0.2" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6.8"/>
-<vertex x="6.1" y="6.8"/>
-<vertex x="6.1" y="-2.3"/>
-<vertex x="-6.1" y="-2.3"/>
-</polygon>
-<circle x="-4.08" y="-0.11" radius="0.1" width="0.3" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="MAGI³C-FDSM_173XXXX42" urn="urn:adsk.eagle:package:13379788/2" type="model" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173XXXX42"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="Wurth_EMC Components_WE-TVSP" urn="urn:adsk.eagle:library:14283044">
 <description>&lt;BR&gt;Wurth Elektronik - EMC Components - Surge Protection - WE-TVSP&lt;br&gt;&lt;Hr&gt;
 
@@ -902,6 +796,30 @@ Copyright: Würth Elektronik</description>
 <vertex x="-3.5" y="-1.635"/>
 </polygon>
 </package>
+<package name="WE-TVSP_DO-214AB_BIDIRECTIONAL" urn="urn:adsk.eagle:footprint:12146521/1" library_version="3">
+<description>&lt;b&gt;WE-TVSP Power TVS Diode
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AB Bidirectional</description>
+<smd name="1" x="-3.5" y="0" dx="2.3" dy="3.3" layer="1"/>
+<smd name="2" x="3.5" y="0" dx="2.3" dy="3.3" layer="1"/>
+<wire x1="-3.43" y1="2.95" x2="-3.43" y2="-2.95" width="0.1" layer="51"/>
+<wire x1="3.43" y1="-2.95" x2="3.43" y2="2.95" width="0.1" layer="51"/>
+<wire x1="3.53" y1="3.05" x2="-3.53" y2="3.05" width="0.2" layer="21"/>
+<wire x1="-3.53" y1="2" x2="-3.53" y2="3.05" width="0.2" layer="21"/>
+<wire x1="3.53" y1="2" x2="3.53" y2="3.05" width="0.2" layer="21"/>
+<wire x1="-3.43" y1="2.95" x2="3.43" y2="2.95" width="0.1" layer="51"/>
+<wire x1="-3.43" y1="-2.95" x2="3.43" y2="-2.95" width="0.1" layer="51"/>
+<wire x1="-3.53" y1="-3.05" x2="3.53" y2="-3.05" width="0.2" layer="21"/>
+<wire x1="3.53" y1="-2" x2="3.53" y2="-3.05" width="0.2" layer="21"/>
+<wire x1="-3.53" y1="-2" x2="-3.53" y2="-3.05" width="0.2" layer="21"/>
+<text x="0" y="3.76" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.25" y="-4.84" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="3.25"/>
+<vertex x="4.9" y="3.25"/>
+<vertex x="4.9" y="-3.25"/>
+<vertex x="-4.9" y="-3.25"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="WE-TVSP_DO-214AC_BIDIRECTIONAL" urn="urn:adsk.eagle:package:12146531/2" type="model" library_version="1">
@@ -909,6 +827,13 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AC  Bidirectional</description>
 <packageinstances>
 <packageinstance name="WE-TVSP_DO-214AC_BIDIRECTIONAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-TVSP_DO-214AB_BIDIRECTIONAL" urn="urn:adsk.eagle:package:12146529/2" type="model" library_version="3">
+<description>&lt;b&gt;WE-TVSP Power TVS Diode
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AB Bidirectional</description>
+<packageinstances>
+<packageinstance name="WE-TVSP_DO-214AB_BIDIRECTIONAL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1021,6 +946,25 @@ Copyright: Würth Elektronik</description>
 <vertex x="-0.95" y="-0.45"/>
 </polygon>
 </package>
+<package name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:footprint:18489080/1" library_version="2">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="0.725" x2="0.2" y2="0.725" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-0.725" x2="0.2" y2="-0.725" width="0.2" layer="21"/>
+<text x="0" y="1.2" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.6" y="0.925"/>
+<vertex x="1.6" y="0.925"/>
+<vertex x="1.6" y="-0.925"/>
+<vertex x="-1.6" y="-0.925"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:package:18489097/2" type="model" library_version="2">
@@ -1035,32 +979,13 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WCAP-CSGP_0402"/>
 </packageinstances>
 </package3d>
+<package3d name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:package:18489127/2" type="model" library_version="2">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
+<packageinstances>
+<packageinstance name="WCAP-CSGP_0805_H1.25_R"/>
+</packageinstances>
+</package3d>
 </packages3d>
-</library>
-<library name="SS12L_R3">
-<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SODFL3618X143N">
-<description>&lt;b&gt;Sub SMA&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.55" y="0" dx="1.22" dy="1.12" layer="1" rot="R90"/>
-<smd name="2" x="1.55" y="0" dx="1.22" dy="1.12" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.26" y1="1.1" x2="2.26" y2="1.1" width="0.05" layer="51"/>
-<wire x1="2.26" y1="1.1" x2="2.26" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="2.26" y1="-1.1" x2="-2.26" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="-2.26" y1="-1.1" x2="-2.26" y2="1.1" width="0.05" layer="51"/>
-<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.1" layer="51"/>
-<wire x1="1.4" y1="0.9" x2="1.4" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="1.4" y1="-0.9" x2="-1.4" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="-0.9" x2="-1.4" y2="0.9" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="0.34" x2="-0.84" y2="0.9" width="0.1" layer="51"/>
-<wire x1="-2.11" y1="0.9" x2="1.4" y2="0.9" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.2" layer="21"/>
-</package>
-</packages>
 </library>
 <library name="Wurth_Connectors_WR-FAST" urn="urn:adsk.eagle:library:15267884">
 <description>&lt;BR&gt;Wurth Elektronik - Connectors - Wire-to-Board Connectors - WR-FAST &lt;br&gt;&lt;Hr&gt;
@@ -1216,6 +1141,34 @@ Max Component Height - 1.15mm</description>
 <text x="-4.33" y="-5.14" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
 <rectangle x1="-1.325" y1="0.15" x2="1.325" y2="2" layer="31"/>
 <rectangle x1="-1.325" y1="-2" x2="1.325" y2="-0.15" layer="31"/>
+</package>
+</packages>
+</library>
+<library name="INF-PG-TO252-5-11L">
+<packages>
+<package name="INF-PG-TO252-5-11_L_1PRIMARY">
+<description>Original name &lt;b&gt;INF-PG-TO252-5-11_L&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="-4.7" y="2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="2" x="-4.7" y="1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="3" x="2.3" y="0" dx="5.85" dy="6.3" layer="1" rot="R90"/>
+<smd name="4" x="-4.7" y="-1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="5" x="-4.7" y="-2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<wire x1="-2.15" y1="-3.325" x2="4.07" y2="-3.325" width="0.1" layer="48"/>
+<wire x1="4.07" y1="-3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-2.15" y1="3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-2.15" y1="-3.325" x2="-2.15" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-5.525" y1="-3.425" x2="-5.525" y2="3.425" width="0.05" layer="48"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="48"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="48"/>
+<wire x1="-5.525" y1="3.425" x2="5.55" y2="3.425" width="0.05" layer="48"/>
+<wire x1="5.55" y1="-3.425" x2="5.55" y2="3.425" width="0.05" layer="48"/>
+<wire x1="-5.525" y1="-3.425" x2="5.55" y2="-3.425" width="0.05" layer="48"/>
+<circle x="-4.7" y="3.205" radius="0.125" width="0.25" layer="21"/>
+<wire x1="-2.15" y1="3.35" x2="-1.25" y2="3.35" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-3.35" x2="-1.25" y2="-3.35" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-3.35" x2="-2.15" y2="3.35" width="0.2" layer="21"/>
+<text x="-5.55" y="3.709" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-5.55" y="-6.425" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1511,52 +1464,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-11.2154" y="4.9226" size="0.3048" layer="27"/>
 <attribute name="VR" value="16V(DC)" x="-71.4254" y="9.6826" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="Wurth_Step Down Converter_MagI³C-FDSM" library_urn="urn:adsk.eagle:library:13379781" package="MAGI³C-FDSM_173XXXX42" package3d_urn="urn:adsk.eagle:package:13379788/2" value="" x="42.3" y="52.825" smashed="yes" rot="R180">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010542.pdf" x="42.3" y="52.825" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="I-OUTPUT" value="1A" x="42.3" y="52.825" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT" value="THT" x="42.3" y="52.825" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="43.824" y="51.555" size="0.8" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 173010542 " x="42.3" y="52.825" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-INPUT" value="8-42V" x="42.3" y="52.825" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-OUTPUT" value="5V" x="42.3" y="52.825" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="45.8" y="56.825" size="1.27" layer="27" rot="R180"/>
-</element>
-<element name="D1" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AC_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146531/2" value="26V" x="-59.701" y="40.321" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501261.pdf" x="-59.701" y="40.321" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IPEAK" value="9.5A" x="-59.701" y="40.321" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="-59.701" y="40.321" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-61.841" y="40.321" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 824501261 " x="-59.701" y="40.321" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PDISS" value="400W" x="-59.701" y="40.321" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-56.691" y="37.611" size="1.016" layer="27" rot="R90"/>
-<attribute name="VBR" value="30.4V" x="-59.701" y="40.321" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VCLAMP" value="42.1V" x="-59.701" y="40.321" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C1" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_1210_H2.5" package3d_urn="urn:adsk.eagle:package:18489097/2" value="47uF" x="-43.958" y="37.356" smashed="yes" rot="R90">
-<attribute name="CERAMIC-TYPE" value="X5R Class II" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012109014.pdf" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DF" value=" 0.05 " x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="H" value="2.5mm" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-45.708" y="37.356" size="0.4064" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012109014 " x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="QMIN" value="-" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RISO" value="0,005G Ohm" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210226M025DFCT10000" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOL-VALUE" value="±20%" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-41.758" y="37.256" size="0.4064" layer="27" rot="R90" align="bottom-center"/>
-<attribute name="VR" value="25V(DC)" x="-43.958" y="37.356" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D3" library="SS12L_R3" package="SODFL3618X143N" value="SS12L_R3" x="-44.501" y="42.139" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Taiwan Semi SS12L R3, SMT Schottky Diode, 20V 1A, 2-Pin Sub SMA" x="-44.501" y="42.139" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1.43mm" x="-44.501" y="42.139" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Taiwan Semiconductor" x="-44.501" y="42.139" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SS12L R3" x="-44.501" y="42.139" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="821-SS12LR3" x="-44.501" y="42.139" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=821-SS12LR3" x="-44.501" y="42.139" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-46.697" y="42.139" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="-44.501" y="42.139" size="1.27" layer="27" rot="R90" align="center"/>
-</element>
 <element name="J6" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222005" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 " x="-12.7" y="-38.1" smashed="yes">
 <attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-12.7" y="-38.1" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222005.pdf" x="-12.7" y="-38.1" size="1.778" layer="27" display="off"/>
@@ -1583,205 +1490,270 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Vertical" x="12.7" y="-38.1" size="1.778" layer="27" display="off"/>
 <attribute name="WORKING-VOLTAGE" value="300V(AC)" x="12.7" y="-38.1" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="BTS7030-2EPA" package="SOP65P600X115-15N-V" value="" x="10.16" y="-13.97" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.214" y="-9.62" size="2.032" layer="25" font="vector" ratio="13" rot="SR270"/>
-<attribute name="VALUE" x="5.02" y="-9.64" size="2.032" layer="27" font="vector" ratio="13" rot="SR270"/>
+<element name="U2" library="BTS7030-2EPA" package="SOP65P600X115-15N-V" value="" x="10.16" y="-11.43" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.214" y="-7.08" size="2.032" layer="25" font="vector" ratio="13" rot="SR270"/>
+<attribute name="VALUE" x="5.02" y="-7.1" size="2.032" layer="27" font="vector" ratio="13" rot="SR270"/>
 </element>
-<element name="R11" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="1k2" x="10.16" y="-3.2512" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.61" y="-3.3012" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="11.01" y="-3.3012" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R11" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="1k2" x="10.16" y="-0.7112" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.61" y="-0.7612" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="11.01" y="-0.7612" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R18" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="11.46" y="-8.3312" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.91" y="-8.3812" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="12.31" y="-8.3812" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R18" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="11.46" y="-5.7912" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.91" y="-5.8412" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="12.31" y="-5.8412" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R12" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="9.51" y="-6.096" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.96" y="-6.146" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="10.36" y="-6.146" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R12" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="9.51" y="-3.556" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.96" y="-3.606" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="10.36" y="-3.606" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R13" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="8.86" y="-8.3312" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.01" y="-8.3812" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="9.71" y="-8.3812" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R13" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="8.86" y="-5.7912" smashed="yes" rot="R90">
+<attribute name="NAME" x="7.01" y="-5.8412" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="9.71" y="-5.8412" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R15" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="10.16" y="-1.0668" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.61" y="-1.1168" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="11.01" y="-1.1168" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R15" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="10.16" y="1.4732" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.61" y="1.4232" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="11.01" y="1.4232" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R16" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="10.81" y="-6.096" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.26" y="-6.146" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="11.66" y="-6.146" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R16" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="10.81" y="-3.556" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.26" y="-3.606" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="11.66" y="-3.606" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R10" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47R" x="12.11" y="-6.096" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.56" y="-6.146" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="12.96" y="-6.146" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R10" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47R" x="12.11" y="-3.556" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.56" y="-3.606" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="12.96" y="-3.606" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="C5" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="23.0424" y="-8.3128" smashed="yes" rot="R270">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DF" value="10%" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="H" value="0.5mm" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="23.5924" y="-8.2628" size="0.3048" layer="25" rot="R270" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012205086 " x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="QMIN" value="-" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RISO" value="0.5GOhm" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="22.1924" y="-8.2628" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="28.9824" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C5" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="23.0424" y="-5.7728" smashed="yes" rot="R270">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DF" value="10%" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="H" value="0.5mm" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="23.5924" y="-5.7228" size="0.3048" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012205086 " x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="QMIN" value="-" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RISO" value="0.5GOhm" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="22.1924" y="-5.7228" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="28.9824" y="47.6872" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C6" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="12.7284" y="-3.56" smashed="yes">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="DF" value="10%" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="H" value="0.5mm" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.6784" y="-3.01" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012205086 " x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="QMIN" value="-" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="RISO" value="0.5GOhm" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="12.6784" y="-4.41" size="0.3048" layer="27" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="-34.7916" y="10.3" size="1.778" layer="27" display="off"/>
+<element name="C6" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="12.7284" y="-1.02" smashed="yes">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="DF" value="10%" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="H" value="0.5mm" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="12.6784" y="-0.47" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012205086 " x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="QMIN" value="-" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="RISO" value="0.5GOhm" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.6784" y="-1.87" size="0.3048" layer="27" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="-34.7916" y="12.84" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="38.1384" y="-41.26" smashed="yes">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="DF" value="10%" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="H" value="0.5mm" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.0884" y="-40.71" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012205086 " x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="QMIN" value="-" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="RISO" value="0.5GOhm" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="38.0884" y="-42.11" size="0.3048" layer="27" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="-17.3016" y="-27.4" size="1.778" layer="27" display="off"/>
+<element name="C7" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="6.35" y="-16.51" smashed="yes" rot="R180">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DF" value="10%" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="H" value="0.5mm" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.4" y="-17.06" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012205086 " x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="QMIN" value="-" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RISO" value="0.5GOhm" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="6.4" y="-15.66" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="61.79" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C8" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="38.1984" y="-36.06" smashed="yes">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="DF" value="10%" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="H" value="0.5mm" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.1484" y="-35.51" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012205086 " x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="QMIN" value="-" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="RISO" value="0.5GOhm" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="38.1484" y="-36.91" size="0.3048" layer="27" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="-25.1616" y="-22.2" size="1.778" layer="27" display="off"/>
+<element name="C8" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="13.97" y="-16.51" smashed="yes" rot="R180">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DF" value="10%" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="H" value="0.5mm" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="14.02" y="-17.06" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012205086 " x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="QMIN" value="-" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RISO" value="0.5GOhm" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="14.02" y="-15.66" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="77.33" y="-30.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R17" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k" x="34.2984" y="-37.48" smashed="yes">
-<attribute name="NAME" x="34.2484" y="-36.93" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="34.2484" y="-38.33" size="0.3048" layer="27" align="bottom-center"/>
+<element name="R17" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k" x="13.97" y="-17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="14.02" y="-18.33" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="14.02" y="-16.93" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
 </element>
-<element name="R14" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k" x="31.1084" y="-33.52" smashed="yes">
-<attribute name="NAME" x="31.0584" y="-32.97" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="31.0584" y="-34.37" size="0.3048" layer="27" align="bottom-center"/>
+<element name="R14" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k" x="6.35" y="-17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.4" y="-18.33" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="6.4" y="-16.93" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
 </element>
-<element name="U3" library="BTS7030-2EPA" package="SOP65P600X115-15N-V" value="" x="20.32" y="-13.97" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.374" y="-9.62" size="2.032" layer="25" font="vector" ratio="13" rot="SR270"/>
-<attribute name="VALUE" x="15.18" y="-9.64" size="2.032" layer="27" font="vector" ratio="13" rot="SR270"/>
+<element name="U3" library="BTS7030-2EPA" package="SOP65P600X115-15N-V" value="" x="20.32" y="-11.43" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.374" y="-7.08" size="2.032" layer="25" font="vector" ratio="13" rot="SR270"/>
+<attribute name="VALUE" x="15.18" y="-7.1" size="2.032" layer="27" font="vector" ratio="13" rot="SR270"/>
 </element>
-<element name="R1" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="1k2" x="20.32" y="-1.0668" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.77" y="-1.1168" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="21.17" y="-1.1168" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R1" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="1k2" x="20.32" y="1.4732" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.77" y="1.4232" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="21.17" y="1.4232" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R2" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="21.62" y="-8.3312" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.07" y="-8.3812" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="22.47" y="-8.3812" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R2" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="21.62" y="-5.7912" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.07" y="-5.8412" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="22.47" y="-5.8412" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R3" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="19.67" y="-6.096" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.12" y="-6.146" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="20.52" y="-6.146" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R3" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="19.67" y="-3.556" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.12" y="-3.606" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="20.52" y="-3.606" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R4" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="19.02" y="-8.3312" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.47" y="-8.3812" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="19.87" y="-8.3812" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R4" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="19.02" y="-5.7912" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.47" y="-5.8412" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="19.87" y="-5.8412" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R5" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="20.32" y="-3.2512" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.77" y="-3.3012" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="21.17" y="-3.3012" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R5" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="20.32" y="-0.7112" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.77" y="-0.7612" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="21.17" y="-0.7612" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R6" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="20.97" y="-6.096" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.42" y="-6.146" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="21.82" y="-6.146" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R6" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="4k7" x="20.97" y="-3.556" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.42" y="-3.606" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="21.82" y="-3.606" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R7" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47R" x="22.27" y="-6.096" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.72" y="-6.146" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="23.12" y="-6.146" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
+<element name="R7" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47R" x="22.27" y="-3.556" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.72" y="-3.606" size="0.3048" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="23.12" y="-3.606" size="0.3048" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="C2" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="12.7928" y="-8.3128" smashed="yes" rot="R270">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DF" value="10%" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="H" value="0.5mm" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.3428" y="-8.2628" size="0.3048" layer="25" rot="R270" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012205086 " x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="QMIN" value="-" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RISO" value="0.5GOhm" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="11.9428" y="-8.2628" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="16.7528" y="45.1472" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C2" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="12.7928" y="-5.7912" smashed="yes" rot="R270">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DF" value="10%" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="H" value="0.5mm" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="13.3428" y="-5.7412" size="0.3048" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012205086 " x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="QMIN" value="-" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RISO" value="0.5GOhm" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="11.9428" y="-5.7412" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="16.7528" y="47.6688" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C3" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="15.2784" y="-3.56" smashed="yes">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="DF" value="10%" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="H" value="0.5mm" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="15.2284" y="-3.01" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012205086 " x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="QMIN" value="-" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="RISO" value="0.5GOhm" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="15.2284" y="-4.41" size="0.3048" layer="27" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="-32.2416" y="8.32" size="1.778" layer="27" display="off"/>
+<element name="C3" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="15.2784" y="-1.02" smashed="yes">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="DF" value="10%" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="H" value="0.5mm" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="15.2284" y="-0.47" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012205086 " x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="QMIN" value="-" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="RISO" value="0.5GOhm" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="15.2284" y="-1.87" size="0.3048" layer="27" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="-32.2416" y="10.86" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="28.3884" y="-25.31" smashed="yes">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="DF" value="10%" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="H" value="0.5mm" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.3384" y="-24.76" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012205086 " x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="QMIN" value="-" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="RISO" value="0.5GOhm" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="28.3384" y="-26.16" size="0.3048" layer="27" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="-27.0516" y="-13.43" size="1.778" layer="27" display="off"/>
+<element name="C4" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="16.51" y="-17.78" smashed="yes" rot="R180">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DF" value="10%" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="H" value="0.5mm" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="16.56" y="-18.33" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012205086 " x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="QMIN" value="-" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RISO" value="0.5GOhm" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="16.56" y="-16.93" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="71.95" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C9" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="30.3984" y="-25.31" smashed="yes">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="DF" value="10%" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="H" value="0.5mm" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.3484" y="-23.46" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012205086 " x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="QMIN" value="-" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="RISO" value="0.5GOhm" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="30.3484" y="-26.16" size="0.3048" layer="27" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="-32.9616" y="-13.43" size="1.778" layer="27" display="off"/>
+<element name="C9" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18489133/2" value="100  nF " x="22.86" y="-17.78" smashed="yes" rot="R180">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012205086.pdf" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DF" value="10%" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="H" value="0.5mm" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="22.91" y="-19.63" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012205086 " x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="QMIN" value="-" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RISO" value="0.5GOhm" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0402104K050DFCT10000" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="22.91" y="-16.93" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="86.22" y="-29.66" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R8" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k" x="29.0984" y="-28.68" smashed="yes">
-<attribute name="NAME" x="29.0484" y="-28.13" size="0.3048" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="29.0484" y="-29.53" size="0.3048" layer="27" align="bottom-center"/>
+<element name="R8" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k" x="22.86" y="-16.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.91" y="-17.06" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="22.91" y="-15.66" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
 </element>
-<element name="R9" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k" x="27.8232" y="-22.1472" smashed="yes" rot="R315">
-<attribute name="NAME" x="28.17675625" y="-21.7229375" size="0.3048" layer="25" rot="R315" align="bottom-center"/>
-<attribute name="VALUE" x="27.18680625" y="-22.7128875" size="0.3048" layer="27" rot="R315" align="bottom-center"/>
+<element name="R9" library="Resistor_smaller_fliegl" package="WCAP-CSRF_0402@1" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k" x="16.51" y="-16.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.559996875" y="-17.060003125" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="16.559996875" y="-15.660003125" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
+</element>
+<element name="D2" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AC_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146531/2" value="26V" x="20.32" y="17.8816" smashed="yes" rot="R180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501261.pdf" x="27.6352" y="-3.2512" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IPEAK" value="9.5A" x="27.6352" y="-3.2512" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="SMT" x="27.6352" y="-3.2512" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="20.32" y="15.7416" size="1.016" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 824501261 " x="27.6352" y="-3.2512" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PDISS" value="400W" x="27.6352" y="-3.2512" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="23.03" y="20.8916" size="1.016" layer="27" rot="R180"/>
+<attribute name="VBR" value="30.4V" x="27.6352" y="-3.2512" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VCLAMP" value="42.1V" x="27.6352" y="-3.2512" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C10" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_1210_H2.5" package3d_urn="urn:adsk.eagle:package:18489097/2" value="47uF" x="21.336" y="14.0208" smashed="yes" rot="R180">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012109014.pdf" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DF" value=" 0.05 " x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="H" value="2.5mm" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="21.336" y="12.2708" size="0.4064" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012109014 " x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="QMIN" value="-" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RISO" value="0,005G Ohm" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R1210226M025DFCT10000" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL-VALUE" value="±20%" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="21.436" y="16.2208" size="0.4064" layer="27" rot="R180" align="bottom-center"/>
+<attribute name="VR" value="25V(DC)" x="40.4368" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="G1" library="INF-PG-TO252-5-11L" package="INF-PG-TO252-5-11_L_1PRIMARY" value="TLE4270-2D-INF-PG-TO252-5-11_L_1" x="16.6056" y="5.6752" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.3146" y="11.2252" size="2.032" layer="25" font="vector" ratio="13" rot="SR270"/>
+<attribute name="VALUE" x="13.2908" y="-7.2522" size="2.032" layer="27" font="vector" ratio="13" rot="SR0"/>
+</element>
+<element name="C11" library="fliegl-wuerth" package="WCAP-CSGP_0402" value="100 nF" x="14.9352" y="12.0396" smashed="yes" rot="R180">
+<attribute name="ARTIKEL_NR" value="545504" x="56.388" y="-4.826" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="56.388" y="-4.826" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15.6852" y="11.2896" size="0.3048" layer="25" rot="R180"/>
+<attribute name="PART-NUMBER" value="885012205037" x="56.388" y="-4.826" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="56.388" y="-4.826" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="15.6852" y="12.9896" size="0.3048" layer="27" rot="R180"/>
+<attribute name="VR" value="16V(DC)" x="56.388" y="-4.826" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C12" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H1.25_R" package3d_urn="urn:adsk.eagle:package:18489127/2" value="22  µF " x="11.932" y="9.6364" smashed="yes" rot="R90">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107011.pdf" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DF" value=" 0.1 " x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="H" value="1.25mm" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="10.732" y="9.6364" size="0.4064" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012107011 " x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="QMIN" value="-" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RISO" value="0,005GOhm" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M010DFCT10000" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOL-VALUE" value="±20%" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="13.332" y="9.6364" size="0.4064" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VR" value="10V(DC)" x="-5.7464" y="-31.8164" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D1" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AB_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146529/2" value="33V" x="0.2032" y="-9.8552" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551331.pdf" x="0.2032" y="-9.8552" size="1.778" layer="27" display="off"/>
+<attribute name="IPEAK" value="56.3A" x="0.2032" y="-9.8552" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="0.2032" y="-9.8552" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="0.2032" y="-6.0952" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 824551331 " x="0.2032" y="-9.8552" size="1.778" layer="27" display="off"/>
+<attribute name="PDISS" value="3000W" x="0.2032" y="-9.8552" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-3.0468" y="-14.6952" size="1.27" layer="27"/>
+<attribute name="VBR" value="38.65V" x="0.2032" y="-9.8552" size="1.778" layer="27" display="off"/>
+<attribute name="VCLAMP" value="53.3V" x="0.2032" y="-9.8552" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1795,10 +1767,7 @@ design rules under a new name.</description>
 <contactref element="C15" pad="2"/>
 <contactref element="U4" pad="8"/>
 <contactref element="X1" pad="1"/>
-<contactref element="U1" pad="2"/>
 <contactref element="J2" pad="1"/>
-<contactref element="D1" pad="1"/>
-<contactref element="C1" pad="1"/>
 <contactref element="R11" pad="1"/>
 <contactref element="R10" pad="1"/>
 <contactref element="C5" pad="2"/>
@@ -1813,39 +1782,50 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <contactref element="R8" pad="2"/>
 <contactref element="R9" pad="1"/>
-<wire x1="22.87" y1="35.5" x2="42.3" y2="52.825" width="0" layer="19" extent="1-1"/>
-<wire x1="12.97" y1="19.09" x2="22.87" y2="35.5" width="0" layer="19" extent="1-1"/>
+<contactref element="G1" pad="3"/>
+<contactref element="D2" pad="1"/>
+<contactref element="C10" pad="1"/>
+<contactref element="C11" pad="2"/>
+<contactref element="C12" pad="1"/>
+<contactref element="D1" pad="1"/>
+<wire x1="22.42" y1="17.8816" x2="22.87" y2="35.5" width="0" layer="19" extent="1-1"/>
+<wire x1="22.886" y1="14.0208" x2="22.42" y2="17.8816" width="0" layer="19" extent="1-1"/>
+<wire x1="12.97" y1="19.09" x2="22.42" y2="17.8816" width="0" layer="19" extent="1-1"/>
 <wire x1="13.0504" y1="14.0146" x2="12.97" y2="19.09" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="-0.5668" x2="13.0504" y2="14.0146" width="0" layer="19" extent="1-1"/>
-<wire x1="22.27" y1="-5.596" x2="20.32" y2="-0.5668" width="0" layer="19" extent="1-1"/>
-<wire x1="23.0424" y1="-7.8128" x2="22.27" y2="-5.596" width="0" layer="19" extent="1-1"/>
-<wire x1="12.11" y1="-5.596" x2="20.32" y2="-0.5668" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7928" y1="-7.8128" x2="12.11" y2="-5.596" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="-2.7512" x2="12.11" y2="-5.596" width="0" layer="19" extent="1-1"/>
-<wire x1="28.176753125" y1="-22.500753125" x2="23.0424" y2="-7.8128" width="0" layer="19" extent="1-1"/>
-<wire x1="28.8884" y1="-25.31" x2="28.176753125" y2="-22.500753125" width="0" layer="19" extent="1-1"/>
-<wire x1="29.8984" y1="-25.31" x2="28.8884" y2="-25.31" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5984" y1="-28.68" x2="28.8884" y2="-25.31" width="0" layer="19" extent="1-1"/>
-<wire x1="31.6084" y1="-33.52" x2="28.5984" y2="-28.68" width="0" layer="19" extent="1-1"/>
-<wire x1="33.7984" y1="-37.48" x2="31.6084" y2="-33.52" width="0" layer="19" extent="1-1"/>
-<wire x1="37.6984" y1="-36.06" x2="33.7984" y2="-37.48" width="0" layer="19" extent="1-1"/>
-<wire x1="38.6384" y1="-41.26" x2="37.6984" y2="-36.06" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.2226" y1="7.8574" x2="10.16" y2="-2.7512" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.9654" y1="5.8726" x2="-7.2226" y2="7.8574" width="0" layer="19" extent="1-1"/>
+<wire x1="14.4352" y1="12.0396" x2="13.0504" y2="14.0146" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="-0.2112" x2="14.4352" y2="12.0396" width="0" layer="19" extent="1-1"/>
+<wire x1="12.11" y1="-3.056" x2="10.16" y2="-0.2112" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7928" y1="-5.2912" x2="12.11" y2="-3.056" width="0" layer="19" extent="1-1"/>
+<wire x1="16.6056" y1="3.3752" x2="14.4352" y2="12.0396" width="0" layer="19" extent="1-1"/>
+<wire x1="11.932" y1="8.6864" x2="16.6056" y2="3.3752" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="1.9732" x2="11.932" y2="8.6864" width="0" layer="19" extent="1-1"/>
+<wire x1="22.27" y1="-3.056" x2="20.32" y2="1.9732" width="0" layer="19" extent="1-1"/>
+<wire x1="23.0424" y1="-5.2728" x2="22.27" y2="-3.056" width="0" layer="19" extent="1-1"/>
+<wire x1="23.36" y1="-16.51" x2="23.0424" y2="-5.2728" width="0" layer="19" extent="1-1"/>
+<wire x1="23.36" y1="-17.78" x2="23.36" y2="-16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="16.01" y1="-17.78" x2="23.36" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="16.01" y1="-16.51" x2="16.01" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="14.47" y1="-17.78" x2="16.01" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="14.47" y1="-16.51" x2="14.47" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="5.85" y1="-17.78" x2="14.47" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="5.85" y1="-16.51" x2="5.85" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.2968" y1="-9.8552" x2="5.85" y2="-16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.9654" y1="5.8726" x2="-3.2968" y2="-9.8552" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.2226" y1="7.8574" x2="-9.9654" y2="5.8726" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.4926" y1="13.3874" x2="-7.2226" y2="7.8574" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.7178" y1="15.311" x2="-8.4926" y2="13.3874" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.78" y1="42.32" x2="-8.7178" y2="15.311" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.958" y1="35.806" x2="-4.78" y2="42.32" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.701" y1="38.221" x2="-43.958" y2="35.806" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U4" pad="3"/>
 <contactref element="C17" pad="1"/>
 <contactref element="J2" pad="2"/>
-<contactref element="U1" pad="3"/>
 <wire x1="-9.7626" y1="13.3874" x2="-9.7626" y2="34.7974" width="0.1524" layer="1"/>
 <wire x1="-9.7626" y1="34.7974" x2="-4.78" y2="39.78" width="0.1524" layer="1"/>
-<wire x1="-4.78" y1="39.78" x2="39.76" y2="52.825" width="0" layer="19" extent="1-1"/>
+<contactref element="G1" pad="5"/>
+<contactref element="C12" pad="2"/>
+<wire x1="11.932" y1="10.5864" x2="14.3256" y2="10.3752" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.7626" y1="13.3874" x2="14.3256" y2="10.3752" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.7178" y1="15.311" x2="-9.7626" y2="13.3874" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_TXD">
@@ -1901,9 +1881,11 @@ design rules under a new name.</description>
 <contactref element="U4" pad="5"/>
 <contactref element="C19" pad="1"/>
 <contactref element="J3" pad="5"/>
-<wire x1="-11.0326" y1="7.8574" x2="-10.9654" y2="7.7902" width="0.1524" layer="1"/>
+<wire x1="-10.9654" y1="7.7902" x2="-11.0326" y2="7.8574" width="0.1524" layer="1"/>
 <wire x1="-10.9654" y1="7.7902" x2="-10.9654" y2="5.8726" width="0.1524" layer="1"/>
-<wire x1="-11.0326" y1="7.8574" x2="-20.02" y2="32.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.02" y1="32.16" x2="-12.7" y2="24.84" width="0.1524" layer="1"/>
+<wire x1="-12.7" y1="7.6072" x2="-10.9654" y2="5.8726" width="0.1524" layer="1"/>
+<wire x1="-12.7" y1="24.84" x2="-12.7" y2="7.6072" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R21" pad="2"/>
@@ -1913,9 +1895,6 @@ design rules under a new name.</description>
 <wire x1="11.7804" y1="15.0146" x2="13.0504" y2="15.0146" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
-<contactref element="X1" pad="2"/>
-<contactref element="D1" pad="2"/>
-<contactref element="D3" pad="2"/>
 <contactref element="U2" pad="15"/>
 <contactref element="C6" pad="1"/>
 <contactref element="C5" pad="1"/>
@@ -1924,30 +1903,27 @@ design rules under a new name.</description>
 <contactref element="C2" pad="1"/>
 <polygon width="0.2032" layer="1" thermals="no" rank="2">
 <vertex x="0.2032" y="-20.32"/>
-<vertex x="0.2032" y="-8.509"/>
-<vertex x="26.4668" y="-8.509"/>
+<vertex x="0.2032" y="-5.969"/>
+<vertex x="26.4668" y="-5.969"/>
 <vertex x="26.4668" y="-20.32"/>
 </polygon>
 <polygon width="0.2032" layer="1" thermals="no">
 <vertex x="0.2032" y="-44.45"/>
-<vertex x="0.2032" y="-8.509"/>
-<vertex x="4.8768" y="-8.509"/>
+<vertex x="0.2032" y="-5.969"/>
+<vertex x="4.8768" y="-5.969"/>
 <vertex x="4.8768" y="-44.45"/>
 </polygon>
 <contactref element="J7" pad="A1"/>
 <contactref element="J7" pad="1"/>
-<wire x1="15.7784" y1="-3.56" x2="18.91" y2="35.5" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2284" y1="-3.56" x2="15.7784" y2="-3.56" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7928" y1="-8.8128" x2="13.2284" y2="-3.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.501" y1="43.689" x2="18.91" y2="35.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.701" y1="42.421" x2="-44.501" y2="43.689" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U1" pad="1"/>
-<contactref element="C1" pad="2"/>
-<contactref element="D3" pad="1"/>
-<wire x1="-43.958" y1="38.906" x2="44.84" y2="52.825" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.501" y1="40.589" x2="-43.958" y2="38.906" width="0" layer="19" extent="1-1"/>
+<contactref element="D1" pad="2"/>
+<polygon width="0.2032" layer="1" thermals="no">
+<vertex x="-4.8768" y="-44.45"/>
+<vertex x="-4.8768" y="-5.969"/>
+<vertex x="-0.2032" y="-5.969"/>
+<vertex x="-0.2032" y="-44.45"/>
+</polygon>
+<wire x1="13.2284" y1="-1.02" x2="15.7784" y2="-1.02" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7928" y1="-6.2912" x2="13.2284" y2="-1.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q4">
 <contactref element="U3" pad="13"/>
@@ -1956,16 +1932,14 @@ design rules under a new name.</description>
 <contactref element="C9" pad="1"/>
 <contactref element="R8" pad="1"/>
 <polygon width="0.2032" layer="1" thermals="no">
-<vertex x="20.5232" y="-15.875"/>
-<vertex x="22.86" y="-15.875"/>
-<vertex x="25.4" y="-18.415"/>
+<vertex x="20.5232" y="-13.335"/>
+<vertex x="22.86" y="-13.335"/>
+<vertex x="25.4" y="-15.875"/>
 <vertex x="25.4" y="-44.45"/>
 <vertex x="20.5232" y="-44.45"/>
 </polygon>
 <contactref element="J7" pad="5"/>
 <contactref element="J7" pad="A5"/>
-<wire x1="29.5984" y1="-28.68" x2="30.8984" y2="-25.31" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="-35.56" x2="29.5984" y2="-28.68" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q3">
 <contactref element="U3" pad="10"/>
@@ -1975,29 +1949,27 @@ design rules under a new name.</description>
 <contactref element="R9" pad="2"/>
 <polygon width="0.2032" layer="1" thermals="no">
 <vertex x="15.4432" y="-44.45"/>
-<vertex x="15.4432" y="-18.415"/>
-<vertex x="17.9832" y="-15.875"/>
-<vertex x="20.1168" y="-15.875"/>
+<vertex x="15.4432" y="-15.875"/>
+<vertex x="17.9832" y="-13.335"/>
+<vertex x="20.1168" y="-13.335"/>
 <vertex x="20.1168" y="-44.45"/>
 </polygon>
 <contactref element="J7" pad="4"/>
 <contactref element="J7" pad="A4"/>
-<wire x1="27.8884" y1="-25.31" x2="27.46964375" y2="-21.79364375" width="0" layer="19" extent="1-1"/>
-<wire x1="19.67" y1="-16.82" x2="27.46964375" y2="-21.79364375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q1C">
 <contactref element="R13" pad="1"/>
 <contactref element="J3" pad="3"/>
 <wire x1="-20.02" y1="37.24" x2="8.86" y2="8.36" width="0.1524" layer="16"/>
-<wire x1="8.86" y1="8.36" x2="8.86" y2="-7.8312" width="0.1524" layer="1"/>
-<via x="8.86" y="8.36" extent="1-16" drill="0.35"/>
+<wire x1="8.86" y1="8.36" x2="8.86" y2="-5.2912" width="0.1524" layer="16"/>
+<wire x1="8.86" y1="-5.2912" x2="8.86" y2="-5.2912" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="Q2C">
 <contactref element="R18" pad="1"/>
 <contactref element="J3" pad="2"/>
 <wire x1="-20.02" y1="39.78" x2="11.46" y2="8.3" width="0.1524" layer="16"/>
-<wire x1="11.46" y1="8.3" x2="11.46" y2="-7.8312" width="0.1524" layer="1"/>
-<via x="11.46" y="8.3" extent="1-16" drill="0.35"/>
+<wire x1="11.46" y1="8.3" x2="11.46" y2="-5.2912" width="0.1524" layer="16"/>
+<wire x1="11.46" y1="-5.2912" x2="11.46" y2="-5.2912" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DSELU2">
 <contactref element="R12" pad="1"/>
@@ -2008,29 +1980,29 @@ design rules under a new name.</description>
 <signal name="N$10">
 <contactref element="U2" pad="2"/>
 <contactref element="R18" pad="2"/>
-<wire x1="11.46" y1="-8.8312" x2="11.46" y2="-11.12" width="0.1524" layer="1"/>
+<wire x1="11.46" y1="-6.2912" x2="11.46" y2="-8.58" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="U2" pad="5"/>
 <contactref element="R12" pad="2"/>
-<wire x1="9.51" y1="-6.596" x2="9.51" y2="-11.12" width="0.1524" layer="1"/>
+<wire x1="9.51" y1="-4.056" x2="9.51" y2="-8.58" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="U2" pad="6"/>
 <contactref element="R13" pad="2"/>
-<wire x1="8.86" y1="-8.8312" x2="8.86" y2="-11.12" width="0.1524" layer="1"/>
+<wire x1="8.86" y1="-6.2912" x2="8.86" y2="-8.58" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U2" pad="3"/>
 <contactref element="R16" pad="2"/>
-<wire x1="10.81" y1="-6.596" x2="10.81" y2="-11.12" width="0.1524" layer="1"/>
+<wire x1="10.81" y1="-4.056" x2="10.81" y2="-8.58" width="0.1524" layer="1"/>
 </signal>
 <signal name="AGNDU2">
 <contactref element="U2" pad="1"/>
 <contactref element="R10" pad="2"/>
 <contactref element="C6" pad="2"/>
-<wire x1="12.11" y1="-6.596" x2="12.11" y2="-11.12" width="0.1524" layer="1"/>
-<wire x1="12.11" y1="-6.596" x2="12.2284" y2="-3.56" width="0" layer="19" extent="1-1"/>
+<wire x1="12.11" y1="-4.056" x2="12.11" y2="-8.58" width="0.1524" layer="1"/>
+<wire x1="12.11" y1="-4.056" x2="12.2284" y2="-1.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISU2">
 <contactref element="R15" pad="1"/>
@@ -2039,28 +2011,28 @@ design rules under a new name.</description>
 <contactref element="U2" pad="4"/>
 <contactref element="R11" pad="2"/>
 <contactref element="R15" pad="2"/>
-<wire x1="10.16" y1="-3.7512" x2="10.16" y2="-11.12" width="0.1524" layer="1"/>
-<wire x1="10.16" y1="-3.7512" x2="10.16" y2="-1.5668" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="-1.2112" x2="10.16" y2="-8.58" width="0.1524" layer="1"/>
+<wire x1="10.16" y1="-1.2112" x2="10.16" y2="0.9732" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U3" pad="2"/>
 <contactref element="R2" pad="2"/>
-<wire x1="21.62" y1="-8.8312" x2="21.62" y2="-11.12" width="0.1524" layer="1"/>
+<wire x1="21.62" y1="-6.2912" x2="21.62" y2="-8.58" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U3" pad="5"/>
 <contactref element="R3" pad="2"/>
-<wire x1="19.67" y1="-11.12" x2="19.67" y2="-6.596" width="0.1524" layer="1"/>
+<wire x1="19.67" y1="-8.58" x2="19.67" y2="-4.056" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U3" pad="6"/>
 <contactref element="R4" pad="2"/>
-<wire x1="19.02" y1="-8.8312" x2="19.02" y2="-11.12" width="0.1524" layer="1"/>
+<wire x1="19.02" y1="-6.2912" x2="19.02" y2="-8.58" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U3" pad="3"/>
 <contactref element="R6" pad="2"/>
-<wire x1="20.97" y1="-6.596" x2="20.97" y2="-11.12" width="0.1524" layer="1"/>
+<wire x1="20.97" y1="-4.056" x2="20.97" y2="-8.58" width="0.1524" layer="1"/>
 </signal>
 <signal name="Q2">
 <contactref element="U2" pad="13"/>
@@ -2069,16 +2041,14 @@ design rules under a new name.</description>
 <contactref element="C8" pad="1"/>
 <contactref element="R17" pad="1"/>
 <polygon width="0.2032" layer="1" thermals="no">
-<vertex x="10.3632" y="-15.875"/>
-<vertex x="12.4968" y="-15.875"/>
-<vertex x="15.0368" y="-18.415"/>
+<vertex x="10.3632" y="-13.335"/>
+<vertex x="12.4968" y="-13.335"/>
+<vertex x="15.0368" y="-15.875"/>
 <vertex x="15.0368" y="-44.45"/>
 <vertex x="10.3632" y="-44.45"/>
 </polygon>
 <contactref element="J7" pad="A3"/>
 <contactref element="J7" pad="3"/>
-<wire x1="34.7984" y1="-37.48" x2="38.6984" y2="-36.06" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="-35.56" x2="34.7984" y2="-37.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q1">
 <contactref element="U2" pad="10"/>
@@ -2088,29 +2058,27 @@ design rules under a new name.</description>
 <contactref element="R14" pad="2"/>
 <polygon width="0.2032" layer="1" thermals="no">
 <vertex x="5.2832" y="-44.45"/>
-<vertex x="5.2832" y="-18.2118"/>
-<vertex x="7.62" y="-15.875"/>
-<vertex x="9.9568" y="-15.875"/>
+<vertex x="5.2832" y="-15.6718"/>
+<vertex x="7.62" y="-13.335"/>
+<vertex x="9.9568" y="-13.335"/>
 <vertex x="9.9568" y="-44.45"/>
 </polygon>
 <contactref element="J7" pad="A2"/>
 <contactref element="J7" pad="2"/>
-<wire x1="30.6084" y1="-33.52" x2="37.6384" y2="-41.26" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="-35.56" x2="30.6084" y2="-33.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISOU3">
 <contactref element="U3" pad="4"/>
 <contactref element="R1" pad="2"/>
 <contactref element="R5" pad="2"/>
-<wire x1="20.32" y1="-3.7512" x2="20.32" y2="-11.12" width="0.1524" layer="1"/>
-<wire x1="20.32" y1="-3.7512" x2="20.32" y2="-1.5668" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="-1.2112" x2="20.32" y2="-8.58" width="0.1524" layer="1"/>
+<wire x1="20.32" y1="-1.2112" x2="20.32" y2="0.9732" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGNDU3">
 <contactref element="U3" pad="1"/>
 <contactref element="R7" pad="2"/>
 <contactref element="C3" pad="2"/>
-<wire x1="22.27" y1="-6.596" x2="22.27" y2="-11.12" width="0.1524" layer="1"/>
-<wire x1="22.27" y1="-6.596" x2="14.7784" y2="-3.56" width="0" layer="19" extent="1-1"/>
+<wire x1="22.27" y1="-4.056" x2="22.27" y2="-8.58" width="0.1524" layer="1"/>
+<wire x1="22.27" y1="-4.056" x2="14.7784" y2="-1.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DSELU3">
 <contactref element="R3" pad="1"/>
@@ -2120,17 +2088,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="Q4C">
 <contactref element="R2" pad="1"/>
-<wire x1="21.62" y1="-7.8312" x2="21.62" y2="10.84" width="0.1524" layer="1"/>
 <contactref element="J2" pad="3"/>
 <wire x1="-4.78" y1="37.24" x2="21.62" y2="10.84" width="0.1524" layer="16"/>
-<via x="21.62" y="10.84" extent="1-16" drill="0.35"/>
+<wire x1="21.62" y1="10.84" x2="21.62" y2="-1.8496" width="0.1524" layer="16"/>
+<wire x1="21.62" y1="-1.8496" x2="21.5392" y2="-1.9304" width="0.1524" layer="16"/>
+<wire x1="21.62" y1="-5.2912" x2="21.5392" y2="-1.9304" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="Q3C">
 <contactref element="R4" pad="1"/>
-<wire x1="19.02" y1="-7.8312" x2="19.02" y2="3.28" width="0.1524" layer="1"/>
+<wire x1="19.02" y1="-5.2912" x2="19.02" y2="3.28" width="0.1524" layer="16"/>
 <contactref element="J3" pad="1"/>
 <wire x1="-20.02" y1="42.32" x2="19.02" y2="3.28" width="0.1524" layer="16"/>
-<via x="19.02" y="3.28" extent="1-16" drill="0.35"/>
+<wire x1="19.02" y1="-5.2912" x2="19.02" y2="-5.2912" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="J6" pad="5"/>
@@ -2139,6 +2108,23 @@ design rules under a new name.</description>
 </signal>
 <signal name="ISU3">
 <contactref element="R5" pad="1"/>
+</signal>
+<signal name="+12V1">
+<contactref element="D2" pad="2"/>
+<contactref element="C10" pad="2"/>
+<contactref element="G1" pad="1"/>
+<contactref element="X1" pad="2"/>
+<polygon width="0.2032" layer="1" thermals="no">
+<vertex x="16.93" y="8.48"/>
+<vertex x="16.93" y="37.48"/>
+<vertex x="20.89" y="37.48"/>
+<vertex x="20.89" y="8.48"/>
+</polygon>
+</signal>
+<signal name="N$7">
+<contactref element="G1" pad="4"/>
+<contactref element="C11" pad="1"/>
+<wire x1="15.4352" y1="12.0396" x2="15.4656" y2="10.3752" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

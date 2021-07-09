@@ -6076,415 +6076,6 @@ Details see: &lt;a href="https://katalog.we-online.de/en/pbs/WE-TVS/82402374?m"&
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_Step Down Converter_MagI³C-FDSM" urn="urn:adsk.eagle:library:13379781">
-<description>&lt;BR&gt;Wurth Elektronik - Power Modules - Step Down Converter - MagI³C-FDSM &lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-
-&lt;HR&gt;
-Eagle Version 9, Library Revision 2020a, 2020-03-17&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="MAGI³C-FDSM_173010X78" urn="urn:adsk.eagle:footprint:13379785/1" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="3" x="2.54" y="0" drill="1" rot="R180"/>
-<pad name="2" x="0" y="0" drill="1" rot="R180"/>
-<pad name="1" x="-2.54" y="0" drill="1" rot="R180"/>
-<circle x="-3.89" y="-0.08" radius="0.1" width="0.3" layer="21"/>
-<wire x1="-5.8" y1="6.5" x2="5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="5.8" y1="6.5" x2="5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2" x2="-5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="6.6" x2="5.9" y2="6.6" width="0.2" layer="21"/>
-<wire x1="5.9" y1="6.6" x2="5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.1" x2="-5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-2.1" x2="-5.9" y2="6.6" width="0.2" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6.8"/>
-<vertex x="6.1" y="6.8"/>
-<vertex x="6.1" y="-2.3"/>
-<vertex x="-6.1" y="-2.3"/>
-</polygon>
-</package>
-<package name="MAGI³C-FDSM_17395XX78" urn="urn:adsk.eagle:footprint:13379784/1" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<circle x="-3.89" y="-0.08" radius="0.1" width="0.3" layer="21"/>
-<wire x1="-5.8" y1="6.5" x2="5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="5.8" y1="6.5" x2="5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2" x2="-5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="6.6" x2="5.9" y2="6.6" width="0.2" layer="21"/>
-<wire x1="5.9" y1="6.6" x2="5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.1" x2="-5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-2.1" x2="-5.9" y2="6.6" width="0.2" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6.8"/>
-<vertex x="6.1" y="6.8"/>
-<vertex x="6.1" y="-2.3"/>
-<vertex x="-6.1" y="-2.3"/>
-</polygon>
-</package>
-<package name="MAGI³C-FDSM_173XXXX42" urn="urn:adsk.eagle:footprint:13379783/1" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<wire x1="-5.8" y1="6.5" x2="5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="5.8" y1="6.5" x2="5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2" x2="-5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="6.6" x2="5.9" y2="6.6" width="0.2" layer="21"/>
-<wire x1="5.9" y1="6.6" x2="5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.1" x2="-5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-2.1" x2="-5.9" y2="6.6" width="0.2" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6.8"/>
-<vertex x="6.1" y="6.8"/>
-<vertex x="6.1" y="-2.3"/>
-<vertex x="-6.1" y="-2.3"/>
-</polygon>
-<circle x="-4.08" y="-0.11" radius="0.1" width="0.3" layer="21"/>
-</package>
-<package name="MAGI³C-FDSM_173950X36" urn="urn:adsk.eagle:footprint:13379782/1" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<wire x1="-5.8" y1="5.4" x2="-5.8" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2.15" x2="5.8" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2.15" x2="5.8" y2="5.4" width="0.1" layer="51"/>
-<wire x1="5.8" y1="5.4" x2="-5.8" y2="5.4" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="-2.25" x2="5.9" y2="-2.25" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.25" x2="5.9" y2="5.5" width="0.2" layer="21"/>
-<wire x1="5.9" y1="5.5" x2="-5.9" y2="5.5" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="5.5" x2="-5.9" y2="-2.25" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="5.7"/>
-<vertex x="6.1" y="5.7"/>
-<vertex x="6.1" y="-2.45"/>
-<vertex x="-6.1" y="-2.45"/>
-</polygon>
-<text x="0" y="6.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-4" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-3.9" y="-1" radius="0.1" width="0.2" layer="21"/>
-</package>
-<package name="MAGI³C-FDSM_173010X35" urn="urn:adsk.eagle:footprint:18201145/1" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<wire x1="-5.8" y1="5.7" x2="-5.8" y2="-2.3" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2.3" x2="5.8" y2="-2.3" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2.3" x2="5.8" y2="5.7" width="0.1" layer="51"/>
-<wire x1="5.8" y1="5.7" x2="-5.8" y2="5.7" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="-2.4" x2="5.9" y2="-2.4" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.4" x2="5.9" y2="5.8" width="0.2" layer="21"/>
-<wire x1="5.9" y1="5.8" x2="-5.9" y2="5.8" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="5.8" x2="-5.9" y2="-2.4" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6"/>
-<vertex x="6.1" y="6"/>
-<vertex x="6.1" y="-2.6"/>
-<vertex x="-6.1" y="-2.6"/>
-</polygon>
-<text x="0" y="6.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-4" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-3.9" y="-1" radius="0.1" width="0.2" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="MAGI³C-FDSM_173010X78" urn="urn:adsk.eagle:package:13379790/2" type="model" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173010X78"/>
-</packageinstances>
-</package3d>
-<package3d name="MAGI³C-FDSM_17395XX78" urn="urn:adsk.eagle:package:13379789/2" type="model" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_17395XX78"/>
-</packageinstances>
-</package3d>
-<package3d name="MAGI³C-FDSM_173XXXX42" urn="urn:adsk.eagle:package:13379788/2" type="model" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173XXXX42"/>
-</packageinstances>
-</package3d>
-<package3d name="MAGI³C-FDSM_173950X36" urn="urn:adsk.eagle:package:13379787/2" type="model" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173950X36"/>
-</packageinstances>
-</package3d>
-<package3d name="MAGI³C-FDSM_173010X35" urn="urn:adsk.eagle:package:18201146/2" type="model" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173010X35"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MAGI³C-FDSM" urn="urn:adsk.eagle:symbol:13379786/2" library_version="5">
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<pin name="VIN" x="-15.24" y="2.54" visible="pad" length="middle" direction="in"/>
-<pin name="VOUT" x="15.24" y="2.54" visible="pad" length="middle" direction="out" rot="R180"/>
-<pin name="GND" x="0" y="-10.16" visible="pad" length="middle" direction="pas" rot="R90"/>
-<text x="0" y="6.82" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="4.75" y="-8.66" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-8.89" y="1.27" size="1.778" layer="94">VIN</text>
-<text x="1.27" y="1.27" size="1.778" layer="94">VOUT</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="94">GND</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MAGI³C-FDSM_SIP-3" urn="urn:adsk.eagle:component:13379791/5" prefix="U" uservalue="yes" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;br&gt;&lt;/B&gt;
-&lt;br&gt;&lt;B&gt;Characteristics
-&lt;br&gt;&lt;br&gt;&lt;/B&gt;Simplest design (no power supply knowledge required)
-&lt;br&gt;Leaded through-hole package for easy manufacturing and prototyping 
-&lt;br&gt;Stand alone solution (CIN and COUT integrated, no external components) 
-&lt;br&gt;L78x series linear regulator replacement (no heatsink required) 
-&lt;br&gt;Low conducted and radiated EMI (compliant to EN55022 class B)
-&lt;br&gt;
-&lt;br&gt;&lt;B&gt;Applications
-&lt;br&gt;&lt;br&gt;&lt;/B&gt;Point-of-Load from 24V, 18V, 15V, 12V, 9V rail
-&lt;br&gt;Replacement for linear regulators
-&lt;br&gt;Interface and microcontroller supply
-&lt;br&gt;Industrial, Test &amp; Measurement, Medical applications
-&lt;br&gt;System power supplies
-&lt;br&gt;&lt;br&gt;
-&lt;/b&gt;&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o55808v209%20FDSM_MagI3C_173010378_4C.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o55808v209%20FDSM_MagI3C_173010378_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.de/katalog/en/MAGIC_FDSM_FIXED_OUTPUT_VOLTAGE/"&gt;https://www.we-online.de/katalog/en/MAGIC_FDSM_FIXED_OUTPUT_VOLTAGE/&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;
-
-Updated  by Ella Wu  2020-03-17&lt;br&gt;
-2020 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="MAGI³C-FDSM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_173010X78" package="MAGI³C-FDSM_173010X78">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13379790/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173010378">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010378.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010378 " constant="no"/>
-<attribute name="V-INPUT" value="7-28V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173010578">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010578.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010578 " constant="no"/>
-<attribute name="V-INPUT" value="8-28V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_17395XX78" package="MAGI³C-FDSM_17395XX78">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13379789/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173950378">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173950378.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="0.5A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173950378 " constant="no"/>
-<attribute name="V-INPUT" value="6-28V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173950578">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173950578.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="0.5A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173950578 " constant="no"/>
-<attribute name="V-INPUT" value="7-28V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_173XXXX42" package="MAGI³C-FDSM_173XXXX42">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13379788/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173010342">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010342.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010342 " constant="no"/>
-<attribute name="V-INPUT" value="7-42V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173010542">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010542.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010542 " constant="no"/>
-<attribute name="V-INPUT" value="8-42V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_173950X36" package="MAGI³C-FDSM_173950X36">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13379787/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173950336">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173950336.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="0.5A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173950336 " constant="no"/>
-<attribute name="V-INPUT" value="4.75-36V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173950536">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173950536.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="0.5A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173950536 " constant="no"/>
-<attribute name="V-INPUT" value="6.5-36V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_173010X35" package="MAGI³C-FDSM_173010X35">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18201146/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173010335">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010335.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010335 " constant="no"/>
-<attribute name="V-INPUT" value="6-36V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173010535">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010535.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010535 " constant="no"/>
-<attribute name="V-INPUT" value="8-36V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Wurth_EMC Components_WE-TVSP" urn="urn:adsk.eagle:library:14283044">
 <description>&lt;BR&gt;Wurth Elektronik - EMC Components - Surge Protection - WE-TVSP&lt;br&gt;&lt;Hr&gt;
 
@@ -6581,6 +6172,30 @@ Copyright: Würth Elektronik</description>
 <vertex x="-3.5" y="-1.635"/>
 </polygon>
 </package>
+<package name="WE-TVSP_DO-214AB_BIDIRECTIONAL" urn="urn:adsk.eagle:footprint:12146521/1" library_version="3">
+<description>&lt;b&gt;WE-TVSP Power TVS Diode
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AB Bidirectional</description>
+<smd name="1" x="-3.5" y="0" dx="2.3" dy="3.3" layer="1"/>
+<smd name="2" x="3.5" y="0" dx="2.3" dy="3.3" layer="1"/>
+<wire x1="-3.43" y1="2.95" x2="-3.43" y2="-2.95" width="0.1" layer="51"/>
+<wire x1="3.43" y1="-2.95" x2="3.43" y2="2.95" width="0.1" layer="51"/>
+<wire x1="3.53" y1="3.05" x2="-3.53" y2="3.05" width="0.2" layer="21"/>
+<wire x1="-3.53" y1="2" x2="-3.53" y2="3.05" width="0.2" layer="21"/>
+<wire x1="3.53" y1="2" x2="3.53" y2="3.05" width="0.2" layer="21"/>
+<wire x1="-3.43" y1="2.95" x2="3.43" y2="2.95" width="0.1" layer="51"/>
+<wire x1="-3.43" y1="-2.95" x2="3.43" y2="-2.95" width="0.1" layer="51"/>
+<wire x1="-3.53" y1="-3.05" x2="3.53" y2="-3.05" width="0.2" layer="21"/>
+<wire x1="3.53" y1="-2" x2="3.53" y2="-3.05" width="0.2" layer="21"/>
+<wire x1="-3.53" y1="-2" x2="-3.53" y2="-3.05" width="0.2" layer="21"/>
+<text x="0" y="3.76" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.25" y="-4.84" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="3.25"/>
+<vertex x="4.9" y="3.25"/>
+<vertex x="4.9" y="-3.25"/>
+<vertex x="-4.9" y="-3.25"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="WE-TVSP_DO-214AC_BIDIRECTIONAL" urn="urn:adsk.eagle:package:12146531/2" type="model" library_version="1">
@@ -6588,6 +6203,13 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AC  Bidirectional</description>
 <packageinstances>
 <packageinstance name="WE-TVSP_DO-214AC_BIDIRECTIONAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-TVSP_DO-214AB_BIDIRECTIONAL" urn="urn:adsk.eagle:package:12146529/2" type="model" library_version="3">
+<description>&lt;b&gt;WE-TVSP Power TVS Diode
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AB Bidirectional</description>
+<packageinstances>
+<packageinstance name="WE-TVSP_DO-214AB_BIDIRECTIONAL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6615,7 +6237,7 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-TVSP_DO-214AC_400W_BI" urn="urn:adsk.eagle:component:14283047/1" prefix="D" library_version="1">
+<deviceset name="WE-TVSP_DO-214AC_400W_BI" urn="urn:adsk.eagle:component:14283047/3" prefix="D" library_version="3">
 <description>&lt;b&gt; WE-TVSP Power TVS Diode
 &lt;br&gt;&lt;br&gt;
 Characteristics 
@@ -6634,11 +6256,11 @@ Characteristics
 &lt;br&gt;&lt;b&gt;Applications 
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;Ideal to protect the I/O Interfaces, Bus Voltage and other circuits of sensetive electronic equipment against voltage transiensts
 &lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o55793v209%20WE-TVSP_600W-3000W_D0214AA_4C.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o55793v209%20WE-TVSP_600W-3000W_D0214AA_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-TVSP"&gt;https://katalog.we-online.com/en/pbs/WE-TVSP&lt;/a&gt;&lt;p&gt;
-Updated by Ella Wu 2019-07-05&lt;br&gt;
-2019 (C) Würth Elektronik</description>
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55793v209%20WE-TVSP_600W-3000W_D0214AA_4C.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55793v209%20WE-TVSP_600W-3000W_D0214AA_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVSP/"&gt;https://www.we-online.com/catalog/en/WE-TVSP/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-07-20&lt;br&gt;
+2020 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="BIDIRECTIONAL" x="5.08" y="0"/>
 </gates>
@@ -6653,404 +6275,1115 @@ Updated by Ella Wu 2019-07-05&lt;br&gt;
 </package3dinstances>
 <technologies>
 <technology name="_824501101">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501101.pdf" constant="no"/>
-<attribute name="IPEAK" value="23.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501101 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="10V" constant="no"/>
-<attribute name="VBR" value="11.7V" constant="no"/>
-<attribute name="VCLAMP" value="17V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501101.pdf"/>
+<attribute name="IPEAK" value="23.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501101 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="10V"/>
+<attribute name="VBR" value="11.7V"/>
+<attribute name="VCLAMP" value="17V"/>
 </technology>
 <technology name="_824501102">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501102.pdf" constant="no"/>
-<attribute name="IPEAK" value="2.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501102 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="100V" constant="no"/>
-<attribute name="VBR" value="117V" constant="no"/>
-<attribute name="VCLAMP" value="162V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501102.pdf"/>
+<attribute name="IPEAK" value="2.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501102 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="100V"/>
+<attribute name="VBR" value="117V"/>
+<attribute name="VCLAMP" value="162V"/>
 </technology>
 <technology name="_824501111">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501111.pdf" constant="no"/>
-<attribute name="IPEAK" value="22A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501111 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="11V" constant="no"/>
-<attribute name="VBR" value="12.85V" constant="no"/>
-<attribute name="VCLAMP" value="18.2V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501111.pdf"/>
+<attribute name="IPEAK" value="22A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501111 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="11V"/>
+<attribute name="VBR" value="12.85V"/>
+<attribute name="VCLAMP" value="18.2V"/>
+</technology>
+<technology name="_824501112">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="2.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501112 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="110V"/>
+<attribute name="VBR" value="128.5V"/>
+<attribute name="VCLAMP" value="177V"/>
 </technology>
 <technology name="_824501121">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501121.pdf" constant="no"/>
-<attribute name="IPEAK" value="20.1A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501121 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="12V" constant="no"/>
-<attribute name="VBR" value="14V" constant="no"/>
-<attribute name="VCLAMP" value="19.9V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501121.pdf"/>
+<attribute name="IPEAK" value="20.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501121 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="12V"/>
+<attribute name="VBR" value="14V"/>
+<attribute name="VCLAMP" value="19.9V"/>
+</technology>
+<technology name="_824501122">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="2.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501122 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="120V"/>
+<attribute name="VBR" value="140V"/>
+<attribute name="VCLAMP" value="193V"/>
 </technology>
 <technology name="_824501131">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501131.pdf" constant="no"/>
-<attribute name="IPEAK" value="18.6A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501131 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="13V" constant="no"/>
-<attribute name="VBR" value="15.15V" constant="no"/>
-<attribute name="VCLAMP" value="21.5V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501131.pdf"/>
+<attribute name="IPEAK" value="18.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501131 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="13V"/>
+<attribute name="VBR" value="15.15V"/>
+<attribute name="VCLAMP" value="21.5V"/>
+</technology>
+<technology name="_824501132">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="1.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501132 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="130V"/>
+<attribute name="VBR" value="151.5V"/>
+<attribute name="VCLAMP" value="209V"/>
 </technology>
 <technology name="_824501141">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501141.pdf" constant="no"/>
-<attribute name="IPEAK" value="17.2A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501141 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="14V" constant="no"/>
-<attribute name="VBR" value="16.4V" constant="no"/>
-<attribute name="VCLAMP" value="23.2V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501141.pdf"/>
+<attribute name="IPEAK" value="17.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501141 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="14V"/>
+<attribute name="VBR" value="16.4V"/>
+<attribute name="VCLAMP" value="23.2V"/>
 </technology>
 <technology name="_824501151">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501151.pdf" constant="no"/>
-<attribute name="IPEAK" value="16.4A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501151 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="15V" constant="no"/>
-<attribute name="VBR" value="17.6V" constant="no"/>
-<attribute name="VCLAMP" value="24.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501151.pdf"/>
+<attribute name="IPEAK" value="16.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501151 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="15V"/>
+<attribute name="VBR" value="17.6V"/>
+<attribute name="VCLAMP" value="24.4V"/>
+</technology>
+<technology name="_824501152">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="1.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501152 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="150V"/>
+<attribute name="VBR" value="176V"/>
+<attribute name="VCLAMP" value="243V"/>
 </technology>
 <technology name="_824501161">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501161.pdf" constant="no"/>
-<attribute name="IPEAK" value="15.4A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501161 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="16V" constant="no"/>
-<attribute name="VBR" value="18.75V" constant="no"/>
-<attribute name="VCLAMP" value="26V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501161.pdf"/>
+<attribute name="IPEAK" value="15.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501161 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="16V"/>
+<attribute name="VBR" value="18.75V"/>
+<attribute name="VCLAMP" value="26V"/>
+</technology>
+<technology name="_824501162">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="1.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501162 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="160V"/>
+<attribute name="VBR" value="187.5V"/>
+<attribute name="VCLAMP" value="259V"/>
 </technology>
 <technology name="_824501171">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501171.pdf" constant="no"/>
-<attribute name="IPEAK" value="14.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501171 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="17V" constant="no"/>
-<attribute name="VBR" value="19.9V" constant="no"/>
-<attribute name="VCLAMP" value="27.6V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501171.pdf"/>
+<attribute name="IPEAK" value="14.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501171 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="17V"/>
+<attribute name="VBR" value="19.9V"/>
+<attribute name="VCLAMP" value="27.6V"/>
+</technology>
+<technology name="_824501172">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="1.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501172 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="170V"/>
+<attribute name="VBR" value="199V"/>
+<attribute name="VCLAMP" value="275V"/>
 </technology>
 <technology name="_824501181">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501181.pdf" constant="no"/>
-<attribute name="IPEAK" value="13.7A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501181 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="18V" constant="no"/>
-<attribute name="VBR" value="21.05V" constant="no"/>
-<attribute name="VCLAMP" value="29.2V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501181.pdf"/>
+<attribute name="IPEAK" value="13.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501181 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="18V"/>
+<attribute name="VBR" value="21.05V"/>
+<attribute name="VCLAMP" value="29.2V"/>
+</technology>
+<technology name="_824501182">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="1.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501182 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="180V"/>
+<attribute name="VBR" value="211.5V"/>
+<attribute name="VCLAMP" value="292V"/>
+</technology>
+<technology name="_824501192">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="1.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501192 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="190V"/>
+<attribute name="VBR" value="222V"/>
+<attribute name="VCLAMP" value="308V"/>
 </technology>
 <technology name="_824501201">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501201.pdf" constant="no"/>
-<attribute name="IPEAK" value="12.3A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501201 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="20V" constant="no"/>
-<attribute name="VBR" value="23.35V" constant="no"/>
-<attribute name="VCLAMP" value="32.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501201.pdf"/>
+<attribute name="IPEAK" value="12.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501201 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="20V"/>
+<attribute name="VBR" value="23.35V"/>
+<attribute name="VCLAMP" value="32.4V"/>
+</technology>
+<technology name="_824501202">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501202.pdf"/>
+<attribute name="IPEAK" value="1.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501202 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="200V"/>
+<attribute name="VBR" value="235.5V"/>
+<attribute name="VCLAMP" value="324V"/>
+</technology>
+<technology name="_824501212">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="1.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501212 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="210V"/>
+<attribute name="VBR" value="250V"/>
+<attribute name="VCLAMP" value="340V"/>
 </technology>
 <technology name="_824501221">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501221.pdf" constant="no"/>
-<attribute name="IPEAK" value="11.3A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501221 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="22V" constant="no"/>
-<attribute name="VBR" value="25.65V" constant="no"/>
-<attribute name="VCLAMP" value="35.5V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501221.pdf"/>
+<attribute name="IPEAK" value="11.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501221 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="22V"/>
+<attribute name="VBR" value="25.65V"/>
+<attribute name="VCLAMP" value="35.5V"/>
+</technology>
+<technology name="_824501222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501222.pdf"/>
+<attribute name="IPEAK" value="1.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501222 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="220V"/>
+<attribute name="VBR" value="259V"/>
+<attribute name="VCLAMP" value="356V"/>
 </technology>
 <technology name="_824501241">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501241.pdf" constant="no"/>
-<attribute name="IPEAK" value="10.3A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501241 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="24V" constant="no"/>
-<attribute name="VBR" value="28.1V" constant="no"/>
-<attribute name="VCLAMP" value="38.9V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501241.pdf"/>
+<attribute name="IPEAK" value="10.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501241 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="24V"/>
+<attribute name="VBR" value="28.1V"/>
+<attribute name="VCLAMP" value="38.9V"/>
+</technology>
+<technology name="_824501252">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="1.0A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501252 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="250V"/>
+<attribute name="VBR" value="294V"/>
+<attribute name="VCLAMP" value="405V"/>
 </technology>
 <technology name="_824501261">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501261.pdf" constant="no"/>
-<attribute name="IPEAK" value="9.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501261 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="26V" constant="no"/>
-<attribute name="VBR" value="30.4V" constant="no"/>
-<attribute name="VCLAMP" value="42.1V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501261.pdf"/>
+<attribute name="IPEAK" value="9.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501261 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="26V"/>
+<attribute name="VBR" value="30.4V"/>
+<attribute name="VCLAMP" value="42.1V"/>
 </technology>
 <technology name="_824501281">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501281.pdf" constant="no"/>
-<attribute name="IPEAK" value="8.8A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501281 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="28V" constant="no"/>
-<attribute name="VBR" value="32.75V" constant="no"/>
-<attribute name="VCLAMP" value="45.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501281.pdf"/>
+<attribute name="IPEAK" value="8.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501281 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="28V"/>
+<attribute name="VBR" value="32.75V"/>
+<attribute name="VCLAMP" value="45.4V"/>
 </technology>
 <technology name="_824501301">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501301.pdf" constant="no"/>
-<attribute name="IPEAK" value="8.3A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501301 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="30V" constant="no"/>
-<attribute name="VBR" value="35.05V" constant="no"/>
-<attribute name="VCLAMP" value="48.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501301.pdf"/>
+<attribute name="IPEAK" value="8.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501301 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="30V"/>
+<attribute name="VBR" value="35.05V"/>
+<attribute name="VCLAMP" value="48.4V"/>
+</technology>
+<technology name="_824501302">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="0.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501302 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="300V"/>
+<attribute name="VBR" value="353V"/>
+<attribute name="VCLAMP" value="486V"/>
 </technology>
 <technology name="_824501331">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501331.pdf" constant="no"/>
-<attribute name="IPEAK" value="7.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501331 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="33V" constant="no"/>
-<attribute name="VBR" value="38.65V" constant="no"/>
-<attribute name="VCLAMP" value="53.3V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501331.pdf"/>
+<attribute name="IPEAK" value="7.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501331 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="33V"/>
+<attribute name="VBR" value="38.65V"/>
+<attribute name="VCLAMP" value="53.3V"/>
+</technology>
+<technology name="_824501352">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="0.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501352 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="350V"/>
+<attribute name="VBR" value="411.5V"/>
+<attribute name="VCLAMP" value="567V"/>
 </technology>
 <technology name="_824501361">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501361.pdf" constant="no"/>
-<attribute name="IPEAK" value="6.9A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501361 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="36V" constant="no"/>
-<attribute name="VBR" value="42.1V" constant="no"/>
-<attribute name="VCLAMP" value="58.1V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501361.pdf"/>
+<attribute name="IPEAK" value="6.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501361 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="36V"/>
+<attribute name="VBR" value="42.1V"/>
+<attribute name="VCLAMP" value="58.1V"/>
 </technology>
 <technology name="_824501401">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501401.pdf" constant="no"/>
-<attribute name="IPEAK" value="6.2A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501401 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="40V" constant="no"/>
-<attribute name="VBR" value="46.75V" constant="no"/>
-<attribute name="VCLAMP" value="64.5V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501401.pdf"/>
+<attribute name="IPEAK" value="6.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501401 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="40V"/>
+<attribute name="VBR" value="46.75V"/>
+<attribute name="VCLAMP" value="64.5V"/>
+</technology>
+<technology name="_824501402">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="0.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501402 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="400V"/>
+<attribute name="VBR" value="470.5V"/>
+<attribute name="VCLAMP" value="648V"/>
 </technology>
 <technology name="_824501431">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501431.pdf" constant="no"/>
-<attribute name="IPEAK" value="5.8A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501431 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="43V" constant="no"/>
-<attribute name="VBR" value="50.3V" constant="no"/>
-<attribute name="VCLAMP" value="69.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501431.pdf"/>
+<attribute name="IPEAK" value="5.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501431 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="43V"/>
+<attribute name="VBR" value="50.3V"/>
+<attribute name="VCLAMP" value="69.4V"/>
+</technology>
+<technology name="_824501442">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501442.pdf"/>
+<attribute name="IPEAK" value="0.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501442 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="440V"/>
+<attribute name="VBR" value="517.5V"/>
+<attribute name="VCLAMP" value="713V"/>
 </technology>
 <technology name="_824501451">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501451.pdf" constant="no"/>
-<attribute name="IPEAK" value="5.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501451 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="45V" constant="no"/>
-<attribute name="VBR" value="52.65V" constant="no"/>
-<attribute name="VCLAMP" value="72.7V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501451.pdf"/>
+<attribute name="IPEAK" value="5.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501451 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="45V"/>
+<attribute name="VBR" value="52.65V"/>
+<attribute name="VCLAMP" value="72.7V"/>
 </technology>
 <technology name="_824501481">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501481.pdf" constant="no"/>
-<attribute name="IPEAK" value="5.2A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501481 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="48V" constant="no"/>
-<attribute name="VBR" value="56.1V" constant="no"/>
-<attribute name="VCLAMP" value="77.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501481.pdf"/>
+<attribute name="IPEAK" value="5.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501481 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="48V"/>
+<attribute name="VBR" value="56.1V"/>
+<attribute name="VCLAMP" value="77.4V"/>
 </technology>
 <technology name="_824501500">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501500.pdf" constant="no"/>
-<attribute name="IPEAK" value="43.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501500 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="5V" constant="no"/>
-<attribute name="VBR" value="6.7V" constant="no"/>
-<attribute name="VCLAMP" value="9.2V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501500.pdf"/>
+<attribute name="IPEAK" value="43.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501500 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="5V"/>
+<attribute name="VBR" value="6.7V"/>
+<attribute name="VCLAMP" value="9.2V"/>
 </technology>
 <technology name="_824501511">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501511.pdf" constant="no"/>
-<attribute name="IPEAK" value="4.9A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501511 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="51V" constant="no"/>
-<attribute name="VBR" value="59.7V" constant="no"/>
-<attribute name="VCLAMP" value="82.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501511.pdf"/>
+<attribute name="IPEAK" value="4.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501511 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="51V"/>
+<attribute name="VBR" value="59.7V"/>
+<attribute name="VCLAMP" value="82.4V"/>
 </technology>
 <technology name="_824501541">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501541.pdf" constant="no"/>
-<attribute name="IPEAK" value="4.6A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501541 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="54V" constant="no"/>
-<attribute name="VBR" value="63.15V" constant="no"/>
-<attribute name="VCLAMP" value="87.1V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501541.pdf"/>
+<attribute name="IPEAK" value="4.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501541 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="54V"/>
+<attribute name="VBR" value="63.15V"/>
+<attribute name="VCLAMP" value="87.1V"/>
 </technology>
 <technology name="_824501581">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501581.pdf" constant="no"/>
-<attribute name="IPEAK" value="4.3A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501581 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="58V" constant="no"/>
-<attribute name="VBR" value="67.8V" constant="no"/>
-<attribute name="VCLAMP" value="93.6V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501581.pdf"/>
+<attribute name="IPEAK" value="4.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501581 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="58V"/>
+<attribute name="VBR" value="67.8V"/>
+<attribute name="VCLAMP" value="93.6V"/>
 </technology>
 <technology name="_824501600">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501600.pdf" constant="no"/>
-<attribute name="IPEAK" value="38.8A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501600 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="6V" constant="no"/>
-<attribute name="VBR" value="7.02V" constant="no"/>
-<attribute name="VCLAMP" value="10.3V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501600.pdf"/>
+<attribute name="IPEAK" value="38.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501600 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="6V"/>
+<attribute name="VBR" value="7.02V"/>
+<attribute name="VCLAMP" value="10.3V"/>
 </technology>
 <technology name="_824501601">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501601.pdf" constant="no"/>
-<attribute name="IPEAK" value="4.1A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501601 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="60V" constant="no"/>
-<attribute name="VBR" value="70.2V" constant="no"/>
-<attribute name="VCLAMP" value="96.8V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501601.pdf"/>
+<attribute name="IPEAK" value="4.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501601 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="60V"/>
+<attribute name="VBR" value="70.2V"/>
+<attribute name="VCLAMP" value="96.8V"/>
 </technology>
 <technology name="_824501641">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501641.pdf" constant="no"/>
-<attribute name="IPEAK" value="3.9A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501641 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="64V" constant="no"/>
-<attribute name="VBR" value="74.85V" constant="no"/>
-<attribute name="VCLAMP" value="103V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501641.pdf"/>
+<attribute name="IPEAK" value="3.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501641 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="64V"/>
+<attribute name="VBR" value="74.85V"/>
+<attribute name="VCLAMP" value="103V"/>
 </technology>
 <technology name="_824501650">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501650.pdf" constant="no"/>
-<attribute name="IPEAK" value="35.7A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501650 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="6.5V" constant="no"/>
-<attribute name="VBR" value="7.6V" constant="no"/>
-<attribute name="VCLAMP" value="11.2V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501650.pdf"/>
+<attribute name="IPEAK" value="35.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501650 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="6.5V"/>
+<attribute name="VBR" value="7.6V"/>
+<attribute name="VCLAMP" value="11.2V"/>
 </technology>
 <technology name="_824501700">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501700.pdf" constant="no"/>
-<attribute name="IPEAK" value="33.3A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501700 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="7V" constant="no"/>
-<attribute name="VBR" value="8.19V" constant="no"/>
-<attribute name="VCLAMP" value="12V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501700.pdf"/>
+<attribute name="IPEAK" value="33.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501700 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="7V"/>
+<attribute name="VBR" value="8.19V"/>
+<attribute name="VCLAMP" value="12V"/>
 </technology>
 <technology name="_824501701">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501701.pdf" constant="no"/>
-<attribute name="IPEAK" value="3.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501701 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="70V" constant="no"/>
-<attribute name="VBR" value="81.9V" constant="no"/>
-<attribute name="VCLAMP" value="113V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501701.pdf"/>
+<attribute name="IPEAK" value="3.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501701 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="70V"/>
+<attribute name="VBR" value="81.9V"/>
+<attribute name="VCLAMP" value="113V"/>
 </technology>
 <technology name="_824501750">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501750.pdf" constant="no"/>
-<attribute name="IPEAK" value="31A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501750 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="7.5V" constant="no"/>
-<attribute name="VBR" value="8.77V" constant="no"/>
-<attribute name="VCLAMP" value="12.9V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501750.pdf"/>
+<attribute name="IPEAK" value="31A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501750 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="7.5V"/>
+<attribute name="VBR" value="8.77V"/>
+<attribute name="VCLAMP" value="12.9V"/>
 </technology>
 <technology name="_824501751">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501751.pdf" constant="no"/>
-<attribute name="IPEAK" value="3.3A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501751 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="75V" constant="no"/>
-<attribute name="VBR" value="87.7V" constant="no"/>
-<attribute name="VCLAMP" value="121V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501751.pdf"/>
+<attribute name="IPEAK" value="3.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501751 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="75V"/>
+<attribute name="VBR" value="87.7V"/>
+<attribute name="VCLAMP" value="121V"/>
 </technology>
 <technology name="_824501781">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501781.pdf" constant="no"/>
-<attribute name="IPEAK" value="3.2A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501781 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="78V" constant="no"/>
-<attribute name="VBR" value="91.25V" constant="no"/>
-<attribute name="VCLAMP" value="126V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501781.pdf"/>
+<attribute name="IPEAK" value="3.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501781 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="78V"/>
+<attribute name="VBR" value="91.25V"/>
+<attribute name="VCLAMP" value="126V"/>
 </technology>
 <technology name="_824501800">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501800.pdf" constant="no"/>
-<attribute name="IPEAK" value="29.4A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501800 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="8V" constant="no"/>
-<attribute name="VBR" value="9.36V" constant="no"/>
-<attribute name="VCLAMP" value="13.6V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501800.pdf"/>
+<attribute name="IPEAK" value="29.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501800 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="8V"/>
+<attribute name="VBR" value="9.36V"/>
+<attribute name="VCLAMP" value="13.6V"/>
 </technology>
 <technology name="_824501850">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501850.pdf" constant="no"/>
-<attribute name="IPEAK" value="27.8A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501850 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="8.5V" constant="no"/>
-<attribute name="VBR" value="9.92V" constant="no"/>
-<attribute name="VCLAMP" value="14.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501850.pdf"/>
+<attribute name="IPEAK" value="27.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501850 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="8.5V"/>
+<attribute name="VBR" value="9.92V"/>
+<attribute name="VCLAMP" value="14.4V"/>
 </technology>
 <technology name="_824501851">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501851.pdf" constant="no"/>
-<attribute name="IPEAK" value="2.9A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501851 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="85V" constant="no"/>
-<attribute name="VBR" value="99.2V" constant="no"/>
-<attribute name="VCLAMP" value="137V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501851.pdf"/>
+<attribute name="IPEAK" value="2.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501851 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="85V"/>
+<attribute name="VBR" value="99.2V"/>
+<attribute name="VCLAMP" value="137V"/>
 </technology>
 <technology name="_824501900">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501900.pdf" constant="no"/>
-<attribute name="IPEAK" value="26A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501900 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="9V" constant="no"/>
-<attribute name="VBR" value="10.55V" constant="no"/>
-<attribute name="VCLAMP" value="15.4V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501900.pdf"/>
+<attribute name="IPEAK" value="26A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501900 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="9V"/>
+<attribute name="VBR" value="10.55V"/>
+<attribute name="VCLAMP" value="15.4V"/>
 </technology>
 <technology name="_824501901">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501901.pdf" constant="no"/>
-<attribute name="IPEAK" value="2.7A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 824501901 " constant="no"/>
-<attribute name="PDISS" value="400W" constant="no"/>
-<attribute name="VALUE" value="90V" constant="no"/>
-<attribute name="VBR" value="105.5V" constant="no"/>
-<attribute name="VCLAMP" value="146V" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824501901.pdf"/>
+<attribute name="IPEAK" value="2.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824501901 "/>
+<attribute name="PDISS" value="400W"/>
+<attribute name="VALUE" value="90V"/>
+<attribute name="VBR" value="105.5V"/>
+<attribute name="VCLAMP" value="146V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-TVSP_DO-214AB_3000W_BI" urn="urn:adsk.eagle:component:14283051/3" prefix="D" library_version="3">
+<description>&lt;b&gt; WE-TVSP Power TVS Diode
+&lt;br&gt;&lt;br&gt;
+Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Low Profile Package
+&lt;br&gt;Glass passivated Juction
+&lt;br&gt;Excellent clamping capability
+&lt;br&gt;Fast response time
+&lt;br&gt;MSL Level 1, per J-STD-020
+&lt;br&gt;Classification of the plastic case: UL 94 V-0
+&lt;br&gt;Safety certification UL 497B, E478010
+&lt;br&gt;Identical design: 
+&lt;br&gt; - DO-214AC = SMAJ 
+&lt;br&gt; - DO-214AA = SMBJ 
+&lt;br&gt; - DO-214AB = SMCJ/SMDJ
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Applications 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Ideal to protect the I/O Interfaces, Bus Voltage and other circuits of sensetive electronic equipment against voltage transiensts
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55793v209%20WE-TVSP_600W-3000W_D0214AA_4C.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55793v209%20WE-TVSP_600W-3000W_D0214AA_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVSP/"&gt;https://www.we-online.com/catalog/en/WE-TVSP/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-07-20&lt;br&gt;
+2020 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="BIDIRECTIONAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TVSP_DO-214AB_BIDIRECTIONAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12146529/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_824551101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551101.pdf"/>
+<attribute name="IPEAK" value="176.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551101 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="10V"/>
+<attribute name="VBR" value="11.7V"/>
+<attribute name="VCLAMP" value="17V"/>
+</technology>
+<technology name="_824551102">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551102.pdf"/>
+<attribute name="IPEAK" value="18.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551102 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="100V"/>
+<attribute name="VBR" value="117V"/>
+<attribute name="VCLAMP" value="162V"/>
+</technology>
+<technology name="_824551111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551111.pdf"/>
+<attribute name="IPEAK" value="164.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551111 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="11V"/>
+<attribute name="VBR" value="12.85V"/>
+<attribute name="VCLAMP" value="18.2V"/>
+</technology>
+<technology name="_824551112">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="16.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551112 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="110V"/>
+<attribute name="VBR" value="128.5V"/>
+<attribute name="VCLAMP" value="177V"/>
+</technology>
+<technology name="_824551121">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551121.pdf"/>
+<attribute name="IPEAK" value="150.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551121 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="12V"/>
+<attribute name="VBR" value="14V"/>
+<attribute name="VCLAMP" value="19.9V"/>
+</technology>
+<technology name="_824551122">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="15.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551122 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="120V"/>
+<attribute name="VBR" value="140V"/>
+<attribute name="VCLAMP" value="193V"/>
+</technology>
+<technology name="_824551131">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551131.pdf"/>
+<attribute name="IPEAK" value="139.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551131 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="13V"/>
+<attribute name="VBR" value="15.15V"/>
+<attribute name="VCLAMP" value="21.5V"/>
+</technology>
+<technology name="_824551132">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="14.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551132 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="130V"/>
+<attribute name="VBR" value="151.5V"/>
+<attribute name="VCLAMP" value="209V"/>
+</technology>
+<technology name="_824551141">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551141.pdf"/>
+<attribute name="IPEAK" value="129.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551141 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="14V"/>
+<attribute name="VBR" value="16.4V"/>
+<attribute name="VCLAMP" value="23.2V"/>
+</technology>
+<technology name="_824551151">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551151.pdf"/>
+<attribute name="IPEAK" value="123A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551151 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="15V"/>
+<attribute name="VBR" value="17.6V"/>
+<attribute name="VCLAMP" value="24.4V"/>
+</technology>
+<technology name="_824551152">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="12.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551152 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="150V"/>
+<attribute name="VBR" value="176V"/>
+<attribute name="VCLAMP" value="243V"/>
+</technology>
+<technology name="_824551161">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551161.pdf"/>
+<attribute name="IPEAK" value="115.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551161 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="16V"/>
+<attribute name="VBR" value="18.75V"/>
+<attribute name="VCLAMP" value="26V"/>
+</technology>
+<technology name="_824551162">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551162.pdf"/>
+<attribute name="IPEAK" value="11.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551162 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="160V"/>
+<attribute name="VBR" value="187.5V"/>
+<attribute name="VCLAMP" value="259V"/>
+</technology>
+<technology name="_824551171">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551171.pdf"/>
+<attribute name="IPEAK" value="108.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551171 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="17V"/>
+<attribute name="VBR" value="19.9V"/>
+<attribute name="VCLAMP" value="27.6V"/>
+</technology>
+<technology name="_824551172">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="10.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551172 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="170V"/>
+<attribute name="VBR" value="199V"/>
+<attribute name="VCLAMP" value="275V"/>
+</technology>
+<technology name="_824551181">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551181.pdf"/>
+<attribute name="IPEAK" value="102.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551181 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="18V"/>
+<attribute name="VBR" value="21.05V"/>
+<attribute name="VCLAMP" value="29.2V"/>
+</technology>
+<technology name="_824551182">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="10.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551182 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="180V"/>
+<attribute name="VBR" value="211V"/>
+<attribute name="VCLAMP" value="292V"/>
+</technology>
+<technology name="_824551192">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="9.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551192 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="190V"/>
+<attribute name="VBR" value="222V"/>
+<attribute name="VCLAMP" value="308V"/>
+</technology>
+<technology name="_824551201">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551201.pdf"/>
+<attribute name="IPEAK" value="92.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551201 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="20V"/>
+<attribute name="VBR" value="23.35V"/>
+<attribute name="VCLAMP" value="32.4V"/>
+</technology>
+<technology name="_824551202">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551202.pdf"/>
+<attribute name="IPEAK" value="9.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551202 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="200V"/>
+<attribute name="VBR" value="235.5V"/>
+<attribute name="VCLAMP" value="324V"/>
+</technology>
+<technology name="_824551212">
+<attribute name="DATASHEET-URL" value="-"/>
+<attribute name="IPEAK" value="8.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551212 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="210V"/>
+<attribute name="VBR" value="250V"/>
+<attribute name="VCLAMP" value="340V"/>
+</technology>
+<technology name="_824551221">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551221.pdf"/>
+<attribute name="IPEAK" value="84.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551221 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="22V"/>
+<attribute name="VBR" value="25.65V"/>
+<attribute name="VCLAMP" value="35.5V"/>
+</technology>
+<technology name="_824551222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551222.pdf"/>
+<attribute name="IPEAK" value="8.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551222 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="220V"/>
+<attribute name="VBR" value="259V"/>
+<attribute name="VCLAMP" value="356V"/>
+</technology>
+<technology name="_824551241">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551241.pdf"/>
+<attribute name="IPEAK" value="77.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551241 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="24V"/>
+<attribute name="VBR" value="28.1V"/>
+<attribute name="VCLAMP" value="38.9V"/>
+</technology>
+<technology name="_824551261">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551261.pdf"/>
+<attribute name="IPEAK" value="71.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551261 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="26V"/>
+<attribute name="VBR" value="30.4V"/>
+<attribute name="VCLAMP" value="42.1V"/>
+</technology>
+<technology name="_824551281">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551281.pdf"/>
+<attribute name="IPEAK" value="66.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551281 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="28V"/>
+<attribute name="VBR" value="32.75V"/>
+<attribute name="VCLAMP" value="45.4V"/>
+</technology>
+<technology name="_824551301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551301.pdf"/>
+<attribute name="IPEAK" value="62A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551301 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="30V"/>
+<attribute name="VBR" value="35.05V"/>
+<attribute name="VCLAMP" value="48.4V"/>
+</technology>
+<technology name="_824551331">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551331.pdf"/>
+<attribute name="IPEAK" value="56.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551331 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="33V"/>
+<attribute name="VBR" value="38.65V"/>
+<attribute name="VCLAMP" value="53.3V"/>
+</technology>
+<technology name="_824551361">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551361.pdf"/>
+<attribute name="IPEAK" value="51.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551361 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="36V"/>
+<attribute name="VBR" value="42.1V"/>
+<attribute name="VCLAMP" value="58.1V"/>
+</technology>
+<technology name="_824551401">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551401.pdf"/>
+<attribute name="IPEAK" value="46.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551401 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="40V"/>
+<attribute name="VBR" value="46.75V"/>
+<attribute name="VCLAMP" value="64.5V"/>
+</technology>
+<technology name="_824551431">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551431.pdf"/>
+<attribute name="IPEAK" value="43.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551431 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="43V"/>
+<attribute name="VBR" value="50.3V"/>
+<attribute name="VCLAMP" value="69.4V"/>
+</technology>
+<technology name="_824551451">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551451.pdf"/>
+<attribute name="IPEAK" value="41.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551451 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="45V"/>
+<attribute name="VBR" value="52.65V"/>
+<attribute name="VCLAMP" value="72.7V"/>
+</technology>
+<technology name="_824551481">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551481.pdf"/>
+<attribute name="IPEAK" value="38.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551481 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="48V"/>
+<attribute name="VBR" value="56.1V"/>
+<attribute name="VCLAMP" value="77.4V"/>
+</technology>
+<technology name="_824551500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551500.pdf"/>
+<attribute name="IPEAK" value="326.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551500 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="5V"/>
+<attribute name="VBR" value="6.7V"/>
+<attribute name="VCLAMP" value="9.2V"/>
+</technology>
+<technology name="_824551511">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551511.pdf"/>
+<attribute name="IPEAK" value="36.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551511 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="51V"/>
+<attribute name="VBR" value="59.7V"/>
+<attribute name="VCLAMP" value="82.4V"/>
+</technology>
+<technology name="_824551541">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551541.pdf"/>
+<attribute name="IPEAK" value="34.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551541 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="54V"/>
+<attribute name="VBR" value="63.15V"/>
+<attribute name="VCLAMP" value="87.1V"/>
+</technology>
+<technology name="_824551581">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551581.pdf"/>
+<attribute name="IPEAK" value="32.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551581 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="58V"/>
+<attribute name="VBR" value="67.8V"/>
+<attribute name="VCLAMP" value="93.6V"/>
+</technology>
+<technology name="_824551600">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551600.pdf"/>
+<attribute name="IPEAK" value="291.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551600 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="6V"/>
+<attribute name="VBR" value="7.02V"/>
+<attribute name="VCLAMP" value="10.3V"/>
+</technology>
+<technology name="_824551601">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551601.pdf"/>
+<attribute name="IPEAK" value="31A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551601 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="60V"/>
+<attribute name="VBR" value="70.2V"/>
+<attribute name="VCLAMP" value="96.8V"/>
+</technology>
+<technology name="_824551641">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551641.pdf"/>
+<attribute name="IPEAK" value="29.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551641 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="64V"/>
+<attribute name="VBR" value="74.85V"/>
+<attribute name="VCLAMP" value="103V"/>
+</technology>
+<technology name="_824551650">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551650.pdf"/>
+<attribute name="IPEAK" value="267.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551650 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="6.5V"/>
+<attribute name="VBR" value="7.6V"/>
+<attribute name="VCLAMP" value="11.2V"/>
+</technology>
+<technology name="_824551700">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551700.pdf"/>
+<attribute name="IPEAK" value="250A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551700 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="7V"/>
+<attribute name="VBR" value="8.19V"/>
+<attribute name="VCLAMP" value="12V"/>
+</technology>
+<technology name="_824551701">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551701.pdf"/>
+<attribute name="IPEAK" value="26.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551701 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="70V"/>
+<attribute name="VBR" value="81.9V"/>
+<attribute name="VCLAMP" value="113V"/>
+</technology>
+<technology name="_824551750">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551750.pdf"/>
+<attribute name="IPEAK" value="232.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551750 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="7.5V"/>
+<attribute name="VBR" value="8.77V"/>
+<attribute name="VCLAMP" value="12.9V"/>
+</technology>
+<technology name="_824551751">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551751.pdf"/>
+<attribute name="IPEAK" value="24.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551751 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="75V"/>
+<attribute name="VBR" value="87.7V"/>
+<attribute name="VCLAMP" value="121V"/>
+</technology>
+<technology name="_824551781">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551781.pdf"/>
+<attribute name="IPEAK" value="23.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551781 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="78V"/>
+<attribute name="VBR" value="91.25V"/>
+<attribute name="VCLAMP" value="126V"/>
+</technology>
+<technology name="_824551800">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551800.pdf"/>
+<attribute name="IPEAK" value="220.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551800 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="8V"/>
+<attribute name="VBR" value="9.36V"/>
+<attribute name="VCLAMP" value="13.6V"/>
+</technology>
+<technology name="_824551850">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551850.pdf"/>
+<attribute name="IPEAK" value="208.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551850 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="8.5V"/>
+<attribute name="VBR" value="9.92V"/>
+<attribute name="VCLAMP" value="14.4V"/>
+</technology>
+<technology name="_824551851">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551851.pdf"/>
+<attribute name="IPEAK" value="21.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551851 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="85V"/>
+<attribute name="VBR" value="99.2V"/>
+<attribute name="VCLAMP" value="137V"/>
+</technology>
+<technology name="_824551900">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551900.pdf"/>
+<attribute name="IPEAK" value="194.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551900 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="9V"/>
+<attribute name="VBR" value="10.55V"/>
+<attribute name="VCLAMP" value="15.4V"/>
+</technology>
+<technology name="_824551901">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551901.pdf"/>
+<attribute name="IPEAK" value="20.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824551901 "/>
+<attribute name="PDISS" value="3000W"/>
+<attribute name="VALUE" value="90V"/>
+<attribute name="VBR" value="105.5V"/>
+<attribute name="VCLAMP" value="146V"/>
 </technology>
 </technologies>
 </device>
@@ -7166,6 +7499,25 @@ Copyright: Würth Elektronik</description>
 <vertex x="-0.95" y="-0.45"/>
 </polygon>
 </package>
+<package name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:footprint:18489080/1" library_version="2">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="0.725" x2="0.2" y2="0.725" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-0.725" x2="0.2" y2="-0.725" width="0.2" layer="21"/>
+<text x="0" y="1.2" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.6" y="0.925"/>
+<vertex x="1.6" y="0.925"/>
+<vertex x="1.6" y="-0.925"/>
+<vertex x="-1.6" y="-0.925"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:package:18489097/2" type="model" library_version="2">
@@ -7178,6 +7530,12 @@ Copyright: Würth Elektronik</description>
 <description>&lt;b&gt;WCAP-CSGP&lt;/B&gt;&lt;BR&gt; MLCCs 0402,1X0.5X0.5(LXWXH)</description>
 <packageinstances>
 <packageinstance name="WCAP-CSGP_0402"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:package:18489127/2" type="model" library_version="2">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
+<packageinstances>
+<packageinstance name="WCAP-CSGP_0805_H1.25_R"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -9869,65 +10227,1011 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0402/"&g
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="SS12L_R3">
-<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SODFL3618X143N">
-<description>&lt;b&gt;Sub SMA&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.55" y="0" dx="1.22" dy="1.12" layer="1" rot="R90"/>
-<smd name="2" x="1.55" y="0" dx="1.22" dy="1.12" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.26" y1="1.1" x2="2.26" y2="1.1" width="0.05" layer="51"/>
-<wire x1="2.26" y1="1.1" x2="2.26" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="2.26" y1="-1.1" x2="-2.26" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="-2.26" y1="-1.1" x2="-2.26" y2="1.1" width="0.05" layer="51"/>
-<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.1" layer="51"/>
-<wire x1="1.4" y1="0.9" x2="1.4" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="1.4" y1="-0.9" x2="-1.4" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="-0.9" x2="-1.4" y2="0.9" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="0.34" x2="-0.84" y2="0.9" width="0.1" layer="51"/>
-<wire x1="-2.11" y1="0.9" x2="1.4" y2="0.9" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SS12L_R3">
-<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="0" y="0" visible="pad" length="middle"/>
-<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SS12L_R3" prefix="D">
-<description>&lt;b&gt;Taiwan Semi SS12L R3, SMT Schottky Diode, 20V 1A, 2-Pin Sub SMA&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="WCAP-CSGP_0805_H1.25" urn="urn:adsk.eagle:component:18489175/2" prefix="C" library_version="2">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;General Purpose &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series 
+&lt;BR&gt;High performance ceramic 
+&lt;BR&gt;High electrical precision and stability ceramic especially for NP0 
+&lt;BR&gt;Minimal aging especially for NP0 
+&lt;BR&gt;Mounting style: SMT-Chip 
+&lt;BR&gt;Ceramic: NP0 (Class I), X5R (Class II), X7R (Class II) 
+&lt;BR&gt;Capacitance range: 1 pF ‒ 47 μF 
+&lt;BR&gt;Temperature Coefficient: 
+&lt;BR&gt;±30 ppm/°C; ±0.54 % for NP0 
+&lt;BR&gt;±15 % for X7R and X5R 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 100 V(DC) 
+&lt;BR&gt;Operating temperature:
+&lt;BR&gt;-55 °C up to + 125 °C for NP0 and X7R 
+&lt;BR&gt;-55 °C up to + 85 °C for X5R 
+&lt;BR&gt;Termination: Cu/Ni/Sn 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;Wave soldering (only valid for the thickness ≤1.00 mm) for NP0 and X7R 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;TTemperature compensation (NP0) 
+&lt;BR&gt;Coupling 
+&lt;BR&gt;Decoupling 
+&lt;BR&gt;Bypass 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Resonant circuit 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o166500v209%20Family_WE-MLCC_0805_grau.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o166500v209%20Family_WE-MLCC_0805_grau.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0805/"&gt;https://www.we-online.com/catalog/en/WCAP-CSGP-0805/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-09
+&lt;br&gt;2020(C) Würth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="SS12L_R3" x="0" y="0"/>
+<gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SODFL3618X143N">
+<device name="_6.3V(DC)" package="WCAP-CSGP_0805_H1.25_R">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Taiwan Semi SS12L R3, SMT Schottky Diode, 20V 1A, 2-Pin Sub SMA" constant="no"/>
-<attribute name="HEIGHT" value="1.43mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Taiwan Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SS12L R3" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="821-SS12LR3" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=821-SS12LR3" constant="no"/>
+<technology name="_885012107001">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107001.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107001 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107002">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107002.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107002 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,03GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="3.3  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107003">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107003.pdf" constant="no"/>
+<attribute name="DF" value=" 0.15 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107003 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107004">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107004.pdf" constant="no"/>
+<attribute name="DF" value=" 0.15 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107004 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,01GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107005">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107005.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107005 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,005GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107006">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107006.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107006 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,002GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805476M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207001">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207001.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207001 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207002">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207002.pdf" constant="no"/>
+<attribute name="DF" value=" 0.15 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207002 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207003">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207003.pdf" constant="no"/>
+<attribute name="DF" value=" 0.15 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207003 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,01GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805106K6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_10V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007009">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007009.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007009 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805103J010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="10  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107007">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107007.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107007 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107008">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107008.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107008 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,03GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="3.3  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107009">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107009.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107009 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107010">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107010.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107010 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,01GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107011">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107011.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107011 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,005GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207017">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207017.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207017 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="3,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="150  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207018">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207018.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207018 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="2,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207019">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207019.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207019 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1,5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207020">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207020.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207020 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1,1GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207021">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207021.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207021 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,7GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="680  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207022">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207022.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207022 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207023">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207023.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207023 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805155K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1.5  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207024">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207024.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207024 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207025">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207025.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207025 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207026">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207026.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207026 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,01GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805106K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_16V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007024">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007024.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007024 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805332J016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012007025">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007025.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007025 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805472J016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107012">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107012.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107012 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107013">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107013.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107013 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107014">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107014.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107014 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207046">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207046.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207046 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="150  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207047">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207047.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207047 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="3,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207048">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207048.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207048 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="2,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207049">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207049.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207049 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1,5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207050">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207050.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207050 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1,1GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="680  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207051">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207051.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207051 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,7GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207052">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207052.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207052 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207053">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207053.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207053 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_25V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007043">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007043.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007043 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805332J025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012007044">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007044.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007044 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805472J025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107015">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107015.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107015 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805105M025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107016">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107016.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107016 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107017">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107017.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107017 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="3.3  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107018">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107018.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107018 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207073">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207073.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207073 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="150  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207074">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207074.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207074 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207075">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207075.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207075 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207076">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207076.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207076 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207077">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207077.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207077 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="680  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207078">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207078.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207078 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207079">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207079.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207079 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_50V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007066">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007066.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007066 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805332J050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012007067">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007067.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007067 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805472J050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207099">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207099.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207099 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="150  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207100">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207100.pdf" constant="no"/>
+<attribute name="DF" value=" 0.03 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207100 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207101">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207101.pdf" constant="no"/>
+<attribute name="DF" value=" 0.03 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207101 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207102">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207102.pdf" constant="no"/>
+<attribute name="DF" value=" 0.03 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207102 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207103">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207103.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207103 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_100V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007091">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007091.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007091 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805332J100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012007092">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007092.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007092 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805472J100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207125">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207125.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207125 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="33  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207126">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207126.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207126 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="2.1GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="47  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207127">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207127.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207127 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1.5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="68  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207128">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207128.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207128 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="100  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10290,6 +11594,70 @@ SOP65P600X115-15N-V</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="INF-PG-TO252-5-11L">
+<packages>
+<package name="INF-PG-TO252-5-11_L_1PRIMARY">
+<description>Original name &lt;b&gt;INF-PG-TO252-5-11_L&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="-4.7" y="2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="2" x="-4.7" y="1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="3" x="2.3" y="0" dx="5.85" dy="6.3" layer="1" rot="R90"/>
+<smd name="4" x="-4.7" y="-1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="5" x="-4.7" y="-2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<wire x1="-2.15" y1="-3.325" x2="4.07" y2="-3.325" width="0.1" layer="48"/>
+<wire x1="4.07" y1="-3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-2.15" y1="3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-2.15" y1="-3.325" x2="-2.15" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-5.525" y1="-3.425" x2="-5.525" y2="3.425" width="0.05" layer="48"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="48"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="48"/>
+<wire x1="-5.525" y1="3.425" x2="5.55" y2="3.425" width="0.05" layer="48"/>
+<wire x1="5.55" y1="-3.425" x2="5.55" y2="3.425" width="0.05" layer="48"/>
+<wire x1="-5.525" y1="-3.425" x2="5.55" y2="-3.425" width="0.05" layer="48"/>
+<circle x="-4.7" y="3.205" radius="0.125" width="0.25" layer="21"/>
+<wire x1="-2.15" y1="3.35" x2="-1.25" y2="3.35" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-3.35" x2="-1.25" y2="-3.35" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-3.35" x2="-2.15" y2="3.35" width="0.2" layer="21"/>
+<text x="-5.55" y="3.709" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-5.55" y="-6.425" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TLE4270-2D">
+<pin name="I" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="Q" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="D" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="RO" x="-12.7" y="-5.08" length="middle" direction="out"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TLE4270-2D-INF-PG-TO252-5-11_L_1" prefix="G">
+<gates>
+<gate name="G" symbol="TLE4270-2D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INF-PG-TO252-5-11_L_1PRIMARY">
+<connects>
+<connect gate="G" pin="D" pad="4"/>
+<connect gate="G" pin="GND" pad="3"/>
+<connect gate="G" pin="I" pad="1"/>
+<connect gate="G" pin="Q" pad="5"/>
+<connect gate="G" pin="RO" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10330,18 +11698,10 @@ SOP65P600X115-15N-V</description>
 <part name="D6" library="fliegl-wuerth" deviceset="WE-TVS_SOT23-3L_824098024" device="" value="26.2V / 35pF"/>
 <part name="C17" library="fliegl-wuerth" deviceset="WCAP-CSGP_0402" device="_16V(DC)" technology="_885012205037" value="100 nF"/>
 <part name="C19" library="fliegl-wuerth" deviceset="WCAP-CSGP_0402" device="_16V(DC)" technology="_885012205037" value="100 nF"/>
-<part name="U1" library="Wurth_Step Down Converter_MagI³C-FDSM" library_urn="urn:adsk.eagle:library:13379781" deviceset="MAGI³C-FDSM_SIP-3" device="_173XXXX42" package3d_urn="urn:adsk.eagle:package:13379788/2" technology="_173010542"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="D1" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AC_400W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146531/2" technology="_824501261" value="26V"/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1210_H2.5" device="_25V(DC)" package3d_urn="urn:adsk.eagle:package:18489097/2" technology="_885012109014" value="47uF"/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D3" library="SS12L_R3" deviceset="SS12L_R3" device=""/>
 <part name="J6" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222005" device="" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 "/>
 <part name="J7" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222005" device="" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 "/>
 <part name="U2" library="BTS7030-2EPA" deviceset="BTS7030-2EPA" device=""/>
@@ -10396,6 +11756,19 @@ SOP65P600X115-15N-V</description>
 <part name="R9" library="Resistor_smaller_fliegl" deviceset="R-EU_" device="WCAP-CSGP_0402" package3d_urn="urn:adsk.eagle:package:18563160/2" value="47k"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" deviceset="+5V" device=""/>
+<part name="D2" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AC_400W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146531/2" technology="_824501261" value="26V"/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="C10" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1210_H2.5" device="_25V(DC)" package3d_urn="urn:adsk.eagle:package:18489097/2" technology="_885012109014" value="47uF"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="G1" library="INF-PG-TO252-5-11L" deviceset="TLE4270-2D-INF-PG-TO252-5-11_L_1" device=""/>
+<part name="C11" library="fliegl-wuerth" deviceset="WCAP-CSGP_0402" device="_16V(DC)" technology="_885012205037" value="100 nF"/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="C12" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H1.25" device="_10V(DC)" package3d_urn="urn:adsk.eagle:package:18489127/2" technology="_885012107011" value="22  µF "/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="D1" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AB_3000W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146529/2" technology="_824551331" value="33V"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10479,36 +11852,46 @@ SOP65P600X115-15N-V</description>
 <attribute name="VALUE" x="-20.32" y="138.43" size="1.778" layer="96" rot="MR270"/>
 <attribute name="NAME" x="-36.322" y="138.43" size="1.778" layer="95" rot="MR270"/>
 </instance>
-<instance part="U1" gate="G$1" x="38.1" y="124.46" smashed="yes">
-<attribute name="NAME" x="38.1" y="131.28" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="42.85" y="115.8" size="1.778" layer="96"/>
-</instance>
-<instance part="GND1" gate="1" x="38.1" y="111.76" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="40.64" y="109.22" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="GND2" gate="1" x="-25.4" y="119.38" smashed="yes">
 <attribute name="VALUE" x="-27.94" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="53.34" y="139.7" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="55.88" y="134.62" size="1.778" layer="96" rot="MR90"/>
+<instance part="GND14" gate="1" x="40.64" y="50.8" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="43.18" y="48.26" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D1" gate="G$1" x="-15.24" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="-17.78" y="120.65" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-11.43" y="116.84" size="1.27" layer="95" rot="R90"/>
+<instance part="P+4" gate="1" x="53.34" y="99.06" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="55.88" y="93.98" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND4" gate="1" x="-15.24" y="111.76" smashed="yes">
-<attribute name="VALUE" x="-17.78" y="106.68" size="1.778" layer="96"/>
+<instance part="D2" gate="G$1" x="-10.16" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="-12.7" y="77.47" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-6.35" y="73.66" size="1.27" layer="95" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="7.62" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.24" y="120.555" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="12.695" y="120.295" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
+<instance part="GND16" gate="1" x="-10.16" y="68.58" smashed="yes">
+<attribute name="VALUE" x="-12.7" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="7.62" y="114.3" smashed="yes">
-<attribute name="VALUE" x="5.08" y="109.22" size="1.778" layer="96"/>
+<instance part="C10" gate="G$1" x="12.7" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.32" y="74.835" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="17.775" y="74.575" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="D3" gate="G$1" x="5.08" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="1.27" y="139.7" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="1.27" y="134.62" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="GND17" gate="1" x="12.7" y="66.04" smashed="yes">
+<attribute name="VALUE" x="10.16" y="60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="G1" gate="G" x="40.64" y="78.74" smashed="yes">
+<attribute name="NAME" x="71.12" y="74.295" size="1.778" layer="95"/>
+<attribute name="VALUE" x="71.12" y="78.74" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="53.34" y="66.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="50.8" y="66.04" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="50.8" y="63.5" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND18" gate="1" x="53.34" y="50.8" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="55.88" y="48.26" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C12" gate="G$1" x="66.04" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.66" y="64.675" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="71.115" y="64.415" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="GND19" gate="1" x="66.04" y="50.8" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="68.58" y="48.26" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -10522,23 +11905,39 @@ SOP65P600X115-15N-V</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="G1" gate="G" pin="GND"/>
+<wire x1="40.64" y1="53.34" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="1"/>
-<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="D2" gate="G$1" pin="1"/>
+<pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="12.7" y1="68.58" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="60.96" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="66.04" y1="53.34" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VOUT"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="53.34" y1="137.16" x2="53.34" y2="127" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
+<pinref part="G1" gate="G" pin="Q"/>
+<wire x1="53.34" y1="96.52" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="83.82" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<junction x="53.34" y="83.82"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -10557,26 +11956,31 @@ SOP65P600X115-15N-V</description>
 <label x="-43.18" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V1" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="83.82" x2="-22.86" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-10.16" y="83.82"/>
+<wire x1="-10.16" y1="83.82" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="78.74" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
+<junction x="12.7" y="83.82"/>
+<pinref part="G1" gate="G" pin="I"/>
+<label x="-22.86" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="129.54" x2="-27.94" y2="127" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="127" x2="-15.24" y2="127" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="127" x2="-27.94" y2="127" width="0.1524" layer="91"/>
-<junction x="-15.24" y="127"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="-10.16" y1="127" x2="-27.94" y2="127" width="0.1524" layer="91"/>
+<label x="-10.16" y="127" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="124.46" x2="7.62" y2="127" width="0.1524" layer="91"/>
-<junction x="7.62" y="127"/>
-<pinref part="D3" gate="G$1" pin="K"/>
+<pinref part="G1" gate="G" pin="D"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="73.66" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11015,6 +12419,13 @@ SOP65P600X115-15N-V</description>
 <instance part="GND12" gate="1" x="115.57" y="5.08" smashed="yes">
 <attribute name="VALUE" x="113.03" y="2.54" size="1.778" layer="96"/>
 </instance>
+<instance part="D1" gate="G$1" x="86.36" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="83.82" y="143.51" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="90.17" y="139.7" size="1.27" layer="95" rot="R90"/>
+</instance>
+<instance part="GND1" gate="1" x="97.79" y="127" smashed="yes">
+<attribute name="VALUE" x="95.25" y="124.46" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11077,6 +12488,12 @@ SOP65P600X115-15N-V</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="137.16" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="129.54" x2="97.79" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="Q4" class="0">
@@ -11204,6 +12621,12 @@ SOP65P600X115-15N-V</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="-20.32" x2="111.76" y2="-20.32" width="0.1524" layer="91"/>
 <label x="111.76" y="-20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="149.86" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
+<label x="99.06" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AGNDU2" class="0">
