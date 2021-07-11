@@ -13489,6 +13489,10 @@ Updated by Yingchun,Shan 2019-10-16
 <part name="PWR_GND16" library="supply_isobus" deviceset="PWR_GND" device=""/>
 <part name="J5" library="6-pin-tht" deviceset="6130XX21121_61300621121" device="" package3d_urn="urn:adsk.eagle:package:14805407/2"/>
 <part name="J9" library="6-pin-tht" deviceset="6130XX21121_61300621121" device="" package3d_urn="urn:adsk.eagle:package:14805407/2"/>
+<part name="ECU_GND11" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND12" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="P+5" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13520,10 +13524,6 @@ Updated by Yingchun,Shan 2019-10-16
 <frame x1="-175.26" y1="-40.64" x2="210.82" y2="177.8" columns="8" rows="5" layer="94"/>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="-20.32" y="116.84" smashed="yes">
-<attribute name="NAME" x="-34.2" y="117.19" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="-34.06" y="114.97" size="1.016" layer="96" align="bottom-right"/>
-</instance>
 <instance part="J6" gate="G$1" x="-25.4" y="93.98" smashed="yes">
 <attribute name="NAME" x="-25.31" y="95.315" size="1.016" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="-23.33" y="93.85" size="1.016" layer="96" rot="R270" align="bottom-right"/>
@@ -13672,6 +13672,22 @@ Updated by Yingchun,Shan 2019-10-16
 <instance part="ECU_GND2" gate="ECU_GND" x="-20.32" y="50.8" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="48.26" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="167.64" y="73.66" smashed="yes">
+<attribute name="NAME" x="153.76" y="74.01" size="1.016" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="153.9" y="71.79" size="1.016" layer="96" align="bottom-right"/>
+</instance>
+<instance part="ECU_GND11" gate="ECU_GND" x="157.48" y="58.42" smashed="yes">
+<attribute name="VALUE" x="154.94" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="ECU_GND12" gate="ECU_GND" x="160.02" y="60.96" smashed="yes">
+<attribute name="VALUE" x="157.48" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="P+3" gate="1" x="160.02" y="88.9" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="162.56" y="83.82" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="P+5" gate="1" x="157.48" y="96.52" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="160.02" y="91.44" size="1.778" layer="96" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13685,6 +13701,16 @@ Updated by Yingchun,Shan 2019-10-16
 <wire x1="53.34" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="83.82" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
 <junction x="53.34" y="83.82"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="160.02" y1="86.36" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<wire x1="157.48" y1="93.98" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_P" class="0">
@@ -13758,6 +13784,16 @@ Updated by Yingchun,Shan 2019-10-16
 <wire x1="-25.4" y1="129.54" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
 <label x="-27.94" y="111.76" size="1.778" layer="95"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="ECU_GND11" gate="ECU_GND" pin="ECU_GND"/>
+<wire x1="157.48" y1="60.96" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="ECU_GND12" gate="ECU_GND" pin="ECU_GND"/>
+<wire x1="160.02" y1="63.5" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
