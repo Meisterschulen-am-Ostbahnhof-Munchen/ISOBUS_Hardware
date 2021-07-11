@@ -13490,9 +13490,8 @@ Updated by Yingchun,Shan 2019-10-16
 <part name="J5" library="6-pin-tht" deviceset="6130XX21121_61300621121" device="" package3d_urn="urn:adsk.eagle:package:14805407/2"/>
 <part name="J9" library="6-pin-tht" deviceset="6130XX21121_61300621121" device="" package3d_urn="urn:adsk.eagle:package:14805407/2"/>
 <part name="ECU_GND11" library="supply_isobus" deviceset="ECU_GND" device=""/>
-<part name="ECU_GND12" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="P+5" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13679,14 +13678,11 @@ Updated by Yingchun,Shan 2019-10-16
 <instance part="ECU_GND11" gate="ECU_GND" x="157.48" y="58.42" smashed="yes">
 <attribute name="VALUE" x="154.94" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="ECU_GND12" gate="ECU_GND" x="160.02" y="60.96" smashed="yes">
-<attribute name="VALUE" x="157.48" y="58.42" size="1.778" layer="96"/>
+<instance part="P+3" gate="1" x="160.02" y="43.18" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="157.48" y="48.26" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="P+3" gate="1" x="160.02" y="88.9" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="162.56" y="83.82" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="P+5" gate="1" x="157.48" y="96.52" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="160.02" y="91.44" size="1.778" layer="96" rot="MR90"/>
+<instance part="+3V3" gate="G$1" x="157.48" y="83.82" smashed="yes">
+<attribute name="VALUE" x="154.305" y="85.09" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13703,14 +13699,9 @@ Updated by Yingchun,Shan 2019-10-16
 <junction x="53.34" y="83.82"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="160.02" y1="68.58" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="160.02" y1="86.36" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="157.48" y1="93.98" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_P" class="0">
@@ -13790,10 +13781,12 @@ Updated by Yingchun,Shan 2019-10-16
 <pinref part="ECU_GND11" gate="ECU_GND" pin="ECU_GND"/>
 <wire x1="157.48" y1="60.96" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="+3V3" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="ECU_GND12" gate="ECU_GND" pin="ECU_GND"/>
-<wire x1="160.02" y1="63.5" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="157.48" y1="78.74" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
