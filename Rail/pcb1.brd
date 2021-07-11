@@ -422,24 +422,24 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="61301821121" urn="urn:adsk.eagle:footprint:14804929/1" library_version="2">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54mm Dual Pin Header, 18 Pins</description>
-<pad name="4" x="-7.62" y="1.27" drill="1.1" rot="R270"/>
-<pad name="1" x="-10.16" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="2" x="-10.16" y="1.27" drill="1.1" rot="R270"/>
-<pad name="3" x="-7.62" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="5" x="-5.08" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="6" x="-5.08" y="1.27" drill="1.1" rot="R270"/>
-<pad name="7" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="8" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
-<pad name="9" x="0" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="10" x="0" y="1.27" drill="1.1" rot="R270"/>
-<pad name="11" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="12" x="2.54" y="1.27" drill="1.1" rot="R270"/>
-<pad name="13" x="5.08" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="14" x="5.08" y="1.27" drill="1.1" rot="R270"/>
-<pad name="15" x="7.62" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="16" x="7.62" y="1.27" drill="1.1" rot="R270"/>
-<pad name="17" x="10.16" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="18" x="10.16" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="4" x="-7.62" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="1" x="-10.16" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="2" x="-10.16" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="3" x="-7.62" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="5" x="-5.08" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="6" x="-5.08" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="7" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="8" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="9" x="0" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="10" x="0" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="11" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="12" x="2.54" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="13" x="5.08" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="14" x="5.08" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="15" x="7.62" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="16" x="7.62" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="17" x="10.16" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="18" x="10.16" y="1.27" drill="1.1" rot="R270"/>
 <wire x1="11.43" y1="2.54" x2="11.43" y2="-2.54" width="0.1" layer="51"/>
 <wire x1="11.43" y1="-2.54" x2="-11.43" y2="-2.54" width="0.1" layer="51"/>
 <wire x1="-11.43" y1="-2.54" x2="-11.43" y2="2.54" width="0.1" layer="51"/>
@@ -460,10 +460,10 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="61300411121" urn="urn:adsk.eagle:footprint:14804902/1" library_version="2">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54mm Pin Header, 4 Pin</description>
-<pad name="1" x="-3.81" y="0" drill="1.1"/>
-<pad name="2" x="-1.27" y="0" drill="1.1"/>
-<pad name="3" x="1.27" y="0" drill="1.1"/>
-<pad name="4" x="3.81" y="0" drill="1.1"/>
+<pad thermals="no" name="1" x="-3.81" y="0" drill="1.1"/>
+<pad thermals="no" name="2" x="-1.27" y="0" drill="1.1"/>
+<pad thermals="no" name="3" x="1.27" y="0" drill="1.1"/>
+<pad thermals="no" name="4" x="3.81" y="0" drill="1.1"/>
 <circle x="-4.7" y="-0.9" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1" layer="51"/>
 <wire x1="-5.08" y1="-1.27" x2="5.08" y2="-1.27" width="0.1" layer="51"/>
@@ -484,11 +484,11 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="61300511121" urn="urn:adsk.eagle:footprint:14804903/1" library_version="2">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Pin Header, 5 Pin</description>
-<pad name="1" x="-5.08" y="0" drill="1.1"/>
-<pad name="2" x="-2.54" y="0" drill="1.1"/>
-<pad name="3" x="0" y="0" drill="1.1"/>
-<pad name="4" x="2.54" y="0" drill="1.1"/>
-<pad name="5" x="5.08" y="0" drill="1.1"/>
+<pad thermals="no" name="1" x="-5.08" y="0" drill="1.1"/>
+<pad thermals="no" name="2" x="-2.54" y="0" drill="1.1"/>
+<pad thermals="no" name="3" x="0" y="0" drill="1.1"/>
+<pad thermals="no" name="4" x="2.54" y="0" drill="1.1"/>
+<pad thermals="no" name="5" x="5.08" y="0" drill="1.1"/>
 <circle x="-6" y="-0.9" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.1" layer="51"/>
 <wire x1="-6.35" y1="-1.27" x2="6.35" y2="-1.27" width="0.1" layer="51"/>
@@ -509,12 +509,12 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="61300621121" urn="urn:adsk.eagle:footprint:14804923/1" library_version="2">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Dual Pin Header, 6 Pins</description>
-<pad name="4" x="0" y="1.27" drill="1.1" rot="R270"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
-<pad name="3" x="0" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="6" x="2.54" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="4" x="0" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="1" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="2" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="3" x="0" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="5" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="6" x="2.54" y="1.27" drill="1.1" rot="R270"/>
 <wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.1" layer="51"/>
 <wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1" layer="51"/>
 <wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.1" layer="51"/>
@@ -581,10 +581,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 &lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, horizontal (side entry type), 4 pins&lt;p&gt;
 
 </description>
-<pad name="1" x="-5.94" y="0" drill="1.7" diameter="2.794"/>
-<pad name="2" x="-1.98" y="0" drill="1.7" diameter="2.794"/>
-<pad name="3" x="1.98" y="0" drill="1.7" diameter="2.794"/>
-<pad name="4" x="5.94" y="0" drill="1.7" diameter="2.794"/>
+<pad thermals="no" name="1" x="-5.94" y="0" drill="1.7" diameter="2.794"/>
+<pad thermals="no" name="2" x="-1.98" y="0" drill="1.7" diameter="2.794"/>
+<pad thermals="no" name="3" x="1.98" y="0" drill="1.7" diameter="2.794"/>
+<pad thermals="no" name="4" x="5.94" y="0" drill="1.7" diameter="2.794"/>
 <text x="-8.48" y="-4.445" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="-5.94" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-7.89" y1="-5.7" x2="-6.64" y2="-5.7" width="0.1524" layer="21"/>
@@ -1041,16 +1041,16 @@ Copyright: Würth Elektronik</description>
 <package name="638207222005" urn="urn:adsk.eagle:footprint:15267897/2" library_version="5">
 <description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
 &lt;br&gt;&lt;/b&gt;5pins</description>
-<pad name="1" x="-10.16" y="2.54" drill="1.5"/>
-<pad name="5" x="10.16" y="2.54" drill="1.5"/>
-<pad name="A5" x="10.16" y="-2.54" drill="1.5"/>
-<pad name="A1" x="-10.16" y="-2.54" drill="1.5"/>
-<pad name="3" x="0" y="2.54" drill="1.5"/>
-<pad name="A3" x="0" y="-2.54" drill="1.5"/>
-<pad name="2" x="-5.08" y="2.54" drill="1.5"/>
-<pad name="4" x="5.08" y="2.54" drill="1.5"/>
-<pad name="A4" x="5.08" y="-2.54" drill="1.5"/>
-<pad name="A2" x="-5.08" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="1" x="-10.16" y="2.54" drill="1.5"/>
+<pad thermals="no" name="5" x="10.16" y="2.54" drill="1.5"/>
+<pad thermals="no" name="A5" x="10.16" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="A1" x="-10.16" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="3" x="0" y="2.54" drill="1.5"/>
+<pad thermals="no" name="A3" x="0" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="2" x="-5.08" y="2.54" drill="1.5"/>
+<pad thermals="no" name="4" x="5.08" y="2.54" drill="1.5"/>
+<pad thermals="no" name="A4" x="5.08" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="A2" x="-5.08" y="-2.54" drill="1.5"/>
 <wire x1="-12.22" y1="5" x2="12.22" y2="5" width="0.1" layer="51"/>
 <wire x1="12.22" y1="5" x2="12.22" y2="-3.97" width="0.1" layer="51"/>
 <wire x1="12.22" y1="-3.97" x2="12.22" y2="-5.9" width="0.1" layer="51"/>

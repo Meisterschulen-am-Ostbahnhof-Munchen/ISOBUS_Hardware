@@ -254,24 +254,24 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="61301821121" urn="urn:adsk.eagle:footprint:14804929/1" library_version="2">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54mm Dual Pin Header, 18 Pins</description>
-<pad name="4" x="-7.62" y="1.27" drill="1.1" rot="R270"/>
-<pad name="1" x="-10.16" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="2" x="-10.16" y="1.27" drill="1.1" rot="R270"/>
-<pad name="3" x="-7.62" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="5" x="-5.08" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="6" x="-5.08" y="1.27" drill="1.1" rot="R270"/>
-<pad name="7" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="8" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
-<pad name="9" x="0" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="10" x="0" y="1.27" drill="1.1" rot="R270"/>
-<pad name="11" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="12" x="2.54" y="1.27" drill="1.1" rot="R270"/>
-<pad name="13" x="5.08" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="14" x="5.08" y="1.27" drill="1.1" rot="R270"/>
-<pad name="15" x="7.62" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="16" x="7.62" y="1.27" drill="1.1" rot="R270"/>
-<pad name="17" x="10.16" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="18" x="10.16" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="4" x="-7.62" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="1" x="-10.16" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="2" x="-10.16" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="3" x="-7.62" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="5" x="-5.08" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="6" x="-5.08" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="7" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="8" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="9" x="0" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="10" x="0" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="11" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="12" x="2.54" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="13" x="5.08" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="14" x="5.08" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="15" x="7.62" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="16" x="7.62" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="17" x="10.16" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="18" x="10.16" y="1.27" drill="1.1" rot="R270"/>
 <wire x1="11.43" y1="2.54" x2="11.43" y2="-2.54" width="0.1" layer="51"/>
 <wire x1="11.43" y1="-2.54" x2="-11.43" y2="-2.54" width="0.1" layer="51"/>
 <wire x1="-11.43" y1="-2.54" x2="-11.43" y2="2.54" width="0.1" layer="51"/>
@@ -292,10 +292,10 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="61300411121" urn="urn:adsk.eagle:footprint:14804902/1" library_version="2">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54mm Pin Header, 4 Pin</description>
-<pad name="1" x="-3.81" y="0" drill="1.1"/>
-<pad name="2" x="-1.27" y="0" drill="1.1"/>
-<pad name="3" x="1.27" y="0" drill="1.1"/>
-<pad name="4" x="3.81" y="0" drill="1.1"/>
+<pad thermals="no" name="1" x="-3.81" y="0" drill="1.1"/>
+<pad thermals="no" name="2" x="-1.27" y="0" drill="1.1"/>
+<pad thermals="no" name="3" x="1.27" y="0" drill="1.1"/>
+<pad thermals="no" name="4" x="3.81" y="0" drill="1.1"/>
 <circle x="-4.7" y="-0.9" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1" layer="51"/>
 <wire x1="-5.08" y1="-1.27" x2="5.08" y2="-1.27" width="0.1" layer="51"/>
@@ -316,11 +316,11 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="61300511121" urn="urn:adsk.eagle:footprint:14804903/1" library_version="2">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Pin Header, 5 Pin</description>
-<pad name="1" x="-5.08" y="0" drill="1.1"/>
-<pad name="2" x="-2.54" y="0" drill="1.1"/>
-<pad name="3" x="0" y="0" drill="1.1"/>
-<pad name="4" x="2.54" y="0" drill="1.1"/>
-<pad name="5" x="5.08" y="0" drill="1.1"/>
+<pad thermals="no" name="1" x="-5.08" y="0" drill="1.1"/>
+<pad thermals="no" name="2" x="-2.54" y="0" drill="1.1"/>
+<pad thermals="no" name="3" x="0" y="0" drill="1.1"/>
+<pad thermals="no" name="4" x="2.54" y="0" drill="1.1"/>
+<pad thermals="no" name="5" x="5.08" y="0" drill="1.1"/>
 <circle x="-6" y="-0.9" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.1" layer="51"/>
 <wire x1="-6.35" y1="-1.27" x2="6.35" y2="-1.27" width="0.1" layer="51"/>
@@ -341,12 +341,12 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="61300621121" urn="urn:adsk.eagle:footprint:14804923/1" library_version="2">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Dual Pin Header, 6 Pins</description>
-<pad name="4" x="0" y="1.27" drill="1.1" rot="R270"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
-<pad name="3" x="0" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="6" x="2.54" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="4" x="0" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="1" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="2" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
+<pad thermals="no" name="3" x="0" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="5" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
+<pad thermals="no" name="6" x="2.54" y="1.27" drill="1.1" rot="R270"/>
 <wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.1" layer="51"/>
 <wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1" layer="51"/>
 <wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.1" layer="51"/>
@@ -889,10 +889,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 &lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, horizontal (side entry type), 4 pins&lt;p&gt;
 
 </description>
-<pad name="1" x="-5.94" y="0" drill="1.7" diameter="2.794"/>
-<pad name="2" x="-1.98" y="0" drill="1.7" diameter="2.794"/>
-<pad name="3" x="1.98" y="0" drill="1.7" diameter="2.794"/>
-<pad name="4" x="5.94" y="0" drill="1.7" diameter="2.794"/>
+<pad thermals="no" name="1" x="-5.94" y="0" drill="1.7" diameter="2.794"/>
+<pad thermals="no" name="2" x="-1.98" y="0" drill="1.7" diameter="2.794"/>
+<pad thermals="no" name="3" x="1.98" y="0" drill="1.7" diameter="2.794"/>
+<pad thermals="no" name="4" x="5.94" y="0" drill="1.7" diameter="2.794"/>
 <text x="-8.48" y="-4.445" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="-5.94" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-7.89" y1="-5.7" x2="-6.64" y2="-5.7" width="0.1524" layer="21"/>
@@ -8092,16 +8092,16 @@ Copyright: Würth Elektronik</description>
 <package name="638207222005" urn="urn:adsk.eagle:footprint:15267897/2" library_version="5">
 <description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
 &lt;br&gt;&lt;/b&gt;5pins</description>
-<pad name="1" x="-10.16" y="2.54" drill="1.5"/>
-<pad name="5" x="10.16" y="2.54" drill="1.5"/>
-<pad name="A5" x="10.16" y="-2.54" drill="1.5"/>
-<pad name="A1" x="-10.16" y="-2.54" drill="1.5"/>
-<pad name="3" x="0" y="2.54" drill="1.5"/>
-<pad name="A3" x="0" y="-2.54" drill="1.5"/>
-<pad name="2" x="-5.08" y="2.54" drill="1.5"/>
-<pad name="4" x="5.08" y="2.54" drill="1.5"/>
-<pad name="A4" x="5.08" y="-2.54" drill="1.5"/>
-<pad name="A2" x="-5.08" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="1" x="-10.16" y="2.54" drill="1.5"/>
+<pad thermals="no" name="5" x="10.16" y="2.54" drill="1.5"/>
+<pad thermals="no" name="A5" x="10.16" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="A1" x="-10.16" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="3" x="0" y="2.54" drill="1.5"/>
+<pad thermals="no" name="A3" x="0" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="2" x="-5.08" y="2.54" drill="1.5"/>
+<pad thermals="no" name="4" x="5.08" y="2.54" drill="1.5"/>
+<pad thermals="no" name="A4" x="5.08" y="-2.54" drill="1.5"/>
+<pad thermals="no" name="A2" x="-5.08" y="-2.54" drill="1.5"/>
 <wire x1="-12.22" y1="5" x2="12.22" y2="5" width="0.1" layer="51"/>
 <wire x1="12.22" y1="5" x2="12.22" y2="-3.97" width="0.1" layer="51"/>
 <wire x1="12.22" y1="-3.97" x2="12.22" y2="-5.9" width="0.1" layer="51"/>
@@ -10591,8 +10591,8 @@ type 0204, grid 5 mm</description>
 <wire x1="1.524" y1="0.889" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="1.524" y1="-0.889" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
 <wire x1="1.778" y1="-0.635" x2="1.778" y2="0.635" width="0.1524" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
 <text x="-2.0066" y="1.1684" size="0.9906" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="0.9906" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
@@ -10619,8 +10619,8 @@ type 0204, grid 7.5 mm</description>
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
 <text x="-2.54" y="1.2954" size="0.9906" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.9906" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -10633,8 +10633,8 @@ type 0204, grid 2.5 mm</description>
 <wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.508" layer="21"/>
 <circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
 <circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <text x="-2.1336" y="1.1684" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -10659,8 +10659,8 @@ type 0207, grid 10 mm</description>
 <wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-5.08" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
 <text x="-3.048" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.2606" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
@@ -10689,8 +10689,8 @@ type 0207, grid 12 mm</description>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="0" x2="4.064" y2="0" width="0.6096" layer="21"/>
 <wire x1="-4.445" y1="0" x2="-4.064" y2="0" width="0.6096" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-6.35" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="6.35" y="0" drill="0.8128" shape="octagon"/>
 <text x="-3.175" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
@@ -10721,8 +10721,8 @@ type 0207, grid 15mm</description>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="5.715" y1="0" x2="4.064" y2="0" width="0.6096" layer="21"/>
 <wire x1="-5.715" y1="0" x2="-4.064" y2="0" width="0.6096" layer="21"/>
-<pad name="1" x="-7.62" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="7.62" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-7.62" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="7.62" y="0" drill="0.8128" shape="octagon"/>
 <text x="-3.175" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
@@ -10738,8 +10738,8 @@ type 0207, grid 2.5 mm</description>
 <wire x1="0.381" y1="0" x2="1.27" y2="0" width="0.6096" layer="51"/>
 <circle x="-1.27" y="0" radius="1.27" width="0.1524" layer="21"/>
 <circle x="-1.27" y="0" radius="1.016" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <text x="-0.0508" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.0508" y="-2.2352" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -10751,8 +10751,8 @@ type 0207, grid 5 mm</description>
 <wire x1="0.889" y1="0" x2="2.54" y2="0" width="0.6096" layer="51"/>
 <circle x="-2.54" y="0" radius="1.27" width="0.1016" layer="21"/>
 <circle x="-2.54" y="0" radius="1.016" width="0.1524" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
 <text x="-1.143" y="0.889" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.143" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -10777,8 +10777,8 @@ type 0207, grid 7.5 mm</description>
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
 <text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.5588" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
@@ -10805,8 +10805,8 @@ type 0309, grid 10mm</description>
 <wire x1="4.064" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="4.318" y1="-1.27" x2="4.318" y2="1.27" width="0.1524" layer="51"/>
 <wire x1="5.08" y1="0" x2="4.699" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-5.08" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-5.08" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
 <text x="-4.191" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.6228" y1="-0.3048" x2="-4.318" y2="0.3048" layer="51"/>
@@ -10833,8 +10833,8 @@ type 0309, grid 12.5 mm</description>
 <wire x1="4.064" y1="1.524" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="4.064" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="4.318" y1="-1.27" x2="4.318" y2="1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-6.35" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="6.35" y="0" drill="0.8128" shape="octagon"/>
 <text x="-4.191" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="4.318" y1="-0.3048" x2="5.1816" y2="0.3048" layer="21"/>
@@ -10847,8 +10847,8 @@ type 0309, grid 2.5 mm</description>
 <wire x1="-0.635" y1="0" x2="-1.27" y2="0" width="0.6096" layer="51"/>
 <circle x="-1.27" y="0" radius="1.524" width="0.1524" layer="21"/>
 <circle x="-1.27" y="0" radius="0.762" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <text x="0.254" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.254" y="-2.2098" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
@@ -10876,8 +10876,8 @@ type 0411, grid 12.5 mm</description>
 <wire x1="-5.08" y1="1.651" x2="-5.08" y2="-1.651" width="0.1524" layer="21"/>
 <wire x1="-4.699" y1="2.032" x2="-4.064" y2="2.032" width="0.1524" layer="21"/>
 <wire x1="-4.699" y1="-2.032" x2="-4.064" y2="-2.032" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="0.9144" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="0.9144" shape="octagon"/>
+<pad thermals="no" name="1" x="-6.35" y="0" drill="0.9144" shape="octagon"/>
+<pad thermals="no" name="2" x="6.35" y="0" drill="0.9144" shape="octagon"/>
 <text x="-5.08" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.5814" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.3594" y1="-0.381" x2="-5.08" y2="0.381" layer="21"/>
@@ -10904,8 +10904,8 @@ type 0411, grid 15 mm</description>
 <wire x1="-4.699" y1="-2.032" x2="-4.064" y2="-2.032" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="0" x2="-6.35" y2="0" width="0.762" layer="51"/>
 <wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.762" layer="51"/>
-<pad name="1" x="-7.62" y="0" drill="0.9144" shape="octagon"/>
-<pad name="2" x="7.62" y="0" drill="0.9144" shape="octagon"/>
+<pad thermals="no" name="1" x="-7.62" y="0" drill="0.9144" shape="octagon"/>
+<pad thermals="no" name="2" x="7.62" y="0" drill="0.9144" shape="octagon"/>
 <text x="-5.08" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.5814" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="5.08" y1="-0.381" x2="6.477" y2="0.381" layer="21"/>
@@ -10918,8 +10918,8 @@ type 0411, grid 3.81 mm</description>
 <wire x1="-1.5748" y1="0" x2="-2.54" y2="0" width="0.762" layer="51"/>
 <circle x="-2.54" y="0" radius="2.032" width="0.1524" layer="21"/>
 <circle x="-2.54" y="0" radius="1.016" width="0.1524" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="0.9144" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="0.9144" shape="octagon"/>
+<pad thermals="no" name="1" x="-2.54" y="0" drill="0.9144" shape="octagon"/>
+<pad thermals="no" name="2" x="1.27" y="0" drill="0.9144" shape="octagon"/>
 <text x="-0.508" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.5334" y="-2.413" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.4732" y1="-0.381" x2="0.2032" y2="0.381" layer="21"/>
@@ -10945,8 +10945,8 @@ type 0414, grid 15 mm</description>
 <wire x1="5.842" y1="2.159" x2="4.953" y2="2.159" width="0.1524" layer="21"/>
 <wire x1="5.842" y1="-2.159" x2="4.953" y2="-2.159" width="0.1524" layer="21"/>
 <wire x1="6.096" y1="-1.905" x2="6.096" y2="1.905" width="0.1524" layer="21"/>
-<pad name="1" x="-7.62" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="7.62" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-7.62" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="7.62" y="0" drill="1.016" shape="octagon"/>
 <text x="-6.096" y="2.5654" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="6.096" y1="-0.4064" x2="6.5024" y2="0.4064" layer="21"/>
@@ -10959,8 +10959,8 @@ type 0414, grid 5 mm</description>
 <wire x1="-2.54" y1="0" x2="-1.397" y2="0" width="0.8128" layer="51"/>
 <circle x="-2.54" y="0" radius="2.159" width="0.1524" layer="21"/>
 <circle x="-2.54" y="0" radius="1.143" width="0.1524" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-2.54" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="2.54" y="0" drill="1.016" shape="octagon"/>
 <text x="-0.381" y="1.1684" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.381" y="-2.3622" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.2954" y1="-0.4064" x2="1.2954" y2="0.4064" layer="21"/>
@@ -10990,8 +10990,8 @@ type 0617, grid 17.5 mm</description>
 <wire x1="7.874" y1="3.048" x2="8.255" y2="2.667" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-8.255" y1="-2.667" x2="-7.874" y2="-3.048" width="0.1524" layer="21" curve="90"/>
 <wire x1="7.874" y1="-3.048" x2="8.255" y2="-2.667" width="0.1524" layer="21" curve="90"/>
-<pad name="1" x="-8.89" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="8.89" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-8.89" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="8.89" y="0" drill="1.016" shape="octagon"/>
 <text x="-8.128" y="3.4544" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.096" y="-0.7112" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-8.5344" y1="-0.4064" x2="-8.2296" y2="0.4064" layer="51"/>
@@ -11018,8 +11018,8 @@ type 0617, grid 22.5 mm</description>
 <wire x1="-8.255" y1="-2.667" x2="-7.874" y2="-3.048" width="0.1524" layer="21" curve="90"/>
 <wire x1="7.874" y1="3.048" x2="8.255" y2="2.667" width="0.1524" layer="21" curve="-90"/>
 <wire x1="7.874" y1="-3.048" x2="8.255" y2="-2.667" width="0.1524" layer="21" curve="90"/>
-<pad name="1" x="-11.43" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="11.43" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-11.43" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="11.43" y="0" drill="1.016" shape="octagon"/>
 <text x="-8.255" y="3.4544" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.477" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-10.1854" y1="-0.4064" x2="-8.255" y2="0.4064" layer="21"/>
@@ -11032,8 +11032,8 @@ type 0617, grid 5 mm</description>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.8128" layer="51"/>
 <circle x="-2.54" y="0" radius="3.048" width="0.1524" layer="21"/>
 <circle x="-2.54" y="0" radius="1.143" width="0.1524" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-2.54" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="2.54" y="0" drill="1.016" shape="octagon"/>
 <text x="0.635" y="1.4224" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.635" y="-2.6162" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.3208" y1="-0.4064" x2="1.3208" y2="0.4064" layer="21"/>
@@ -11059,8 +11059,8 @@ type 0922, grid 22.5 mm</description>
 <wire x1="-10.16" y1="4.191" x2="-9.779" y2="4.572" width="0.1524" layer="21" curve="-90"/>
 <wire x1="9.779" y1="-4.572" x2="10.16" y2="-4.191" width="0.1524" layer="21" curve="90"/>
 <wire x1="9.779" y1="4.572" x2="10.16" y2="4.191" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-11.43" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="11.43" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-11.43" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="11.43" y="0" drill="1.016" shape="octagon"/>
 <text x="-10.16" y="5.1054" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.477" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-10.7188" y1="-0.4064" x2="-10.16" y2="0.4064" layer="51"/>
@@ -11075,8 +11075,8 @@ type 0613, grid 5 mm</description>
 <wire x1="-2.54" y1="0" x2="-1.397" y2="0" width="0.8128" layer="51"/>
 <circle x="-2.54" y="0" radius="2.286" width="0.1524" layer="21"/>
 <circle x="-2.54" y="0" radius="1.143" width="0.1524" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-2.54" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="2.54" y="0" drill="1.016" shape="octagon"/>
 <text x="-0.254" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.254" y="-2.413" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.2954" y1="-0.4064" x2="1.3208" y2="0.4064" layer="21"/>
@@ -11106,8 +11106,8 @@ type 0613, grid 15 mm</description>
 <wire x1="-6.477" y1="-2.032" x2="-6.477" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="-6.477" y1="0.635" x2="-6.477" y2="-0.635" width="0.1524" layer="51"/>
 <wire x1="-6.477" y1="0.635" x2="-6.477" y2="2.032" width="0.1524" layer="21"/>
-<pad name="1" x="-7.62" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="7.62" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-7.62" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="7.62" y="0" drill="1.016" shape="octagon"/>
 <text x="-6.477" y="2.6924" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-0.7112" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-7.0358" y1="-0.4064" x2="-6.477" y2="0.4064" layer="51"/>
@@ -11134,8 +11134,8 @@ type 0817, grid 22.5 mm</description>
 <wire x1="-8.509" y1="-3.429" x2="-8.128" y2="-3.81" width="0.1524" layer="21" curve="90"/>
 <wire x1="8.128" y1="3.81" x2="8.509" y2="3.429" width="0.1524" layer="21" curve="-90"/>
 <wire x1="8.128" y1="-3.81" x2="8.509" y2="-3.429" width="0.1524" layer="21" curve="90"/>
-<pad name="1" x="-11.43" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="11.43" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-11.43" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="11.43" y="0" drill="1.016" shape="octagon"/>
 <text x="-8.382" y="4.2164" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.223" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="6.604" y="-2.2606" size="1.27" layer="51" ratio="10" rot="R90">0817</text>
@@ -11149,8 +11149,8 @@ type 0817, grid 6.35 mm</description>
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.8128" layer="51"/>
 <circle x="-5.08" y="0" radius="3.81" width="0.1524" layer="21"/>
 <circle x="-5.08" y="0" radius="1.27" width="0.1524" layer="51"/>
-<pad name="1" x="-5.08" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-5.08" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="1.27" y="0" drill="1.016" shape="octagon"/>
 <text x="-1.016" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.016" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-6.858" y="2.032" size="1.016" layer="21" ratio="12">0817</text>
@@ -11169,8 +11169,8 @@ type V234, grid 12.5 mm</description>
 <wire x1="4.953" y1="1.524" x2="4.953" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="0" x2="5.461" y2="0" width="0.8128" layer="51"/>
 <wire x1="-6.35" y1="0" x2="-5.461" y2="0" width="0.8128" layer="51"/>
-<pad name="1" x="-6.35" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-6.35" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="6.35" y="0" drill="1.016" shape="octagon"/>
 <text x="-4.953" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="4.953" y1="-0.4064" x2="5.4102" y2="0.4064" layer="21"/>
@@ -11189,8 +11189,8 @@ type V235, grid 17.78 mm</description>
 <wire x1="6.731" y1="2.921" x2="7.112" y2="2.54" width="0.1524" layer="21" curve="-90"/>
 <wire x1="6.731" y1="-2.921" x2="7.112" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="-7.112" y1="2.54" x2="-6.731" y2="2.921" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-8.89" y="0" drill="1.1938" shape="octagon"/>
-<pad name="2" x="8.89" y="0" drill="1.1938" shape="octagon"/>
+<pad thermals="no" name="1" x="-8.89" y="0" drill="1.1938" shape="octagon"/>
+<pad thermals="no" name="2" x="8.89" y="0" drill="1.1938" shape="octagon"/>
 <text x="-6.858" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.842" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="7.112" y1="-0.508" x2="7.747" y2="0.508" layer="21"/>
@@ -11207,8 +11207,8 @@ type V526-0, grid 2.5 mm</description>
 <wire x1="2.54" y1="-1.016" x2="2.54" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="-2.286" y1="-1.27" x2="2.286" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="1.016" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad thermals="no" name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <text x="-2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.413" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -11299,8 +11299,8 @@ type 0922, grid 7.5 mm</description>
 <wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.8128" layer="51"/>
 <circle x="-5.08" y="0" radius="4.572" width="0.1524" layer="21"/>
 <circle x="-5.08" y="0" radius="1.905" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-5.08" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="2.54" y="0" drill="1.016" shape="octagon"/>
 <text x="-0.508" y="1.6764" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.508" y="-2.9972" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-6.858" y="2.54" size="1.016" layer="21" ratio="12">0922</text>
@@ -11331,8 +11331,8 @@ type RDH, grid 15 mm</description>
 <wire x1="6.096" y1="3.048" x2="6.477" y2="2.667" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-6.477" y1="-2.667" x2="-6.096" y2="-3.048" width="0.1524" layer="21" curve="90"/>
 <wire x1="6.096" y1="-3.048" x2="6.477" y2="-2.667" width="0.1524" layer="21" curve="90"/>
-<pad name="1" x="-7.62" y="0" drill="1.016" shape="octagon"/>
-<pad name="2" x="7.62" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="1" x="-7.62" y="0" drill="1.016" shape="octagon"/>
+<pad thermals="no" name="2" x="7.62" y="0" drill="1.016" shape="octagon"/>
 <text x="-6.35" y="3.4544" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="4.572" y="-1.7272" size="1.27" layer="51" ratio="10" rot="R90">RDH</text>
@@ -11372,8 +11372,8 @@ Source: VISHAY .. vta56.pdf</description>
 <wire x1="-12.6225" y1="-4.65" x2="12.6225" y2="-4.65" width="0.1524" layer="21"/>
 <wire x1="12.6225" y1="-4.65" x2="12.6225" y2="0.025" width="0.1524" layer="21"/>
 <wire x1="13.97" y1="0" x2="15.24" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-15.24" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="15.24" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="1" x="-15.24" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="2" x="15.24" y="0" drill="1.1" shape="octagon"/>
 <text x="-3.81" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-13.97" y1="-0.3048" x2="-12.5675" y2="0.3048" layer="21"/>
@@ -11391,8 +11391,8 @@ Source: VISHAY .. vta56.pdf</description>
 <wire x1="-9.8975" y1="-4.675" x2="9.8975" y2="-4.675" width="0.1524" layer="21"/>
 <wire x1="9.8975" y1="-4.675" x2="9.8975" y2="0" width="0.1524" layer="21"/>
 <wire x1="10.795" y1="0" x2="12.065" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
 <text x="-3.81" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-10.795" y1="-0.3048" x2="-9.8425" y2="0.3048" layer="21"/>
@@ -11410,8 +11410,8 @@ Source: VISHAY .. vta56.pdf</description>
 <wire x1="-9.8975" y1="-3.3" x2="9.8975" y2="-3.3" width="0.1524" layer="21"/>
 <wire x1="9.8975" y1="-3.3" x2="9.8975" y2="0" width="0.1524" layer="21"/>
 <wire x1="10.795" y1="0" x2="12.065" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
 <text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-10.795" y1="-0.3048" x2="-9.8425" y2="0.3048" layer="21"/>
@@ -11429,8 +11429,8 @@ Source: VISHAY .. vta56.pdf</description>
 <wire x1="-6.405" y1="-3.3" x2="6.405" y2="-3.3" width="0.1524" layer="21"/>
 <wire x1="6.405" y1="-3.3" x2="6.405" y2="0" width="0.1524" layer="21"/>
 <wire x1="6.985" y1="0" x2="8.255" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-8.255" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="8.255" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="1" x="-8.255" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="2" x="8.255" y="0" drill="1.1" shape="octagon"/>
 <text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-6.985" y1="-0.3048" x2="-6.35" y2="0.3048" layer="21"/>
@@ -11448,8 +11448,8 @@ Source: VISHAY .. vta56.pdf</description>
 <wire x1="-4.5" y1="-3.3" x2="4.5" y2="-3.3" width="0.1524" layer="21"/>
 <wire x1="4.5" y1="-3.3" x2="4.5" y2="0" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="0" x2="6.35" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-6.35" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="1" x="-6.35" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="2" x="6.35" y="0" drill="1.1" shape="octagon"/>
 <text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.08" y1="-0.3048" x2="-4.445" y2="0.3048" layer="21"/>
@@ -11465,8 +11465,8 @@ Source: VISHAY .. vta56.pdf</description>
 <wire x1="-3.3625" y1="1.45" x2="-3.3625" y2="-1.45" width="0.1524" layer="21"/>
 <wire x1="-3.3625" y1="-1.45" x2="3.3375" y2="-1.45" width="0.1524" layer="21"/>
 <wire x1="4.235" y1="0" x2="5.08" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-5.08" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="1" x="-5.08" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="2" x="5.08" y="0" drill="1.1" shape="octagon"/>
 <text x="-3.175" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.26" y1="-0.3048" x2="-3.3075" y2="0.3048" layer="21"/>
@@ -11482,8 +11482,8 @@ Source: VISHAY .. vta56.pdf</description>
 <wire x1="-4.6875" y1="1.95" x2="-4.6875" y2="-1.95" width="0.1524" layer="21"/>
 <wire x1="-4.6875" y1="-1.95" x2="4.6875" y2="-1.95" width="0.1524" layer="21"/>
 <wire x1="5.585" y1="0" x2="6.35" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-6.35" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="1" x="-6.35" y="0" drill="1.1" shape="octagon"/>
+<pad thermals="no" name="2" x="6.35" y="0" drill="1.1" shape="octagon"/>
 <text x="-4.445" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.445" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.585" y1="-0.3048" x2="-4.6325" y2="0.3048" layer="21"/>
