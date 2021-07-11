@@ -339,32 +339,6 @@ Copyright: Würth Elektronik</description>
 <text x="-7.0776" y="0.2561" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-6.9976" y="-1.4442" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
-<package name="61300621121" urn="urn:adsk.eagle:footprint:14804923/1" library_version="2">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Dual Pin Header, 6 Pins</description>
-<pad name="4" x="0" y="1.27" drill="1.1" rot="R270"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.1" rot="R270"/>
-<pad name="3" x="0" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.1" rot="R90"/>
-<pad name="6" x="2.54" y="1.27" drill="1.1" rot="R270"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.1" layer="51"/>
-<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1" layer="51"/>
-<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.1" layer="51"/>
-<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.1" layer="51"/>
-<wire x1="-3.91" y1="2.64" x2="3.91" y2="2.64" width="0.2" layer="21"/>
-<wire x1="3.91" y1="2.64" x2="3.91" y2="-2.64" width="0.2" layer="21"/>
-<wire x1="3.91" y1="-2.64" x2="-3.91" y2="-2.64" width="0.2" layer="21"/>
-<wire x1="-3.91" y1="-2.64" x2="-3.91" y2="2.64" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-4.11" y="2.84"/>
-<vertex x="4.11" y="2.84"/>
-<vertex x="4.11" y="-2.84"/>
-<vertex x="-4.11" y="-2.84"/>
-</polygon>
-<circle x="-3.47" y="-2.2" radius="0.1" width="0.2" layer="21"/>
-<text x="-4.5776" y="0.7561" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-4.4976" y="-0.9442" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="61301821121" urn="urn:adsk.eagle:package:14805433/2" type="model" library_version="2">
@@ -383,12 +357,6 @@ Copyright: Würth Elektronik</description>
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Pin Header, 5 Pin</description>
 <packageinstances>
 <packageinstance name="61300511121"/>
-</packageinstances>
-</package3d>
-<package3d name="61300621121" urn="urn:adsk.eagle:package:14805407/2" type="model" library_version="2">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Dual Pin Header, 6 Pins</description>
-<packageinstances>
-<packageinstance name="61300621121"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -502,35 +470,6 @@ Copyright: Würth Elektronik</description>
 <circle x="0" y="-1.27" radius="0.254" width="0.635" layer="94"/>
 <circle x="2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
 <circle x="5.08" y="-1.27" radius="0.254" width="0.635" layer="94"/>
-</symbol>
-<symbol name="3X2PT" urn="urn:adsk.eagle:symbol:14804665/1" library_version="2">
-<description>3X2Row Pin Header THT</description>
-<pin name="1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="5" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="6" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<text x="-6.26" y="0.35" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-6.12" y="-1.87" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<circle x="-2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
-<circle x="-2.54" y="1.27" radius="0.254" width="0.635" layer="94"/>
-<circle x="0" y="-1.27" radius="0.254" width="0.635" layer="94"/>
-<circle x="0" y="1.27" radius="0.254" width="0.635" layer="94"/>
-<circle x="2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
-<circle x="2.54" y="1.27" radius="0.254" width="0.635" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -786,87 +725,6 @@ Updated by Yingchun,Shan 2019-10-16
 </device>
 </devices>
 </deviceset>
-<deviceset name="6130XX21121_61300621121" urn="urn:adsk.eagle:component:14805911/2" prefix="J" uservalue="yes" library_version="2">
-<description>&lt;b&gt;WR-PHD 2.54 mm THT Dual Pin Header &lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pins:4;​ 6;​ 8;​ 10;​ 12;​ 14;​ 16;​ 18;​ 20;​ 22;​ 24;​ 26;​ 28;​ 30;​ 32;​ 34;​ 36;​ 40;​ 44;​ 64;​ 72;​ 80
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Pitch：2.54 mm
-&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
-&lt;BR&gt;Rows：Dual
-&lt;BR&gt;Gender：Pin Header
-&lt;BR&gt;Type：Board Stacker
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material :PA6T
-&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
-&lt;BR&gt;Contact Material:Copper Alloy
-&lt;BR&gt;Contact Plating:Gold
-&lt;BR&gt;Contact Type:Stamped
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
-&lt;BR&gt;Operating Temperature:-40 up to +105 °C
-&lt;BR&gt;Compliance:Lead free / RoHS
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Rated Current:3 A
-&lt;BR&gt;IR 1:3 A
-&lt;BR&gt;Withstanding Voltage:500 V (AC)
-&lt;BR&gt;Contact Resistance:20 mΩ
-&lt;BR&gt;RISO:1000 MΩ
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
-&lt;BR&gt;Packaging:Bag
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33215v209%20Family_WR-PHD_6130xx21121.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o33215v209%20Family_WR-PHD_6130xx21121.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://katalog.we-online.com/en/em/PHD_2_54_THT_DUAL_PIN_HEADER_6130XX21121"&gt;https://katalog.we-online.com/en/em/PHD_2_54_THT_DUAL_PIN_HEADER_6130XX21121&lt;/a&gt;&lt;p&gt;
-&lt;BR&gt;
-Updated by Yingchun,Shan 2019-10-16
-&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="3X2PT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61300621121">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14805407/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/61300621121.pdf" constant="no"/>
-<attribute name="GENDER" value="Pin Header" constant="no"/>
-<attribute name="IR" value="3A" constant="no"/>
-<attribute name="MATES" value="WR-PHD 2.54mm Angled DualSocket Header/Dual Socket Header/Dual Socket Header Bottom Entry/Dual Socket Header Bottom Entry Large/SMT Dual Socket Header/SMT Dual Socket Header Bottom Entry" constant="no"/>
-<attribute name="PACKAGING" value="Bag" constant="no"/>
-<attribute name="PART-NUMBER" value=" 61300621121 " constant="no"/>
-<attribute name="PINS" value=" 6 " constant="no"/>
-<attribute name="ROWS" value="Dual" constant="no"/>
-<attribute name="TYPE" value="Board Stacker" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="con-JST VH">
@@ -889,10 +747,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 &lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, horizontal (side entry type), 4 pins&lt;p&gt;
 
 </description>
-<pad name="1" x="-5.94" y="0" drill="1.7" diameter="2.794"/>
-<pad name="2" x="-1.98" y="0" drill="1.7" diameter="2.794"/>
-<pad name="3" x="1.98" y="0" drill="1.7" diameter="2.794"/>
-<pad name="4" x="5.94" y="0" drill="1.7" diameter="2.794"/>
+<pad name="1" x="-5.94" y="0" drill="1.7" diameter="2.794" rot="R45"/>
+<pad name="2" x="-1.98" y="0" drill="1.7" diameter="2.794" rot="R45"/>
+<pad name="3" x="1.98" y="0" drill="1.7" diameter="2.794" rot="R45"/>
+<pad name="4" x="5.94" y="0" drill="1.7" diameter="2.794" rot="R45"/>
 <text x="-8.48" y="-4.445" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="-5.94" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-7.89" y1="-5.7" x2="-6.64" y2="-5.7" width="0.1524" layer="21"/>
@@ -13375,6 +13233,158 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="6-pin-tht">
+<packages>
+<package name="61300621121" urn="urn:adsk.eagle:footprint:14804923/1" locally_modified="yes">
+<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Dual Pin Header, 6 Pins</description>
+<pad name="4" x="0" y="1.27" drill="1.1" rot="R315"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1.1" rot="R135"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.1" rot="R315"/>
+<pad name="3" x="0" y="-1.27" drill="1.1" rot="R135"/>
+<pad name="5" x="2.54" y="-1.27" drill="1.1" rot="R135"/>
+<pad name="6" x="2.54" y="1.27" drill="1.1" rot="R315"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.1" layer="51"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.1" layer="51"/>
+<wire x1="-3.91" y1="2.64" x2="3.91" y2="2.64" width="0.2" layer="21"/>
+<wire x1="3.91" y1="2.64" x2="3.91" y2="-2.64" width="0.2" layer="21"/>
+<wire x1="3.91" y1="-2.64" x2="-3.91" y2="-2.64" width="0.2" layer="21"/>
+<wire x1="-3.91" y1="-2.64" x2="-3.91" y2="2.64" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.11" y="2.84"/>
+<vertex x="4.11" y="2.84"/>
+<vertex x="4.11" y="-2.84"/>
+<vertex x="-4.11" y="-2.84"/>
+</polygon>
+<circle x="-3.47" y="-2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="-4.5776" y="0.7561" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-4.4976" y="-0.9442" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="61300621121" urn="urn:adsk.eagle:package:14805407/2" type="model">
+<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54mm Dual Pin Header, 6 Pins</description>
+<packageinstances>
+<packageinstance name="61300621121"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="3X2PT">
+<description>3X2Row Pin Header THT</description>
+<pin name="1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="5" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="6" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<text x="-6.26" y="0.35" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-6.12" y="-1.87" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="-2.54" y="1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="0" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="0" y="1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="2.54" y="1.27" radius="0.254" width="0.635" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="6130XX21121_61300621121" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-PHD 2.54 mm THT Dual Pin Header &lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
+&lt;BR&gt;
+&lt;BR&gt;Pins:4;​ 6;​ 8;​ 10;​ 12;​ 14;​ 16;​ 18;​ 20;​ 22;​ 24;​ 26;​ 28;​ 30;​ 32;​ 34;​ 36;​ 40;​ 44;​ 64;​ 72;​ 80
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
+&lt;BR&gt;
+&lt;BR&gt;Pitch：2.54 mm
+&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
+&lt;BR&gt;Rows：Dual
+&lt;BR&gt;Gender：Pin Header
+&lt;BR&gt;Type：Board Stacker
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Insulator Material :PA6T
+&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
+&lt;BR&gt;Contact Material:Copper Alloy
+&lt;BR&gt;Contact Plating:Gold
+&lt;BR&gt;Contact Type:Stamped
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
+&lt;BR&gt;Operating Temperature:-40 up to +105 °C
+&lt;BR&gt;Compliance:Lead free / RoHS
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Rated Current:3 A
+&lt;BR&gt;IR 1:3 A
+&lt;BR&gt;Withstanding Voltage:500 V (AC)
+&lt;BR&gt;Contact Resistance:20 mΩ
+&lt;BR&gt;RISO:1000 MΩ
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
+&lt;BR&gt;UL Approval:E323964
+&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
+&lt;BR&gt;Packaging:Bag
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33215v209%20Family_WR-PHD_6130xx21121.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33215v209%20Family_WR-PHD_6130xx21121.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+Details see: &lt;a href="https://katalog.we-online.com/en/em/PHD_2_54_THT_DUAL_PIN_HEADER_6130XX21121"&gt;https://katalog.we-online.com/en/em/PHD_2_54_THT_DUAL_PIN_HEADER_6130XX21121&lt;/a&gt;&lt;p&gt;
+&lt;BR&gt;
+Updated by Yingchun,Shan 2019-10-16
+&lt;BR&gt;
+2019 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3X2PT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61300621121">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14805407/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/61300621121.pdf" constant="no"/>
+<attribute name="GENDER" value="Pin Header" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MATES" value="WR-PHD 2.54mm Angled DualSocket Header/Dual Socket Header/Dual Socket Header Bottom Entry/Dual Socket Header Bottom Entry Large/SMT Dual Socket Header/SMT Dual Socket Header Bottom Entry" constant="no"/>
+<attribute name="PACKAGING" value="Bag" constant="no"/>
+<attribute name="PART-NUMBER" value=" 61300621121 " constant="no"/>
+<attribute name="PINS" value=" 6 " constant="no"/>
+<attribute name="ROWS" value="Dual" constant="no"/>
+<attribute name="TYPE" value="Board Stacker" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13438,9 +13448,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R20" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132008" value="100Ohm"/>
 <part name="R23" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132008" value="100Ohm"/>
 <part name="R24" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132008" value="100Ohm"/>
-<part name="J8" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX21121_61300621121" device="" package3d_urn="urn:adsk.eagle:package:14805407/2"/>
 <part name="D5" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AB_3000W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146529/2" technology="_824551331" value="33V"/>
-<part name="J4" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX21121_61300621121" device="" package3d_urn="urn:adsk.eagle:package:14805407/2"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="60R"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="60R"/>
 <part name="ECU_GND1" library="supply_isobus" deviceset="ECU_GND" device=""/>
@@ -13479,6 +13487,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="PWR_GND15" library="supply_isobus" deviceset="PWR_GND" device=""/>
 <part name="PWR6" library="supply_isobus" deviceset="PWR" device=""/>
 <part name="PWR_GND16" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="J5" library="6-pin-tht" deviceset="6130XX21121_61300621121" device="" package3d_urn="urn:adsk.eagle:package:14805407/2"/>
+<part name="J9" library="6-pin-tht" deviceset="6130XX21121_61300621121" device="" package3d_urn="urn:adsk.eagle:package:14805407/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -14140,14 +14150,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="157.48" y="-5.08" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="164.592" y="-10.16" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J8" gate="G$1" x="215.9" y="45.72" smashed="yes">
-<attribute name="NAME" x="209.64" y="46.07" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="209.78" y="43.85" size="1.016" layer="96" align="bottom-right"/>
-</instance>
-<instance part="J4" gate="G$1" x="254" y="45.72" smashed="yes">
-<attribute name="NAME" x="247.74" y="46.07" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="247.88" y="43.85" size="1.016" layer="96" align="bottom-right"/>
-</instance>
 <instance part="ECU_GND8" gate="ECU_GND" x="91.44" y="68.58" smashed="yes">
 <attribute name="VALUE" x="88.9" y="66.04" size="1.778" layer="96"/>
 </instance>
@@ -14201,6 +14203,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="PWR_GND16" gate="PWR_GND" x="299.72" y="27.94" smashed="yes">
 <attribute name="VALUE" x="297.18" y="25.4" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="J5" gate="G$1" x="215.9" y="45.72" smashed="yes">
+<attribute name="NAME" x="209.64" y="46.07" size="1.016" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="209.78" y="43.85" size="1.016" layer="96" align="bottom-right"/>
+</instance>
+<instance part="J9" gate="G$1" x="254" y="45.72" smashed="yes">
+<attribute name="NAME" x="247.74" y="46.07" size="1.016" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="247.88" y="43.85" size="1.016" layer="96" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
@@ -14311,16 +14321,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="PWR6" gate="PWR" pin="PWR"/>
 </segment>
 <segment>
-<pinref part="J8" gate="G$1" pin="1"/>
-<pinref part="J8" gate="G$1" pin="3"/>
 <wire x1="213.36" y1="40.64" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="5"/>
 <wire x1="215.9" y1="40.64" x2="218.44" y2="40.64" width="0.1524" layer="91"/>
-<junction x="215.9" y="40.64"/>
 <wire x1="218.44" y1="40.64" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
-<junction x="218.44" y="40.64"/>
 <wire x1="236.22" y1="40.64" x2="236.22" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="PWR5" gate="PWR" pin="PWR"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+<junction x="215.9" y="40.64"/>
+<pinref part="J5" gate="G$1" pin="5"/>
+<junction x="218.44" y="40.64"/>
 </segment>
 </net>
 <net name="AGNDU2" class="0">
@@ -14442,30 +14452,30 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="ECU_PWR" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="2"/>
-<pinref part="J8" gate="G$1" pin="4"/>
 <wire x1="213.36" y1="50.8" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="6"/>
-<wire x1="218.44" y1="50.8" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
-<junction x="215.9" y="50.8"/>
+<wire x1="215.9" y1="50.8" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="50.8" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="50.8" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
-<junction x="218.44" y="50.8"/>
 <pinref part="ECU_PWR4" gate="ECU_PWR" pin="ECU_PWR"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="4"/>
+<junction x="215.9" y="50.8"/>
+<pinref part="J5" gate="G$1" pin="6"/>
+<junction x="218.44" y="50.8"/>
 </segment>
 </net>
 <net name="PWR_GND" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="251.46" y1="40.64" x2="254" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="5"/>
 <wire x1="254" y1="40.64" x2="256.54" y2="40.64" width="0.1524" layer="91"/>
-<junction x="254" y="40.64"/>
 <wire x1="256.54" y1="40.64" x2="274.32" y2="40.64" width="0.1524" layer="91"/>
-<junction x="256.54" y="40.64"/>
 <wire x1="274.32" y1="40.64" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="PWR_GND15" gate="PWR_GND" pin="PWR_GND"/>
+<pinref part="J9" gate="G$1" pin="1"/>
+<pinref part="J9" gate="G$1" pin="3"/>
+<junction x="254" y="40.64"/>
+<pinref part="J9" gate="G$1" pin="5"/>
+<junction x="256.54" y="40.64"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -14532,16 +14542,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="ECU_GND9" gate="ECU_GND" pin="ECU_GND"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="251.46" y1="50.8" x2="254" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="6"/>
-<wire x1="256.54" y1="50.8" x2="254" y2="50.8" width="0.1524" layer="91"/>
-<junction x="254" y="50.8"/>
+<wire x1="254" y1="50.8" x2="256.54" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="50.8" x2="271.78" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="50.8" x2="271.78" y2="71.12" width="0.1524" layer="91"/>
-<junction x="256.54" y="50.8"/>
 <pinref part="ECU_GND10" gate="ECU_GND" pin="ECU_GND"/>
+<pinref part="J9" gate="G$1" pin="2"/>
+<pinref part="J9" gate="G$1" pin="4"/>
+<junction x="254" y="50.8"/>
+<pinref part="J9" gate="G$1" pin="6"/>
+<junction x="256.54" y="50.8"/>
 </segment>
 </net>
 </nets>
