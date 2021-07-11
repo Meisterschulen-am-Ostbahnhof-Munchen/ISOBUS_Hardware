@@ -1056,14 +1056,14 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <package name="SOIC127P602X173-8N-V">
 <description>Original name &lt;b&gt;SOIC127P602X173-8N-V&lt;/b&gt;&lt;p&gt;
 Max Component Height - 1.73mm</description>
-<smd thermals="no" name="1" x="-2.765" y="1.905" dx="1.47" dy="0.65" layer="1"/>
-<smd thermals="no" name="2" x="-2.765" y="0.635" dx="1.47" dy="0.65" layer="1"/>
-<smd thermals="no" name="3" x="-2.765" y="-0.635" dx="1.47" dy="0.65" layer="1"/>
-<smd thermals="no" name="4" x="-2.765" y="-1.905" dx="1.47" dy="0.65" layer="1"/>
-<smd thermals="no" name="5" x="2.765" y="-1.905" dx="1.47" dy="0.65" layer="1"/>
-<smd thermals="no" name="6" x="2.765" y="-0.635" dx="1.47" dy="0.65" layer="1"/>
-<smd thermals="no" name="7" x="2.765" y="0.635" dx="1.47" dy="0.65" layer="1"/>
-<smd thermals="no" name="8" x="2.765" y="1.905" dx="1.47" dy="0.65" layer="1"/>
+<smd name="1" x="-2.765" y="1.905" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="2" x="-2.765" y="0.635" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="3" x="-2.765" y="-0.635" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="4" x="-2.765" y="-1.905" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="5" x="2.765" y="-1.905" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="6" x="2.765" y="-0.635" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="7" x="2.765" y="0.635" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="8" x="2.765" y="1.905" dx="1.47" dy="0.65" layer="1" thermals="no"/>
 <wire x1="-1.95" y1="-2.445" x2="-1.95" y2="2.445" width="0.1" layer="51"/>
 <wire x1="1.95" y1="-2.445" x2="1.95" y2="2.445" width="0.1" layer="51"/>
 <wire x1="-1.95" y1="2.445" x2="1.95" y2="2.445" width="0.1" layer="51"/>
@@ -1150,8 +1150,8 @@ High Speed CAN FD Transceiver</description>
 <wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.127" layer="39"/>
 <wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.127" layer="39"/>
 <wire x1="-1" y1="-0.5" x2="-1" y2="0.5" width="0.127" layer="39"/>
-<smd thermals="no" name="1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd thermals="no" name="2" x="0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
+<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1" thermals="no"/>
+<smd name="2" x="0.5" y="0" dx="0.5" dy="0.5" layer="1" thermals="no"/>
 <text x="-0.75" y="0.75" size="0.3048" layer="25">&gt;NAME</text>
 <text x="-0.75" y="-0.95" size="0.3048" layer="27">&gt;VALUE</text>
 </package>
@@ -1170,9 +1170,9 @@ High Speed CAN FD Transceiver</description>
 <rectangle x1="0.7747" y1="-0.2921" x2="1.2319" y2="0.2921" layer="51" rot="R270"/>
 <rectangle x1="-1.2319" y1="-1.2319" x2="-0.7747" y2="-0.6477" layer="51" rot="R270"/>
 <rectangle x1="-1.2319" y1="0.6477" x2="-0.7747" y2="1.2319" layer="51" rot="R270"/>
-<smd thermals="no" name="1" x="-1.05" y="0.95" dx="0.9" dy="1.4" layer="1" rot="R270"/>
-<smd thermals="no" name="2" x="-1.05" y="-0.95" dx="0.9" dy="1.4" layer="1" rot="R270"/>
-<smd thermals="no" name="3" x="1.05" y="0" dx="0.9" dy="1.4" layer="1" rot="R270"/>
+<smd name="1" x="-1.05" y="0.95" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
+<smd name="2" x="-1.05" y="-0.95" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
+<smd name="3" x="1.05" y="0" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
 <text x="0.195" y="2.282" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="-1.605" y="-2.652" size="0.6096" layer="27">&gt;VALUE</text>
 <wire x1="1.95" y1="1.75" x2="1.95" y2="-1.75" width="0.05" layer="39"/>
@@ -2873,8 +2873,8 @@ Copyright: Würth Elektronik</description>
 <package name="WE-TVSP_DO-214AB_BIDIRECTIONAL" urn="urn:adsk.eagle:footprint:12146521/1" library_version="3">
 <description>&lt;b&gt;WE-TVSP Power TVS Diode
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AB Bidirectional</description>
-<smd thermals="no" name="1" x="-3.5" y="0" dx="2.3" dy="3.3" layer="1"/>
-<smd thermals="no" name="2" x="3.5" y="0" dx="2.3" dy="3.3" layer="1"/>
+<smd name="1" x="-3.5" y="0" dx="2.3" dy="3.3" layer="1" thermals="no"/>
+<smd name="2" x="3.5" y="0" dx="2.3" dy="3.3" layer="1" thermals="no"/>
 <wire x1="-3.43" y1="2.95" x2="-3.43" y2="-2.95" width="0.1" layer="51"/>
 <wire x1="3.43" y1="-2.95" x2="3.43" y2="2.95" width="0.1" layer="51"/>
 <wire x1="3.53" y1="3.05" x2="-3.53" y2="3.05" width="0.2" layer="21"/>
@@ -3555,8 +3555,8 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:footprint:18489051/1" library_version="2">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1210&lt;/b&gt;&lt;br&gt;3.2x2.5x2.5(LXWXH);</description>
-<smd thermals="no" name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
-<smd thermals="no" name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
+<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
+<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
 <wire x1="-1.6" y1="1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
@@ -3574,8 +3574,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_0805_H0.8_R" urn="urn:adsk.eagle:footprint:18489072/1" library_version="8">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x0.8( LxWxH) ;</description>
-<smd thermals="no" name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
-<smd thermals="no" name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
@@ -3593,8 +3593,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:footprint:18489080/1" library_version="2">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
-<smd thermals="no" name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
-<smd thermals="no" name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
@@ -3612,8 +3612,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_0805_H0.8_W" urn="urn:adsk.eagle:footprint:18489066/1" library_version="8">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Wave,2 x 1.25x0.8( LxWxH) ;</description>
-<smd thermals="no" name="1" x="-1.15" y="0" dx="0.9" dy="1.3" layer="1"/>
-<smd thermals="no" name="2" x="1.15" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="1" x="-1.15" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="1.15" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
@@ -8245,21 +8245,21 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/FAST_5_08_THT_MALE
 <package name="SOP65P600X115-15N-V">
 <description>Original name &lt;b&gt;SOP65P600X115-15N-V&lt;/b&gt;&lt;p&gt;
 Max Component Height - 1.15mm</description>
-<smd thermals="no" name="1" x="-2.85" y="1.95" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="2" x="-2.85" y="1.3" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="3" x="-2.85" y="0.65" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="4" x="-2.85" y="0" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="5" x="-2.85" y="-0.65" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="6" x="-2.85" y="-1.3" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="7" x="-2.85" y="-1.95" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="8" x="2.85" y="-1.95" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="9" x="2.85" y="-1.3" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="10" x="2.85" y="-0.65" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="11" x="2.85" y="0" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="12" x="2.85" y="0.65" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="13" x="2.85" y="1.3" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="14" x="2.85" y="1.95" dx="1.31" dy="0.45" layer="1" thermals="no"/>
-<smd thermals="no" name="15" x="0" y="0" dx="4" dy="2.65" layer="1" rot="R90" thermals="no" cream="no"/>
+<smd name="1" x="-2.85" y="1.95" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="2" x="-2.85" y="1.3" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="3" x="-2.85" y="0.65" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="4" x="-2.85" y="0" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="5" x="-2.85" y="-0.65" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="6" x="-2.85" y="-1.3" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="7" x="-2.85" y="-1.95" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="8" x="2.85" y="-1.95" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="9" x="2.85" y="-1.3" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="10" x="2.85" y="-0.65" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="11" x="2.85" y="0" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="12" x="2.85" y="0.65" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="13" x="2.85" y="1.3" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="14" x="2.85" y="1.95" dx="1.31" dy="0.45" layer="1" thermals="no"/>
+<smd name="15" x="0" y="0" dx="4" dy="2.65" layer="1" rot="R90" thermals="no" cream="no"/>
 <wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
 <wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
 <wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
@@ -8343,11 +8343,11 @@ SOP65P600X115-15N-V</description>
 <packages>
 <package name="INF-PG-TO252-5-11_L_1PRIMARY">
 <description>Original name &lt;b&gt;INF-PG-TO252-5-11_L&lt;/b&gt;&lt;p&gt;</description>
-<smd thermals="no" name="1" x="-4.7" y="2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
-<smd thermals="no" name="2" x="-4.7" y="1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
-<smd thermals="no" name="3" x="2.3" y="0" dx="5.85" dy="6.3" layer="1" rot="R90"/>
-<smd thermals="no" name="4" x="-4.7" y="-1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
-<smd thermals="no" name="5" x="-4.7" y="-2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="1" x="-4.7" y="2.28" dx="0.75" dy="1.45" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="-4.7" y="1.14" dx="0.75" dy="1.45" layer="1" rot="R90" thermals="no"/>
+<smd name="3" x="2.3" y="0" dx="5.85" dy="6.3" layer="1" rot="R90" thermals="no"/>
+<smd name="4" x="-4.7" y="-1.14" dx="0.75" dy="1.45" layer="1" rot="R90" thermals="no"/>
+<smd name="5" x="-4.7" y="-2.28" dx="0.75" dy="1.45" layer="1" rot="R90" thermals="no"/>
 <wire x1="-2.15" y1="-3.325" x2="4.07" y2="-3.325" width="0.1" layer="48"/>
 <wire x1="4.07" y1="-3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
 <wire x1="-2.15" y1="3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
@@ -8477,9 +8477,9 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="WL-SMDC_3535" urn="urn:adsk.eagle:footprint:19063443/1" library_version="4">
 <description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
-<smd thermals="no" name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
-<smd thermals="no" name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180"/>
-<smd thermals="no" name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180" thermals="no"/>
+<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
 <wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.1" layer="51"/>
 <wire x1="-1.725" y1="1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
 <wire x1="1.725" y1="-1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
@@ -8781,8 +8781,8 @@ Copyright: Würth Elektronik</description>
 <description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
 &lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
 &lt;BR&gt;Size : 0612</description>
-<smd thermals="no" name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1"/>
-<smd thermals="no" name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1"/>
+<smd name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
+<smd name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
 <wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
@@ -10082,8 +10082,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd thermals="no" name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1" thermals="no"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1" thermals="no"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
@@ -10098,8 +10098,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd thermals="no" name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1" thermals="no"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1" thermals="no"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
@@ -10114,8 +10114,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd thermals="no" name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
 <text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
@@ -10130,8 +10130,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-1.0525" y="0" dx="1.5" dy="1" layer="1"/>
-<smd thermals="no" name="2" x="1.0525" y="0" dx="1.5" dy="1" layer="1"/>
+<smd name="1" x="-1.0525" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
+<smd name="2" x="1.0525" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
 <text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
@@ -10146,8 +10146,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd thermals="no" name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1" thermals="no"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1" thermals="no"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
@@ -10163,8 +10163,8 @@ wave soldering</description>
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
-<smd thermals="no" name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
+<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
+<smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
 <text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
@@ -10179,8 +10179,8 @@ wave soldering</description>
 <wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<smd thermals="no" name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
@@ -10196,8 +10196,8 @@ wave soldering</description>
 <wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-1.499" y="0" dx="1.8" dy="1.8" layer="1"/>
-<smd thermals="no" name="2" x="1.499" y="0" dx="1.8" dy="1.8" layer="1"/>
+<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
@@ -10212,8 +10212,8 @@ wave soldering</description>
 <wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1"/>
-<smd thermals="no" name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1"/>
+<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
+<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
 <text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
@@ -10228,8 +10228,8 @@ wave soldering</description>
 <wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-2.311" y="0" dx="2" dy="1.8" layer="1"/>
-<smd thermals="no" name="2" x="2.311" y="0" dx="2" dy="1.8" layer="1"/>
+<smd name="1" x="-2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
@@ -10243,8 +10243,8 @@ wave soldering</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd thermals="no" name="2" x="0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="1" x="-0.85" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
+<smd name="2" x="0.85" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
 <text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
@@ -10260,8 +10260,8 @@ wave soldering</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-0.94" y="0" dx="1.5" dy="1" layer="1"/>
-<smd thermals="no" name="2" x="0.94" y="0" dx="1.5" dy="1" layer="1"/>
+<smd name="1" x="-0.94" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
+<smd name="2" x="0.94" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
 <text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
@@ -10276,8 +10276,8 @@ wave soldering</description>
 <wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
 <wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
 <wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
-<smd thermals="no" name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
+<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1" thermals="no"/>
+<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1" thermals="no"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
@@ -10293,8 +10293,8 @@ wave soldering</description>
 <wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
 <wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
 <wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-2.896" y="0" dx="2" dy="2.1" layer="1"/>
-<smd thermals="no" name="2" x="2.896" y="0" dx="2" dy="2.1" layer="1"/>
+<smd name="1" x="-2.896" y="0" dx="2" dy="2.1" layer="1" thermals="no"/>
+<smd name="2" x="2.896" y="0" dx="2" dy="2.1" layer="1" thermals="no"/>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
@@ -10309,8 +10309,8 @@ wave soldering</description>
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd thermals="no" name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1" thermals="no"/>
 <text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
@@ -10326,8 +10326,8 @@ wave soldering</description>
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
-<smd thermals="no" name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
+<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
+<smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
 <text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
@@ -10342,8 +10342,8 @@ wave soldering</description>
 <wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<smd thermals="no" name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
@@ -10359,8 +10359,8 @@ wave soldering</description>
 <wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-1.499" y="0" dx="1.8" dy="1.8" layer="1"/>
-<smd thermals="no" name="2" x="1.499" y="0" dx="1.8" dy="1.8" layer="1"/>
+<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
@@ -10375,8 +10375,8 @@ wave soldering</description>
 <wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1"/>
-<smd thermals="no" name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1"/>
+<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
+<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
 <text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
@@ -10392,8 +10392,8 @@ wave soldering</description>
 <wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-2.311" y="0" dx="2" dy="1.8" layer="1"/>
-<smd thermals="no" name="2" x="2.311" y="0" dx="2" dy="1.8" layer="1"/>
+<smd name="1" x="-2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
 <text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
@@ -10409,8 +10409,8 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
 <wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
 <wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-3.1" y="0" dx="1" dy="3.2" layer="1"/>
-<smd thermals="no" name="2" x="3.1" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="1" x="-3.1" y="0" dx="1" dy="3.2" layer="1" thermals="no"/>
+<smd name="2" x="3.1" y="0" dx="1" dy="3.2" layer="1" thermals="no"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
@@ -10426,8 +10426,8 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
 <wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
 <wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd thermals="no" name="1" x="-3.196" y="0" dx="1.2" dy="3.2" layer="1"/>
-<smd thermals="no" name="2" x="3.196" y="0" dx="1.2" dy="3.2" layer="1"/>
+<smd name="1" x="-3.196" y="0" dx="1.2" dy="3.2" layer="1" thermals="no"/>
+<smd name="2" x="3.196" y="0" dx="1.2" dy="3.2" layer="1" thermals="no"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
@@ -10443,8 +10443,8 @@ MELF 0.10 W</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="0.7112" y1="0.635" x2="-0.7112" y2="0.635" width="0.1524" layer="51"/>
 <wire x1="0.7112" y1="-0.635" x2="-0.7112" y2="-0.635" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1"/>
-<smd thermals="no" name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
@@ -10460,8 +10460,8 @@ MELF 0.25 W</description>
 <wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
 <wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1"/>
-<smd thermals="no" name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
@@ -10477,8 +10477,8 @@ MELF 0.12 W</description>
 <wire x1="2.973" y1="0.983" x2="2.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.3208" y1="0.762" x2="-1.3208" y2="0.762" width="0.1524" layer="51"/>
 <wire x1="1.3208" y1="-0.762" x2="-1.3208" y2="-0.762" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<smd thermals="no" name="2" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<smd name="1" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.8542" y1="-0.8382" x2="-1.2954" y2="0.8382" layer="51"/>
@@ -10494,8 +10494,8 @@ MELF 0.10 W</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="0.7112" y1="0.635" x2="-0.7112" y2="0.635" width="0.1524" layer="51"/>
 <wire x1="0.7112" y1="-0.635" x2="-0.7112" y2="-0.635" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1"/>
-<smd thermals="no" name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
@@ -10511,8 +10511,8 @@ MELF 0.25 W</description>
 <wire x1="4.473" y1="1.483" x2="4.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="2.413" y1="1.1684" x2="-2.4384" y2="1.1684" width="0.1524" layer="51"/>
 <wire x1="2.413" y1="-1.1684" x2="-2.413" y2="-1.1684" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-2.85" y="0" dx="1.5" dy="2.6" layer="1"/>
-<smd thermals="no" name="2" x="2.85" y="0" dx="1.5" dy="2.6" layer="1"/>
+<smd name="1" x="-2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
+<smd name="2" x="2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.048" y1="-1.2446" x2="-2.3876" y2="1.2446" layer="51"/>
@@ -10528,8 +10528,8 @@ MELF 0.25 W</description>
 <wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
 <wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1"/>
-<smd thermals="no" name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
@@ -10545,8 +10545,8 @@ MELF 0.12 W</description>
 <wire x1="2.973" y1="0.983" x2="2.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.3208" y1="0.762" x2="-1.3208" y2="0.762" width="0.1524" layer="51"/>
 <wire x1="1.3208" y1="-0.762" x2="-1.3208" y2="-0.762" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<smd thermals="no" name="2" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<smd name="1" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.8542" y1="-0.8382" x2="-1.2954" y2="0.8382" layer="51"/>
@@ -10562,8 +10562,8 @@ MELF 0.25 W</description>
 <wire x1="4.473" y1="1.483" x2="4.473" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="2.413" y1="1.1684" x2="-2.4384" y2="1.1684" width="0.1524" layer="51"/>
 <wire x1="2.413" y1="-1.1684" x2="-2.413" y2="-1.1684" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-2.85" y="0" dx="1.5" dy="2.6" layer="1"/>
-<smd thermals="no" name="2" x="2.85" y="0" dx="1.5" dy="2.6" layer="1"/>
+<smd name="1" x="-2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
+<smd name="2" x="2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.048" y1="-1.2446" x2="-2.3876" y2="1.2446" layer="51"/>
@@ -11219,8 +11219,8 @@ source Beyschlag</description>
 <wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.2032" layer="51"/>
 <wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.2032" layer="51"/>
 <wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.2032" layer="51"/>
-<smd thermals="no" name="1" x="-0.9" y="0" dx="0.5" dy="1.3" layer="1"/>
-<smd thermals="no" name="2" x="0.9" y="0" dx="0.5" dy="1.3" layer="1"/>
+<smd name="1" x="-0.9" y="0" dx="0.5" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.9" y="0" dx="0.5" dy="1.3" layer="1" thermals="no"/>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11231,8 +11231,8 @@ source Beyschlag</description>
 <wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.2032" layer="51"/>
 <wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.2032" layer="51"/>
 <wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.2032" layer="51"/>
-<smd thermals="no" name="1" x="-0.95" y="0" dx="0.6" dy="1.3" layer="1"/>
-<smd thermals="no" name="2" x="0.95" y="0" dx="0.6" dy="1.3" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="0.6" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="0.6" dy="1.3" layer="1" thermals="no"/>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11245,8 +11245,8 @@ source Beyschlag</description>
 <wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
 <wire x1="0.938" y1="0.6" x2="-0.938" y2="0.6" width="0.2032" layer="21"/>
 <wire x1="-0.938" y1="-0.6" x2="0.938" y2="-0.6" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-1.5" y="0" dx="0.8" dy="1.6" layer="1"/>
-<smd thermals="no" name="2" x="1.5" y="0" dx="0.8" dy="1.6" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.8" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="1.5" y="0" dx="0.8" dy="1.6" layer="1" thermals="no"/>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11259,8 +11259,8 @@ source Beyschlag</description>
 <wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
 <wire x1="0.684" y1="0.6" x2="-0.684" y2="0.6" width="0.2032" layer="21"/>
 <wire x1="-0.684" y1="-0.6" x2="0.684" y2="-0.6" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-1.5" y="0" dx="1.2" dy="1.6" layer="1"/>
-<smd thermals="no" name="2" x="1.5" y="0" dx="1.2" dy="1.6" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="1.2" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="1.5" y="0" dx="1.2" dy="1.6" layer="1" thermals="no"/>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11273,8 +11273,8 @@ source Beyschlag</description>
 <wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
 <wire x1="1.2125" y1="1" x2="-1.2125" y2="1" width="0.2032" layer="21"/>
 <wire x1="-1.2125" y1="-1" x2="1.2125" y2="-1" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-2.25" y="0" dx="1.6" dy="2.5" layer="1"/>
-<smd thermals="no" name="2" x="2.25" y="0" dx="1.6" dy="2.5" layer="1"/>
+<smd name="1" x="-2.25" y="0" dx="1.6" dy="2.5" layer="1" thermals="no"/>
+<smd name="2" x="2.25" y="0" dx="1.6" dy="2.5" layer="1" thermals="no"/>
 <text x="-2.2225" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.2225" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11287,8 +11287,8 @@ source Beyschlag</description>
 <wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
 <wire x1="1.149" y1="1" x2="-1.149" y2="1" width="0.2032" layer="21"/>
 <wire x1="-1.149" y1="-1" x2="1.149" y2="-1" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-2.6" y="0" dx="2.4" dy="2.5" layer="1"/>
-<smd thermals="no" name="2" x="2.6" y="0" dx="2.4" dy="2.5" layer="1"/>
+<smd name="1" x="-2.6" y="0" dx="2.4" dy="2.5" layer="1" thermals="no"/>
+<smd name="2" x="2.6" y="0" dx="2.4" dy="2.5" layer="1" thermals="no"/>
 <text x="-2.54" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11343,8 +11343,8 @@ type RDH, grid 15 mm</description>
 <description>&lt;b&gt;Mini MELF 0102 Axial&lt;/b&gt;</description>
 <circle x="0" y="0" radius="0.6" width="0" layer="51"/>
 <circle x="0" y="0" radius="0.6" width="0" layer="52"/>
-<smd thermals="no" name="1" x="0" y="0" dx="1.9" dy="1.9" layer="1" roundness="100"/>
-<smd thermals="no" name="2" x="0" y="0" dx="1.9" dy="1.9" layer="16" roundness="100"/>
+<smd name="1" x="0" y="0" dx="1.9" dy="1.9" layer="1" roundness="100" thermals="no"/>
+<smd name="2" x="0" y="0" dx="1.9" dy="1.9" layer="16" roundness="100" thermals="no"/>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="0" y="0" drill="1.3"/>
@@ -11352,8 +11352,8 @@ type RDH, grid 15 mm</description>
 <package name="R0201" urn="urn:adsk.eagle:footprint:25683/1" library_version="3">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt; chip&lt;p&gt;
 Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
-<smd thermals="no" name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
-<smd thermals="no" name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
+<smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1" thermals="no"/>
+<smd name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1" thermals="no"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
@@ -11496,8 +11496,8 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <wire x1="5.65" y1="-3.375" x2="5.65" y2="3.375" width="0.2032" layer="51"/>
 <wire x1="5.65" y1="3.375" x2="-5.675" y2="3.375" width="0.2032" layer="21"/>
 <wire x1="-5.675" y1="3.375" x2="-5.675" y2="-3.375" width="0.2032" layer="51"/>
-<smd thermals="no" name="1" x="-4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
-<smd thermals="no" name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<smd name="1" x="-4.575" y="0" dx="3.94" dy="5.84" layer="1" thermals="no"/>
+<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1" thermals="no"/>
 <text x="-5.715" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.715" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11512,8 +11512,8 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-3.075" y1="-1.606" x2="-3.075" y2="-1.8" width="0.2032" layer="21"/>
 <wire x1="3.075" y1="1.606" x2="3.075" y2="1.8" width="0.2032" layer="21"/>
 <wire x1="3.075" y1="-1.8" x2="3.075" y2="-1.606" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
-<smd thermals="no" name="2" x="2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
+<smd name="1" x="-2.675" y="0" dx="2.29" dy="2.92" layer="1" thermals="no"/>
+<smd name="2" x="2.675" y="0" dx="2.29" dy="2.92" layer="1" thermals="no"/>
 <text x="-2.544" y="2.229" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.544" y="-3.501" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11524,8 +11524,8 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-5.55" y1="-3.375" x2="5.55" y2="-3.375" width="0.2032" layer="21"/>
 <wire x1="5.55" y1="-3.375" x2="5.55" y2="3.375" width="0.2032" layer="51"/>
 <wire x1="5.55" y1="3.375" x2="-5.55" y2="3.375" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-4.575" y="0.025" dx="3.94" dy="5.84" layer="1"/>
-<smd thermals="no" name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<smd name="1" x="-4.575" y="0.025" dx="3.94" dy="5.84" layer="1" thermals="no"/>
+<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1" thermals="no"/>
 <text x="-5.65" y="3.9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.65" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11540,8 +11540,8 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-2.45" y1="-1.106" x2="-2.45" y2="-1.475" width="0.2032" layer="21"/>
 <wire x1="2.45" y1="1.106" x2="2.45" y2="1.475" width="0.2032" layer="21"/>
 <wire x1="2.45" y1="-1.475" x2="2.45" y2="-1.106" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-2.1" y="0" dx="2.16" dy="1.78" layer="1"/>
-<smd thermals="no" name="2" x="2.1" y="0" dx="2.16" dy="1.78" layer="1"/>
+<smd name="1" x="-2.1" y="0" dx="2.16" dy="1.78" layer="1" thermals="no"/>
+<smd name="2" x="2.1" y="0" dx="2.16" dy="1.78" layer="1" thermals="no"/>
 <text x="-2.544" y="1.904" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.544" y="-3.176" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11556,8 +11556,8 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-3.075" y1="-1.606" x2="-3.075" y2="-1.8" width="0.2032" layer="21"/>
 <wire x1="3.05" y1="1.606" x2="3.05" y2="1.8" width="0.2032" layer="21"/>
 <wire x1="3.05" y1="-1.8" x2="3.05" y2="-1.606" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
-<smd thermals="no" name="2" x="2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
+<smd name="1" x="-2.675" y="0" dx="2.29" dy="2.92" layer="1" thermals="no"/>
+<smd name="2" x="2.675" y="0" dx="2.29" dy="2.92" layer="1" thermals="no"/>
 <text x="-3.2" y="2.15" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.2" y="-3.4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11568,8 +11568,8 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-5.675" y1="-3.375" x2="5.675" y2="-3.375" width="0.2032" layer="21"/>
 <wire x1="5.675" y1="-3.375" x2="5.675" y2="3.4" width="0.2032" layer="51"/>
 <wire x1="5.675" y1="3.4" x2="-5.675" y2="3.4" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-4.575" y="0.025" dx="3.94" dy="5.84" layer="1"/>
-<smd thermals="no" name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<smd name="1" x="-4.575" y="0.025" dx="3.94" dy="5.84" layer="1" thermals="no"/>
+<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1" thermals="no"/>
 <text x="-5.775" y="3.925" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.775" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11580,8 +11580,8 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-8.65" y1="-3.375" x2="8.65" y2="-3.375" width="0.2032" layer="21"/>
 <wire x1="8.65" y1="-3.375" x2="8.65" y2="3.375" width="0.2032" layer="51"/>
 <wire x1="8.65" y1="3.375" x2="-8.65" y2="3.375" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-7.95" y="0.025" dx="3.94" dy="5.97" layer="1"/>
-<smd thermals="no" name="2" x="7.95" y="0" dx="3.94" dy="5.97" layer="1"/>
+<smd name="1" x="-7.95" y="0.025" dx="3.94" dy="5.97" layer="1" thermals="no"/>
+<smd name="2" x="7.95" y="0" dx="3.94" dy="5.97" layer="1" thermals="no"/>
 <text x="-8.75" y="3.9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.75" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11590,8 +11590,8 @@ Source: VISHAY wscwsn.pdf</description>
 Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="-0.913" y1="-2.219" x2="0.939" y2="-2.219" width="0.1524" layer="51"/>
 <wire x1="0.913" y1="2.219" x2="-0.939" y2="2.219" width="0.1524" layer="51"/>
-<smd thermals="no" name="1" x="-1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
-<smd thermals="no" name="2" x="1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
+<smd name="1" x="-1.475" y="0" dx="1.05" dy="4.9" layer="1" thermals="no"/>
+<smd name="2" x="1.475" y="0" dx="1.05" dy="4.9" layer="1" thermals="no"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-2.3" x2="-0.9009" y2="2.3" layer="51"/>
@@ -11604,8 +11604,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="1.1" y1="-1.5" x2="-1.1" y2="-1.5" width="0.2032" layer="51"/>
 <wire x1="-0.6" y1="1.5" x2="0.6" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="0.6" y1="-1.5" x2="-0.6" y2="-1.5" width="0.2032" layer="21"/>
-<smd thermals="no" name="1" x="-1.425" y="0" dx="0.8" dy="3.5" layer="1"/>
-<smd thermals="no" name="2" x="1.425" y="0" dx="0.8" dy="3.5" layer="1" rot="R180"/>
+<smd name="1" x="-1.425" y="0" dx="0.8" dy="3.5" layer="1" thermals="no"/>
+<smd name="2" x="1.425" y="0" dx="0.8" dy="3.5" layer="1" rot="R180" thermals="no"/>
 <text x="-1.9456" y="1.9958" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.9456" y="-3.7738" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
@@ -11616,16 +11616,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
 <wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
-<smd thermals="no" name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
-<smd thermals="no" name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1" thermals="no"/>
+<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1" thermals="no"/>
 <text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
 <rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
 </package>
 <package name="R01005" urn="urn:adsk.eagle:footprint:25701/1" library_version="3">
-<smd thermals="no" name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<smd thermals="no" name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1" thermals="no"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1" thermals="no"/>
 <text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
