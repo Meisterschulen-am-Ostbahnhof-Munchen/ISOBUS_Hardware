@@ -3292,7 +3292,6 @@ design rules under a new name.</description>
 <contactref element="U4" pad="5"/>
 <contactref element="C19" pad="1"/>
 <contactref element="J3" pad="5"/>
-<wire x1="-20.02" y1="32.16" x2="-19.965" y2="32.105" width="0.1524" layer="1"/>
 <wire x1="-8.255" y1="9.935" x2="-9.234" y2="9.935" width="0.6096" layer="1"/>
 <wire x1="-9.234" y1="9.935" x2="-10.16" y2="10.861" width="0.6096" layer="1"/>
 <polygon width="0.2032" layer="15" isolate="0.254" rank="2">
