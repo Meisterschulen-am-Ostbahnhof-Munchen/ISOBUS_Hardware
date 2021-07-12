@@ -2346,8 +2346,8 @@ Copyright: Würth Elektronik</description>
 <package name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:footprint:19040146/1" library_version="2">
 <description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
 &lt;BR&gt;&lt;BR&gt;Normal use</description>
-<smd name="1" x="-1.75" y="0" dx="1.6" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="1.75" y="0" dx="1.6" dy="1.5" layer="1" rot="R90"/>
+<smd name="1" x="-1.75" y="0" dx="1.6" dy="1.5" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="1.75" y="0" dx="1.6" dy="1.5" layer="1" rot="R90" thermals="no"/>
 <text x="0.02" y="1.4" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="-0.38" y="-1.88" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="3.2" y="-0.1" size="0.6096" layer="21" align="center">+</text>
@@ -2459,8 +2459,8 @@ Copyright: Würth Elektronik</description>
 <description>&lt;B&gt;WRIS-KWKH Thick Film Resistors
 &lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
 &lt;BR&gt;Size : 0612</description>
-<smd name="1" x="0" y="0.75" dx="0.9" dy="3.2" layer="1" rot="R270"/>
-<smd name="2" x="0" y="-0.75" dx="0.9" dy="3.2" layer="1" rot="R270"/>
+<smd name="1" x="0" y="0.75" dx="0.9" dy="3.2" layer="1" rot="R270" thermals="no"/>
+<smd name="2" x="0" y="-0.75" dx="0.9" dy="3.2" layer="1" rot="R270" thermals="no"/>
 <wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
