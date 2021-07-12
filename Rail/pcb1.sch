@@ -13088,9 +13088,9 @@ Updated by Yingchun,Shan 2019-10-16
 <packages>
 <package name="WL-SMDC_3535" urn="urn:adsk.eagle:footprint:19063443/1">
 <description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
-<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180"/>
-<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no" thermals="no"/>
+<smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180" thermals="no"/>
+<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no" thermals="no"/>
 <wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.1" layer="51"/>
 <wire x1="-1.725" y1="1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
 <wire x1="1.725" y1="-1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
@@ -13424,7 +13424,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-SMDC/"&gt;https
 <part name="ECU_GND11" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="D7" library="LED" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
 </parts>
 <sheets>
 <sheet>
@@ -14173,10 +14172,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-SMDC/"&gt;https
 <instance part="J9" gate="G$1" x="254" y="45.72" smashed="yes">
 <attribute name="NAME" x="247.74" y="46.07" size="1.016" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="247.88" y="43.85" size="1.016" layer="96" align="bottom-right"/>
-</instance>
-<instance part="D7" gate="G$1" x="180.34" y="139.7" smashed="yes">
-<attribute name="NAME" x="180.99" y="146.15" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="179.89" y="133.55" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
