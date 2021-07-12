@@ -1120,168 +1120,6 @@ Max Component Height - 1.15mm</description>
 </package>
 </packages>
 </library>
-<library name="Wurth_LEDs_WL-SMDC" urn="urn:adsk.eagle:library:19063442">
-<description>&lt;BR&gt;Wurth Elektronik - LEDs - Singnal LEDs &amp; Horticulture LEDs - WL-SMDC&lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2020c, 2020-06-18&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="WL-SMDC_3535" urn="urn:adsk.eagle:footprint:19063443/1" library_version="4">
-<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
-<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180" thermals="no"/>
-<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.1" layer="51"/>
-<wire x1="-1.725" y1="1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
-<wire x1="1.725" y1="-1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
-<wire x1="-1.725" y1="-1.725" x2="-1.725" y2="1.725" width="0.1" layer="51"/>
-<text x="-0.04" y="2.24" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.27" y="-2.81" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="2.68" y="-0.07" size="0.8128" layer="21" align="center">+</text>
-<text x="2.68" y="-0.07" size="0.8128" layer="51" align="center">+</text>
-<polygon width="0.01" layer="1">
-<vertex x="1.625" y="-1.625"/>
-<vertex x="1.145" y="-1.625"/>
-<vertex x="1.145" y="1.625"/>
-<vertex x="1.625" y="1.625"/>
-<vertex x="1.625" y="0.25"/>
-<vertex x="2" y="0.25"/>
-<vertex x="2" y="-0.25"/>
-<vertex x="1.625" y="-0.25"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.625" y="-1.625"/>
-<vertex x="1.145" y="-1.625"/>
-<vertex x="1.145" y="1.625"/>
-<vertex x="1.625" y="1.625"/>
-<vertex x="1.625" y="0.25"/>
-<vertex x="2" y="0.25"/>
-<vertex x="2" y="-0.25"/>
-<vertex x="1.625" y="-0.25"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="1.045" y="1.725"/>
-<vertex x="1.725" y="1.725"/>
-<vertex x="1.725" y="0.35"/>
-<vertex x="2.1" y="0.35"/>
-<vertex x="2.1" y="-0.35"/>
-<vertex x="1.725" y="-0.35"/>
-<vertex x="1.725" y="-1.725"/>
-<vertex x="1.045" y="-1.725"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.145" y="-1.625"/>
-<vertex x="-1.625" y="-1.625"/>
-<vertex x="-1.625" y="-0.25"/>
-<vertex x="-2" y="-0.25"/>
-<vertex x="-2" y="0.25"/>
-<vertex x="-1.625" y="0.25"/>
-<vertex x="-1.625" y="1.625"/>
-<vertex x="-1.145" y="1.625"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.045" y="-1.725"/>
-<vertex x="-1.725" y="-1.725"/>
-<vertex x="-1.725" y="-0.35"/>
-<vertex x="-2.1" y="-0.35"/>
-<vertex x="-2.1" y="0.35"/>
-<vertex x="-1.725" y="0.35"/>
-<vertex x="-1.725" y="1.725"/>
-<vertex x="-1.045" y="1.725"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-1.625" y="1.625"/>
-<vertex x="-1.145" y="1.625"/>
-<vertex x="-1.145" y="-1.625"/>
-<vertex x="-1.625" y="-1.625"/>
-<vertex x="-1.625" y="-0.25"/>
-<vertex x="-2" y="-0.25"/>
-<vertex x="-2" y="0.25"/>
-<vertex x="-1.625" y="0.25"/>
-</polygon>
-<polygon width="0.1" layer="39">
-<vertex x="-2.3" y="1.9"/>
-<vertex x="2.3" y="1.9"/>
-<vertex x="2.3" y="-1.9"/>
-<vertex x="-2.3" y="-1.9"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="WL-SMDC_3535" urn="urn:adsk.eagle:package:19063445/2" type="model" library_version="4">
-<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
-<packageinstances>
-<packageinstance name="WL-SMDC_3535"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="Wurth_Resistor_WRIS-KWKB" urn="urn:adsk.eagle:library:13351500">
 <description>&lt;BR&gt;Wurth Elektronik - Resistors - Thick Film Resistors - WRIS-KWKB&lt;br&gt;&lt;Hr&gt;
 
@@ -2520,6 +2358,98 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
+<library name="LED">
+<packages>
+<package name="WL-SMDC_3535" urn="urn:adsk.eagle:footprint:19063443/1">
+<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
+<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180"/>
+<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
+<wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.1" layer="51"/>
+<wire x1="-1.725" y1="1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
+<wire x1="1.725" y1="-1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
+<wire x1="-1.725" y1="-1.725" x2="-1.725" y2="1.725" width="0.1" layer="51"/>
+<text x="-0.04" y="2.24" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.27" y="-2.81" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="2.68" y="-0.07" size="0.8128" layer="21" align="center">+</text>
+<text x="2.68" y="-0.07" size="0.8128" layer="51" align="center">+</text>
+<polygon width="0.01" layer="1">
+<vertex x="1.625" y="-1.625"/>
+<vertex x="1.145" y="-1.625"/>
+<vertex x="1.145" y="1.625"/>
+<vertex x="1.625" y="1.625"/>
+<vertex x="1.625" y="0.25"/>
+<vertex x="2" y="0.25"/>
+<vertex x="2" y="-0.25"/>
+<vertex x="1.625" y="-0.25"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.625" y="-1.625"/>
+<vertex x="1.145" y="-1.625"/>
+<vertex x="1.145" y="1.625"/>
+<vertex x="1.625" y="1.625"/>
+<vertex x="1.625" y="0.25"/>
+<vertex x="2" y="0.25"/>
+<vertex x="2" y="-0.25"/>
+<vertex x="1.625" y="-0.25"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.045" y="1.725"/>
+<vertex x="1.725" y="1.725"/>
+<vertex x="1.725" y="0.35"/>
+<vertex x="2.1" y="0.35"/>
+<vertex x="2.1" y="-0.35"/>
+<vertex x="1.725" y="-0.35"/>
+<vertex x="1.725" y="-1.725"/>
+<vertex x="1.045" y="-1.725"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.145" y="-1.625"/>
+<vertex x="-1.625" y="-1.625"/>
+<vertex x="-1.625" y="-0.25"/>
+<vertex x="-2" y="-0.25"/>
+<vertex x="-2" y="0.25"/>
+<vertex x="-1.625" y="0.25"/>
+<vertex x="-1.625" y="1.625"/>
+<vertex x="-1.145" y="1.625"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-1.045" y="-1.725"/>
+<vertex x="-1.725" y="-1.725"/>
+<vertex x="-1.725" y="-0.35"/>
+<vertex x="-2.1" y="-0.35"/>
+<vertex x="-2.1" y="0.35"/>
+<vertex x="-1.725" y="0.35"/>
+<vertex x="-1.725" y="1.725"/>
+<vertex x="-1.045" y="1.725"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="-1.625" y="1.625"/>
+<vertex x="-1.145" y="1.625"/>
+<vertex x="-1.145" y="-1.625"/>
+<vertex x="-1.625" y="-1.625"/>
+<vertex x="-1.625" y="-0.25"/>
+<vertex x="-2" y="-0.25"/>
+<vertex x="-2" y="0.25"/>
+<vertex x="-1.625" y="0.25"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-2.3" y="1.9"/>
+<vertex x="2.3" y="1.9"/>
+<vertex x="2.3" y="-1.9"/>
+<vertex x="-2.3" y="-1.9"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-SMDC_3535" urn="urn:adsk.eagle:package:19063445/2" type="model">
+<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMDC_3535"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3052,7 +2982,7 @@ design rules under a new name.</description>
 <attribute name="VBR" value="38.65V" x="-20.066" y="-26.035" size="1.778" layer="27" display="off"/>
 <attribute name="VCLAMP" value="53.3V" x="-20.066" y="-26.035" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D2" library="Wurth_LEDs_WL-SMDC" library_urn="urn:adsk.eagle:library:19063442" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="-1.27" y="-25.4" smashed="yes" rot="R180">
+<element name="D2" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="-1.27" y="-25.4" smashed="yes" rot="R180">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3065,7 +2995,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-1" y="-22.59" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="125°" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D1" library="Wurth_LEDs_WL-SMDC" library_urn="urn:adsk.eagle:library:19063442" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="-8.89" y="-25.4" smashed="yes">
+<element name="D1" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="-8.89" y="-25.4" smashed="yes">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
@@ -3078,7 +3008,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-9.16" y="-28.21" size="0.6096" layer="27" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="125°" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D4" library="Wurth_LEDs_WL-SMDC" library_urn="urn:adsk.eagle:library:19063442" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="19.05" y="-25.4" smashed="yes" rot="R180">
+<element name="D4" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="19.05" y="-25.4" smashed="yes" rot="R180">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3091,7 +3021,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="19.32" y="-22.59" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="125°" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D3" library="Wurth_LEDs_WL-SMDC" library_urn="urn:adsk.eagle:library:19063442" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="11.43" y="-25.4" smashed="yes">
+<element name="D3" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="11.43" y="-25.4" smashed="yes">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
@@ -3188,6 +3118,19 @@ design rules under a new name.</description>
 <attribute name="ROWS" value="Dual" x="-10.414" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Board Stacker" x="-10.414" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-14.9116" y="-0.9442" size="0.8128" layer="27" align="bottom-right"/>
+</element>
+<element name="D7" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="-33.02" y="-43.18" smashed="yes">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="EMITTING-COLOR" value="Green" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="525nm" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="520nm" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-33.06" y="-40.94" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="150353GS74500" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="PHI-V-TYP" value="85lm" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="V-F-TYP" value="3.4V" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-33.29" y="-45.99" size="0.6096" layer="27" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="125°" x="-33.02" y="-43.18" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3432,6 +3375,7 @@ design rules under a new name.</description>
 <contactref element="J7" pad="4"/>
 <contactref element="J7" pad="A4"/>
 <contactref element="D4" pad="2"/>
+<contactref element="D4" pad="3"/>
 </signal>
 <signal name="Q3">
 <contactref element="U3" pad="10"/>
@@ -3448,6 +3392,7 @@ design rules under a new name.</description>
 <contactref element="J7" pad="A3"/>
 <contactref element="J7" pad="3"/>
 <contactref element="D3" pad="2"/>
+<contactref element="D3" pad="3"/>
 </signal>
 <signal name="Q1C">
 <contactref element="R13" pad="1"/>
@@ -3514,6 +3459,7 @@ design rules under a new name.</description>
 <vertex x="-0.2032" y="-44.45"/>
 <vertex x="-4.8768" y="-44.45"/>
 </polygon>
+<contactref element="D2" pad="3"/>
 </signal>
 <signal name="Q1">
 <contactref element="U2" pad="10"/>
@@ -3530,6 +3476,7 @@ design rules under a new name.</description>
 <vertex x="-5.2832" y="-13.7414"/>
 <vertex x="-5.2832" y="-44.45"/>
 </polygon>
+<contactref element="D1" pad="3"/>
 </signal>
 <signal name="AGNDU3">
 <contactref element="U3" pad="1"/>
@@ -3611,7 +3558,7 @@ design rules under a new name.</description>
 <signal name="N$1" class="1">
 <contactref element="D4" pad="1"/>
 <contactref element="R19" pad="1"/>
-<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
+<polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="20.32" y="-23.876"/>
 <vertex x="22.479" y="-23.876"/>
 <vertex x="22.479" y="-26.924"/>
@@ -3621,7 +3568,7 @@ design rules under a new name.</description>
 <signal name="N$6" class="1">
 <contactref element="D2" pad="1"/>
 <contactref element="R20" pad="1"/>
-<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
+<polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="0" y="-23.876"/>
 <vertex x="2.159" y="-23.876"/>
 <vertex x="2.159" y="-26.924"/>
@@ -3631,7 +3578,7 @@ design rules under a new name.</description>
 <signal name="N$8" class="1">
 <contactref element="D1" pad="1"/>
 <contactref element="R23" pad="2"/>
-<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
+<polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="-12.319" y="-23.876"/>
 <vertex x="-10.16" y="-23.876"/>
 <vertex x="-10.16" y="-26.924"/>
@@ -3641,7 +3588,7 @@ design rules under a new name.</description>
 <signal name="N$9" class="1">
 <contactref element="D3" pad="1"/>
 <contactref element="R24" pad="2"/>
-<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
+<polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="8.001" y="-23.876"/>
 <vertex x="10.16" y="-23.876"/>
 <vertex x="10.16" y="-26.924"/>

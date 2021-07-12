@@ -8261,307 +8261,6 @@ SOP65P600X115-15N-V</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_LEDs_WL-SMDC" urn="urn:adsk.eagle:library:19063442">
-<description>&lt;BR&gt;Wurth Elektronik - LEDs - Singnal LEDs &amp; Horticulture LEDs - WL-SMDC&lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2020c, 2020-06-18&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="WL-SMDC_3535" urn="urn:adsk.eagle:footprint:19063443/1" library_version="4">
-<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
-<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180" thermals="no"/>
-<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.1" layer="51"/>
-<wire x1="-1.725" y1="1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
-<wire x1="1.725" y1="-1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
-<wire x1="-1.725" y1="-1.725" x2="-1.725" y2="1.725" width="0.1" layer="51"/>
-<text x="-0.04" y="2.24" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.27" y="-2.81" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="2.68" y="-0.07" size="0.8128" layer="21" align="center">+</text>
-<text x="2.68" y="-0.07" size="0.8128" layer="51" align="center">+</text>
-<polygon width="0.01" layer="1">
-<vertex x="1.625" y="-1.625"/>
-<vertex x="1.145" y="-1.625"/>
-<vertex x="1.145" y="1.625"/>
-<vertex x="1.625" y="1.625"/>
-<vertex x="1.625" y="0.25"/>
-<vertex x="2" y="0.25"/>
-<vertex x="2" y="-0.25"/>
-<vertex x="1.625" y="-0.25"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.625" y="-1.625"/>
-<vertex x="1.145" y="-1.625"/>
-<vertex x="1.145" y="1.625"/>
-<vertex x="1.625" y="1.625"/>
-<vertex x="1.625" y="0.25"/>
-<vertex x="2" y="0.25"/>
-<vertex x="2" y="-0.25"/>
-<vertex x="1.625" y="-0.25"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="1.045" y="1.725"/>
-<vertex x="1.725" y="1.725"/>
-<vertex x="1.725" y="0.35"/>
-<vertex x="2.1" y="0.35"/>
-<vertex x="2.1" y="-0.35"/>
-<vertex x="1.725" y="-0.35"/>
-<vertex x="1.725" y="-1.725"/>
-<vertex x="1.045" y="-1.725"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.145" y="-1.625"/>
-<vertex x="-1.625" y="-1.625"/>
-<vertex x="-1.625" y="-0.25"/>
-<vertex x="-2" y="-0.25"/>
-<vertex x="-2" y="0.25"/>
-<vertex x="-1.625" y="0.25"/>
-<vertex x="-1.625" y="1.625"/>
-<vertex x="-1.145" y="1.625"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.045" y="-1.725"/>
-<vertex x="-1.725" y="-1.725"/>
-<vertex x="-1.725" y="-0.35"/>
-<vertex x="-2.1" y="-0.35"/>
-<vertex x="-2.1" y="0.35"/>
-<vertex x="-1.725" y="0.35"/>
-<vertex x="-1.725" y="1.725"/>
-<vertex x="-1.045" y="1.725"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-1.625" y="1.625"/>
-<vertex x="-1.145" y="1.625"/>
-<vertex x="-1.145" y="-1.625"/>
-<vertex x="-1.625" y="-1.625"/>
-<vertex x="-1.625" y="-0.25"/>
-<vertex x="-2" y="-0.25"/>
-<vertex x="-2" y="0.25"/>
-<vertex x="-1.625" y="0.25"/>
-</polygon>
-<polygon width="0.1" layer="39">
-<vertex x="-2.3" y="1.9"/>
-<vertex x="2.3" y="1.9"/>
-<vertex x="2.3" y="-1.9"/>
-<vertex x="-2.3" y="-1.9"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="WL-SMDC_3535" urn="urn:adsk.eagle:package:19063445/2" type="model" library_version="4">
-<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
-<packageinstances>
-<packageinstance name="WL-SMDC_3535"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="WL-SWDC" urn="urn:adsk.eagle:symbol:19063444/2" library_version="4">
-<text x="0.65" y="6.45" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-0.45" y="-6.15" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-<text x="-2.74" y="-3.675" size="0.6096" layer="97">Protection device</text>
-<text x="2.17" y="3.5" size="1.27" layer="94">+</text>
-<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<wire x1="-1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.159" x2="-1.524" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="-1.524" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-2.794" x2="1.016" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="1.016" y1="-2.794" x2="1.016" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="-1.524" x2="-1.524" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="1.016" y1="-2.159" x2="2.54" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.159" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0.508" y1="4.572" x2="-0.889" y2="5.969" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="4.445" x2="-2.032" y2="5.842" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.2" y1="2.5" x2="-1.1" y2="2.5" width="0.254" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.889" y="5.969"/>
-<vertex x="0" y="5.588"/>
-<vertex x="-0.508" y="5.08"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-2.032" y="5.842"/>
-<vertex x="-1.143" y="5.461"/>
-<vertex x="-1.651" y="4.953"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WL-SMDC_3535" urn="urn:adsk.eagle:component:19063447/4" prefix="D" library_version="4">
-<description>&lt;b&gt;WL-SMDC SMT Mono-color Ceramic LED Waterclear
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-
-&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt; SMD LED ceramic package with high efficiency 
-&lt;br&gt;Waterclear silicone lense 
-&lt;br&gt;High brightness with minimal side emission 
-&lt;br&gt;Flexible coupling with secondary optic 
-&lt;br&gt;Narrow viewing angle: 60° 
-&lt;br&gt;Moisture Sensitivity Level: 1 
-&lt;br&gt;Electrically neutral thermal path 
-&lt;br&gt;Low thermal resistance: 125°C / 150°C 
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Architectural LED lighting indoor 
-&lt;br&gt;Entertainment and stage lighting 
-&lt;br&gt;Indoor smart lights 
-&lt;br&gt;Horticultural lighting 
-&lt;br&gt;Aquarium lighting 
-&lt;br&gt;Traffic and signal lights 
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14907v209%20Family_WL-SMDC_3535.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14907v209%20Family_WL-SMDC_3535.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-SMDC/"&gt;https://www.we-online.com/catalog/en/WL-SMDC/&lt;/a&gt;&lt;p&gt;
-
-&lt;/b&gt;Updated By Ella Wu ,2020-06-18&lt;br&gt;
-&lt;/b&gt;2020 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WL-SWDC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WL-SMDC_3535">
-<connects>
-<connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19063445/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_150353BS74500">
-<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353BS74500.pdf"/>
-<attribute name="EMITTING-COLOR" value="Blue"/>
-<attribute name="LAMDA-DOM-TYP" value="460nm"/>
-<attribute name="LAMDA-PEAK-TYP" value="455nm"/>
-<attribute name="PART-NUMBER" value="150353BS74500"/>
-<attribute name="PHI-V-TYP" value="25lm"/>
-<attribute name="V-F-TYP" value="3.2V"/>
-<attribute name="VALUE" value="150353BS74500"/>
-<attribute name="VIEWING-ANGLE" value="125°"/>
-</technology>
-<technology name="_150353GS74500">
-<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf"/>
-<attribute name="EMITTING-COLOR" value="Green"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm"/>
-<attribute name="PART-NUMBER" value="150353GS74500"/>
-<attribute name="PHI-V-TYP" value="85lm"/>
-<attribute name="V-F-TYP" value="3.4V"/>
-<attribute name="VALUE" value="150353GS74500"/>
-<attribute name="VIEWING-ANGLE" value="125°"/>
-</technology>
-<technology name="_150353RS74500">
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353RS74500.pdf"/>
-<attribute name="EMITTING-COLOR" value="Red"/>
-<attribute name="LAMDA-DOM-TYP" value="625nm"/>
-<attribute name="LAMDA-PEAK-TYP" value="635nm"/>
-<attribute name="PART-NUMBER" value="150353RS74500"/>
-<attribute name="PHI-V-TYP" value="55lm"/>
-<attribute name="V-F-TYP" value="2.2V"/>
-<attribute name="VALUE" value="150353RS74500"/>
-<attribute name="VIEWING-ANGLE" value="125°"/>
-</technology>
-<technology name="_150353YS74500">
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353YS74500.pdf"/>
-<attribute name="EMITTING-COLOR" value="Yellow"/>
-<attribute name="LAMDA-DOM-TYP" value="590nm"/>
-<attribute name="LAMDA-PEAK-TYP" value="593nm"/>
-<attribute name="PART-NUMBER" value="150353YS74500"/>
-<attribute name="PHI-V-TYP" value="50lm"/>
-<attribute name="V-F-TYP" value="2.2V"/>
-<attribute name="VALUE" value="150353YS74500"/>
-<attribute name="VIEWING-ANGLE" value="125°"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Wurth_Resistor_WRIS-KWKB" urn="urn:adsk.eagle:library:13351500">
 <description>&lt;BR&gt;Wurth Elektronik - Resistors - Thick Film Resistors - WRIS-KWKB&lt;br&gt;&lt;Hr&gt;
 
@@ -13385,6 +13084,239 @@ Updated by Yingchun,Shan 2019-10-16
 </deviceset>
 </devicesets>
 </library>
+<library name="LED">
+<packages>
+<package name="WL-SMDC_3535" urn="urn:adsk.eagle:footprint:19063443/1">
+<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
+<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180"/>
+<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
+<wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.1" layer="51"/>
+<wire x1="-1.725" y1="1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
+<wire x1="1.725" y1="-1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
+<wire x1="-1.725" y1="-1.725" x2="-1.725" y2="1.725" width="0.1" layer="51"/>
+<text x="-0.04" y="2.24" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.27" y="-2.81" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="2.68" y="-0.07" size="0.8128" layer="21" align="center">+</text>
+<text x="2.68" y="-0.07" size="0.8128" layer="51" align="center">+</text>
+<polygon width="0.01" layer="1">
+<vertex x="1.625" y="-1.625"/>
+<vertex x="1.145" y="-1.625"/>
+<vertex x="1.145" y="1.625"/>
+<vertex x="1.625" y="1.625"/>
+<vertex x="1.625" y="0.25"/>
+<vertex x="2" y="0.25"/>
+<vertex x="2" y="-0.25"/>
+<vertex x="1.625" y="-0.25"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.625" y="-1.625"/>
+<vertex x="1.145" y="-1.625"/>
+<vertex x="1.145" y="1.625"/>
+<vertex x="1.625" y="1.625"/>
+<vertex x="1.625" y="0.25"/>
+<vertex x="2" y="0.25"/>
+<vertex x="2" y="-0.25"/>
+<vertex x="1.625" y="-0.25"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.045" y="1.725"/>
+<vertex x="1.725" y="1.725"/>
+<vertex x="1.725" y="0.35"/>
+<vertex x="2.1" y="0.35"/>
+<vertex x="2.1" y="-0.35"/>
+<vertex x="1.725" y="-0.35"/>
+<vertex x="1.725" y="-1.725"/>
+<vertex x="1.045" y="-1.725"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.145" y="-1.625"/>
+<vertex x="-1.625" y="-1.625"/>
+<vertex x="-1.625" y="-0.25"/>
+<vertex x="-2" y="-0.25"/>
+<vertex x="-2" y="0.25"/>
+<vertex x="-1.625" y="0.25"/>
+<vertex x="-1.625" y="1.625"/>
+<vertex x="-1.145" y="1.625"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-1.045" y="-1.725"/>
+<vertex x="-1.725" y="-1.725"/>
+<vertex x="-1.725" y="-0.35"/>
+<vertex x="-2.1" y="-0.35"/>
+<vertex x="-2.1" y="0.35"/>
+<vertex x="-1.725" y="0.35"/>
+<vertex x="-1.725" y="1.725"/>
+<vertex x="-1.045" y="1.725"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="-1.625" y="1.625"/>
+<vertex x="-1.145" y="1.625"/>
+<vertex x="-1.145" y="-1.625"/>
+<vertex x="-1.625" y="-1.625"/>
+<vertex x="-1.625" y="-0.25"/>
+<vertex x="-2" y="-0.25"/>
+<vertex x="-2" y="0.25"/>
+<vertex x="-1.625" y="0.25"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-2.3" y="1.9"/>
+<vertex x="2.3" y="1.9"/>
+<vertex x="2.3" y="-1.9"/>
+<vertex x="-2.3" y="-1.9"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-SMDC_3535" urn="urn:adsk.eagle:package:19063445/2" type="model">
+<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMDC_3535"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WL-SWDC">
+<text x="0.65" y="6.45" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-0.45" y="-6.15" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-2.74" y="-3.675" size="0.6096" layer="97">Protection device</text>
+<text x="2.17" y="3.5" size="1.27" layer="94">+</text>
+<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.159" x2="-1.524" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="-1.524" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.794" x2="1.016" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-2.794" x2="1.016" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-1.524" x2="-1.524" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-2.159" x2="2.54" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.159" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0.508" y1="4.572" x2="-0.889" y2="5.969" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="4.445" x2="-2.032" y2="5.842" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.2" y1="2.5" x2="-1.1" y2="2.5" width="0.254" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.889" y="5.969"/>
+<vertex x="0" y="5.588"/>
+<vertex x="-0.508" y="5.08"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.032" y="5.842"/>
+<vertex x="-1.143" y="5.461"/>
+<vertex x="-1.651" y="4.953"/>
+</polygon>
+<pin name="COOL" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WL-SMDC_3535" prefix="D">
+<description>&lt;b&gt;WL-SMDC SMT Mono-color Ceramic LED Waterclear
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt; SMD LED ceramic package with high efficiency 
+&lt;br&gt;Waterclear silicone lense 
+&lt;br&gt;High brightness with minimal side emission 
+&lt;br&gt;Flexible coupling with secondary optic 
+&lt;br&gt;Narrow viewing angle: 60° 
+&lt;br&gt;Moisture Sensitivity Level: 1 
+&lt;br&gt;Electrically neutral thermal path 
+&lt;br&gt;Low thermal resistance: 125°C / 150°C 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+
+&lt;br&gt;&lt;br&gt;&lt;/b&gt; Architectural LED lighting indoor 
+&lt;br&gt;Entertainment and stage lighting 
+&lt;br&gt;Indoor smart lights 
+&lt;br&gt;Horticultural lighting 
+&lt;br&gt;Aquarium lighting 
+&lt;br&gt;Traffic and signal lights 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14907v209%20Family_WL-SMDC_3535.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14907v209%20Family_WL-SMDC_3535.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-SMDC/"&gt;https://www.we-online.com/catalog/en/WL-SMDC/&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated By Ella Wu ,2020-06-18&lt;br&gt;
+&lt;/b&gt;2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SWDC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMDC_3535">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+<connect gate="G$1" pin="COOL" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19063445/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_150353BS74500">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353BS74500.pdf"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="LAMDA-DOM-TYP" value="460nm"/>
+<attribute name="LAMDA-PEAK-TYP" value="455nm"/>
+<attribute name="PART-NUMBER" value="150353BS74500"/>
+<attribute name="PHI-V-TYP" value="25lm"/>
+<attribute name="V-F-TYP" value="3.2V"/>
+<attribute name="VALUE" value="150353BS74500"/>
+<attribute name="VIEWING-ANGLE" value="125°"/>
+</technology>
+<technology name="_150353GS74500">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="LAMDA-DOM-TYP" value="525nm"/>
+<attribute name="LAMDA-PEAK-TYP" value="520nm"/>
+<attribute name="PART-NUMBER" value="150353GS74500"/>
+<attribute name="PHI-V-TYP" value="85lm"/>
+<attribute name="V-F-TYP" value="3.4V"/>
+<attribute name="VALUE" value="150353GS74500"/>
+<attribute name="VIEWING-ANGLE" value="125°"/>
+</technology>
+<technology name="_150353RS74500">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353RS74500.pdf"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="LAMDA-DOM-TYP" value="625nm"/>
+<attribute name="LAMDA-PEAK-TYP" value="635nm"/>
+<attribute name="PART-NUMBER" value="150353RS74500"/>
+<attribute name="PHI-V-TYP" value="55lm"/>
+<attribute name="V-F-TYP" value="2.2V"/>
+<attribute name="VALUE" value="150353RS74500"/>
+<attribute name="VIEWING-ANGLE" value="125°"/>
+</technology>
+<technology name="_150353YS74500">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353YS74500.pdf"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="LAMDA-DOM-TYP" value="590nm"/>
+<attribute name="LAMDA-PEAK-TYP" value="593nm"/>
+<attribute name="PART-NUMBER" value="150353YS74500"/>
+<attribute name="PHI-V-TYP" value="50lm"/>
+<attribute name="V-F-TYP" value="2.2V"/>
+<attribute name="VALUE" value="150353YS74500"/>
+<attribute name="VIEWING-ANGLE" value="125°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13440,10 +13372,10 @@ Updated by Yingchun,Shan 2019-10-16
 <part name="C11" library="fliegl-wuerth" deviceset="WCAP-CSGP_0402" device="_16V(DC)" technology="_885012205037" value="100 nF"/>
 <part name="C12" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H1.25" device="_10V(DC)" package3d_urn="urn:adsk.eagle:package:18489127/2" technology="_885012107011" value="22  µF "/>
 <part name="D0" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AB_3000W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146529/2" technology="_824551331" value="33V"/>
-<part name="D2" library="Wurth_LEDs_WL-SMDC" library_urn="urn:adsk.eagle:library:19063442" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
-<part name="D1" library="Wurth_LEDs_WL-SMDC" library_urn="urn:adsk.eagle:library:19063442" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
-<part name="D4" library="Wurth_LEDs_WL-SMDC" library_urn="urn:adsk.eagle:library:19063442" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
-<part name="D3" library="Wurth_LEDs_WL-SMDC" library_urn="urn:adsk.eagle:library:19063442" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
+<part name="D2" library="LED" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
+<part name="D1" library="LED" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
+<part name="D4" library="LED" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
+<part name="D3" library="LED" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
 <part name="R19" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132008" value="100Ohm"/>
 <part name="R20" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132008" value="100Ohm"/>
 <part name="R23" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132008" value="100Ohm"/>
@@ -13492,6 +13424,7 @@ Updated by Yingchun,Shan 2019-10-16
 <part name="ECU_GND11" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="D7" library="LED" deviceset="WL-SMDC_3535" device="" package3d_urn="urn:adsk.eagle:package:19063445/2" technology="_150353GS74500" value="150353GS74500"/>
 </parts>
 <sheets>
 <sheet>
@@ -14241,6 +14174,10 @@ Updated by Yingchun,Shan 2019-10-16
 <attribute name="NAME" x="247.74" y="46.07" size="1.016" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="247.88" y="43.85" size="1.016" layer="96" align="bottom-right"/>
 </instance>
+<instance part="D7" gate="G$1" x="180.34" y="139.7" smashed="yes">
+<attribute name="NAME" x="180.99" y="146.15" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="179.89" y="133.55" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14259,8 +14196,11 @@ Updated by Yingchun,Shan 2019-10-16
 <wire x1="203.2" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
 <label x="203.2" y="20.32" size="1.778" layer="95" xref="yes"/>
 <pinref part="D4" gate="G$1" pin="+"/>
-<wire x1="160.02" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="20.32" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
 <junction x="160.02" y="20.32"/>
+<pinref part="D4" gate="G$1" pin="COOL"/>
+<junction x="152.4" y="20.32"/>
+<wire x1="152.4" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Q3" class="0">
@@ -14277,11 +14217,14 @@ Updated by Yingchun,Shan 2019-10-16
 <junction x="86.36" y="10.16"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <junction x="129.54" y="17.78"/>
-<wire x1="185.42" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="17.78" x2="167.64" y2="17.78" width="0.1524" layer="91"/>
 <label x="185.42" y="17.78" size="1.778" layer="95" xref="yes"/>
 <pinref part="D3" gate="G$1" pin="+"/>
+<wire x1="167.64" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <junction x="160.02" y="17.78"/>
+<pinref part="D3" gate="G$1" pin="COOL"/>
+<junction x="167.64" y="17.78"/>
 </segment>
 </net>
 <net name="Q1C" class="0">
@@ -14401,8 +14344,11 @@ Updated by Yingchun,Shan 2019-10-16
 <wire x1="208.28" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
 <label x="208.28" y="121.92" size="1.778" layer="95" xref="yes"/>
 <pinref part="D2" gate="G$1" pin="+"/>
-<wire x1="157.48" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 <junction x="157.48" y="121.92"/>
+<pinref part="D2" gate="G$1" pin="COOL"/>
+<junction x="149.86" y="121.92"/>
+<wire x1="149.86" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Q1" class="0">
@@ -14419,11 +14365,14 @@ Updated by Yingchun,Shan 2019-10-16
 <junction x="91.44" y="111.76"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <junction x="134.62" y="119.38"/>
-<wire x1="190.5" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
 <label x="190.5" y="119.38" size="1.778" layer="95" xref="yes"/>
 <pinref part="D1" gate="G$1" pin="+"/>
+<wire x1="165.1" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <junction x="157.48" y="119.38"/>
+<pinref part="D1" gate="G$1" pin="COOL"/>
+<junction x="165.1" y="119.38"/>
 </segment>
 </net>
 <net name="AGNDU3" class="0">
