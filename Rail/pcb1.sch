@@ -8261,306 +8261,6 @@ SOP65P600X115-15N-V</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_Resistor_WRIS-KWKB" urn="urn:adsk.eagle:library:13351500">
-<description>&lt;BR&gt;Wurth Elektronik - Resistors - Thick Film Resistors - WRIS-KWKB&lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-
-&lt;HR&gt;
-Eagle Version 9, Library Revision 2019a, 2019-09-18&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="WRIS-KWKB_0612" urn="urn:adsk.eagle:footprint:13351502/1" library_version="2">
-<description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
-&lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
-&lt;BR&gt;Size : 0612</description>
-<smd name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1"/>
-<smd name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
-<polygon width="0.1" layer="39">
-<vertex x="-1.8" y="1.4"/>
-<vertex x="1.8" y="1.4"/>
-<vertex x="1.8" y="-1.4"/>
-<vertex x="-1.8" y="-1.4"/>
-</polygon>
-<text x="0" y="1.7" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-2.3" y="-2.5" size="0.8128" layer="25">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="WRIS-KWKB_0612" urn="urn:adsk.eagle:package:13351506/2" type="model" library_version="2">
-<description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
-&lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
-&lt;BR&gt;Size : 0612</description>
-<packageinstances>
-<packageinstance name="WRIS-KWKB_0612"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="R" urn="urn:adsk.eagle:symbol:13351505/1" library_version="2">
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.08" y="-4.572" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WRIS-KWKB_0612" urn="urn:adsk.eagle:component:13351509/2" prefix="R" library_version="2">
-<description>&lt;b&gt;WRIS-KWKB Thick Film Resistors
-&lt;br&gt;High Power Current Sensing, Wide Terminal
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;/b&gt;&lt;/b&gt; 
-&lt;br&gt;Product series for high power current sensing up to 2 W Mounting style: SMT-Chip (wide terminal)
-&lt;br&gt;Resistance range: 2.2 Ω ‒ 18 kΩ
-&lt;br&gt;Resistance tolerance: ±1 %; ±5 %
-&lt;br&gt;Rated Power: 0.75 W ‒ 2W
-&lt;br&gt;TCR: ±200 ppm/°C
-&lt;br&gt;Operating temperature: -55°C up to +155°C
-&lt;br&gt;Sizes: 0612 / 1020 / 1225
-&lt;br&gt;Recommended soldering: Reflow soldering
-&lt;br&gt;
-
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;Electric motor
-&lt;br&gt;Camera
-&lt;br&gt;Lighting control
-&lt;br&gt;TV
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o135741v209%20Family_WRIS-KWKB.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o135741v209%20Family_WRIS-KWKB.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WRIS-KWKB"&gt;https://katalog.we-online.com/en/pbs/WRIS-KWKB&lt;/a&gt;&lt;p&gt;
-
-&lt;/b&gt;Created by Ella Wu  2019-09-06&lt;br&gt;
-&lt;/b&gt;2019(C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WRIS-KWKB_0612">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13351506/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_561020132004">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132004.pdf" constant="no"/>
-<attribute name="IR" value="126.3mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132004 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB061247R0J304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="47Ohm" constant="no"/>
-</technology>
-<technology name="_561020132008">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132008.pdf" constant="no"/>
-<attribute name="IR" value="86600mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132008 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121000F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="100Ohm" constant="no"/>
-</technology>
-<technology name="_561020132009">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132009.pdf" constant="no"/>
-<attribute name="IR" value="86.6mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132009 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121000J304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="100Ohm" constant="no"/>
-</technology>
-<technology name="_561020132010">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132010.pdf" constant="no"/>
-<attribute name="IR" value="82.6mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132010 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121100J304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="110Ohm" constant="no"/>
-</technology>
-<technology name="_561020132011">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132011.pdf" constant="no"/>
-<attribute name="IR" value="79.1mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132011 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121200F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="120Ohm" constant="no"/>
-</technology>
-<technology name="_561020132014">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132014.pdf" constant="no"/>
-<attribute name="IR" value="55.9mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132014 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06122400F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="240Ohm" constant="no"/>
-</technology>
-<technology name="_561020132023">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" constant="no"/>
-<attribute name="IR" value="39.9mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="470Ohm" constant="no"/>
-</technology>
-<technology name="_561020132030">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132030.pdf" constant="no"/>
-<attribute name="IR" value="25mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132030 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121201F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="1200Ohm" constant="no"/>
-</technology>
-<technology name="_561020132031">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132031.pdf" constant="no"/>
-<attribute name="IR" value="22.4mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132031 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121501F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="1500Ohm" constant="no"/>
-</technology>
-<technology name="_561020132032">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132032.pdf" constant="no"/>
-<attribute name="IR" value="20.4mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132032 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121801F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="1800Ohm" constant="no"/>
-</technology>
-<technology name="_561020132034">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132034.pdf" constant="no"/>
-<attribute name="IR" value="18.5mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132034 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06122201F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="2200Ohm" constant="no"/>
-</technology>
-<technology name="_561020132037">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132037.pdf" constant="no"/>
-<attribute name="IR" value="16.7mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132037 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06122701F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="2700Ohm" constant="no"/>
-</technology>
-<technology name="_561020132059">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132059.pdf" constant="no"/>
-<attribute name="IR" value="6.5mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132059 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121802F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="18000Ohm" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -13824,6 +13524,288 @@ Updated By Yingchun,Shan,2020-03-19&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Resistor_WRIS-KWKH" urn="urn:adsk.eagle:library:13353576">
+<description>&lt;BR&gt;Wurth Elektronik - Resistors - Thick Film Resistors - WRIS-KWKH&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
+
+&lt;HR&gt;
+Eagle Version 9, Library Revision 2019a, 2019-09-18&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WRIS-KWKH_0612" urn="urn:adsk.eagle:footprint:13353578/1" library_version="3">
+<description>&lt;B&gt;WRIS-KWKH Thick Film Resistors
+&lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
+&lt;BR&gt;Size : 0612</description>
+<smd name="1" x="0" y="0.75" dx="0.9" dy="3.2" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-0.75" dx="0.9" dy="3.2" layer="1" rot="R270"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<text x="0" y="1.85" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.25" y="-2.69" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.9" y="1.4"/>
+<vertex x="1.9" y="1.4"/>
+<vertex x="1.9" y="-1.4"/>
+<vertex x="-1.9" y="-1.4"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WRIS-KWKH_0612" urn="urn:adsk.eagle:package:13353581/2" type="model" library_version="3">
+<description>&lt;B&gt;WRIS-KWKH Thick Film Resistors
+&lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
+&lt;BR&gt;Size : 0612</description>
+<packageinstances>
+<packageinstance name="WRIS-KWKH_0612"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="R" urn="urn:adsk.eagle:symbol:13353579/1" library_version="3">
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-4.572" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WRIS-KWKH_0612" urn="urn:adsk.eagle:component:13353583/3" prefix="R" library_version="3">
+<description>&lt;b&gt; WRIS-KWKH Thick Film Resistors
+&lt;br&gt;High Power Current Sensing, Wide Terminal
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Product series for high power current sensing up to 1 W Mounting style: SMT-Chip (wide terminal)
+&lt;br&gt;Resistance range: 100 mΩ ‒ 620 Ω
+&lt;br&gt;Resistance tolerance: ±1% / ±5%
+&lt;br&gt;Rated Power: 1 W
+&lt;br&gt;TCR: +200; +250; +350 ppm/°C
+&lt;br&gt;Operating temperature: -55 °C up to +155 °C
+&lt;br&gt;Sizes: 0612 / 1020
+&lt;br&gt;Recommended soldering: Reflow soldering
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;DC/DC converter
+&lt;br&gt;Camera
+&lt;br&gt;Night vision device
+&lt;br&gt;TV
+&lt;br&gt;Lighting
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o135742v209%20Family_WRIS-KWKH.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o135742v209%20Family_WRIS-KWKH.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WRIS-KWKH"&gt;https://katalog.we-online.com/en/pbs/WRIS-KWKH&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu  2019-09-06&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WRIS-KWKH_0612">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13353581/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_561070332051">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332051.pdf" constant="no"/>
+<attribute name="IR" value="3.2A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332051 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="350ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R100F101QAATP0000" constant="no"/>
+<attribute name="VALUE" value="100mOhm" constant="no"/>
+</technology>
+<technology name="_561070332055">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332055.pdf" constant="no"/>
+<attribute name="IR" value="2.6A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332055 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="350ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R150F101QAATP0000" constant="no"/>
+<attribute name="VALUE" value="150mOhm" constant="no"/>
+</technology>
+<technology name="_561070332057">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332057.pdf" constant="no"/>
+<attribute name="IR" value="2.4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332057 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="350ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R180F101QAATP0000" constant="no"/>
+<attribute name="VALUE" value="180mOhm" constant="no"/>
+</technology>
+<technology name="_561070332071">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332071.pdf" constant="no"/>
+<attribute name="IR" value="1.7A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332071 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="250ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R330F101LAATP0000" constant="no"/>
+<attribute name="VALUE" value="330mOhm" constant="no"/>
+</technology>
+<technology name="_561070332076">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332076.pdf" constant="no"/>
+<attribute name="IR" value="1.5A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332076 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="250ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R470F101LAATP0000" constant="no"/>
+<attribute name="VALUE" value="470mOhm" constant="no"/>
+</technology>
+<technology name="_561070332078">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332078.pdf" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332078 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="200ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R510F101HAATP0000" constant="no"/>
+<attribute name="VALUE" value="510mOhm" constant="no"/>
+</technology>
+<technology name="_561070332079">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332079.pdf" constant="no"/>
+<attribute name="IR" value="1.3A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332079 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="200ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R560F101HAATP0000" constant="no"/>
+<attribute name="VALUE" value="560mOhm" constant="no"/>
+</technology>
+<technology name="_561070332080">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332080.pdf" constant="no"/>
+<attribute name="IR" value="1.3A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332080 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="200ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R600F101HAATP0000" constant="no"/>
+<attribute name="VALUE" value="600mOhm" constant="no"/>
+</technology>
+<technology name="_561070332081">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332081.pdf" constant="no"/>
+<attribute name="IR" value="1.3A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332081 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="200ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R620F101HAATP0000" constant="no"/>
+<attribute name="VALUE" value="620mOhm" constant="no"/>
+</technology>
+<technology name="_561070332092">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332092.pdf" constant="no"/>
+<attribute name="IR" value="2A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332092 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="250ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R240J101LAATP0000" constant="no"/>
+<attribute name="VALUE" value="240mOhm" constant="no"/>
+</technology>
+<technology name="_561070332096">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561070332096.pdf" constant="no"/>
+<attribute name="IR" value="1.7A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 561070332096 " constant="no"/>
+<attribute name="PRATED" value="1W" constant="no"/>
+<attribute name="TCR" value="250ppm/ °C" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="KH0612R330J101LAATP0000" constant="no"/>
+<attribute name="VALUE" value="330mOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13879,10 +13861,10 @@ Updated By Yingchun,Shan,2020-03-19&lt;br&gt;
 <part name="C11" library="fliegl-wuerth" deviceset="WCAP-CSGP_0402" device="_16V(DC)" technology="_885012205037" value="100 nF"/>
 <part name="C12" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H1.25" device="_10V(DC)" package3d_urn="urn:adsk.eagle:package:18489127/2" technology="_885012107011" value="22  µF "/>
 <part name="D0" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AB_3000W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146529/2" technology="_824551331" value="33V"/>
-<part name="RX4" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX2" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX1" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX3" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
+<part name="RX4" library="Wurth_Resistor_WRIS-KWKH" library_urn="urn:adsk.eagle:library:13353576" deviceset="WRIS-KWKH_0612" device="" package3d_urn="urn:adsk.eagle:package:13353581/2" technology="_561070332078" value="510mOhm"/>
+<part name="RX2" library="Wurth_Resistor_WRIS-KWKH" library_urn="urn:adsk.eagle:library:13353576" deviceset="WRIS-KWKH_0612" device="" package3d_urn="urn:adsk.eagle:package:13353581/2" technology="_561070332078" value="510mOhm"/>
+<part name="RX1" library="Wurth_Resistor_WRIS-KWKH" library_urn="urn:adsk.eagle:library:13353576" deviceset="WRIS-KWKH_0612" device="" package3d_urn="urn:adsk.eagle:package:13353581/2" technology="_561070332078" value="510mOhm"/>
+<part name="RX3" library="Wurth_Resistor_WRIS-KWKH" library_urn="urn:adsk.eagle:library:13353576" deviceset="WRIS-KWKH_0612" device="" package3d_urn="urn:adsk.eagle:package:13353581/2" technology="_561070332078" value="510mOhm"/>
 <part name="D5" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AB_3000W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146529/2" technology="_824551331" value="33V"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="60R"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="60R"/>
