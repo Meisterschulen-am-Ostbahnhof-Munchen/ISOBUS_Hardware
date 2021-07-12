@@ -12861,8 +12861,8 @@ Copyright: Würth Elektronik</description>
 <description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
 &lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
 &lt;BR&gt;Size : 0612</description>
-<smd name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1"/>
-<smd name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1"/>
+<smd name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
+<smd name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
 <wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
@@ -13174,8 +13174,8 @@ Copyright: Würth Elektronik</description>
 <wire x1="-0.19" y1="0" x2="0.21" y2="0.25" width="0.1" layer="51"/>
 <wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="0.8" x2="-1.15" y2="1.4" width="0.1" layer="51"/>
-<smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
-<smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180" thermals="no"/>
+<smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180" thermals="no"/>
 <text x="0.06" y="2.04" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="-0.14" y="-2.51" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="2.8" y="0" size="0.6096" layer="21" align="center">+</text>
