@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -24,19 +24,19 @@
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -320,21 +320,21 @@
 <text x="17.78" y="-31.75" size="1.778" layer="25" align="bottom-center">Q4</text>
 <text x="12.7" y="-31.75" size="1.778" layer="25" align="bottom-center">Q3</text>
 <text x="-2.54" y="-31.75" size="1.778" layer="25" align="bottom-center">Q2</text>
-<wire x1="0" y1="-19.05" x2="0" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-19.05" x2="5.08" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="10.16" y1="-19.05" x2="10.16" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="15.24" y1="-19.05" x2="15.24" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="20.32" y1="-19.05" x2="20.32" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="25.4" y1="-19.05" x2="25.4" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="-46.99" width="0.1524" layer="21"/>
 <text x="7.62" y="-31.75" size="1.778" layer="25" align="bottom-center">M</text>
 <text x="22.86" y="-31.75" size="1.778" layer="25" align="bottom-center">M</text>
 <text x="-12.7" y="-31.75" size="1.778" layer="25" align="bottom-center">M</text>
 <text x="-17.78" y="-31.75" size="1.778" layer="25" align="bottom-center">+</text>
-<wire x1="-5.08" y1="-19.05" x2="-5.08" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="-10.16" y1="-19.05" x2="-10.16" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="-15.24" y1="-19.05" x2="-15.24" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="-20.32" y1="-19.05" x2="-20.32" y2="-46.99" width="0.1524" layer="21"/>
-<wire x1="-25.4" y1="-19.05" x2="-25.4" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="0" x2="-15.24" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="0" x2="-20.32" y2="-46.99" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="0" x2="-25.4" y2="-46.99" width="0.1524" layer="21"/>
 <text x="-22.86" y="-31.75" size="1.778" layer="25" align="bottom-center">M</text>
 <circle x="-12.4" y="34.7" radius="2.83980625" width="0.1524" layer="40"/>
 <text x="2.54" y="-31.75" size="1.778" layer="25" align="bottom-center">M</text>
@@ -342,11 +342,28 @@
 <text x="15.24" y="30.48" size="1.778" layer="25" align="bottom-center">H</text>
 <text x="19.05" y="30.48" size="1.778" layer="25" align="bottom-center">P</text>
 <text x="22.86" y="30.48" size="1.778" layer="25" align="bottom-center">M</text>
-<text x="-20.32" y="3.81" size="1.778" layer="25">ECU_GND</text>
-<text x="-20.32" y="-5.08" size="1.778" layer="25">PWR_GND</text>
+<text x="-15.24" y="3.81" size="1.778" layer="25">ECU_GND</text>
+<text x="-11.43" y="-16.51" size="1.778" layer="25" rot="R90">PWR_GND</text>
 <text x="19.05" y="3.81" size="1.778" layer="25" rot="R90">ECU_PWR</text>
-<text x="12.7" y="-1.27" size="1.778" layer="25" rot="R180">PWR</text>
-<wire x1="24.85" y1="0" x2="-24.85" y2="0" width="0.1524" layer="21"/>
+<text x="21.59" y="-3.81" size="1.778" layer="25" rot="R270">PWR</text>
+<wire x1="24.85" y1="0" x2="20.32" y2="0" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="0" x2="15.24" y2="0" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="0" x2="10.16" y2="0" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="-5.08" y2="0" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0" x2="-10.16" y2="0" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="0" x2="-15.24" y2="0" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="0" x2="-20.32" y2="0" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="0" x2="-24.85" y2="0" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="-20.5232" x2="-15.24" y2="-45.72" width="0.1524" layer="22"/>
+<wire x1="-15.24" y1="-20.5232" x2="29.464" y2="-20.5232" width="0.1524" layer="22"/>
+<wire x1="-20.32" y1="0" x2="-20.32" y2="-45.72" width="0.1524" layer="22"/>
+<wire x1="24.8666" y1="0" x2="-24.8666" y2="0" width="0.1524" layer="22"/>
+<text x="17.78" y="3.81" size="1.778" layer="26" rot="MR90">ECU_PWR</text>
+<text x="21.59" y="-5.08" size="1.778" layer="26" rot="MR0">PWR</text>
+<text x="-3.81" y="3.81" size="1.778" layer="26" rot="MR0">ECU_GND</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="26" rot="MR0">PWR_GND</text>
 </plain>
 <libraries>
 <library name="Wurth_Connectors_WR-PHD" urn="urn:adsk.eagle:library:14804658">
@@ -2362,9 +2379,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <packages>
 <package name="WL-SMDC_3535" urn="urn:adsk.eagle:footprint:19063443/1">
 <description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
-<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
 <smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180" thermals="no"/>
-<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" cream="no" thermals="no"/>
+<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
 <wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.1" layer="51"/>
 <wire x1="-1.725" y1="1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
 <wire x1="1.725" y1="-1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
@@ -2807,20 +2824,20 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="5.21" y="0" size="0.4064" layer="27" rot="R90" align="bottom-center"/>
 <attribute name="VR" value="50V(DC)" x="-2.13" y="-53.46" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C6" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H0.8_R" package3d_urn="urn:adsk.eagle:package:18489119/2" value="100  nF " x="0" y="-3.81" smashed="yes" rot="R180">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207098.pdf" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DF" value=" 0.025 " x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="H" value="0.8mm" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="0" y="-5.01" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012207098 " x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QMIN" value="-" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RISO" value="5GOhm" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K050DFCT10000" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL-VALUE" value="±10%" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="0" y="-2.41" size="0.4064" layer="27" rot="R180" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="47.52" y="-17.67" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C6" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H0.8_R" package3d_urn="urn:adsk.eagle:package:18489119/2" value="100  nF " x="-1.27" y="-9.525" smashed="yes" rot="R90">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207098.pdf" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DF" value=" 0.025 " x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="H" value="0.8mm" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-2.47" y="-9.525" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012207098 " x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="QMIN" value="-" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RISO" value="5GOhm" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K050DFCT10000" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOL-VALUE" value="±10%" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="0.13" y="-9.525" size="0.4064" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="-15.13" y="-57.045" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C7" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H0.8_R" package3d_urn="urn:adsk.eagle:package:18489119/2" value="10  nF " x="-10.16" y="-19.05" smashed="yes">
 <attribute name="CERAMIC-TYPE" value="X7R Class II" x="-65.6" y="-5.19" size="1.778" layer="27" display="off"/>
@@ -3346,6 +3363,12 @@ design rules under a new name.</description>
 <via x="22.32" y="-4.85" extent="1-16" drill="0.3" shape="square"/>
 <via x="22.32" y="-6.12" extent="1-16" drill="0.3" shape="square"/>
 <via x="22.32" y="-7.39" extent="1-16" drill="0.3" shape="square"/>
+<via x="8.35" y="-1.04" extent="1-16" drill="0.3" shape="square"/>
+<via x="9.62" y="-1.04" extent="1-16" drill="0.3" shape="square"/>
+<via x="9.62" y="-2.31" extent="1-16" drill="0.3" shape="square"/>
+<via x="8.35" y="-2.31" extent="1-16" drill="0.3" shape="square"/>
+<via x="-3.08" y="-2.31" extent="1-16" drill="0.3" shape="square"/>
+<via x="-3.08" y="-1.04" extent="1-16" drill="0.3" shape="square"/>
 </signal>
 <signal name="Q4">
 <contactref element="U3" pad="13"/>
@@ -3384,11 +3407,12 @@ design rules under a new name.</description>
 <signal name="Q1C">
 <contactref element="R13" pad="1"/>
 <contactref element="J3" pad="3"/>
-<via x="-6.38" y="0" extent="1-16" drill="0.35"/>
-<wire x1="-6.38" y1="5.08" x2="-6.38" y2="0" width="0.1524" layer="16"/>
-<wire x1="-6.38" y1="-4.5872" x2="-6.38" y2="0" width="0.1524" layer="1"/>
+<via x="-5.11" y="0" extent="1-16" drill="0.35"/>
+<wire x1="-5.11" y1="3.81" x2="-5.11" y2="0" width="0.1524" layer="16"/>
+<wire x1="-5.11" y1="0" x2="-5.11" y2="-3.3172" width="0.1524" layer="1"/>
+<wire x1="-6.38" y1="-4.5872" x2="-5.11" y2="-3.3172" width="0.1524" layer="1"/>
 <wire x1="-20.02" y1="37.24" x2="-17.78" y2="35" width="0.1524" layer="16"/>
-<wire x1="-17.78" y1="16.48" x2="-6.38" y2="5.08" width="0.1524" layer="16"/>
+<wire x1="-17.78" y1="16.48" x2="-5.11" y2="3.81" width="0.1524" layer="16"/>
 <wire x1="-17.78" y1="35" x2="-17.78" y2="16.48" width="0.1524" layer="16"/>
 </signal>
 <signal name="Q2C">
@@ -3416,10 +3440,13 @@ design rules under a new name.</description>
 <contactref element="U2" pad="1"/>
 <contactref element="R10" pad="2"/>
 <contactref element="C6" pad="2"/>
-<wire x1="-0.95" y1="-3.81" x2="-0.95" y2="-6.4" width="0.254" layer="1"/>
-<wire x1="-0.95" y1="-6.4" x2="-3.13" y2="-8.58" width="0.254" layer="1"/>
-<wire x1="-0.95" y1="-3.81" x2="-1.27" y2="-3.49" width="0.254" layer="1"/>
-<wire x1="-1.27" y1="-3.49" x2="-1.27" y2="-0.95" width="0.254" layer="1"/>
+<wire x1="-3.13" y1="-8.58" x2="-1.275" y2="-8.58" width="0.254" layer="1"/>
+<wire x1="-1.275" y1="-8.58" x2="-1.27" y2="-8.575" width="0.254" layer="1"/>
+<wire x1="-1.27" y1="-0.95" x2="-1.27" y2="-2.54" width="0.254" layer="1"/>
+<via x="-1.27" y="-2.54" extent="1-16" drill="0.35"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-7.62" width="0.254" layer="16"/>
+<via x="-1.27" y="-7.62" extent="1-16" drill="0.35"/>
+<wire x1="-1.27" y1="-7.62" x2="-1.27" y2="-8.575" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U3" pad="2"/>
@@ -3471,37 +3498,42 @@ design rules under a new name.</description>
 <contactref element="C3" pad="2"/>
 <wire x1="17.19" y1="-8.58" x2="19.045" y2="-8.58" width="0.254" layer="1"/>
 <wire x1="19.045" y1="-8.58" x2="19.05" y2="-8.575" width="0.254" layer="1"/>
-<wire x1="19.05" y1="-8.575" x2="19.05" y2="-6.543" width="0.254" layer="1"/>
-<wire x1="19.05" y1="-6.543" x2="18.034" y2="-5.527" width="0.254" layer="1"/>
-<wire x1="18.034" y1="-5.527" x2="10.038" y2="-5.527" width="0.254" layer="1"/>
-<wire x1="10.038" y1="-5.527" x2="6.35" y2="-1.839" width="0.254" layer="1"/>
-<wire x1="6.35" y1="-1.839" x2="6.35" y2="-0.95" width="0.254" layer="1"/>
+<wire x1="6.35" y1="-0.95" x2="6.35" y2="-2.54" width="0.254" layer="1"/>
+<via x="6.35" y="-2.54" extent="1-16" drill="0.35"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="-3.81" width="0.254" layer="16"/>
+<wire x1="7.62" y1="-5.08" x2="6.35" y2="-3.81" width="0.254" layer="16"/>
+<wire x1="19.05" y1="-6.35" x2="19.05" y2="-7.62" width="0.254" layer="16"/>
+<wire x1="19.05" y1="-6.35" x2="17.78" y2="-5.08" width="0.254" layer="16"/>
+<wire x1="17.78" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="16"/>
+<via x="19.05" y="-7.62" extent="1-16" drill="0.35"/>
+<wire x1="19.05" y1="-7.62" x2="19.05" y2="-8.575" width="0.254" layer="1"/>
 </signal>
 <signal name="Q4C">
 <contactref element="R2" pad="1"/>
 <contactref element="J2" pad="3"/>
 <wire x1="16.54" y1="-4.5872" x2="15.6632875" y2="-4.5872" width="0.1524" layer="1"/>
 <wire x1="15.6632875" y1="-4.5872" x2="14.7846875" y2="-3.7086" width="0.1524" layer="1"/>
-<wire x1="14.7846875" y1="-3.7086" x2="13.97" y2="-3.7086" width="0.1524" layer="1"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-2.54" width="0.1524" layer="1"/>
+<wire x1="12.7" y1="-2.54" x2="13.8686" y2="-3.7086" width="0.1524" layer="1"/>
+<wire x1="13.8686" y1="-3.7086" x2="14.7846875" y2="-3.7086" width="0.1524" layer="1"/>
 <wire x1="-3.51" y1="37.24" x2="15.24" y2="18.49" width="0.1524" layer="16"/>
 <wire x1="-4.78" y1="37.24" x2="-3.51" y2="37.24" width="0.1524" layer="16"/>
-<via x="13.97" y="0" extent="1-16" drill="0.35"/>
-<wire x1="13.97" y1="0" x2="13.97" y2="-3.7086" width="0.1524" layer="1"/>
+<via x="12.7" y="0" extent="1-16" drill="0.35"/>
 <wire x1="15.24" y1="18.49" x2="15.24" y2="5.08" width="0.1524" layer="16"/>
-<wire x1="15.24" y1="5.08" x2="13.97" y2="3.81" width="0.1524" layer="16"/>
-<wire x1="13.97" y1="3.81" x2="13.97" y2="0" width="0.1524" layer="16"/>
+<wire x1="15.24" y1="5.08" x2="12.7" y2="2.54" width="0.1524" layer="16"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="0" width="0.1524" layer="16"/>
 </signal>
 <signal name="Q3C">
 <contactref element="R4" pad="1"/>
 <contactref element="J3" pad="1"/>
-<wire x1="13.94" y1="-4.5872" x2="9.6672" y2="-4.5872" width="0.1524" layer="1"/>
+<wire x1="13.94" y1="-4.5872" x2="12.8422" y2="-4.5872" width="0.1524" layer="1"/>
+<wire x1="12.8422" y1="-4.5872" x2="11.43" y2="-3.175" width="0.1524" layer="1"/>
+<wire x1="11.43" y1="-3.175" x2="11.43" y2="0" width="0.1524" layer="1"/>
 <wire x1="-20.02" y1="42.32" x2="-15.24" y2="37.54" width="0.1524" layer="16"/>
 <wire x1="-15.24" y1="37.54" x2="-15.24" y2="19.05" width="0.1524" layer="16"/>
 <wire x1="-15.24" y1="19.05" x2="3.81" y2="0" width="0.1524" layer="16"/>
-<wire x1="3.81" y1="0" x2="7.62" y2="0" width="0.1524" layer="16"/>
-<via x="7.62" y="0" extent="1-16" drill="0.35"/>
-<wire x1="9.6672" y1="-4.5872" x2="7.62" y2="-2.54" width="0.1524" layer="1"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="0" width="0.1524" layer="1"/>
+<wire x1="3.81" y1="0" x2="11.43" y2="0" width="0.1524" layer="16"/>
+<via x="11.43" y="0" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="ECU_PWR">
 <contactref element="C10" pad="2"/>
@@ -3866,6 +3898,9 @@ design rules under a new name.</description>
 <via x="1.651" y="33.401" extent="1-16" drill="0.35"/>
 <via x="-0.889" y="33.401" extent="1-16" drill="0.35"/>
 <via x="-0.889" y="35.941" extent="1-16" drill="0.35"/>
+<via x="-16.51" y="16.51" extent="1-16" drill="0.35"/>
+<via x="-15.24" y="15.24" extent="1-16" drill="0.35"/>
+<via x="-13.97" y="13.97" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
