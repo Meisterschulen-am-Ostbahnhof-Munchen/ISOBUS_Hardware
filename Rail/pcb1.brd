@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -30,7 +30,7 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -1214,8 +1214,8 @@ Copyright: Würth Elektronik</description>
 <description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
 &lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
 &lt;BR&gt;Size : 0612</description>
-<smd name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
-<smd name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
+<smd name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1"/>
+<smd name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1"/>
 <wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
@@ -2375,94 +2375,113 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="LED">
+<library name="Wurth_LEDs_WL-SMRW" urn="urn:adsk.eagle:library:19040144">
+<description>&lt;BR&gt;Wurth Elektronik - LEDs - Singnal LEDs - Clip LED Reverse Mount - WL-SMRW&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-03-19&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
 <packages>
-<package name="WL-SMDC_3535" urn="urn:adsk.eagle:footprint:19063443/1">
-<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
-<smd name="2" x="1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="0" y="0" dx="1.3" dy="3.25" layer="1" rot="R180" thermals="no"/>
-<smd name="1" x="-1.4" y="0" dx="0.5" dy="0.4" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.1" layer="51"/>
-<wire x1="-1.725" y1="1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
-<wire x1="1.725" y1="-1.725" x2="1.725" y2="1.725" width="0.1" layer="51"/>
-<wire x1="-1.725" y1="-1.725" x2="-1.725" y2="1.725" width="0.1" layer="51"/>
-<text x="-0.04" y="2.24" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.27" y="-2.81" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="2.68" y="-0.07" size="0.8128" layer="21" align="center">+</text>
-<text x="2.68" y="-0.07" size="0.8128" layer="51" align="center">+</text>
-<polygon width="0.01" layer="1">
-<vertex x="1.625" y="-1.625"/>
-<vertex x="1.145" y="-1.625"/>
-<vertex x="1.145" y="1.625"/>
-<vertex x="1.625" y="1.625"/>
-<vertex x="1.625" y="0.25"/>
-<vertex x="2" y="0.25"/>
-<vertex x="2" y="-0.25"/>
-<vertex x="1.625" y="-0.25"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.625" y="-1.625"/>
-<vertex x="1.145" y="-1.625"/>
-<vertex x="1.145" y="1.625"/>
-<vertex x="1.625" y="1.625"/>
-<vertex x="1.625" y="0.25"/>
-<vertex x="2" y="0.25"/>
-<vertex x="2" y="-0.25"/>
-<vertex x="1.625" y="-0.25"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="1.045" y="1.725"/>
-<vertex x="1.725" y="1.725"/>
-<vertex x="1.725" y="0.35"/>
-<vertex x="2.1" y="0.35"/>
-<vertex x="2.1" y="-0.35"/>
-<vertex x="1.725" y="-0.35"/>
-<vertex x="1.725" y="-1.725"/>
-<vertex x="1.045" y="-1.725"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.145" y="-1.625"/>
-<vertex x="-1.625" y="-1.625"/>
-<vertex x="-1.625" y="-0.25"/>
-<vertex x="-2" y="-0.25"/>
-<vertex x="-2" y="0.25"/>
-<vertex x="-1.625" y="0.25"/>
-<vertex x="-1.625" y="1.625"/>
-<vertex x="-1.145" y="1.625"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.045" y="-1.725"/>
-<vertex x="-1.725" y="-1.725"/>
-<vertex x="-1.725" y="-0.35"/>
-<vertex x="-2.1" y="-0.35"/>
-<vertex x="-2.1" y="0.35"/>
-<vertex x="-1.725" y="0.35"/>
-<vertex x="-1.725" y="1.725"/>
-<vertex x="-1.045" y="1.725"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-1.625" y="1.625"/>
-<vertex x="-1.145" y="1.625"/>
-<vertex x="-1.145" y="-1.625"/>
-<vertex x="-1.625" y="-1.625"/>
-<vertex x="-1.625" y="-0.25"/>
-<vertex x="-2" y="-0.25"/>
-<vertex x="-2" y="0.25"/>
-<vertex x="-1.625" y="0.25"/>
-</polygon>
+<package name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:footprint:19040146/1" library_version="2">
+<description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
+&lt;BR&gt;&lt;BR&gt;Normal use</description>
+<smd name="1" x="-1.75" y="0" dx="1.6" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="1.75" y="0" dx="1.6" dy="1.5" layer="1" rot="R90"/>
+<text x="0.02" y="1.4" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.38" y="-1.88" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3.2" y="-0.1" size="0.6096" layer="21" align="center">+</text>
+<text x="3.2" y="-0.1" size="0.6096" layer="51" align="center">+</text>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-0.9" x2="0.7" y2="-0.9" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="0.9" x2="0.7" y2="0.9" width="0.2" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.127" layer="51"/>
+<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.127" layer="51"/>
 <polygon width="0.1" layer="39">
-<vertex x="-2.3" y="1.9"/>
-<vertex x="2.3" y="1.9"/>
-<vertex x="2.3" y="-1.9"/>
-<vertex x="-2.3" y="-1.9"/>
+<vertex x="-2.7" y="1.1"/>
+<vertex x="2.7" y="1.1"/>
+<vertex x="2.7" y="-1.1"/>
+<vertex x="-2.7" y="-1.1"/>
 </polygon>
 </package>
 </packages>
 <packages3d>
-<package3d name="WL-SMDC_3535" urn="urn:adsk.eagle:package:19063445/2" type="model">
-<description>&lt;b&gt;WL-SMDC&lt;/b&gt;&lt;br&gt; SMT Mono-color Ceramic LED Waterclear,Size:3535,3.45x3.45x0.71mm(LXWXH)</description>
+<package3d name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:package:19040155/2" type="model" library_version="2">
+<description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
+&lt;BR&gt;&lt;BR&gt;Normal use</description>
 <packageinstances>
-<packageinstance name="WL-SMDC_3535"/>
+<packageinstance name="WL-SMRW_1206_DOME"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2999,97 +3018,45 @@ design rules under a new name.</description>
 <attribute name="VBR" value="38.65V" x="-20.066" y="-26.035" size="1.778" layer="27" display="off"/>
 <attribute name="VCLAMP" value="53.3V" x="-20.066" y="-26.035" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D2" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="-1.27" y="-25.4" smashed="yes" rot="R180">
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EMITTING-COLOR" value="Green" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-1.31" y="-23.541" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="150353GS74500" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PHI-V-TYP" value="85lm" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-1" y="-22.59" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
-<attribute name="VIEWING-ANGLE" value="125°" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="RX4" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="23.495" y="-25.4" smashed="yes" rot="R90">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="23.495" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IR" value="39.9mA" x="23.495" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUNT" value="SMT" x="23.495" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="23.495" y="-23.7" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 561020132023 " x="23.495" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRATED" value="0.75W" x="23.495" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TCR" value="±200ppm/ °C" x="23.495" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="23.495" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D1" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="-8.89" y="-25.4" smashed="yes">
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
-<attribute name="EMITTING-COLOR" value="Green" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-8.93" y="-23.541" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="150353GS74500" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
-<attribute name="PHI-V-TYP" value="85lm" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-9.16" y="-28.21" size="0.6096" layer="27" align="bottom-center"/>
-<attribute name="VIEWING-ANGLE" value="125°" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<element name="RX2" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="3.175" y="-25.4" smashed="yes" rot="R90">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="3.175" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IR" value="39.9mA" x="3.175" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUNT" value="SMT" x="3.175" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="3.175" y="-23.7" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 561020132023 " x="3.175" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRATED" value="0.75W" x="3.175" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TCR" value="±200ppm/ °C" x="3.175" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="3.175" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D4" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="19.05" y="-25.4" smashed="yes" rot="R180">
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EMITTING-COLOR" value="Green" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="19.01" y="-23.414" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="150353GS74500" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PHI-V-TYP" value="85lm" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="19.32" y="-22.59" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
-<attribute name="VIEWING-ANGLE" value="125°" x="27.94" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="RX1" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="-13.335" y="-25.4" smashed="yes" rot="R90">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="-13.335" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IR" value="39.9mA" x="-13.335" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUNT" value="SMT" x="-13.335" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-13.335" y="-23.7" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 561020132023 " x="-13.335" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRATED" value="0.75W" x="-13.335" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TCR" value="±200ppm/ °C" x="-13.335" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="-13.335" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D3" library="LED" package="WL-SMDC_3535" package3d_urn="urn:adsk.eagle:package:19063445/2" value="150353GS74500" x="11.43" y="-25.4" smashed="yes">
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150353GS74500.pdf" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="EMITTING-COLOR" value="Green" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.39" y="-23.541" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="150353GS74500" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="PHI-V-TYP" value="85lm" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.16" y="-28.21" size="0.6096" layer="27" align="bottom-center"/>
-<attribute name="VIEWING-ANGLE" value="125°" x="-5.08" y="-10.16" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R19" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="100Ohm" x="22.86" y="-25.4" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132008.pdf" x="22.86" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="86600mA" x="22.86" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="22.86" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.86" y="-23.7" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132008 " x="22.86" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="22.86" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="22.86" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121000F304DAATP0000" x="22.86" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R20" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="100Ohm" x="2.54" y="-25.4" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132008.pdf" x="2.54" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="86600mA" x="2.54" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="2.54" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="2.54" y="-23.7" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132008 " x="2.54" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="2.54" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="2.54" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121000F304DAATP0000" x="2.54" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R23" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="100Ohm" x="-12.7" y="-25.4" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132008.pdf" x="-12.7" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="86600mA" x="-12.7" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="-12.7" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-12.7" y="-23.7" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132008 " x="-12.7" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="-12.7" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="-12.7" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121000F304DAATP0000" x="-12.7" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R24" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="100Ohm" x="7.62" y="-25.4" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132008.pdf" x="7.62" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="86600mA" x="7.62" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="7.62" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.62" y="-23.7" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132008 " x="7.62" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="7.62" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="7.62" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121000F304DAATP0000" x="7.62" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX3" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="6.985" y="-25.4" smashed="yes" rot="R90">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="6.985" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IR" value="39.9mA" x="6.985" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUNT" value="SMT" x="6.985" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="6.985" y="-23.7" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 561020132023 " x="6.985" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRATED" value="0.75W" x="6.985" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TCR" value="±200ppm/ °C" x="6.985" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="6.985" y="-25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D5" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AB_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146529/2" value="33V" x="20.066" y="26.035" smashed="yes" rot="R180">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551331.pdf" x="32.766" y="13.335" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3135,6 +3102,58 @@ design rules under a new name.</description>
 <attribute name="ROWS" value="Dual" x="-10.414" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Board Stacker" x="-10.414" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-14.9116" y="-0.9442" size="0.8128" layer="27" align="bottom-right"/>
+</element>
+<element name="D2" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/2" value="" x="-1.27" y="-25.4" smashed="yes" rot="R180">
+<attribute name="ABSTRAHLWINKEL" value="20°" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120VS82500.pdf" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EMITTING-COLOR" value="Bright Green" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="I-V-TYP" value="1050mcd" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="573nm" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="575nm" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-1.25" y="-24" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120VS82500" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="V-F-TYP" value="2V" x="-1.27" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="-0.89" y="-23.52" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
+</element>
+<element name="D1" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/2" value="" x="-8.89" y="-25.4" smashed="yes">
+<attribute name="ABSTRAHLWINKEL" value="20°" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120VS82500.pdf" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="EMITTING-COLOR" value="Bright Green" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="I-V-TYP" value="1050mcd" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="573nm" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="575nm" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-8.87" y="-24" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120VS82500" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="V-F-TYP" value="2V" x="-8.89" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-9.27" y="-27.28" size="0.6096" layer="27" align="bottom-center"/>
+</element>
+<element name="D4" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/2" value="" x="19.05" y="-25.4" smashed="yes" rot="R180">
+<attribute name="ABSTRAHLWINKEL" value="20°" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120VS82500.pdf" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EMITTING-COLOR" value="Bright Green" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="I-V-TYP" value="1050mcd" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="573nm" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="575nm" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="19.07" y="-24" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120VS82500" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="V-F-TYP" value="2V" x="19.05" y="-25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="19.43" y="-23.52" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
+</element>
+<element name="D3" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/2" value="" x="11.43" y="-25.4" smashed="yes">
+<attribute name="ABSTRAHLWINKEL" value="20°" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120VS82500.pdf" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="EMITTING-COLOR" value="Bright Green" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="I-V-TYP" value="1050mcd" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="573nm" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="575nm" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11.45" y="-24" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120VS82500" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="V-F-TYP" value="2V" x="11.43" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.05" y="-27.28" size="0.6096" layer="27" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -3385,7 +3404,6 @@ design rules under a new name.</description>
 <contactref element="J7" pad="4"/>
 <contactref element="J7" pad="A4"/>
 <contactref element="D4" pad="2"/>
-<contactref element="D4" pad="3"/>
 </signal>
 <signal name="Q3">
 <contactref element="U3" pad="10"/>
@@ -3402,7 +3420,6 @@ design rules under a new name.</description>
 <contactref element="J7" pad="A3"/>
 <contactref element="J7" pad="3"/>
 <contactref element="D3" pad="2"/>
-<contactref element="D3" pad="3"/>
 </signal>
 <signal name="Q1C">
 <contactref element="R13" pad="1"/>
@@ -3463,7 +3480,6 @@ design rules under a new name.</description>
 <contactref element="U2" pad="12"/>
 <contactref element="U2" pad="14"/>
 <contactref element="C8" pad="1"/>
-<contactref element="D2" pad="2"/>
 <contactref element="J6" pad="5"/>
 <contactref element="J6" pad="A5"/>
 <polygon width="0.2032" layer="1" isolate="0.254" rank="2">
@@ -3473,14 +3489,13 @@ design rules under a new name.</description>
 <vertex x="-0.2032" y="-44.45"/>
 <vertex x="-4.8768" y="-44.45"/>
 </polygon>
-<contactref element="D2" pad="3"/>
+<contactref element="D2" pad="2"/>
 </signal>
 <signal name="Q1">
 <contactref element="U2" pad="10"/>
 <contactref element="U2" pad="9"/>
 <contactref element="U2" pad="8"/>
 <contactref element="C7" pad="2"/>
-<contactref element="D1" pad="2"/>
 <contactref element="J6" pad="4"/>
 <contactref element="J6" pad="A4"/>
 <polygon width="0.2032" layer="1" isolate="0.254" rank="2">
@@ -3490,7 +3505,7 @@ design rules under a new name.</description>
 <vertex x="-5.2832" y="-13.7414"/>
 <vertex x="-5.2832" y="-44.45"/>
 </polygon>
-<contactref element="D1" pad="3"/>
+<contactref element="D1" pad="2"/>
 </signal>
 <signal name="AGNDU3">
 <contactref element="U3" pad="1"/>
@@ -3575,44 +3590,47 @@ design rules under a new name.</description>
 <wire x1="13.9473" y1="10.496990625" x2="13.9473" y2="10.479503125" width="0.508" layer="1"/>
 </signal>
 <signal name="N$1" class="1">
-<contactref element="D4" pad="1"/>
-<contactref element="R19" pad="1"/>
+<contactref element="RX4" pad="1"/>
 <polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="20.32" y="-23.876"/>
-<vertex x="22.479" y="-23.876"/>
-<vertex x="22.479" y="-26.924"/>
+<vertex x="23.114" y="-23.876"/>
+<vertex x="23.114" y="-26.924"/>
 <vertex x="20.32" y="-26.924"/>
 </polygon>
+<contactref element="D4" pad="1"/>
 </signal>
 <signal name="N$6" class="1">
-<contactref element="D2" pad="1"/>
-<contactref element="R20" pad="1"/>
+<contactref element="RX2" pad="1"/>
 <polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="0" y="-23.876"/>
-<vertex x="2.159" y="-23.876"/>
-<vertex x="2.159" y="-26.924"/>
+<vertex x="2.794" y="-23.876"/>
+<vertex x="2.794" y="-26.924"/>
 <vertex x="0" y="-26.924"/>
 </polygon>
+<contactref element="D2" pad="1"/>
+<wire x1="0.48" y1="-25.4" x2="2.425" y2="-25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8" class="1">
-<contactref element="D1" pad="1"/>
-<contactref element="R23" pad="2"/>
+<contactref element="RX1" pad="2"/>
 <polygon width="0.1524" layer="1" isolate="0.254">
-<vertex x="-12.319" y="-23.876"/>
+<vertex x="-12.954" y="-23.876"/>
 <vertex x="-10.16" y="-23.876"/>
 <vertex x="-10.16" y="-26.924"/>
-<vertex x="-12.319" y="-26.924"/>
+<vertex x="-12.954" y="-26.924"/>
 </polygon>
+<contactref element="D1" pad="1"/>
+<wire x1="-10.64" y1="-25.4" x2="-12.585" y2="-25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9" class="1">
-<contactref element="D3" pad="1"/>
-<contactref element="R24" pad="2"/>
+<contactref element="RX3" pad="2"/>
 <polygon width="0.1524" layer="1" isolate="0.254">
-<vertex x="8.001" y="-23.876"/>
+<vertex x="7.366" y="-23.876"/>
 <vertex x="10.16" y="-23.876"/>
 <vertex x="10.16" y="-26.924"/>
-<vertex x="8.001" y="-26.924"/>
+<vertex x="7.366" y="-26.924"/>
 </polygon>
+<contactref element="D3" pad="1"/>
+<wire x1="9.68" y1="-25.4" x2="7.735" y2="-25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWR_GND">
 <polygon width="0.2032" layer="1" isolate="0.254" rank="2">
@@ -3654,10 +3672,10 @@ design rules under a new name.</description>
 <contactref element="C9" pad="2"/>
 <contactref element="C4" pad="1"/>
 <contactref element="D0" pad="1"/>
-<contactref element="R19" pad="2"/>
-<contactref element="R24" pad="1"/>
-<contactref element="R23" pad="1"/>
-<contactref element="R20" pad="2"/>
+<contactref element="RX4" pad="2"/>
+<contactref element="RX3" pad="1"/>
+<contactref element="RX1" pad="1"/>
+<contactref element="RX2" pad="2"/>
 <polygon width="0.2032" layer="1" isolate="0.254" rank="2">
 <vertex x="-25.1968" y="-44.45"/>
 <vertex x="-25.1968" y="-0.2032"/>
