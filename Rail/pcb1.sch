@@ -13357,8 +13357,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-SMTW/"&gt;https
 <package name="DIOC2012X95N">
 <description>&lt;b&gt;0805&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-0.9" y="0" dx="1.45" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="0.9" y="0" dx="1.45" dy="1.1" layer="1" rot="R90"/>
+<smd name="1" x="-0.9" y="0" dx="1.45" dy="1.1" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="0.9" y="0" dx="1.45" dy="1.1" layer="1" rot="R90" thermals="no"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-1.9" y1="1.175" x2="1.9" y2="1.175" width="0.05" layer="51"/>
