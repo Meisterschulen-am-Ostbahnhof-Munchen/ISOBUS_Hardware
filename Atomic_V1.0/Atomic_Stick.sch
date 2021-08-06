@@ -4457,6 +4457,219 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0805/"&g
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Connectors_WR-LECO" urn="urn:adsk.eagle:library:14873884">
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - LED Connectors - WR-LECO &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-10-30&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="695402400222" urn="urn:adsk.eagle:footprint:14873886/1" library_version="2">
+<description>&lt;B&gt;WR-LECO 4.00 mm SMT Horizontal Connector</description>
+<smd name="A2" x="2" y="-4.625" dx="6" dy="2" layer="1" rot="R270"/>
+<smd name="2" x="2" y="4.625" dx="3.5" dy="2" layer="1" rot="R270"/>
+<smd name="A1" x="-2" y="-4.625" dx="6" dy="2" layer="1" rot="R270"/>
+<smd name="1" x="-2" y="4.625" dx="3.5" dy="2" layer="1" rot="R270"/>
+<wire x1="4" y1="-7.225" x2="-4" y2="-7.225" width="0.1" layer="51"/>
+<wire x1="-4" y1="-7.225" x2="-4" y2="4.475" width="0.1" layer="51"/>
+<wire x1="-4" y1="4.475" x2="4" y2="4.475" width="0.1" layer="51"/>
+<wire x1="4" y1="4.475" x2="4" y2="-7.225" width="0.1" layer="51"/>
+<wire x1="3.3" y1="4.575" x2="4.1" y2="4.575" width="0.2" layer="21"/>
+<wire x1="4.1" y1="4.575" x2="4.1" y2="-7.325" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-7.325" x2="3.3" y2="-7.325" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="-7.325" x2="-4.1" y2="-7.325" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-7.325" x2="-4.1" y2="4.575" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="4.575" x2="-3.3" y2="4.575" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="4.575" x2="0.7" y2="4.575" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="-7.325" x2="0.7" y2="-7.325" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="4.3" y="-7.9"/>
+<vertex x="-4.3" y="-7.9"/>
+<vertex x="-4.3" y="6.6"/>
+<vertex x="4.3" y="6.6"/>
+</polygon>
+<text x="-2.24" y="1.7" size="0.8128" layer="48">1</text>
+<text x="1.66" y="1.7" size="0.8128" layer="48">2</text>
+<text x="0" y="7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-3.6" y="6" radius="0.1" width="0.3" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="695402400222" urn="urn:adsk.eagle:package:14873908/2" type="model" library_version="2">
+<description>&lt;B&gt;WR-LECO 4.00 mm SMT Horizontal Connector</description>
+<packageinstances>
+<packageinstance name="695402400222"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="2FS" urn="urn:adsk.eagle:symbol:14873904/1" library_version="2">
+<description>Socket Header THT,3Pins</description>
+<pin name="1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="-4.88" y="-0.922" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-4.83" y="-2.58" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
+<wire x1="-3.81" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-0.635" x2="0" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.27" x2="-0.635" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.905" y1="-0.635" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="-1.27" x2="-3.175" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="695402400222" urn="urn:adsk.eagle:component:14873920/2" prefix="J" uservalue="yes" library_version="2">
+<description>&lt;b&gt;WR-LECO 4.00 mm SMT Horizontal Connector
+&lt;br&gt;
+&lt;br&gt;
+CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;UL Approval E323964 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;WIREPROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Solid Wire Section (AWG) 18 to 24 (AWG) 
+&lt;br&gt;Solid Wire Section (Metric) 0.823 to 0.205 (mm²) 
+&lt;br&gt;Stranded Wire Section (AWG) 18 to 24 (AWG) 
+&lt;br&gt;Stranded Wire Section (Metric) 0.823 to 0.205 (mm²) 
+&lt;br&gt;Wire Strip Length 8 up to 9 (mm) 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Contact Resistance [UL] 20 mΩ 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -35 °C up to +105 °C 
+&lt;br&gt;Compliance Lead free / RoHS 
+&lt;br&gt;IR UL 9 A 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PPA-GF 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Grey 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Pitch 4 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o79410v209%20WR-LECO_6954xx400222_4C.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o79410v209%20WR-LECO_6954xx400222_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/LECO_4_00_SMT_WTB_CONNECTOR_HORIZONTAL_6954XX400222"&gt;https://katalog.we-online.com/en/em/LECO_4_00_SMT_WTB_CONNECTOR_HORIZONTAL_6954XX400222&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-10-30&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2FS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="695402400222">
+<connects>
+<connect gate="G$1" pin="1" pad="1 A1"/>
+<connect gate="G$1" pin="2" pad="2 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14873908/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/695402400222.pdf" constant="no"/>
+<attribute name="GENDER" value="Wire to Board" constant="no"/>
+<attribute name="IR" value="9A" constant="no"/>
+<attribute name="PART-NUMBER" value="695402400222" constant="no"/>
+<attribute name="PINS" value=" 2 " constant="no"/>
+<attribute name="PITCH" value="4mm" constant="no"/>
+<attribute name="TYPE" value="Angled" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4509,22 +4722,20 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0805/"&g
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H1.25" device="_10V(DC)" package3d_urn="urn:adsk.eagle:package:18489127/2" technology="_885012107011" value="22  µF "/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="J3" library="Wurth_Connectors_WR-LECO" library_urn="urn:adsk.eagle:library:14873884" deviceset="695402400222" device="" package3d_urn="urn:adsk.eagle:package:14873908/2"/>
+<part name="J4" library="Wurth_Connectors_WR-LECO" library_urn="urn:adsk.eagle:library:14873884" deviceset="695402400222" device="" package3d_urn="urn:adsk.eagle:package:14873908/2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-25.4" y="139.7" size="1.778" layer="95">G</text>
-<text x="-27.94" y="139.7" size="1.778" layer="95">V</text>
-<text x="-30.48" y="139.7" size="1.778" layer="95">H</text>
-<text x="-33.02" y="139.7" size="1.778" layer="95">L</text>
 <frame x1="-104.14" y1="-20.32" x2="281.94" y2="198.12" columns="8" rows="5" layer="94"/>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="35.56" y="93.98" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="38.1" y="91.44" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND2" gate="1" x="-25.4" y="119.38" smashed="yes">
-<attribute name="VALUE" x="-27.94" y="114.3" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="-35.56" y="134.62" smashed="yes">
+<attribute name="VALUE" x="-38.1" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="P+3" gate="1" x="48.26" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="50.8" y="137.16" size="1.778" layer="96" rot="MR90"/>
@@ -4561,15 +4772,24 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0805/"&g
 <instance part="GND8" gate="1" x="60.96" y="93.98" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="63.5" y="91.44" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="J3" gate="G$1" x="-38.1" y="157.48" smashed="yes">
+<attribute name="NAME" x="-42.98" y="156.558" size="1.016" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="-42.93" y="154.9" size="1.016" layer="96" align="bottom-right"/>
+</instance>
+<instance part="J4" gate="G$1" x="-33.02" y="147.32" smashed="yes">
+<attribute name="NAME" x="-37.9" y="146.398" size="1.016" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="-37.85" y="144.74" size="1.016" layer="96" align="bottom-right"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="1">
 <segment>
-<wire x1="-25.4" y1="129.54" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="142.24" x2="-35.56" y2="137.16" width="0.1524" layer="91"/>
 <label x="-27.94" y="111.76" size="1.778" layer="95"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -4609,23 +4829,23 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0805/"&g
 </net>
 <net name="CAN_H" class="0">
 <segment>
-<wire x1="-30.48" y1="129.54" x2="-30.48" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="119.38" x2="-43.18" y2="119.38" width="0.1524" layer="91"/>
-<label x="-43.18" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="152.4" x2="-40.64" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="142.24" x2="-45.72" y2="142.24" width="0.1524" layer="91"/>
+<label x="-45.72" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
 <segment>
-<wire x1="-33.02" y1="129.54" x2="-33.02" y2="127" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="142.24" x2="-33.02" y2="127" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="127" x2="-43.18" y2="127" width="0.1524" layer="91"/>
 <label x="-43.18" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
-<wire x1="-27.94" y1="129.54" x2="-27.94" y2="127" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="127" x2="-27.94" y2="127" width="0.1524" layer="91"/>
 <junction x="-15.24" y="127"/>
 <wire x1="-15.24" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -4633,6 +4853,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0805/"&g
 <wire x1="7.62" y1="121.92" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <junction x="7.62" y="127"/>
 <pinref part="G1" gate="G" pin="I"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="152.4" x2="-15.24" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="152.4" x2="-15.24" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
