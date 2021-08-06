@@ -72,7 +72,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -2486,415 +2486,6 @@ Details see: &lt;a href="https://katalog.we-online.de/en/pbs/WE-TVS/82402374?m"&
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_Step Down Converter_MagI³C-FDSM" urn="urn:adsk.eagle:library:13379781">
-<description>&lt;BR&gt;Wurth Elektronik - Power Modules - Step Down Converter - MagI³C-FDSM &lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-
-&lt;HR&gt;
-Eagle Version 9, Library Revision 2020a, 2020-03-17&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="MAGI³C-FDSM_173010X78" urn="urn:adsk.eagle:footprint:13379785/1" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="3" x="2.54" y="0" drill="1" rot="R180"/>
-<pad name="2" x="0" y="0" drill="1" rot="R180"/>
-<pad name="1" x="-2.54" y="0" drill="1" rot="R180"/>
-<circle x="-3.89" y="-0.08" radius="0.1" width="0.3" layer="21"/>
-<wire x1="-5.8" y1="6.5" x2="5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="5.8" y1="6.5" x2="5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2" x2="-5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="6.6" x2="5.9" y2="6.6" width="0.2" layer="21"/>
-<wire x1="5.9" y1="6.6" x2="5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.1" x2="-5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-2.1" x2="-5.9" y2="6.6" width="0.2" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6.8"/>
-<vertex x="6.1" y="6.8"/>
-<vertex x="6.1" y="-2.3"/>
-<vertex x="-6.1" y="-2.3"/>
-</polygon>
-</package>
-<package name="MAGI³C-FDSM_17395XX78" urn="urn:adsk.eagle:footprint:13379784/1" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<circle x="-3.89" y="-0.08" radius="0.1" width="0.3" layer="21"/>
-<wire x1="-5.8" y1="6.5" x2="5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="5.8" y1="6.5" x2="5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2" x2="-5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="6.6" x2="5.9" y2="6.6" width="0.2" layer="21"/>
-<wire x1="5.9" y1="6.6" x2="5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.1" x2="-5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-2.1" x2="-5.9" y2="6.6" width="0.2" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6.8"/>
-<vertex x="6.1" y="6.8"/>
-<vertex x="6.1" y="-2.3"/>
-<vertex x="-6.1" y="-2.3"/>
-</polygon>
-</package>
-<package name="MAGI³C-FDSM_173XXXX42" urn="urn:adsk.eagle:footprint:13379783/1" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<wire x1="-5.8" y1="6.5" x2="5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="5.8" y1="6.5" x2="5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2" x2="-5.8" y2="6.5" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="6.6" x2="5.9" y2="6.6" width="0.2" layer="21"/>
-<wire x1="5.9" y1="6.6" x2="5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.1" x2="-5.9" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-2.1" x2="-5.9" y2="6.6" width="0.2" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6.8"/>
-<vertex x="6.1" y="6.8"/>
-<vertex x="6.1" y="-2.3"/>
-<vertex x="-6.1" y="-2.3"/>
-</polygon>
-<circle x="-4.08" y="-0.11" radius="0.1" width="0.3" layer="21"/>
-</package>
-<package name="MAGI³C-FDSM_173950X36" urn="urn:adsk.eagle:footprint:13379782/1" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<wire x1="-5.8" y1="5.4" x2="-5.8" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2.15" x2="5.8" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2.15" x2="5.8" y2="5.4" width="0.1" layer="51"/>
-<wire x1="5.8" y1="5.4" x2="-5.8" y2="5.4" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="-2.25" x2="5.9" y2="-2.25" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.25" x2="5.9" y2="5.5" width="0.2" layer="21"/>
-<wire x1="5.9" y1="5.5" x2="-5.9" y2="5.5" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="5.5" x2="-5.9" y2="-2.25" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="5.7"/>
-<vertex x="6.1" y="5.7"/>
-<vertex x="6.1" y="-2.45"/>
-<vertex x="-6.1" y="-2.45"/>
-</polygon>
-<text x="0" y="6.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-4" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-3.9" y="-1" radius="0.1" width="0.2" layer="21"/>
-</package>
-<package name="MAGI³C-FDSM_173010X35" urn="urn:adsk.eagle:footprint:18201145/1" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="0" y="0" drill="1"/>
-<pad name="3" x="2.54" y="0" drill="1"/>
-<wire x1="-5.8" y1="5.7" x2="-5.8" y2="-2.3" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-2.3" x2="5.8" y2="-2.3" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-2.3" x2="5.8" y2="5.7" width="0.1" layer="51"/>
-<wire x1="5.8" y1="5.7" x2="-5.8" y2="5.7" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="-2.4" x2="5.9" y2="-2.4" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-2.4" x2="5.9" y2="5.8" width="0.2" layer="21"/>
-<wire x1="5.9" y1="5.8" x2="-5.9" y2="5.8" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="5.8" x2="-5.9" y2="-2.4" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="6"/>
-<vertex x="6.1" y="6"/>
-<vertex x="6.1" y="-2.6"/>
-<vertex x="-6.1" y="-2.6"/>
-</polygon>
-<text x="0" y="6.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-4" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-3.9" y="-1" radius="0.1" width="0.2" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="MAGI³C-FDSM_173010X78" urn="urn:adsk.eagle:package:13379790/2" type="model" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173010X78"/>
-</packageinstances>
-</package3d>
-<package3d name="MAGI³C-FDSM_17395XX78" urn="urn:adsk.eagle:package:13379789/2" type="model" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_17395XX78"/>
-</packageinstances>
-</package3d>
-<package3d name="MAGI³C-FDSM_173XXXX42" urn="urn:adsk.eagle:package:13379788/2" type="model" library_version="5">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173XXXX42"/>
-</packageinstances>
-</package3d>
-<package3d name="MAGI³C-FDSM_173950X36" urn="urn:adsk.eagle:package:13379787/2" type="model" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173950X36"/>
-</packageinstances>
-</package3d>
-<package3d name="MAGI³C-FDSM_173010X35" urn="urn:adsk.eagle:package:18201146/2" type="model" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module</description>
-<packageinstances>
-<packageinstance name="MAGI³C-FDSM_173010X35"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MAGI³C-FDSM" urn="urn:adsk.eagle:symbol:13379786/2" library_version="5">
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<pin name="VIN" x="-15.24" y="2.54" visible="pad" length="middle" direction="in"/>
-<pin name="VOUT" x="15.24" y="2.54" visible="pad" length="middle" direction="out" rot="R180"/>
-<pin name="GND" x="0" y="-10.16" visible="pad" length="middle" direction="pas" rot="R90"/>
-<text x="0" y="6.82" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="4.75" y="-8.66" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-8.89" y="1.27" size="1.778" layer="94">VIN</text>
-<text x="1.27" y="1.27" size="1.778" layer="94">VOUT</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="94">GND</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MAGI³C-FDSM_SIP-3" urn="urn:adsk.eagle:component:13379791/5" prefix="U" uservalue="yes" library_version="5">
-<description>&lt;b&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;br&gt;&lt;/B&gt;
-&lt;br&gt;&lt;B&gt;Characteristics
-&lt;br&gt;&lt;br&gt;&lt;/B&gt;Simplest design (no power supply knowledge required)
-&lt;br&gt;Leaded through-hole package for easy manufacturing and prototyping 
-&lt;br&gt;Stand alone solution (CIN and COUT integrated, no external components) 
-&lt;br&gt;L78x series linear regulator replacement (no heatsink required) 
-&lt;br&gt;Low conducted and radiated EMI (compliant to EN55022 class B)
-&lt;br&gt;
-&lt;br&gt;&lt;B&gt;Applications
-&lt;br&gt;&lt;br&gt;&lt;/B&gt;Point-of-Load from 24V, 18V, 15V, 12V, 9V rail
-&lt;br&gt;Replacement for linear regulators
-&lt;br&gt;Interface and microcontroller supply
-&lt;br&gt;Industrial, Test &amp; Measurement, Medical applications
-&lt;br&gt;System power supplies
-&lt;br&gt;&lt;br&gt;
-&lt;/b&gt;&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o55808v209%20FDSM_MagI3C_173010378_4C.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o55808v209%20FDSM_MagI3C_173010378_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.de/katalog/en/MAGIC_FDSM_FIXED_OUTPUT_VOLTAGE/"&gt;https://www.we-online.de/katalog/en/MAGIC_FDSM_FIXED_OUTPUT_VOLTAGE/&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;
-
-Updated  by Ella Wu  2020-03-17&lt;br&gt;
-2020 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="MAGI³C-FDSM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_173010X78" package="MAGI³C-FDSM_173010X78">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13379790/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173010378">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010378.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010378 " constant="no"/>
-<attribute name="V-INPUT" value="7-28V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173010578">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010578.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010578 " constant="no"/>
-<attribute name="V-INPUT" value="8-28V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_17395XX78" package="MAGI³C-FDSM_17395XX78">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13379789/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173950378">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173950378.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="0.5A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173950378 " constant="no"/>
-<attribute name="V-INPUT" value="6-28V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173950578">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173950578.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="0.5A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173950578 " constant="no"/>
-<attribute name="V-INPUT" value="7-28V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_173XXXX42" package="MAGI³C-FDSM_173XXXX42">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13379788/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173010342">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010342.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010342 " constant="no"/>
-<attribute name="V-INPUT" value="7-42V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173010542">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010542.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010542 " constant="no"/>
-<attribute name="V-INPUT" value="8-42V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_173950X36" package="MAGI³C-FDSM_173950X36">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13379787/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173950336">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173950336.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="0.5A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173950336 " constant="no"/>
-<attribute name="V-INPUT" value="4.75-36V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173950536">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173950536.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="0.5A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173950536 " constant="no"/>
-<attribute name="V-INPUT" value="6.5-36V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_173010X35" package="MAGI³C-FDSM_173010X35">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18201146/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_173010335">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010335.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010335 " constant="no"/>
-<attribute name="V-INPUT" value="6-36V" constant="no"/>
-<attribute name="V-OUTPUT" value="3.3V" constant="no"/>
-</technology>
-<technology name="_173010535">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010535.pdf" constant="no"/>
-<attribute name="I-OUTPUT" value="1A" constant="no"/>
-<attribute name="MOUNT" value="THT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 173010535 " constant="no"/>
-<attribute name="V-INPUT" value="8-36V" constant="no"/>
-<attribute name="V-OUTPUT" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Wurth_EMC Components_WE-TVSP" urn="urn:adsk.eagle:library:14283044">
 <description>&lt;BR&gt;Wurth Elektronik - EMC Components - Surge Protection - WE-TVSP&lt;br&gt;&lt;Hr&gt;
 
@@ -3559,12 +3150,37 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.2" y="-1.55"/>
 </polygon>
 </package>
+<package name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:footprint:18489080/1" library_version="2">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="0.725" x2="0.2" y2="0.725" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-0.725" x2="0.2" y2="-0.725" width="0.2" layer="21"/>
+<text x="0" y="1.2" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.6" y="0.925"/>
+<vertex x="1.6" y="0.925"/>
+<vertex x="1.6" y="-0.925"/>
+<vertex x="-1.6" y="-0.925"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:package:18489097/2" type="model" library_version="2">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1210&lt;/b&gt;&lt;br&gt;3.2x2.5x2.5(LXWXH);</description>
 <packageinstances>
 <packageinstance name="WCAP-CSGP_1210_H2.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:package:18489127/2" type="model" library_version="2">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
+<packageinstances>
+<packageinstance name="WCAP-CSGP_0805_H1.25_R"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3876,66 +3492,1076 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-1210/"&g
 </device>
 </devices>
 </deviceset>
+<deviceset name="WCAP-CSGP_0805_H1.25" urn="urn:adsk.eagle:component:18489175/2" prefix="C" library_version="2">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;General Purpose &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series 
+&lt;BR&gt;High performance ceramic 
+&lt;BR&gt;High electrical precision and stability ceramic especially for NP0 
+&lt;BR&gt;Minimal aging especially for NP0 
+&lt;BR&gt;Mounting style: SMT-Chip 
+&lt;BR&gt;Ceramic: NP0 (Class I), X5R (Class II), X7R (Class II) 
+&lt;BR&gt;Capacitance range: 1 pF ‒ 47 μF 
+&lt;BR&gt;Temperature Coefficient: 
+&lt;BR&gt;±30 ppm/°C; ±0.54 % for NP0 
+&lt;BR&gt;±15 % for X7R and X5R 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 100 V(DC) 
+&lt;BR&gt;Operating temperature:
+&lt;BR&gt;-55 °C up to + 125 °C for NP0 and X7R 
+&lt;BR&gt;-55 °C up to + 85 °C for X5R 
+&lt;BR&gt;Termination: Cu/Ni/Sn 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;Wave soldering (only valid for the thickness ≤1.00 mm) for NP0 and X7R 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;TTemperature compensation (NP0) 
+&lt;BR&gt;Coupling 
+&lt;BR&gt;Decoupling 
+&lt;BR&gt;Bypass 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Resonant circuit 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o166500v209%20Family_WE-MLCC_0805_grau.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o166500v209%20Family_WE-MLCC_0805_grau.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0805/"&gt;https://www.we-online.com/catalog/en/WCAP-CSGP-0805/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-09
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_6.3V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012107001">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107001.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107001 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107002">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107002.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107002 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,03GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="3.3  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107003">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107003.pdf" constant="no"/>
+<attribute name="DF" value=" 0.15 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107003 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107004">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107004.pdf" constant="no"/>
+<attribute name="DF" value=" 0.15 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107004 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,01GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107005">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107005.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107005 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,005GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107006">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107006.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107006 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,002GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805476M6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207001">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207001.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207001 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207002">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207002.pdf" constant="no"/>
+<attribute name="DF" value=" 0.15 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207002 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207003">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207003.pdf" constant="no"/>
+<attribute name="DF" value=" 0.15 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207003 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,01GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805106K6R3DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_10V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007009">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007009.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007009 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805103J010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="10  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107007">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107007.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107007 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107008">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107008.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107008 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,03GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="3.3  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107009">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107009.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107009 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107010">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107010.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107010 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,01GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107011">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107011.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107011 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,005GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207017">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207017.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207017 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="3,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="150  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207018">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207018.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207018 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="2,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207019">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207019.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207019 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1,5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207020">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207020.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207020 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1,1GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207021">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207021.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207021 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,7GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="680  nF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207022">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207022.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207022 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207023">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207023.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207023 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805155K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1.5  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207024">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207024.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207024 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207025">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207025.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207025 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207026">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207026.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207026 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,01GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805106K010DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_16V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007024">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007024.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007024 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805332J016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012007025">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007025.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007025 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805472J016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107012">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107012.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107012 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107013">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107013.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107013 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107014">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107014.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107014 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,02GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207046">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207046.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207046 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="150  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207047">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207047.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207047 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="3,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207048">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207048.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207048 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="2,3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207049">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207049.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207049 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1,5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207050">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207050.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207050 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1,1GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="680  nF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207051">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207051.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207051 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,7GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207052">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207052.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207052 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207053">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207053.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207053 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="0,05GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K016DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_25V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007043">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007043.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007043 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805332J025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012007044">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007044.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007044 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805472J025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107015">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107015.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107015 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805105M025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107016">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107016.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107016 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107017">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107017.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107017 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="3.3  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012107018">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107018.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012107018 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207073">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207073.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207073 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="150  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207074">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207074.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207074 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207075">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207075.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207075 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207076">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207076.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207076 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207077">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207077.pdf" constant="no"/>
+<attribute name="DF" value=" 0.035 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207077 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="680  nF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207078">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207078.pdf" constant="no"/>
+<attribute name="DF" value=" 0.05 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207078 " constant="no"/>
+<attribute name="QMIN" value="400+20C" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207079">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207079.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207079 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K025DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_50V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007066">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007066.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007066 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805332J050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012007067">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007067.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007067 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805472J050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207099">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207099.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207099 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="150  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207100">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207100.pdf" constant="no"/>
+<attribute name="DF" value=" 0.03 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207100 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207101">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207101.pdf" constant="no"/>
+<attribute name="DF" value=" 0.03 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207101 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207102">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207102.pdf" constant="no"/>
+<attribute name="DF" value=" 0.03 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207102 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470  nF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207103">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207103.pdf" constant="no"/>
+<attribute name="DF" value=" 0.1 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207103 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="-" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K050DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_100V(DC)" package="WCAP-CSGP_0805_H1.25_R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18489127/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_885012007091">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007091.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007091 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805332J100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012007092">
+<attribute name="CERAMIC-TYPE" value="NP0 Class I" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012007092.pdf" constant="no"/>
+<attribute name="DF" value="-" constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012007092 " constant="no"/>
+<attribute name="QMIN" value=" 1000 " constant="no"/>
+<attribute name="RISO" value="10GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="NP00805472J100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207125">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207125.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207125 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="3GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="33  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207126">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207126.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207126 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="2.1GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="47  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207127">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207127.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207127 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1.5GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="68  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_885012207128">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012207128.pdf" constant="no"/>
+<attribute name="DF" value=" 0.025 " constant="no"/>
+<attribute name="H" value="1.25mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +125 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 885012207128 " constant="no"/>
+<attribute name="QMIN" value="-" constant="no"/>
+<attribute name="RISO" value="1GOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K100DFCT10000" constant="no"/>
+<attribute name="TOL-VALUE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="100  nF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
-<library name="SS12L_R3">
-<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<library name="INF-PG-TO252-5-11L">
 <packages>
-<package name="SODFL3618X143N">
-<description>&lt;b&gt;Sub SMA&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.55" y="0" dx="1.22" dy="1.12" layer="1" rot="R90"/>
-<smd name="2" x="1.55" y="0" dx="1.22" dy="1.12" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.26" y1="1.1" x2="2.26" y2="1.1" width="0.05" layer="51"/>
-<wire x1="2.26" y1="1.1" x2="2.26" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="2.26" y1="-1.1" x2="-2.26" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="-2.26" y1="-1.1" x2="-2.26" y2="1.1" width="0.05" layer="51"/>
-<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.1" layer="51"/>
-<wire x1="1.4" y1="0.9" x2="1.4" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="1.4" y1="-0.9" x2="-1.4" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="-0.9" x2="-1.4" y2="0.9" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="0.34" x2="-0.84" y2="0.9" width="0.1" layer="51"/>
-<wire x1="-2.11" y1="0.9" x2="1.4" y2="0.9" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.2" layer="21"/>
+<package name="INF-PG-TO252-5-11_L_1PRIMARY">
+<description>Original name &lt;b&gt;INF-PG-TO252-5-11_L&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="-4.7" y="2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="2" x="-4.7" y="1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="3" x="2.3" y="0" dx="5.85" dy="6.3" layer="1" rot="R90"/>
+<smd name="4" x="-4.7" y="-1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="5" x="-4.7" y="-2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<wire x1="-2.15" y1="-3.325" x2="4.07" y2="-3.325" width="0.1" layer="48"/>
+<wire x1="4.07" y1="-3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-2.15" y1="3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-2.15" y1="-3.325" x2="-2.15" y2="3.325" width="0.1" layer="48"/>
+<wire x1="-5.525" y1="-3.425" x2="-5.525" y2="3.425" width="0.05" layer="48"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="48"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="48"/>
+<wire x1="-5.525" y1="3.425" x2="5.55" y2="3.425" width="0.05" layer="48"/>
+<wire x1="5.55" y1="-3.425" x2="5.55" y2="3.425" width="0.05" layer="48"/>
+<wire x1="-5.525" y1="-3.425" x2="5.55" y2="-3.425" width="0.05" layer="48"/>
+<circle x="-4.7" y="3.205" radius="0.125" width="0.25" layer="21"/>
+<wire x1="-2.15" y1="3.35" x2="-1.25" y2="3.35" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-3.35" x2="-1.25" y2="-3.35" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-3.35" x2="-2.15" y2="3.35" width="0.2" layer="21"/>
+<text x="-5.55" y="3.709" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-5.55" y="-6.425" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="SS12L_R3">
-<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="0" y="0" visible="pad" length="middle"/>
-<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<symbol name="TLE4270-2D">
+<pin name="I" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="Q" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="D" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="RO" x="-12.7" y="-5.08" length="middle" direction="out"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SS12L_R3" prefix="D">
-<description>&lt;b&gt;Taiwan Semi SS12L R3, SMT Schottky Diode, 20V 1A, 2-Pin Sub SMA&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="TLE4270-2D-INF-PG-TO252-5-11_L_1" prefix="G">
 <gates>
-<gate name="G$1" symbol="SS12L_R3" x="0" y="0"/>
+<gate name="G" symbol="TLE4270-2D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SODFL3618X143N">
+<device name="" package="INF-PG-TO252-5-11_L_1PRIMARY">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
+<connect gate="G" pin="D" pad="4"/>
+<connect gate="G" pin="GND" pad="3"/>
+<connect gate="G" pin="I" pad="1"/>
+<connect gate="G" pin="Q" pad="5"/>
+<connect gate="G" pin="RO" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Taiwan Semi SS12L R3, SMT Schottky Diode, 20V 1A, 2-Pin Sub SMA" constant="no"/>
-<attribute name="HEIGHT" value="1.43mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Taiwan Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SS12L R3" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="821-SS12LR3" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=821-SS12LR3" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3980,7 +4606,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"
 <part name="D6" library="fliegl-wuerth" deviceset="WE-TVS_SOT23-3L_824098024" device="" value="26.2V / 35pF"/>
 <part name="C17" library="fliegl-wuerth" deviceset="WCAP-CSGP_0402" device="_16V(DC)" technology="_885012205037" value="100 nF"/>
 <part name="C19" library="fliegl-wuerth" deviceset="WCAP-CSGP_0402" device="_16V(DC)" technology="_885012205037" value="100 nF"/>
-<part name="U1" library="Wurth_Step Down Converter_MagI³C-FDSM" library_urn="urn:adsk.eagle:library:13379781" deviceset="MAGI³C-FDSM_SIP-3" device="_173XXXX42" package3d_urn="urn:adsk.eagle:package:13379788/2" technology="_173010542"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -3991,7 +4616,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1210_H2.5" device="_25V(DC)" package3d_urn="urn:adsk.eagle:package:18489097/2" technology="_885012109014" value="47uF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D3" library="SS12L_R3" deviceset="SS12L_R3" device=""/>
+<part name="G1" library="INF-PG-TO252-5-11L" deviceset="TLE4270-2D-INF-PG-TO252-5-11_L_1" device=""/>
+<part name="C2" library="fliegl-wuerth" deviceset="WCAP-CSGP_0402" device="_16V(DC)" technology="_885012205037" value="100 nF"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="C3" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H1.25" device="_10V(DC)" package3d_urn="urn:adsk.eagle:package:18489127/2" technology="_885012107011" value="22  µF "/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4007,18 +4636,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"
 <attribute name="VALUE" x="-20.32" y="138.43" size="1.778" layer="96" rot="MR270"/>
 <attribute name="NAME" x="-36.322" y="138.43" size="1.778" layer="95" rot="MR270"/>
 </instance>
-<instance part="U1" gate="G$1" x="38.1" y="124.46" smashed="yes">
-<attribute name="NAME" x="38.1" y="131.28" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="42.85" y="115.8" size="1.778" layer="96"/>
-</instance>
-<instance part="GND1" gate="1" x="38.1" y="111.76" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="40.64" y="109.22" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND1" gate="1" x="35.56" y="93.98" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="38.1" y="91.44" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND2" gate="1" x="-25.4" y="119.38" smashed="yes">
 <attribute name="VALUE" x="-27.94" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="53.34" y="139.7" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="55.88" y="134.62" size="1.778" layer="96" rot="MR90"/>
+<instance part="P+3" gate="1" x="48.26" y="142.24" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="50.8" y="137.16" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="D1" gate="G$1" x="-15.24" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="-17.78" y="120.65" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -4027,16 +4652,30 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"
 <instance part="GND4" gate="1" x="-15.24" y="111.76" smashed="yes">
 <attribute name="VALUE" x="-17.78" y="106.68" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="7.62" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.24" y="120.555" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="12.695" y="120.295" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
+<instance part="C1" gate="G$1" x="7.62" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.24" y="118.015" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="12.695" y="117.755" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="GND6" gate="1" x="7.62" y="114.3" smashed="yes">
-<attribute name="VALUE" x="5.08" y="109.22" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="7.62" y="109.22" smashed="yes">
+<attribute name="VALUE" x="5.08" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="D3" gate="G$1" x="5.08" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="1.27" y="139.7" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="1.27" y="134.62" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="G1" gate="G" x="35.56" y="121.92" smashed="yes">
+<attribute name="NAME" x="66.04" y="117.475" size="1.778" layer="95"/>
+<attribute name="VALUE" x="66.04" y="121.92" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="48.26" y="109.22" smashed="yes" rot="MR0">
+<attribute name="NAME" x="45.72" y="109.22" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="45.72" y="106.68" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND7" gate="1" x="48.26" y="93.98" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="50.8" y="91.44" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C3" gate="G$1" x="60.96" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.58" y="107.855" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="66.035" y="107.595" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="GND8" gate="1" x="60.96" y="93.98" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="63.5" y="91.44" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -4050,8 +4689,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="G1" gate="G" pin="GND"/>
+<wire x1="35.56" y1="96.52" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="1"/>
@@ -4060,13 +4700,28 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="7.62" y1="111.76" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="104.14" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="60.96" y1="96.52" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VOUT"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="53.34" y1="137.16" x2="53.34" y2="127" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G" pin="Q"/>
+<wire x1="48.26" y1="139.7" x2="48.26" y2="127" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="127" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+<junction x="48.26" y="127"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -4090,21 +4745,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS12L R3.pdf"
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="129.54" x2="-27.94" y2="127" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="127" x2="-15.24" y2="127" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="127" x2="-27.94" y2="127" width="0.1524" layer="91"/>
 <junction x="-15.24" y="127"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="-15.24" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="121.92" x2="7.62" y2="127" width="0.1524" layer="91"/>
+<junction x="7.62" y="127"/>
+<pinref part="G1" gate="G" pin="I"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="124.46" x2="7.62" y2="127" width="0.1524" layer="91"/>
-<junction x="7.62" y="127"/>
-<pinref part="D3" gate="G$1" pin="K"/>
+<pinref part="G1" gate="G" pin="D"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="116.84" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
