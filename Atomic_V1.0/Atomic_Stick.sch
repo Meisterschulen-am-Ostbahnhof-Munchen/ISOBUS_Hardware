@@ -527,14 +527,14 @@ Updated by Yingchun,Shan 2019-10-16
 <package name="SOIC127P602X173-8N-V">
 <description>Original name &lt;b&gt;SOIC127P602X173-8N-V&lt;/b&gt;&lt;p&gt;
 Max Component Height - 1.73mm</description>
-<smd name="1" x="-2.765" y="1.905" dx="1.47" dy="0.65" layer="1"/>
-<smd name="2" x="-2.765" y="0.635" dx="1.47" dy="0.65" layer="1"/>
-<smd name="3" x="-2.765" y="-0.635" dx="1.47" dy="0.65" layer="1"/>
-<smd name="4" x="-2.765" y="-1.905" dx="1.47" dy="0.65" layer="1"/>
-<smd name="5" x="2.765" y="-1.905" dx="1.47" dy="0.65" layer="1"/>
-<smd name="6" x="2.765" y="-0.635" dx="1.47" dy="0.65" layer="1"/>
-<smd name="7" x="2.765" y="0.635" dx="1.47" dy="0.65" layer="1"/>
-<smd name="8" x="2.765" y="1.905" dx="1.47" dy="0.65" layer="1"/>
+<smd name="1" x="-2.765" y="1.905" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="2" x="-2.765" y="0.635" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="3" x="-2.765" y="-0.635" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="4" x="-2.765" y="-1.905" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="5" x="2.765" y="-1.905" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="6" x="2.765" y="-0.635" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="7" x="2.765" y="0.635" dx="1.47" dy="0.65" layer="1" thermals="no"/>
+<smd name="8" x="2.765" y="1.905" dx="1.47" dy="0.65" layer="1" thermals="no"/>
 <wire x1="-1.95" y1="-2.445" x2="-1.95" y2="2.445" width="0.1" layer="51"/>
 <wire x1="1.95" y1="-2.445" x2="1.95" y2="2.445" width="0.1" layer="51"/>
 <wire x1="-1.95" y1="2.445" x2="1.95" y2="2.445" width="0.1" layer="51"/>
@@ -611,8 +611,8 @@ High Speed CAN FD Transceiver</description>
 <packages>
 <package name="WCAP-CSRF_0402">
 <description>&lt;b&gt;WCAP-CSRF&lt;/B&gt;&lt;BR&gt; MLCCs 0402,1X0.5X0.5(LXWXH)</description>
-<smd name="2" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd name="1" x="0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1" thermals="no"/>
+<smd name="1" x="0.5" y="0" dx="0.5" dy="0.5" layer="1" thermals="no"/>
 <wire x1="-0.5" y1="0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="0.5" y1="-0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
@@ -727,8 +727,8 @@ High Speed CAN FD Transceiver</description>
 <wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.127" layer="39"/>
 <wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.127" layer="39"/>
 <wire x1="-1" y1="-0.5" x2="-1" y2="0.5" width="0.127" layer="39"/>
-<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
+<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1" thermals="no"/>
+<smd name="2" x="0.5" y="0" dx="0.5" dy="0.5" layer="1" thermals="no"/>
 <text x="-0.75" y="0.75" size="0.3048" layer="25">&gt;NAME</text>
 <text x="-0.75" y="-0.95" size="0.3048" layer="27">&gt;VALUE</text>
 </package>
@@ -747,9 +747,9 @@ High Speed CAN FD Transceiver</description>
 <rectangle x1="0.7747" y1="-0.2921" x2="1.2319" y2="0.2921" layer="51" rot="R270"/>
 <rectangle x1="-1.2319" y1="-1.2319" x2="-0.7747" y2="-0.6477" layer="51" rot="R270"/>
 <rectangle x1="-1.2319" y1="0.6477" x2="-0.7747" y2="1.2319" layer="51" rot="R270"/>
-<smd name="1" x="-1.05" y="0.95" dx="0.9" dy="1.4" layer="1" rot="R270"/>
-<smd name="2" x="-1.05" y="-0.95" dx="0.9" dy="1.4" layer="1" rot="R270"/>
-<smd name="3" x="1.05" y="0" dx="0.9" dy="1.4" layer="1" rot="R270"/>
+<smd name="1" x="-1.05" y="0.95" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
+<smd name="2" x="-1.05" y="-0.95" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
+<smd name="3" x="1.05" y="0" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
 <text x="0.195" y="2.282" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="-1.605" y="-2.652" size="0.6096" layer="27">&gt;VALUE</text>
 <wire x1="1.95" y1="1.75" x2="1.95" y2="-1.75" width="0.05" layer="39"/>
@@ -2450,8 +2450,8 @@ Copyright: Würth Elektronik</description>
 <package name="WE-TVSP_DO-214AC_BIDIRECTIONAL" urn="urn:adsk.eagle:footprint:12146523/1" library_version="1">
 <description>&lt;b&gt;WE-TVSP Power TVS Diode
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AC  Bidirectional</description>
-<smd name="1" x="-2.1" y="0" dx="2.3" dy="1.7" layer="1"/>
-<smd name="2" x="2.1" y="0" dx="2.3" dy="1.7" layer="1"/>
+<smd name="1" x="-2.1" y="0" dx="2.3" dy="1.7" layer="1" thermals="no"/>
+<smd name="2" x="2.1" y="0" dx="2.3" dy="1.7" layer="1" thermals="no"/>
 <wire x1="-2.12" y1="1.335" x2="-2.12" y2="-1.335" width="0.1" layer="51"/>
 <wire x1="2.12" y1="-1.335" x2="2.12" y2="1.335" width="0.1" layer="51"/>
 <wire x1="2.22" y1="1.435" x2="-2.22" y2="1.435" width="0.2" layer="21"/>
@@ -3022,8 +3022,8 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:footprint:18489051/1" library_version="2">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1210&lt;/b&gt;&lt;br&gt;3.2x2.5x2.5(LXWXH);</description>
-<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
+<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
+<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
 <wire x1="-1.6" y1="1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
@@ -3041,8 +3041,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:footprint:18489080/1" library_version="2">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
-<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
@@ -4397,11 +4397,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-CSGP-0805/"&g
 <packages>
 <package name="INF-PG-TO252-5-11_L_1PRIMARY">
 <description>Original name &lt;b&gt;INF-PG-TO252-5-11_L&lt;/b&gt;&lt;p&gt;</description>
-<smd name="1" x="-4.7" y="2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
-<smd name="2" x="-4.7" y="1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
-<smd name="3" x="2.3" y="0" dx="5.85" dy="6.3" layer="1" rot="R90"/>
-<smd name="4" x="-4.7" y="-1.14" dx="0.75" dy="1.45" layer="1" rot="R90"/>
-<smd name="5" x="-4.7" y="-2.28" dx="0.75" dy="1.45" layer="1" rot="R90"/>
+<smd name="1" x="-4.7" y="2.28" dx="0.75" dy="1.45" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="-4.7" y="1.14" dx="0.75" dy="1.45" layer="1" rot="R90" thermals="no"/>
+<smd name="3" x="2.3" y="0" dx="5.85" dy="6.3" layer="1" rot="R90" thermals="no"/>
+<smd name="4" x="-4.7" y="-1.14" dx="0.75" dy="1.45" layer="1" rot="R90" thermals="no"/>
+<smd name="5" x="-4.7" y="-2.28" dx="0.75" dy="1.45" layer="1" rot="R90" thermals="no"/>
 <wire x1="-2.15" y1="-3.325" x2="4.07" y2="-3.325" width="0.1" layer="48"/>
 <wire x1="4.07" y1="-3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
 <wire x1="-2.15" y1="3.325" x2="4.07" y2="3.325" width="0.1" layer="48"/>
@@ -4531,10 +4531,10 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="695402400222" urn="urn:adsk.eagle:footprint:14873886/1" library_version="2">
 <description>&lt;B&gt;WR-LECO 4.00 mm SMT Horizontal Connector</description>
-<smd name="A2" x="2" y="-4.625" dx="6" dy="2" layer="1" rot="R270"/>
-<smd name="2" x="2" y="4.625" dx="3.5" dy="2" layer="1" rot="R270"/>
-<smd name="A1" x="-2" y="-4.625" dx="6" dy="2" layer="1" rot="R270"/>
-<smd name="1" x="-2" y="4.625" dx="3.5" dy="2" layer="1" rot="R270"/>
+<smd name="A2" x="2" y="-4.625" dx="6" dy="2" layer="1" rot="R270" thermals="no"/>
+<smd name="2" x="2" y="4.625" dx="3.5" dy="2" layer="1" rot="R270" thermals="no"/>
+<smd name="A1" x="-2" y="-4.625" dx="6" dy="2" layer="1" rot="R270" thermals="no"/>
+<smd name="1" x="-2" y="4.625" dx="3.5" dy="2" layer="1" rot="R270" thermals="no"/>
 <wire x1="4" y1="-7.225" x2="-4" y2="-7.225" width="0.1" layer="51"/>
 <wire x1="-4" y1="-7.225" x2="-4" y2="4.475" width="0.1" layer="51"/>
 <wire x1="-4" y1="4.475" x2="4" y2="4.475" width="0.1" layer="51"/>
@@ -4737,8 +4737,8 @@ Details see: &lt;a href="https://katalog.we-online.com/en/em/LECO_4_00_SMT_WTB_C
 <instance part="GND2" gate="1" x="-35.56" y="134.62" smashed="yes">
 <attribute name="VALUE" x="-38.1" y="129.54" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="48.26" y="142.24" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="50.8" y="137.16" size="1.778" layer="96" rot="MR90"/>
+<instance part="P+3" gate="1" x="48.26" y="144.78" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="50.8" y="139.7" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="D1" gate="G$1" x="-15.24" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="-17.78" y="120.65" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -4751,8 +4751,8 @@ Details see: &lt;a href="https://katalog.we-online.com/en/em/LECO_4_00_SMT_WTB_C
 <attribute name="NAME" x="4.24" y="118.015" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="12.695" y="117.755" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="GND6" gate="1" x="7.62" y="109.22" smashed="yes">
-<attribute name="VALUE" x="5.08" y="104.14" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="7.62" y="106.68" smashed="yes">
+<attribute name="VALUE" x="5.08" y="101.6" size="1.778" layer="96"/>
 </instance>
 <instance part="G1" gate="G" x="35.56" y="121.92" smashed="yes">
 <attribute name="NAME" x="66.04" y="117.475" size="1.778" layer="95"/>
@@ -4803,7 +4803,7 @@ Details see: &lt;a href="https://katalog.we-online.com/en/em/LECO_4_00_SMT_WTB_C
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="7.62" y1="111.76" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="109.22" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -4820,7 +4820,7 @@ Details see: &lt;a href="https://katalog.we-online.com/en/em/LECO_4_00_SMT_WTB_C
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="G1" gate="G" pin="Q"/>
-<wire x1="48.26" y1="139.7" x2="48.26" y2="127" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="142.24" x2="48.26" y2="127" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="127" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
