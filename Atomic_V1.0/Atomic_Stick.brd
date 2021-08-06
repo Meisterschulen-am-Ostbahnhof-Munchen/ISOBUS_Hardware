@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,20 +23,20 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -977,7 +977,7 @@ design rules under a new name.</description>
 </element>
 <element name="U4" library="TLE9250VSJ" package="SOIC127P602X173-8N-V" value="TLE9250VSJ" x="0" y="39.37" smashed="yes" rot="R90">
 <attribute name="ARTIKEL_NR" value="545599" x="-12.7" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="0.046" y="39.412" size="0.8" layer="25" font="vector" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="3.764" y="38.058" size="0.8" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="7.158" y="22.902" size="2.032" layer="27" font="vector" ratio="10" rot="SR180"/>
 </element>
 <element name="C15" library="fliegl-wuerth" package="WCAP-CSGP_0402" value="47 nF" x="0" y="51.435" smashed="yes" rot="R90">
@@ -1011,7 +1011,7 @@ design rules under a new name.</description>
 <element name="C17" library="fliegl-wuerth" package="WCAP-CSGP_0402" value="100 nF" x="0.215" y="34.925" smashed="yes" rot="R180">
 <attribute name="ARTIKEL_NR" value="545504" x="56.095" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CERAMIC-TYPE" value="X7R Class II" x="56.095" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-2.044" y="36.144" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="1.956" y="34.151" size="0.8" layer="25"/>
 <attribute name="PART-NUMBER" value="885012205037" x="56.095" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL-VALUE" value="±10%" x="56.095" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="0.965" y="35.875" size="0.3048" layer="27" rot="R180"/>
@@ -1030,7 +1030,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/824501261.pdf" x="-7.62" y="46.355" size="1.778" layer="27" display="off"/>
 <attribute name="IPEAK" value="9.5A" x="-7.62" y="46.355" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT" value="SMT" x="-7.62" y="46.355" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-12.841" y="46.284" size="0.8" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="-2.681" y="45.649" size="0.8" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value=" 824501261 " x="-7.62" y="46.355" size="1.778" layer="27" display="off"/>
 <attribute name="PDISS" value="400W" x="-7.62" y="46.355" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-10.33" y="48.044" size="1.016" layer="27"/>
@@ -1042,7 +1042,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012109014.pdf" x="-7.62" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="DF" value=" 0.05 " x="-7.62" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="H" value="2.5mm" x="-7.62" y="42.545" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-11.621" y="42.447" size="0.8" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="-4.001" y="43.717" size="0.8" layer="25" align="bottom-center"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" x="-7.62" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="PART-NUMBER" value=" 885012109014 " x="-7.62" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="QMIN" value="-" x="-7.62" y="42.545" size="1.778" layer="27" display="off"/>
@@ -1053,13 +1053,13 @@ design rules under a new name.</description>
 <attribute name="VR" value="25V(DC)" x="-7.62" y="42.545" size="1.778" layer="27" display="off"/>
 </element>
 <element name="G1" library="INF-PG-TO252-5-11L" package="INF-PG-TO252-5-11_L_1PRIMARY" value="TLE4270-2D-INF-PG-TO252-5-11_L_1" x="-7.23" y="29.89" smashed="yes" rot="R270">
-<attribute name="NAME" x="-0.328" y="34.121" size="2.032" layer="25" font="vector" ratio="13" rot="SR180"/>
+<attribute name="NAME" x="-1.736" y="28.247" size="2.032" layer="25" font="vector" ratio="13" rot="SR270"/>
 <attribute name="VALUE" x="-13.655" y="35.44" size="2.032" layer="27" font="vector" ratio="13" rot="SR270"/>
 </element>
 <element name="C2" library="fliegl-wuerth" package="WCAP-CSGP_0402" value="100 nF" x="-7.064" y="36.552" smashed="yes">
 <attribute name="ARTIKEL_NR" value="545504" x="-9.626" y="39.846" size="1.778" layer="27" display="off"/>
 <attribute name="CERAMIC-TYPE" value="X7R Class II" x="-9.626" y="39.846" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-6.68" y="35.436" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="-4.14" y="36.706" size="0.8" layer="25" rot="R180"/>
 <attribute name="PART-NUMBER" value="885012205037" x="-9.626" y="39.846" size="1.778" layer="27" display="off"/>
 <attribute name="TOL-VALUE" value="±10%" x="-9.626" y="39.846" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-7.814" y="35.602" size="0.3048" layer="27"/>
@@ -1070,7 +1070,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/885012107011.pdf" x="-8.254" y="38.9906" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DF" value=" 0.1 " x="-8.254" y="38.9906" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="H" value="1.25mm" x="-8.254" y="38.9906" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-10.816" y="39.2546" size="0.8" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="-5.101" y="39.2546" size="0.8" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +85 °C" x="-8.254" y="38.9906" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART-NUMBER" value=" 885012107011 " x="-8.254" y="38.9906" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="QMIN" value="-" x="-8.254" y="38.9906" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1256,7 +1256,7 @@ design rules under a new name.</description>
 <wire x1="-1.8756" y1="50.53770625" x2="-1.27" y2="49.93210625" width="0.4064" layer="1"/>
 <wire x1="-1.27" y1="48.26" x2="-0.635" y2="47.625" width="0.4064" layer="1"/>
 <wire x1="-0.635" y1="47.625" x2="-0.635" y2="42.135" width="0.4064" layer="1"/>
-<wire x1="-2.5" y1="64.195" x2="-2.5" y2="73.445" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.5" y1="64.195" x2="-2.5" y2="73.445" width="0.4064" layer="1"/>
 </signal>
 <signal name="CAN_L">
 <contactref element="R21" pad="1"/>
@@ -1276,7 +1276,7 @@ design rules under a new name.</description>
 <wire x1="1.8756" y1="50.53770625" x2="1.27" y2="49.93210625" width="0.4064" layer="1"/>
 <wire x1="1.27" y1="48.26" x2="0.635" y2="47.625" width="0.4064" layer="1"/>
 <wire x1="0.635" y1="47.625" x2="0.635" y2="42.135" width="0.4064" layer="1"/>
-<wire x1="2.5" y1="64.195" x2="2.5" y2="73.445" width="0" layer="19" extent="1-1"/>
+<wire x1="2.5" y1="64.195" x2="2.5" y2="73.445" width="0.4064" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U4" pad="5"/>
@@ -1309,7 +1309,7 @@ design rules under a new name.</description>
 <wire x1="-6.5" y1="47.335" x2="-5.52" y2="46.355" width="1.27" layer="1"/>
 <wire x1="-4.95" y1="34.59" x2="-4.95" y2="41.425" width="1" layer="1"/>
 <wire x1="-4.95" y1="34.59" x2="-4.95" y2="33.15" width="1" layer="1"/>
-<wire x1="-6.5" y1="64.195" x2="-6.5" y2="73.445" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.5" y1="64.195" x2="-6.5" y2="73.445" width="1.27" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="G1" pad="4"/>
@@ -1325,16 +1325,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="18,29,2a8bb01cac300357"/>
-<approved hash="18,29,57509528915766df"/>
-<approved hash="18,29,be39aecc853297d7"/>
-<approved hash="18,29,8db7bdd1bc33a317"/>
-<approved hash="18,29,0d4baa3e8408598d"/>
-<approved hash="18,29,1dc2b0baab0c3384"/>
-<approved hash="18,29,a43ea349d439d34e"/>
-<approved hash="18,29,95a6ec8604a8fd72"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
