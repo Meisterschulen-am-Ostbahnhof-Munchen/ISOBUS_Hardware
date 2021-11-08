@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -39,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -60,74 +59,57 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="DTF134P">
-<description>&lt;b&gt;DTF13-4P-2&lt;/b&gt;&lt;br&gt;
+<package name="FG28">
+<description>&lt;b&gt;FG28&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1.81" diameter="2.715"/>
-<pad name="2" x="-4.45" y="0" drill="1.81" diameter="2.715"/>
-<pad name="3" x="-4.45" y="9.12" drill="1.81" diameter="2.715"/>
-<pad name="4" x="0" y="9.12" drill="1.81" diameter="2.715"/>
-<text x="-13.002" y="4.56" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-13.002" y="4.56" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-30.105" y1="-9.03" x2="3.355" y2="-9.03" width="0.2" layer="51"/>
-<wire x1="3.355" y1="-9.03" x2="3.355" y2="18.15" width="0.2" layer="51"/>
-<wire x1="3.355" y1="18.15" x2="-30.105" y2="18.15" width="0.2" layer="51"/>
-<wire x1="-30.105" y1="18.15" x2="-30.105" y2="-9.03" width="0.2" layer="51"/>
-<wire x1="-30.105" y1="18.15" x2="3.355" y2="18.15" width="0.1" layer="21"/>
-<wire x1="3.355" y1="18.15" x2="3.355" y2="-9.03" width="0.1" layer="21"/>
-<wire x1="3.355" y1="-9.03" x2="-30.105" y2="-9.03" width="0.1" layer="21"/>
-<wire x1="-30.105" y1="-9.03" x2="-30.105" y2="18.15" width="0.1" layer="21"/>
-<wire x1="-31.105" y1="19.15" x2="5.1" y2="19.15" width="0.1" layer="51"/>
-<wire x1="5.1" y1="19.15" x2="5.1" y2="-10.03" width="0.1" layer="51"/>
-<wire x1="5.1" y1="-10.03" x2="-31.105" y2="-10.03" width="0.1" layer="51"/>
-<wire x1="-31.105" y1="-10.03" x2="-31.105" y2="19.15" width="0.1" layer="51"/>
-<wire x1="4" y1="-0.1" x2="4" y2="-0.1" width="0.2" layer="21"/>
-<wire x1="4" y1="-0.1" x2="4.1" y2="-0.1" width="0.2" layer="21" curve="180"/>
-<wire x1="4.1" y1="-0.1" x2="4.1" y2="-0.1" width="0.2" layer="21"/>
-<wire x1="4.1" y1="-0.1" x2="4" y2="-0.1" width="0.2" layer="21" curve="180"/>
-<wire x1="4" y1="-0.1" x2="4" y2="-0.1" width="0.2" layer="21"/>
-<wire x1="4" y1="-0.1" x2="4.1" y2="-0.1" width="0.2" layer="21" curve="180"/>
-<hole x="-2.225" y="14.975" drill="3"/>
-<hole x="-2.225" y="-5.855" drill="3"/>
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.25" shape="square" />
+<pad name="2" x="5" y="0" drill="0.7" diameter="1.25" />
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
+<wire x1="1.75" y1="1.25" x2="3.25" y2="1.25" width="0.2" layer="51" />
+<wire x1="3.25" y1="1.25" x2="3.25" y2="-1.25" width="0.2" layer="51" curve="-180.0" />
+<wire x1="3.25" y1="-1.25" x2="1.75" y2="-1.25" width="0.2" layer="51" />
+<wire x1="1.75" y1="-1.25" x2="1.75" y2="1.25" width="0.2" layer="51" curve="-180.0" />
+<circle x="-1.35" y="0" radius="0.05" width="0.2" layer="25" />
+<wire x1="-2.45" y1="2.45" x2="6.625" y2="2.45" width="0.05" layer="51" />
+<wire x1="6.625" y1="2.45" x2="6.625" y2="-2.45" width="0.05" layer="51" />
+<wire x1="6.625" y1="-2.45" x2="-2.45" y2="-2.45" width="0.05" layer="51" />
+<wire x1="-2.45" y1="-2.45" x2="-2.45" y2="2.45" width="0.05" layer="51" />
 </package>
 </packages>
 <symbols>
-<symbol name="DTF13-4P">
-<wire x1="5.08" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-12.7" x2="15.24" y2="10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<text x="16.51" y="15.24" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="12.7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="2" x="0" y="2.54" length="middle"/>
-<pin name="3" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="4" x="0" y="-2.54" length="middle"/>
+<symbol name="FG28X7R1H473KNT06">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94" />
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94" />
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94" />
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94" />
+<text x="8.89" y="6.35" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="8.89" y="3.81" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="io" rot="R0" />
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" direction="io" rot="R180" />
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DTF13-4P" prefix="J">
-<description>&lt;b&gt;Automotive Connectors 4P DTF RECP ASM 90 DEG. HEADER&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer DrawingDTF13-4PApdfEnglishENG_CD_DTF13-4P_A.pdfDTF13-4P"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="FG28X7R1H473KNT06" prefix="C">
+<description>&lt;b&gt;MLCC with dipped radial lead&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/FG28X7R1H473KNT06.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="DTF13-4P" x="0" y="0"/>
+<gate name="G$1" symbol="FG28X7R1H473KNT06" x="0" y="0" />
 </gates>
 <devices>
-<device name="" package="DTF134P">
+<device name="" package="FG28">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="1" pad="1" />
+<connect gate="G$1" pin="2" pad="2" />
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Automotive Connectors 4P DTF RECP ASM 90 DEG. HEADER" constant="no"/>
-<attribute name="HEIGHT" value="20.22mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="DTF13-4P" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-DTF13-4P" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-DEUTSCH/DTF13-4P?qs=vkMqrgFpRaj6YYUKpv5OLg%3D%3D" constant="no"/>
+<attribute name="Mouser_Part_Number" value="810-FG28X7R1H473KNT6" constant="no" />
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-FG28X7R1H473KNT6" constant="no" />
+<attribute name="Manufacturer_Name" value="TDK" constant="no" />
+<attribute name="Manufacturer_Part_Number" value="FG28X7R1H473KNT06" constant="no" />
+<attribute name="Description" value="MLCC with dipped radial lead" constant="no" />
+<attribute name="Height" value="5.5mm" constant="no" />
 </technology>
 </technologies>
 </device>
