@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -231,9 +231,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="1.27" y1="1.27" x2="53.32" y2="1.27" width="0" layer="20"/>
-<wire x1="53.32" y1="1.27" x2="53.34" y2="30.48" width="0" layer="20"/>
-<wire x1="53.34" y1="30.48" x2="1.27" y2="30.48" width="0" layer="20"/>
+<wire x1="1.27" y1="1.27" x2="53.320834375" y2="1.27" width="0" layer="20"/>
+<wire x1="53.320834375" y1="1.27" x2="54.59083125" y2="2.536825" width="0" layer="20" curve="89.85676"/>
+<wire x1="54.59083125" y1="2.536825" x2="54.609165625" y2="30.4784125" width="0" layer="20"/>
+<wire x1="54.609165625" y1="30.4784125" x2="53.339165625" y2="31.75" width="0" layer="20" curve="90.037643"/>
+<wire x1="53.339165625" y1="31.75" x2="2.54" y2="31.75" width="0" layer="20"/>
+<wire x1="2.54" y1="31.75" x2="1.27" y2="30.48" width="0" layer="20" curve="90"/>
 <wire x1="1.27" y1="30.48" x2="1.27" y2="1.27" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -7869,6 +7872,7 @@
 <wire x1="0.69745" y1="0.650009375" x2="0.69745" y2="-0.650009375" width="0.1" layer="21"/>
 <wire x1="0.69745" y1="-0.650009375" x2="-0.7025375" y2="-0.650009375" width="0.1" layer="21"/>
 <wire x1="-0.7025375" y1="-0.650009375" x2="-0.7025375" y2="0.650009375" width="0.1" layer="21"/>
+<hole x="8.89" y="-11.97000625" drill="3"/>
 </package>
 </packages>
 </library>
@@ -8078,6 +8082,8 @@ Copyright: Würth Elektronik</description>
 <wire x1="4" y1="-0.1" x2="4.1" y2="-0.1" width="0.2" layer="21" curve="180"/>
 <hole x="-2.225" y="14.975" drill="3"/>
 <hole x="-2.225" y="-5.855" drill="3"/>
+<circle x="-2.225" y="14.975" radius="2.54" width="0.127" layer="22"/>
+<circle x="-2.225" y="-5.855" radius="2.54" width="0.127" layer="22"/>
 </package>
 </packages>
 </library>
@@ -8195,7 +8201,7 @@ Copyright: Würth Elektronik</description>
 <description>&lt;b&gt;FG28&lt;/b&gt;&lt;br&gt;
 </description>
 <pad name="1" x="0" y="0" drill="0.7" diameter="1.25" shape="square"/>
-<pad name="2" x="5" y="0" drill="0.7" diameter="1.25"/>
+<pad name="2" x="5.08" y="0" drill="0.7" diameter="1.25"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="1.75" y1="1.25" x2="3.25" y2="1.25" width="0.2" layer="51"/>
@@ -9326,8 +9332,8 @@ type 0204, grid 7.5 mm</description>
 <package name="FG18C0G1H101JNT06">
 <description>&lt;b&gt;FG18&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="-1.25" y="0" drill="0.8" diameter="1.3"/>
-<pad name="2" x="1.25" y="0" drill="0.8" diameter="1.3"/>
+<pad name="1" x="-1.27" y="0" drill="0.8" diameter="1.3"/>
+<pad name="2" x="1.27" y="0" drill="0.8" diameter="1.3"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2" y1="1.25" x2="2" y2="1.25" width="0.2" layer="51"/>
@@ -9427,8 +9433,8 @@ design rules under a new name.</description>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
-<param name="slThermalsForVias" value="0"/>
+<param name="slThermalIsolate" value="20mil"/>
+<param name="slThermalsForVias" value="1"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkAngle" value="0"/>
@@ -9540,26 +9546,26 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="M5_STACK_STAMP_C3" package="M5_STACK_STAMP_C3" value="M5_STACK_STAMP_C3" x="2.54" y="20.32" smashed="yes"/>
-<element name="J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300811121" package3d_urn="urn:adsk.eagle:package:14805425/2" value=" 61300811121 " x="2.54" y="11.43" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61300811121.pdf" x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="GENDER" value="Pin Header" x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="3A" x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="THT" x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="2.2839" y="0.3524" size="0.8128" layer="25" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGING" value="Bag" x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART-NUMBER" value=" 61300811121 " x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PINS" value=" 8 " x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROWS" value="Single" x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="Straight" x="2.54" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="3.9842" y="0.4324" size="0.8128" layer="27" rot="R90" align="bottom-right"/>
+<element name="J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300811121" package3d_urn="urn:adsk.eagle:package:14805425/2" value=" 61300811121 " x="2.54" y="11.43" smashed="yes" rot="R270">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61300811121.pdf" x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="GENDER" value="Pin Header" x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="IR" value="3A" x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUNT" value="THT" x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="2.7961" y="22.5076" size="0.8128" layer="25" rot="R270" align="bottom-right"/>
+<attribute name="PACKAGING" value="Bag" x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART-NUMBER" value=" 61300811121 " x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PINS" value=" 8 " x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROWS" value="Single" x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="Straight" x="2.54" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="1.0958" y="22.4276" size="0.8128" layer="27" rot="R270" align="bottom-right"/>
 </element>
 <element name="J2" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300611121" package3d_urn="urn:adsk.eagle:package:14805427/2" value=" 61300611121 " x="20.32" y="8.89" smashed="yes" rot="R90">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61300611121.pdf" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="GENDER" value="Pin Header" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="IR" value="3A" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT" value="THT" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="20.0639" y="0.3124" size="0.8128" layer="25" rot="R90" align="bottom-right"/>
+<attribute name="NAME" x="22.6039" y="2.8524" size="0.8128" layer="25" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGING" value="Bag" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART-NUMBER" value=" 61300611121 " x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PINS" value=" 6 " x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9588,15 +9594,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.992" y="15.76" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="59.992" y="15.76" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="U1" library="Wurth_Step Down Converter_MagI³C-FDSM" library_urn="urn:adsk.eagle:library:13379781" package="MAGI³C-FDSM_173XXXX42" package3d_urn="urn:adsk.eagle:package:13379788/2" value="" x="27.94" y="27.94" smashed="yes" rot="R180">
-<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010542.pdf" x="27.94" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="I-OUTPUT" value="1A" x="27.94" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT" value="THT" x="27.94" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.94" y="20.32" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 173010542 " x="27.94" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-INPUT" value="8-42V" x="27.94" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-OUTPUT" value="5V" x="27.94" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="31.44" y="31.94" size="1.27" layer="27" rot="R180"/>
+<element name="U1" library="Wurth_Step Down Converter_MagI³C-FDSM" library_urn="urn:adsk.eagle:library:13379781" package="MAGI³C-FDSM_173XXXX42" package3d_urn="urn:adsk.eagle:package:13379788/2" value="" x="27.94" y="25.4" smashed="yes" rot="R180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.de/katalog/datasheet/173010542.pdf" x="27.94" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="I-OUTPUT" value="1A" x="27.94" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="THT" x="27.94" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="27.94" y="17.78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 173010542 " x="27.94" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="V-INPUT" value="8-42V" x="27.94" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="V-OUTPUT" value="5V" x="27.94" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="31.44" y="29.4" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C1" library="FG18X7R1H104KNT06-pcb-part-libraries" package="FG18C0G1H101JNT06" value="FG18X7R1H104KNT06" x="22.86" y="11.43" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - Leaded RAD 50V 0.1uF X7R 10% LS:2.5mm" x="22.86" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
@@ -9605,7 +9611,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="FG18X7R1H104KNT06" x="22.86" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-FG18X7R1H104KNT6" x="22.86" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/FG18X7R1H104KNT06?qs=qf2ddTMq67WA8sH6FratLA%3D%3D" x="22.86" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="23.019" y="11.675" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="23.019" y="16.755" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="23.019" y="11.675" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C2" library="FG18X7R1H104KNT06-pcb-part-libraries" package="FG18C0G1H101JNT06" value="FG18X7R1H104KNT06" x="31.75" y="5.08" smashed="yes">
@@ -9615,46 +9621,46 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="FG18X7R1H104KNT06" x="31.75" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-FG18X7R1H104KNT6" x="31.75" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/FG18X7R1H104KNT06?qs=qf2ddTMq67WA8sH6FratLA%3D%3D" x="31.75" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.505" y="5.239" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="31.505" y="2.699" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="31.505" y="5.239" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C3" library="FG28X7R1H473KNT06-pcb-part-libraries" package="FG28" value="FG28X7R1H473KNT06" x="38.1" y="15.24" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="MLCC with dipped radial lead" x="38.1" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="5.5mm" x="38.1" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="38.1" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FG28X7R1H473KNT06" x="38.1" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-FG28X7R1H473KNT6" x="38.1" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-FG28X7R1H473KNT6" x="38.1" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="39.37" y="12.7" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="38.1" y="15.24" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="C3" library="FG28X7R1H473KNT06-pcb-part-libraries" package="FG28" value="FG28X7R1H473KNT06" x="38.1" y="20.32" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="MLCC with dipped radial lead" x="38.1" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="5.5mm" x="38.1" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="38.1" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FG28X7R1H473KNT06" x="38.1" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-FG28X7R1H473KNT6" x="38.1" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-FG28X7R1H473KNT6" x="38.1" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="35.56" y="20.32" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="38.1" y="20.32" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="" x="40.64" y="19.05" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.3446" y="16.51" size="0.9906" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="41.1226" y="17.4244" size="0.9906" layer="27" ratio="10" rot="R90"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="" x="40.64" y="16.51" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.9354" y="17.78" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="40.1574" y="18.1356" size="0.9906" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="" x="35.56" y="11.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.2646" y="8.89" size="0.9906" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="36.0426" y="9.8044" size="0.9906" layer="27" ratio="10" rot="R90"/>
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="" x="35.56" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.1" y="11.4046" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="36.0426" y="12.3444" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C4" library="FG18X7R1H104KNT06-pcb-part-libraries" package="FG18C0G1H101JNT06" value="FG18X7R1H104KNT06" x="35.56" y="26.67" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - Leaded RAD 50V 0.1uF X7R 10% LS:2.5mm" x="35.56" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="5.5mm" x="35.56" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="35.56" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FG18X7R1H104KNT06" x="35.56" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-FG18X7R1H104KNT6" x="35.56" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/FG18X7R1H104KNT06?qs=qf2ddTMq67WA8sH6FratLA%3D%3D" x="35.56" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="35.401" y="26.425" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="35.401" y="26.425" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="C4" library="FG18X7R1H104KNT06-pcb-part-libraries" package="FG18C0G1H101JNT06" value="FG18X7R1H104KNT06" x="35.56" y="26.67" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - Leaded RAD 50V 0.1uF X7R 10% LS:2.5mm" x="35.56" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="5.5mm" x="35.56" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="35.56" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FG18X7R1H104KNT06" x="35.56" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-FG18X7R1H104KNT6" x="35.56" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/FG18X7R1H104KNT06?qs=qf2ddTMq67WA8sH6FratLA%3D%3D" x="35.56" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="33.179" y="28.185" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="35.719" y="26.915" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="C5" library="FG18X7R1H104KNT06-pcb-part-libraries" package="FG18C0G1H101JNT06" value="FG18X7R1H104KNT06" x="20.32" y="26.67" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - Leaded RAD 50V 0.1uF X7R 10% LS:2.5mm" x="20.32" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="5.5mm" x="20.32" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="20.32" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FG18X7R1H104KNT06" x="20.32" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-FG18X7R1H104KNT6" x="20.32" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/FG18X7R1H104KNT06?qs=qf2ddTMq67WA8sH6FratLA%3D%3D" x="20.32" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="20.161" y="26.425" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="22.701" y="27.695" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="C5" library="FG18X7R1H104KNT06-pcb-part-libraries" package="FG18C0G1H101JNT06" value="FG18X7R1H104KNT06" x="20.32" y="26.67" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - Leaded RAD 50V 0.1uF X7R 10% LS:2.5mm" x="20.32" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="5.5mm" x="20.32" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="20.32" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FG18X7R1H104KNT06" x="20.32" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-FG18X7R1H104KNT6" x="20.32" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/FG18X7R1H104KNT06?qs=qf2ddTMq67WA8sH6FratLA%3D%3D" x="20.32" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="23.019" y="28.185" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="17.939" y="25.645" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 </elements>
 <signals>
@@ -9670,47 +9676,51 @@ design rules under a new name.</description>
 <contactref element="J1" pad="1"/>
 <contactref element="IC1" pad="2"/>
 <contactref element="IC1" pad="8"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.254" layer="1">
 <vertex x="0" y="33.02"/>
 <vertex x="55.88" y="33.02"/>
 <vertex x="55.88" y="-2.54"/>
 <vertex x="0" y="-2.54"/>
 </polygon>
-<polygon width="0.1524" layer="16">
+<polygon width="0.254" layer="16">
 <vertex x="0" y="33.02"/>
 <vertex x="55.88" y="33.02"/>
 <vertex x="55.88" y="-2.54"/>
 <vertex x="0" y="-2.54"/>
 </polygon>
+<via x="38.1" y="2.54" extent="1-16" drill="1.1"/>
 </signal>
 <signal name="+12V">
 <contactref element="J3" pad="1"/>
 <contactref element="U1" pad="1"/>
 <contactref element="C4" pad="2"/>
-<wire x1="35.56" y1="27.92" x2="46.99" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="27.94" x2="35.56" y2="27.92" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="25.4" x2="30.48" y2="25.4" width="1.27" layer="1"/>
+<wire x1="35.56" y1="25.4" x2="41.91" y2="25.4" width="1.27" layer="1"/>
+<wire x1="46.99" y1="20.32" x2="41.91" y2="25.4" width="1.27" layer="1"/>
 </signal>
 <signal name="CAN_P">
 <contactref element="J3" pad="2"/>
 <contactref element="IC1" pad="7"/>
 <contactref element="R1" pad="2"/>
-<wire x1="40.64" y1="22.86" x2="51.44" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="33.02" y1="12.7" x2="40.64" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="12.7" x2="40.64" y2="12.7" width="0.508" layer="1"/>
+<wire x1="40.64" y1="12.7" x2="44.45" y2="12.7" width="0.508" layer="1"/>
+<wire x1="51.44" y1="20.32" x2="51.44" y2="19.69" width="0.508" layer="1"/>
+<wire x1="51.44" y1="19.69" x2="44.45" y2="12.7" width="0.508" layer="1"/>
 </signal>
 <signal name="CAN_N">
 <contactref element="J3" pad="4"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="R2" pad="1"/>
-<wire x1="35.56" y1="7.62" x2="46.99" y2="11.2" width="0" layer="19" extent="1-1"/>
-<wire x1="33.02" y1="10.16" x2="35.56" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="10.16" x2="35.56" y2="10.16" width="0.508" layer="1"/>
+<wire x1="46.99" y1="11.2" x2="45.95" y2="10.16" width="0.508" layer="1"/>
+<wire x1="45.95" y1="10.16" x2="35.56" y2="10.16" width="0.508" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C3" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="2"/>
-<contactref element="R2" pad="2"/>
-<wire x1="38.1" y1="15.24" x2="40.64" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="15.24" x2="38.1" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="20.32" x2="38.1" y2="20.32" width="0.508" layer="1"/>
+<wire x1="38.1" y1="20.32" x2="35.56" y2="17.78" width="0.508" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U1" pad="3"/>
@@ -9718,17 +9728,29 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="J1" pad="8"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="20.32" y1="27.92" x2="25.4" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="10.16" x2="25.4" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="10.18" x2="25.4" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="20.32" x2="20.32" y2="27.92" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="25.4" x2="25.4" y2="25.4" width="1.27" layer="1"/>
+<wire x1="22.86" y1="10.16" x2="25.4" y2="10.16" width="0.508" layer="1"/>
+<wire x1="22.86" y1="10.16" x2="22.86" y2="7.62" width="0.508" layer="1"/>
+<wire x1="22.86" y1="7.62" x2="21.59" y2="6.35" width="0.508" layer="1"/>
+<wire x1="21.59" y1="6.35" x2="5.08" y2="6.35" width="0.508" layer="1"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="1.27" layer="1"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="3.81" width="1.27" layer="1"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="6.35" width="1.27" layer="1"/>
+<wire x1="5.08" y1="6.35" x2="5.08" y2="12.7" width="1.27" layer="1"/>
+<wire x1="5.08" y1="12.7" x2="17.78" y2="25.4" width="1.27" layer="1"/>
+<wire x1="17.78" y1="25.4" x2="20.32" y2="25.4" width="1.27" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="IC1" pad="5"/>
 <contactref element="C2" pad="2"/>
 <contactref element="J2" pad="6"/>
-<wire x1="33" y1="5.08" x2="33.02" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="15.24" x2="33.02" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="15.24" x2="22.86" y2="15.24" width="0.508" layer="16"/>
+<wire x1="22.86" y1="15.24" x2="24.13" y2="13.97" width="0.508" layer="16"/>
+<wire x1="26.67" y1="13.97" x2="24.13" y2="13.97" width="0.508" layer="16"/>
+<wire x1="33.02" y1="5.08" x2="33.02" y2="7.62" width="0.508" layer="16"/>
+<wire x1="33.02" y1="5.08" x2="27.94" y2="10.16" width="0.508" layer="16"/>
+<wire x1="27.94" y1="10.16" x2="27.94" y2="12.7" width="0.508" layer="16"/>
+<wire x1="27.94" y1="12.7" x2="26.67" y2="13.97" width="0.508" layer="16"/>
 </signal>
 <signal name="G9">
 <contactref element="J2" pad="2"/>
@@ -9757,12 +9779,14 @@ design rules under a new name.</description>
 <signal name="G21">
 <contactref element="IC1" pad="1"/>
 <contactref element="J2" pad="5"/>
-<wire x1="20.32" y1="12.7" x2="25.4" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="12.7" x2="22.86" y2="15.24" width="0.508" layer="1"/>
+<wire x1="22.86" y1="15.24" x2="25.4" y2="15.24" width="0.508" layer="1"/>
 </signal>
 <signal name="G20">
 <contactref element="IC1" pad="4"/>
 <contactref element="J2" pad="4"/>
-<wire x1="20.32" y1="10.16" x2="25.4" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="10.16" x2="22.86" y2="7.62" width="0.508" layer="16"/>
+<wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.508" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

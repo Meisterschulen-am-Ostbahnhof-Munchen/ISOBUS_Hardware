@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -7863,6 +7863,7 @@
 <wire x1="0.69745" y1="0.650009375" x2="0.69745" y2="-0.650009375" width="0.1" layer="21"/>
 <wire x1="0.69745" y1="-0.650009375" x2="-0.7025375" y2="-0.650009375" width="0.1" layer="21"/>
 <wire x1="-0.7025375" y1="-0.650009375" x2="-0.7025375" y2="0.650009375" width="0.1" layer="21"/>
+<hole x="8.89" y="-11.97000625" drill="3"/>
 </package>
 </packages>
 <symbols>
@@ -8374,6 +8375,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="4" y1="-0.1" x2="4.1" y2="-0.1" width="0.2" layer="21" curve="180"/>
 <hole x="-2.225" y="14.975" drill="3"/>
 <hole x="-2.225" y="-5.855" drill="3"/>
+<circle x="-2.225" y="14.975" radius="2.54" width="0.127" layer="22"/>
+<circle x="-2.225" y="-5.855" radius="2.54" width="0.127" layer="22"/>
 </package>
 </packages>
 <symbols>
@@ -8943,7 +8946,7 @@ Updated  by Ella Wu  2020-03-17&lt;br&gt;
 <description>&lt;b&gt;FG28&lt;/b&gt;&lt;br&gt;
 </description>
 <pad name="1" x="0" y="0" drill="0.7" diameter="1.25" shape="square"/>
-<pad name="2" x="5" y="0" drill="0.7" diameter="1.25"/>
+<pad name="2" x="5.08" y="0" drill="0.7" diameter="1.25"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="1.75" y1="1.25" x2="3.25" y2="1.25" width="0.2" layer="51"/>
@@ -13287,8 +13290,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <package name="FG18C0G1H101JNT06">
 <description>&lt;b&gt;FG18&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="-1.25" y="0" drill="0.8" diameter="1.3"/>
-<pad name="2" x="1.25" y="0" drill="0.8" diameter="1.3"/>
+<pad name="1" x="-1.27" y="0" drill="0.8" diameter="1.3"/>
+<pad name="2" x="1.27" y="0" drill="0.8" diameter="1.3"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2" y1="1.25" x2="2" y2="1.25" width="0.2" layer="51"/>
@@ -13603,7 +13606,6 @@ Source: &lt;a href="https://product.tdk.com/en/system/files?file=dam/doc/product
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <junction x="109.22" y="124.46"/>
-<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+5V" class="0">
