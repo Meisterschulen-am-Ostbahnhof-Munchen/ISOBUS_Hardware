@@ -13651,6 +13651,11 @@ Source: &lt;a href="https://product.tdk.com/en/system/files?file=dam/doc/product
 <wire x1="17.78" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <label x="25.4" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RXD"/>
+<wire x1="2.54" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
+<label x="-5.08" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="EN" class="0">
 <segment>
@@ -13700,13 +13705,13 @@ Source: &lt;a href="https://product.tdk.com/en/system/files?file=dam/doc/product
 <wire x1="2.54" y1="99.06" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
 <label x="-5.08" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="G21" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="TXD"/>
 <wire x1="2.54" y1="33.02" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
 <label x="-5.08" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="G21" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="17.78" y1="93.98" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
@@ -13714,11 +13719,6 @@ Source: &lt;a href="https://product.tdk.com/en/system/files?file=dam/doc/product
 </segment>
 </net>
 <net name="G20" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="RXD"/>
-<wire x1="2.54" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
-<label x="-5.08" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="17.78" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
