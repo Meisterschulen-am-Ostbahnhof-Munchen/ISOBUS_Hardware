@@ -13742,11 +13742,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="33.02" y1="88.9" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
 <label x="40.64" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="RXD"/>
-<wire x1="2.54" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
-<label x="-5.08" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="EN" class="0">
 <segment>
@@ -13783,6 +13778,11 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="J3" gate="G$1" pin="9"/>
 <wire x1="2.54" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
 <junction x="2.54" y="91.44"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RXD"/>
+<wire x1="2.54" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
+<label x="-5.08" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="G6" class="0">
