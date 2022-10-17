@@ -5777,7 +5777,6 @@ diameter 2.3 mm, vertical, grid 10.16 mm</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="25.4" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-17.78" y1="30.48" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-17.78" y="30.48"/>
 <junction x="-17.78" y="35.56"/>
