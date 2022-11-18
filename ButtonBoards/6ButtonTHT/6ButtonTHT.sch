@@ -5601,6 +5601,13 @@ diameter 2.3 mm, vertical, grid 10.16 mm</description>
 <wire x1="300.99" y1="66.04" x2="287.02" y2="66.04" width="0.1524" layer="91"/>
 <label x="287.02" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="A" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="300.99" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="287.02" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -5613,13 +5620,6 @@ diameter 2.3 mm, vertical, grid 10.16 mm</description>
 <label x="187.96" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <junction x="218.44" y="165.1"/>
-</segment>
-</net>
-<net name="A" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="300.99" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
-<label x="287.02" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">

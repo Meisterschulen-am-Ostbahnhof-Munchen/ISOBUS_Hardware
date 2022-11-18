@@ -1,0 +1,13 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DATASHEET-URL";"DESCRIPTION";"H";"HEIGHT";"MANUFACTURER_NAME";"MANUFACTURER_PART_NUMBER";"MOUSER_PART_NUMBER";"MOUSER_PRICE-STOCK";"OPERATION-FORCE";"PART-NUMBER";"POPULARITY";"QTY";"SPICEPREFIX";"VALUE";
+"6";"";"430466073726";"4304X60737X6";"S1, S2, S3, S4, S5, S6";"WS-TATV THT Washable Tact Switch 12x12 mm";"https://www.we-online.com/catalog/datasheet/430466073726.pdf";"";"7.3mm";"";"";"";"";"";"260g";"430466073726";"";" 50 ";"";"";
+"2";"0";"R-EU_0207/10";"0207/10";"R8, R11";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"81";"";"R";"";
+"3";"1.3K";"R-EU_0207/10";"0207/10";"R6, R9, R10";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"81";"";"R";"";
+"1";"10K";"R-EU_0207/10";"0207/10";"R7";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"81";"";"R";"";
+"1";"15K";"R-EU_0207/10";"0207/10";"R2";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"81";"";"R";"";
+"1";"27K";"R-EU_0207/10";"0207/10";"R1";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"81";"";"R";"";
+"1";"3.3K";"R-EU_0207/10";"0207/10";"R5";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"81";"";"R";"";
+"1";"4P-2.0-90D";"GROVE-CONNECTOR-DIP-90D(4P-2.0)";"HW4-2.0-90D";"J1";"320110034";"";"";"";"";"";"";"";"";"";"";"";"";"";"4P-2.0-90D";
+"1";"5.6K";"R-EU_0207/10";"0207/10";"R4";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"81";"";"R";"";
+"1";"9.1K";"R-EU_0207/10";"0207/10";"R3";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"81";"";"R";"";
+"1";"BZD23";"BZD23";"SOD81";"D1";"Z DIODE";"";"";"";"";"";"";"";"";"";"";"1";"";"";"";
+"1";"FG28X7R1H473KNT06";"FG28X7R1H473KNT06";"FG28";"C3";"MLCC with dipped radial lead";"";"MLCC with dipped radial lead";"";"5.5mm";"TDK";"FG28X7R1H473KNT06";"810-FG28X7R1H473KNT6";"https://www.mouser.com/Search/Refine.aspx?Keyword=810-FG28X7R1H473KNT6";"";"";"";"";"";"";
