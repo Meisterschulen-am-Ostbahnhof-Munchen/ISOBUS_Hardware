@@ -553,140 +553,6 @@ High Speed CAN FD Transceiver</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="fliegl-wuerth">
-<packages>
-<package name="WE-TVS_SOT23-3L">
-<description>TVS Diode Array WE-TVS</description>
-<circle x="-2.133" y="1.015" radius="0.2" width="0" layer="21"/>
-<wire x1="0.65" y1="-1.45" x2="-0.65" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="-0.65" y1="-1.45" x2="-0.65" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.65" y1="1.45" x2="0.65" y2="1.45" width="0.1" layer="51"/>
-<wire x1="0.65" y1="1.45" x2="0.65" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="0" y1="1.55" x2="0.75" y2="1.55" width="0.2" layer="21"/>
-<wire x1="0.75" y1="1.55" x2="0.75" y2="0.8" width="0.2" layer="21"/>
-<wire x1="0" y1="-1.55" x2="0.75" y2="-1.55" width="0.2" layer="21"/>
-<wire x1="0.75" y1="-1.55" x2="0.75" y2="-0.8" width="0.2" layer="21"/>
-<wire x1="-0.75" y1="0.1" x2="-0.75" y2="-0.1" width="0.2" layer="21"/>
-<rectangle x1="0.7747" y1="-0.2921" x2="1.2319" y2="0.2921" layer="51" rot="R270"/>
-<rectangle x1="-1.2319" y1="-1.2319" x2="-0.7747" y2="-0.6477" layer="51" rot="R270"/>
-<rectangle x1="-1.2319" y1="0.6477" x2="-0.7747" y2="1.2319" layer="51" rot="R270"/>
-<smd name="1" x="-1.05" y="0.95" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
-<smd name="2" x="-1.05" y="-0.95" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
-<smd name="3" x="1.05" y="0" dx="0.9" dy="1.4" layer="1" rot="R270" thermals="no"/>
-<text x="0.195" y="2.282" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-1.605" y="-2.652" size="0.6096" layer="27">&gt;VALUE</text>
-<wire x1="1.95" y1="1.75" x2="1.95" y2="-1.75" width="0.05" layer="39"/>
-<wire x1="1.95" y1="-1.75" x2="-1.95" y2="-1.75" width="0.05" layer="39"/>
-<wire x1="-1.95" y1="-1.75" x2="-1.95" y2="1.75" width="0.05" layer="39"/>
-<wire x1="-1.95" y1="1.75" x2="1.95" y2="1.75" width="0.05" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="WE-TVS_824098024">
-<circle x="2.54" y="0" radius="0.381" width="0" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="3.175" x2="-0.508" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="1.905" x2="0" y2="1.397" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="3.175" x2="-1.016" y2="3.683" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-1.905" x2="-0.508" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-3.175" x2="0" y2="-3.683" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-1.905" x2="-1.016" y2="-1.397" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
-<text x="-3.302" y="-6.35" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-0.008" y="5.18" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<polygon width="0.254" layer="94">
-<vertex x="-1.778" y="3.175"/>
-<vertex x="-0.508" y="2.54"/>
-<vertex x="-1.778" y="1.905"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="-1.778" y="-1.905"/>
-<vertex x="-0.508" y="-2.54"/>
-<vertex x="-1.778" y="-3.175"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="0.948" y="1.925"/>
-<vertex x="-0.322" y="2.56"/>
-<vertex x="0.948" y="3.195"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="0.888" y="-3.175"/>
-<vertex x="-0.382" y="-2.54"/>
-<vertex x="0.888" y="-1.905"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WE-TVS_SOT23-3L_824098024" prefix="D">
-<description>&lt;b&gt;WE-TVS TVS Diode  Standard Series
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Fast turn-on
-&lt;br&gt;Low clamping voltage
-&lt;br&gt;High ESD withstand voltage
-&lt;br&gt;Uni- or bidirectional protection
-&lt;br&gt;Small package
-&lt;br&gt;Epoxy flame resistant UL94 V-0
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;DC power supply
-&lt;br&gt;USB Power Delivery (PD)
-&lt;br&gt;Headsets and accessories
-&lt;br&gt;PDAs
-&lt;br&gt;Digital cameras
-&lt;br&gt;MP3-Player
-&lt;br&gt;Touch Panels
-&lt;br&gt;Notebooks
-&lt;br&gt;ESD, EFT and Surge Protection
-&lt;br&gt;ESD protection in accordance with EN 61000-4-2 
-&lt;br&gt; 8 kV contact discharge 
-&lt;br&gt; 15 kV air discharge&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;B&gt;Application Notes &lt;/B&gt;
-&lt;br&gt;ANP024 The USB Interface from EMC Point of View&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.de/media/images/v2/Family_WE-TVS_Standard.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.de/media/images/v2/Family_WE-TVS_Standard.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.de/en/pbs/WE-TVS/82402374?m"&gt;https://katalog.we-online.de/en/pbs/WE-TVS/82402374?m&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;
-
-&lt;/b&gt;Created By Yingchun,Shan 2018-11-16&lt;br&gt;
-&lt;/b&gt;2018 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WE-TVS_824098024" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-TVS_SOT23-3L">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARTIKEL_NR" value="531887"/>
-<attribute name="KOMPONENTENNUMMER" value="617684" constant="no"/>
-<attribute name="VALUE" value="26.2V / 35pF" constant="no"/>
-<attribute name="WE-NUMBER" value="824098024" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Wurth_EMC Components_WE-TVSP" urn="urn:adsk.eagle:library:14283044">
 <description>&lt;BR&gt;Wurth Elektronik - EMC Components - Surge Protection - WE-TVSP&lt;br&gt;&lt;Hr&gt;
 
@@ -16613,330 +16479,6 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Eagle_WR-PHD (rev22a)">
-<description>&lt;BR&gt;Wurth Elektronik - Connectors - Board-to-Board Connectors - WR-PHD &lt;br&gt;
-&lt;Hr&gt;
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2022, 2022-12-06&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="61302211821" urn="urn:adsk.eagle:footprint:14805051/1">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
-<pad name="1" x="-26.67" y="0" drill="1.02"/>
-<pad name="2" x="-24.13" y="0" drill="1.02"/>
-<pad name="3" x="-21.59" y="0" drill="1.02"/>
-<pad name="4" x="-19.05" y="0" drill="1.02"/>
-<pad name="5" x="-16.51" y="0" drill="1.02"/>
-<pad name="6" x="-13.97" y="0" drill="1.02"/>
-<pad name="7" x="-11.43" y="0" drill="1.02"/>
-<pad name="8" x="-8.89" y="0" drill="1.02"/>
-<pad name="9" x="-6.35" y="0" drill="1.02"/>
-<pad name="10" x="-3.81" y="0" drill="1.02"/>
-<pad name="11" x="-1.27" y="0" drill="1.02"/>
-<pad name="12" x="1.27" y="0" drill="1.02"/>
-<pad name="13" x="3.81" y="0" drill="1.02"/>
-<pad name="14" x="6.35" y="0" drill="1.02"/>
-<pad name="15" x="8.89" y="0" drill="1.02"/>
-<pad name="16" x="11.43" y="0" drill="1.02"/>
-<pad name="17" x="13.97" y="0" drill="1.02"/>
-<pad name="18" x="16.51" y="0" drill="1.02"/>
-<pad name="19" x="19.05" y="0" drill="1.02"/>
-<pad name="20" x="21.59" y="0" drill="1.02"/>
-<pad name="21" x="24.13" y="0" drill="1.02"/>
-<pad name="22" x="26.67" y="0" drill="1.02"/>
-<wire x1="-28.19" y1="-1.25" x2="28.19" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="28.19" y1="-1.25" x2="28.19" y2="1.25" width="0.1" layer="51"/>
-<wire x1="28.19" y1="1.25" x2="-28.19" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-28.19" y1="1.25" x2="-28.19" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-28.29" y1="1.35" x2="28.29" y2="1.35" width="0.2" layer="21"/>
-<wire x1="28.29" y1="1.35" x2="28.29" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="28.29" y1="-1.35" x2="-28.29" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="-28.29" y1="-1.35" x2="-28.29" y2="1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-28.49" y="1.55"/>
-<vertex x="28.49" y="1.55"/>
-<vertex x="28.49" y="-1.55"/>
-<vertex x="-28.49" y="-1.55"/>
-</polygon>
-<circle x="-27.84" y="-0.9" radius="0.1" width="0.2" layer="21"/>
-<text x="-29.0776" y="0.5061" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-28.9976" y="-1.1942" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="61302211821" urn="urn:adsk.eagle:package:14805555/2" type="model">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
-<packageinstances>
-<packageinstance name="61302211821"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="22ST">
-<description>Socket Header THT,22Pins</description>
-<pin name="1" x="-27.94" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="-25.4" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="-22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="-20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="5" x="-17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="6" x="-15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="7" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="8" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="9" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="10" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="11" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="12" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="13" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="14" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="15" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="16" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="17" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="18" x="15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="19" x="17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="20" x="20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="21" x="22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="22" x="25.4" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<text x="-30.28" y="-0.922" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-30.23" y="-2.58" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
-<wire x1="-29.21" y1="0" x2="26.67" y2="0" width="0.254" layer="94"/>
-<wire x1="26.67" y1="-2.54" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-2.54" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-2.54" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-2.54" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-2.54" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-2.54" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-2.54" x2="-22.86" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-2.54" x2="-25.4" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-2.54" x2="-27.94" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="-2.54" x2="-29.21" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-29.21" y1="-2.54" x2="-29.21" y2="0" width="0.254" layer="94"/>
-<wire x1="26.67" y1="0" x2="26.67" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="-1.705" x2="-27.94" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-1.705" x2="-25.4" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-1.705" x2="-22.86" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-1.705" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-1.705" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-1.705" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-1.705" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-1.705" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-1.705" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-1.705" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.705" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-1.705" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-1.705" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-1.705" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-1.705" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-1.705" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
-<circle x="-27.94" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-25.4" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="25.4" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="6130XX11821_61302211821" prefix="J">
-<description>&lt;b&gt;WR-PHD 2.54 mm Socket Header &lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pins:1;​ 2;​ 3;​ 4;​ 5;​ 6;​ 7;​ 8;​ 9;​ 10;​ 12;​ 13;​ 14;​ 15;​ 16;​ 18;​ 20;​ 22;​ 24;​ 25;​ 32;​ 36;​ 40
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Pitch：2.54 mm
-&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
-&lt;BR&gt;Rows：Single
-&lt;BR&gt;Gender：Socket Header;​ Female
-&lt;BR&gt;Type：Straight
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material :PBT
-&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
-&lt;BR&gt;Contact Material:Copper Alloy
-&lt;BR&gt;Contact Plating:Gold
-&lt;BR&gt;Contact Type:Stamped
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
-&lt;BR&gt;Operating Temperature:-40 up to +125 °C
-&lt;BR&gt;Compliance:Lead free / RoHS
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Rated Current:3 A
-&lt;BR&gt;IR 1:3 A
-&lt;BR&gt;Withstanding Voltage:500 V (AC)
-&lt;BR&gt;Contact Resistance:20 mΩ
-&lt;BR&gt;RISO:1000 MΩ
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
-&lt;BR&gt;Packaging:Tray
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33218v209%20Family_WR-PHD_613xxx11821.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o33218v209%20Family_WR-PHD_613xxx11821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://katalog.we-online.com/en/em/PHD_2_54_SOCKET_HEADER_6130XX11821"&gt;https://katalog.we-online.com/en/em/PHD_2_54_SOCKET_HEADER_6130XX11821&lt;/a&gt;&lt;p&gt;
-&lt;BR&gt;
-Updated by Yingchun,Shan 2019-10-21
-&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="22ST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61302211821">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14805555/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61302211821?ae"/>
-<attribute name="GENDER" value="Socket Header"/>
-<attribute name="IR" value="3A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61302211821 "/>
-<attribute name="PINS" value=" 22 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="ROWS" value="Single"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61302211821 "/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Wurth_EMC Components_WE-TVS" urn="urn:adsk.eagle:library:14282971">
 <description>&lt;BR&gt;Wurth Elektronik - EMC Components - ESD Protection - WE-TVS&lt;br&gt;&lt;Hr&gt;
 
@@ -17050,6 +16592,45 @@ Copyright: Würth Elektronik</description>
 <vertex x="1.76" y="-2"/>
 </polygon>
 </package>
+<package name="WE-TVS_SOT23-3L" urn="urn:adsk.eagle:footprint:12152348/3" library_version="6">
+<description>&lt;b&gt;WE-TVS TVS Diode
+&lt;br&gt;&lt;/b&gt;Size:  SOT23-3L
+&lt;BR&gt;L X W X H = 2.9mm X 2.4mm X 1.04mm</description>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="1.45" y1="-0.65" x2="-0.75" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="-0.65" x2="-1.15" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="-0.65" x2="-1.45" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-1.45" y1="0.65" x2="-0.2" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="0.65" x2="0.2" y2="0.65" width="0.1" layer="51"/>
+<wire x1="0.2" y1="0.65" x2="1.45" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="0" x2="-1.55" y2="0.75" width="0.2" layer="21"/>
+<wire x1="-1.55" y1="0.75" x2="-0.8" y2="0.75" width="0.2" layer="21"/>
+<wire x1="1.55" y1="0" x2="1.55" y2="0.75" width="0.2" layer="21"/>
+<wire x1="1.55" y1="0.75" x2="0.8" y2="0.75" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-0.75" x2="0.2" y2="-0.75" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="0.65" x2="-0.2" y2="1.2" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="1.2" x2="0.2" y2="1.2" width="0.1" layer="51"/>
+<wire x1="0.2" y1="1.2" x2="0.2" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="-0.65" x2="-1.15" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="-1.2" x2="-0.75" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="-1.2" x2="-0.75" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-0.65" x2="0.75" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-1.2" x2="1.15" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="1.15" y1="-1.2" x2="1.15" y2="-0.65" width="0.1" layer="51"/>
+<smd name="3" x="0" y="1.05" dx="0.9" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.05" dx="0.9" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.05" dx="0.9" dy="1.4" layer="1"/>
+<text x="0" y="2.2" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.75" y="1.95"/>
+<vertex x="1.75" y="1.95"/>
+<vertex x="1.75" y="-1.95"/>
+<vertex x="-1.75" y="-1.95"/>
+</polygon>
+<circle x="-1.9" y="-1.6" radius="0.1" width="0.3" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="WE-TVS_SOT143-4L" urn="urn:adsk.eagle:package:12152377/4" type="model" library_version="6">
@@ -17058,6 +16639,14 @@ Copyright: Würth Elektronik</description>
 &lt;BR&gt;L X W X H = 2.92mm X2.4mm X 1.06mm</description>
 <packageinstances>
 <packageinstance name="WE-TVS_SOT143-4L"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-TVS_SOT23-3L" urn="urn:adsk.eagle:package:12152380/4" type="model" library_version="6">
+<description>&lt;b&gt;WE-TVS TVS Diode
+&lt;br&gt;&lt;/b&gt;Size:  SOT23-3L
+&lt;BR&gt;L X W X H = 2.9mm X 2.4mm X 1.04mm</description>
+<packageinstances>
+<packageinstance name="WE-TVS_SOT23-3L"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -17134,6 +16723,52 @@ Copyright: Würth Elektronik</description>
 <circle x="0.762" y="0" radius="0.381" width="0" layer="94"/>
 <circle x="5.08" y="0" radius="0.381" width="0" layer="94"/>
 </symbol>
+<symbol name="WE-TVS_SOT23-3L_BI" urn="urn:adsk.eagle:symbol:33711025/1" library_version="6">
+<pin name="I/O2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="I/O1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="GND" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="3.175" x2="-0.508" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.905" x2="0" y2="1.397" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="3.175" x2="-1.016" y2="3.683" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.905" x2="-0.508" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-3.175" x2="0" y2="-3.683" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.905" x2="-1.016" y2="-1.397" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="4.318" x2="4.064" y2="-4.318" width="0.254" layer="94" style="shortdash"/>
+<wire x1="4.064" y1="-4.318" x2="-4.064" y2="-4.318" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-4.064" y1="-4.318" x2="-4.064" y2="4.318" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-4.064" y1="4.318" x2="4.064" y2="4.318" width="0.254" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<circle x="2.54" y="0" radius="0.381" width="0" layer="94"/>
+<text x="0" y="-6.35" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="5.08" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="7.62" y="-0.889" size="0.6096" layer="94" align="bottom-right">GND</text>
+<text x="-7.62" y="1.651" size="0.6096" layer="94">I/O1</text>
+<text x="-7.62" y="-3.429" size="0.6096" layer="94">I/O2</text>
+<polygon width="0.254" layer="94">
+<vertex x="-1.778" y="3.175"/>
+<vertex x="-0.508" y="2.54"/>
+<vertex x="-1.778" y="1.905"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-1.778" y="-1.905"/>
+<vertex x="-0.508" y="-2.54"/>
+<vertex x="-1.778" y="-3.175"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.948" y="1.925"/>
+<vertex x="-0.322" y="2.56"/>
+<vertex x="0.948" y="3.195"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.888" y="-3.175"/>
+<vertex x="-0.382" y="-2.54"/>
+<vertex x="0.888" y="-1.905"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="WE-TVS-HS_SOT143-4L_8240136" urn="urn:adsk.eagle:component:14282992/4" prefix="D" library_version="6">
@@ -17197,6 +16832,392 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 </device>
 </devices>
 </deviceset>
+<deviceset name="WE-TVS_SOT23-3L_824094024" urn="urn:adsk.eagle:component:33711027/1" prefix="D" library_version="6">
+<description>&lt;b&gt;WE-TVS TVS Diode – Standard Series
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Fast turn-on
+&lt;br&gt;Low clamping voltage
+&lt;br&gt;High ESD withstand voltage
+&lt;br&gt;Uni- or bidirectional protection
+&lt;br&gt;Small package
+&lt;br&gt;Epoxy flame resistant UL94 V-0
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;DC power supply
+&lt;br&gt;USB Power Delivery (PD)
+&lt;br&gt;Headsets and accessories
+&lt;br&gt;PDAs
+&lt;br&gt;Digital cameras
+&lt;br&gt;MP3-Player
+&lt;br&gt;Touch Panels
+&lt;br&gt;Notebooks
+&lt;br&gt;ESD, EFT and Surge Protection
+&lt;br&gt;ESD protection in accordance with EN 61000-4-2 
+&lt;br&gt;– 8 kV contact discharge 
+&lt;br&gt;– 15 kV air discharge&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o106433v209%20Family_WE-TVS_Standard.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o106433v209%20Family_WE-TVS_Standard.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https://www.we-online.com/catalog/en/WE-TVS&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu  2021-12-15&lt;br&gt;
+&lt;/b&gt;2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-TVS_SOT23-3L_BI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TVS_SOT23-3L">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="I/O1" pad="1"/>
+<connect gate="G$1" pin="I/O2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12152380/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="C-CH" value="38pF"/>
+<attribute name="CHANNELS" value=" 2 "/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824094024.pdf"/>
+<attribute name="IPEAK" value="6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 824094024 "/>
+<attribute name="VALUE" value="24Vdc"/>
+<attribute name="VBR" value="26.2V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Wurth_Connectors_WR-PHD" urn="urn:adsk.eagle:library:14804658">
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Board-to-Board Connectors - WR-PHD &lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2022, 2022-12-06&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="61302211821" urn="urn:adsk.eagle:footprint:14805051/1" library_version="5">
+<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
+<pad name="1" x="-26.67" y="0" drill="1.02"/>
+<pad name="2" x="-24.13" y="0" drill="1.02"/>
+<pad name="3" x="-21.59" y="0" drill="1.02"/>
+<pad name="4" x="-19.05" y="0" drill="1.02"/>
+<pad name="5" x="-16.51" y="0" drill="1.02"/>
+<pad name="6" x="-13.97" y="0" drill="1.02"/>
+<pad name="7" x="-11.43" y="0" drill="1.02"/>
+<pad name="8" x="-8.89" y="0" drill="1.02"/>
+<pad name="9" x="-6.35" y="0" drill="1.02"/>
+<pad name="10" x="-3.81" y="0" drill="1.02"/>
+<pad name="11" x="-1.27" y="0" drill="1.02"/>
+<pad name="12" x="1.27" y="0" drill="1.02"/>
+<pad name="13" x="3.81" y="0" drill="1.02"/>
+<pad name="14" x="6.35" y="0" drill="1.02"/>
+<pad name="15" x="8.89" y="0" drill="1.02"/>
+<pad name="16" x="11.43" y="0" drill="1.02"/>
+<pad name="17" x="13.97" y="0" drill="1.02"/>
+<pad name="18" x="16.51" y="0" drill="1.02"/>
+<pad name="19" x="19.05" y="0" drill="1.02"/>
+<pad name="20" x="21.59" y="0" drill="1.02"/>
+<pad name="21" x="24.13" y="0" drill="1.02"/>
+<pad name="22" x="26.67" y="0" drill="1.02"/>
+<wire x1="-28.19" y1="-1.25" x2="28.19" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="28.19" y1="-1.25" x2="28.19" y2="1.25" width="0.1" layer="51"/>
+<wire x1="28.19" y1="1.25" x2="-28.19" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-28.19" y1="1.25" x2="-28.19" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-28.29" y1="1.35" x2="28.29" y2="1.35" width="0.2" layer="21"/>
+<wire x1="28.29" y1="1.35" x2="28.29" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="28.29" y1="-1.35" x2="-28.29" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="-28.29" y1="-1.35" x2="-28.29" y2="1.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-28.49" y="1.55"/>
+<vertex x="28.49" y="1.55"/>
+<vertex x="28.49" y="-1.55"/>
+<vertex x="-28.49" y="-1.55"/>
+</polygon>
+<circle x="-27.84" y="-0.9" radius="0.1" width="0.2" layer="21"/>
+<text x="-29.0776" y="0.5061" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-28.9976" y="-1.1942" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="61302211821" urn="urn:adsk.eagle:package:14805555/2" type="model" library_version="5">
+<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
+<packageinstances>
+<packageinstance name="61302211821"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="22ST" urn="urn:adsk.eagle:symbol:38495010/1" library_version="5">
+<description>Socket Header THT,22Pins</description>
+<pin name="1" x="-27.94" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="-25.4" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="-22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="-20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="-17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="6" x="-15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="8" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="10" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="11" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="12" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="13" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="14" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="15" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="16" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="17" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="18" x="15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="19" x="17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="20" x="20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="21" x="22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="22" x="25.4" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="-30.28" y="-0.922" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-30.23" y="-2.58" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
+<wire x1="-29.21" y1="0" x2="26.67" y2="0" width="0.254" layer="94"/>
+<wire x1="26.67" y1="-2.54" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-2.54" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-2.54" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-2.54" x2="-22.86" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-2.54" x2="-25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-2.54" x2="-27.94" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-2.54" x2="-29.21" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-29.21" y1="-2.54" x2="-29.21" y2="0" width="0.254" layer="94"/>
+<wire x1="26.67" y1="0" x2="26.67" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-1.705" x2="-27.94" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-1.705" x2="-25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-1.705" x2="-22.86" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-1.705" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-1.705" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-1.705" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-1.705" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-1.705" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.705" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-1.705" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.705" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-1.705" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-1.705" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-1.705" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-1.705" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-1.705" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-27.94" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-25.4" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="25.4" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="6130XX11821_61302211821" urn="urn:adsk.eagle:component:38495236/1" prefix="J" library_version="5">
+<description>&lt;b&gt;WR-PHD 2.54 mm Socket Header &lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
+&lt;BR&gt;
+&lt;BR&gt;Pins:1;​ 2;​ 3;​ 4;​ 5;​ 6;​ 7;​ 8;​ 9;​ 10;​ 12;​ 13;​ 14;​ 15;​ 16;​ 18;​ 20;​ 22;​ 24;​ 25;​ 32;​ 36;​ 40
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
+&lt;BR&gt;
+&lt;BR&gt;Pitch：2.54 mm
+&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
+&lt;BR&gt;Rows：Single
+&lt;BR&gt;Gender：Socket Header;​ Female
+&lt;BR&gt;Type：Straight
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Insulator Material :PBT
+&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
+&lt;BR&gt;Contact Material:Copper Alloy
+&lt;BR&gt;Contact Plating:Gold
+&lt;BR&gt;Contact Type:Stamped
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
+&lt;BR&gt;Operating Temperature:-40 up to +125 °C
+&lt;BR&gt;Compliance:Lead free / RoHS
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Rated Current:3 A
+&lt;BR&gt;IR 1:3 A
+&lt;BR&gt;Withstanding Voltage:500 V (AC)
+&lt;BR&gt;Contact Resistance:20 mΩ
+&lt;BR&gt;RISO:1000 MΩ
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
+&lt;BR&gt;UL Approval:E323964
+&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
+&lt;BR&gt;Packaging:Tray
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33218v209%20Family_WR-PHD_613xxx11821.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33218v209%20Family_WR-PHD_613xxx11821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+Details see: &lt;a href="https://katalog.we-online.com/en/em/PHD_2_54_SOCKET_HEADER_6130XX11821"&gt;https://katalog.we-online.com/en/em/PHD_2_54_SOCKET_HEADER_6130XX11821&lt;/a&gt;&lt;p&gt;
+&lt;BR&gt;
+Updated by Yingchun,Shan 2019-10-21
+&lt;BR&gt;
+2019 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="22ST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61302211821">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14805555/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61302211821?ae"/>
+<attribute name="GENDER" value="Socket Header"/>
+<attribute name="IR" value="3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61302211821 "/>
+<attribute name="PINS" value=" 22 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="ROWS" value="Single"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61302211821 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -17219,8 +17240,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="C15" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207096" value="47nF"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="D6" library="fliegl-wuerth" deviceset="WE-TVS_SOT23-3L_824098024" device="" value="26.2V / 35pF"/>
 <part name="C17" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
 <part name="C19" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -17297,8 +17316,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <part name="U1" library="ESP32-S3-DEVKITC-1-N8R2" deviceset="ESP32-S3-DEVKITC-1-N8R2" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J4" library="Eagle_WR-PHD (rev22a)" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 "/>
-<part name="J8" library="Eagle_WR-PHD (rev22a)" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 "/>
+<part name="J4" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 "/>
+<part name="J8" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 "/>
 <part name="J10" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222006" device="" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 "/>
 <part name="J11" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222006" device="" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 "/>
 <part name="J12" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222006" device="" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 "/>
@@ -17411,6 +17430,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <part name="ECU_GND26" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="ECU_PWR5" library="supply_isobus" deviceset="ECU_PWR" device=""/>
 <part name="ECU_PWR6" library="supply_isobus" deviceset="ECU_PWR" device=""/>
+<part name="D11" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" deviceset="WE-TVS_SOT23-3L_824094024" device="" package3d_urn="urn:adsk.eagle:package:12152380/4" value="24Vdc"/>
+<part name="ECU_GND27" library="supply_isobus" deviceset="ECU_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17881,13 +17902,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <instance part="GND28" gate="1" x="215.9" y="114.3" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="218.44" y="111.76" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND5" gate="1" x="170.18" y="124.46" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="172.72" y="121.92" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="D6" gate="G$1" x="142.24" y="109.22" smashed="yes" rot="R180">
-<attribute name="VALUE" x="145.542" y="115.57" size="1.27" layer="96" rot="R180"/>
-<attribute name="NAME" x="142.248" y="104.04" size="1.27" layer="95" rot="R180" align="bottom-center"/>
-</instance>
 <instance part="C17" gate="G$1" x="210.82" y="96.52" smashed="yes" rot="MR270">
 <attribute name="NAME" x="210.82" y="93.98" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="213.36" y="93.98" size="1.778" layer="96" rot="MR270"/>
@@ -17916,6 +17930,13 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <instance part="ECU_GND7" gate="ECU_GND" x="220.98" y="83.82" smashed="yes">
 <attribute name="VALUE" x="218.44" y="81.28" size="1.778" layer="96"/>
 </instance>
+<instance part="D11" gate="G$1" x="139.7" y="109.22" smashed="yes" rot="R180">
+<attribute name="VALUE" x="139.7" y="115.57" size="1.27" layer="96" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="139.7" y="104.14" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="ECU_GND27" gate="ECU_GND" x="170.18" y="124.46" smashed="yes">
+<attribute name="VALUE" x="167.64" y="121.92" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17943,10 +17964,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <junction x="106.68" y="121.92"/>
 <pinref part="U4" gate="G1" pin="CANH"/>
 <wire x1="147.32" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="2"/>
-<junction x="147.32" y="111.76"/>
 <label x="99.06" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="D11" gate="G$1" pin="I/O2"/>
+<junction x="147.32" y="111.76"/>
 </segment>
 </net>
 <net name="CAN_N" class="0">
@@ -17958,10 +17979,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <junction x="106.68" y="96.52"/>
 <pinref part="U4" gate="G1" pin="CANL"/>
 <wire x1="147.32" y1="106.68" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="1"/>
-<junction x="147.32" y="106.68"/>
 <label x="99.06" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="D11" gate="G$1" pin="I/O1"/>
+<junction x="147.32" y="106.68"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -17993,10 +18014,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="ECU_GND4" gate="ECU_GND" pin="ECU_GND"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="3"/>
 <wire x1="132.08" y1="109.22" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="ECU_GND5" gate="ECU_GND" pin="ECU_GND"/>
+<pinref part="D11" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="91.44" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
@@ -18015,8 +18035,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 </segment>
 <segment>
 <pinref part="U4" gate="G1" pin="GND"/>
-<pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="170.18" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
+<pinref part="ECU_GND27" gate="ECU_GND" pin="ECU_GND"/>
 </segment>
 </net>
 <net name="+5V" class="0">
