@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -408,11 +408,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <packages>
 </packages>
 <symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
 <symbol name="+5V">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -427,19 +422,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="+5V" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -17235,14 +17217,12 @@ Updated by Yingchun,Shan 2019-10-21
 </class>
 </classes>
 <parts>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="U4" library="TLE9250VSJ" deviceset="TLE9250VSJ" device="" value="TLE9250VSJ"/>
-<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="C15" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207096" value="47nF"/>
-<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
 <part name="C19" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="BTS7030-2EPA" deviceset="BTS7030-2EPA" device=""/>
 <part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
@@ -17259,7 +17239,7 @@ Updated by Yingchun,Shan 2019-10-21
 <part name="C3" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
 <part name="C4" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207092" value="10nF"/>
 <part name="C9" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207092" value="10nF"/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="C10" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1210_H2.5" device="_25V(DC)" package3d_urn="urn:adsk.eagle:package:18489097/2" technology="_885012109014" value="22uF"/>
 <part name="G1" library="INF-PG-TO252-5-11L" deviceset="TLE4270-2D-INF-PG-TO252-5-11_L_1" device=""/>
 <part name="C11" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0402" device="_16V(DC)" package3d_urn="urn:adsk.eagle:package:18489133/5" technology="_885012205037" value="100nF"/>
@@ -17432,6 +17412,8 @@ Updated by Yingchun,Shan 2019-10-21
 <part name="ECU_PWR6" library="supply_isobus" deviceset="ECU_PWR" device=""/>
 <part name="D11" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" deviceset="WE-TVS_SOT23-3L_824094024" device="" package3d_urn="urn:adsk.eagle:package:12152380/4" value="24Vdc"/>
 <part name="ECU_GND27" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND28" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND29" library="supply_isobus" deviceset="ECU_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17748,9 +17730,6 @@ Updated by Yingchun,Shan 2019-10-21
 <frame x1="-104.14" y1="-20.32" x2="281.94" y2="198.12" columns="8" rows="5" layer="94"/>
 </plain>
 <instances>
-<instance part="GND2" gate="1" x="-25.4" y="119.38" smashed="yes">
-<attribute name="VALUE" x="-27.94" y="114.3" size="1.778" layer="96"/>
-</instance>
 <instance part="P+4" gate="1" x="53.34" y="99.06" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="55.88" y="93.98" size="1.778" layer="96" rot="MR90"/>
 </instance>
@@ -17786,6 +17765,9 @@ Updated by Yingchun,Shan 2019-10-21
 <instance part="X2" gate="G$1" x="-30.48" y="137.16" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="-20.32" y="138.43" size="1.778" layer="96" rot="MR270"/>
 <attribute name="NAME" x="-36.322" y="138.43" size="1.778" layer="95" rot="MR270"/>
+</instance>
+<instance part="ECU_GND28" gate="ECU_GND" x="-25.4" y="119.38" smashed="yes">
+<attribute name="VALUE" x="-27.94" y="116.84" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17858,10 +17840,9 @@ Updated by Yingchun,Shan 2019-10-21
 <pinref part="ECU_GND2" gate="ECU_GND" pin="ECU_GND"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="129.54" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
-<label x="-27.94" y="111.76" size="1.778" layer="95"/>
-<pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="X2" gate="G$1" pin="1"/>
+<pinref part="ECU_GND28" gate="ECU_GND" pin="ECU_GND"/>
+<wire x1="-25.4" y1="129.54" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -17899,9 +17880,6 @@ Updated by Yingchun,Shan 2019-10-21
 <attribute name="NAME" x="119.38" y="109.22" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.38" y="106.68" size="1.778" layer="96"/>
 </instance>
-<instance part="GND28" gate="1" x="215.9" y="114.3" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="218.44" y="111.76" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="C17" gate="G$1" x="210.82" y="96.52" smashed="yes" rot="MR270">
 <attribute name="NAME" x="210.82" y="93.98" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="213.36" y="93.98" size="1.778" layer="96" rot="MR270"/>
@@ -17936,6 +17914,9 @@ Updated by Yingchun,Shan 2019-10-21
 </instance>
 <instance part="ECU_GND27" gate="ECU_GND" x="170.18" y="124.46" smashed="yes">
 <attribute name="VALUE" x="167.64" y="121.92" size="1.778" layer="96"/>
+</instance>
+<instance part="ECU_GND29" gate="ECU_GND" x="215.9" y="114.3" smashed="yes">
+<attribute name="VALUE" x="213.36" y="111.76" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -18031,7 +18012,7 @@ Updated by Yingchun,Shan 2019-10-21
 <segment>
 <wire x1="205.74" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G1" pin="NEN"/>
-<pinref part="GND28" gate="1" pin="GND"/>
+<pinref part="ECU_GND29" gate="ECU_GND" pin="ECU_GND"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G1" pin="GND"/>
