@@ -2556,7 +2556,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
 <rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
 <rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
-<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>/>
+<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>
 <smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>
 <text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
@@ -5482,12 +5482,14 @@ design rules under a new name.</description>
 <contactref element="D006" pad="C"/>
 <contactref element="C23" pad="1"/>
 <polygon width="0.2032" layer="1" isolate="0.254" thermals="no">
-<vertex x="89.47" y="48.26"/>
+<vertex x="89.47" y="74.33"/>
+<vertex x="89.47" y="53.91"/>
+<vertex x="83.82" y="48.26"/>
 <vertex x="76.2" y="48.26"/>
 <vertex x="76.2" y="53.34"/>
-<vertex x="83.6812" y="53.34"/>
+<vertex x="81.28" y="53.34"/>
+<vertex x="83.6812" y="55.7412"/>
 <vertex x="83.6812" y="74.33"/>
-<vertex x="89.47" y="74.33"/>
 </polygon>
 </signal>
 </signals>
