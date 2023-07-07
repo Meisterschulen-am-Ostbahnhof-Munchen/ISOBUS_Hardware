@@ -2556,8 +2556,8 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
 <rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
 <rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
-<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
-<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>/>
+<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>
 <text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -2637,8 +2637,8 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="WCAP-ASLI_12.5X14(DXL)" urn="urn:adsk.eagle:footprint:18353971/1" library_version="2">
 <description>&lt;B&gt;WCAP-ASLI&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,12.5X14X4.5(DiameterXLengthXP)</description>
-<smd name="2" x="-5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
-<smd name="1" x="5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<smd name="2" x="-5.05" y="0" dx="5.8" dy="2.5" layer="1" thermals="no"/>
+<smd name="1" x="5.05" y="0" dx="5.8" dy="2.5" layer="1" thermals="no"/>
 <wire x1="-6.85" y1="6.85" x2="4.05" y2="6.85" width="0.2" layer="21"/>
 <wire x1="-6.85" y1="-6.85" x2="-6.85" y2="-1.55" width="0.2" layer="21"/>
 <wire x1="-6.85" y1="-6.85" x2="4.05" y2="-6.85" width="0.2" layer="21"/>
