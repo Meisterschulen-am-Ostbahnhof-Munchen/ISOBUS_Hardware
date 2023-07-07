@@ -1315,8 +1315,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_1206_H0.8" urn="urn:adsk.eagle:footprint:18489064/1" library_version="19">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1206&lt;/b&gt;&lt;br&gt;3.2X1.6X0.8(LXWXH) ;</description>
-<smd name="1" x="-1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
+<smd name="1" x="-1.55" y="0" dx="0.9" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="1.55" y="0" dx="0.9" dy="1.6" layer="1" thermals="no"/>
 <wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
