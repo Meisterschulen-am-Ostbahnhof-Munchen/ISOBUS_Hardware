@@ -827,10 +827,6 @@ UsedLibrary="ITS4040DEPDXUMA1.lbr"
 UsedLibrary="c:/git/ms/ISOBUS_Hardware/Atomic_V1.0/con-JST VH.lbr"
 
 [Win_1]
-Type="Control Panel"
-Number=0
-
-[Win_2]
 Type="Board Editor"
 Number=2
 File="pcb1_12V_XL.brd"
@@ -874,7 +870,7 @@ AddLevel=2
 PadsSameType=0
 Layer=1
 
-[Win_3]
+[Win_2]
 Type="Schematic Editor"
 Number=1
 File="pcb1_12V_XL.sch"
@@ -917,7 +913,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -8.0336 -4.6808 394.114 223.121"
 Sheet="1"
+
+[Win_3]
+Type="Control Panel"
+Number=0
 
 [Desktop]
 Screen="1920 1080"

@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2112,110 +2112,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="Wurth_Resistor_WRIS-KWKB" urn="urn:adsk.eagle:library:13351500">
-<description>&lt;BR&gt;Wurth Elektronik - Resistors - Thick Film Resistors - WRIS-KWKB&lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-
-&lt;HR&gt;
-Eagle Version 9, Library Revision 2019a, 2019-09-18&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="WRIS-KWKB_0612" urn="urn:adsk.eagle:footprint:13351502/1" library_version="2">
-<description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
-&lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
-&lt;BR&gt;Size : 0612</description>
-<smd name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
-<smd name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
-<polygon width="0.1" layer="39">
-<vertex x="-1.8" y="1.4"/>
-<vertex x="1.8" y="1.4"/>
-<vertex x="1.8" y="-1.4"/>
-<vertex x="-1.8" y="-1.4"/>
-</polygon>
-<text x="0" y="1.7" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-2.3" y="-2.5" size="0.8128" layer="25">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="WRIS-KWKB_0612" urn="urn:adsk.eagle:package:13351506/2" type="model" library_version="2">
-<description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
-&lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
-&lt;BR&gt;Size : 0612</description>
-<packageinstances>
-<packageinstance name="WRIS-KWKB_0612"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="Wurth_LEDs_WL-SMTW" urn="urn:adsk.eagle:library:19062651">
 <description>&lt;BR&gt;Wurth Elektronik - LEDs - Singnal LEDs &amp; Horticulture LEDs - TOP LED  - WL-SMTW&lt;br&gt;&lt;Hr&gt;
 
@@ -2564,130 +2460,6 @@ Copyright: Würth Elektronik</description>
 &lt;BR&gt;L X W X H = 2.9mm X 2.4mm X 1.04mm</description>
 <packageinstances>
 <packageinstance name="WE-TVS_SOT23-3L"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="Wurth_Connectors_WR-PHD" urn="urn:adsk.eagle:library:14804658">
-<description>&lt;BR&gt;Wurth Elektronik - Connectors - Board-to-Board Connectors - WR-PHD &lt;br&gt;
-&lt;Hr&gt;
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2022, 2022-12-06&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="61302211821" urn="urn:adsk.eagle:footprint:14805051/1" library_version="5">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
-<pad name="1" x="-26.67" y="0" drill="1.02"/>
-<pad name="2" x="-24.13" y="0" drill="1.02"/>
-<pad name="3" x="-21.59" y="0" drill="1.02"/>
-<pad name="4" x="-19.05" y="0" drill="1.02"/>
-<pad name="5" x="-16.51" y="0" drill="1.02"/>
-<pad name="6" x="-13.97" y="0" drill="1.02"/>
-<pad name="7" x="-11.43" y="0" drill="1.02"/>
-<pad name="8" x="-8.89" y="0" drill="1.02"/>
-<pad name="9" x="-6.35" y="0" drill="1.02"/>
-<pad name="10" x="-3.81" y="0" drill="1.02"/>
-<pad name="11" x="-1.27" y="0" drill="1.02"/>
-<pad name="12" x="1.27" y="0" drill="1.02"/>
-<pad name="13" x="3.81" y="0" drill="1.02"/>
-<pad name="14" x="6.35" y="0" drill="1.02"/>
-<pad name="15" x="8.89" y="0" drill="1.02"/>
-<pad name="16" x="11.43" y="0" drill="1.02"/>
-<pad name="17" x="13.97" y="0" drill="1.02"/>
-<pad name="18" x="16.51" y="0" drill="1.02"/>
-<pad name="19" x="19.05" y="0" drill="1.02"/>
-<pad name="20" x="21.59" y="0" drill="1.02"/>
-<pad name="21" x="24.13" y="0" drill="1.02"/>
-<pad name="22" x="26.67" y="0" drill="1.02"/>
-<wire x1="-28.19" y1="-1.25" x2="28.19" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="28.19" y1="-1.25" x2="28.19" y2="1.25" width="0.1" layer="51"/>
-<wire x1="28.19" y1="1.25" x2="-28.19" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-28.19" y1="1.25" x2="-28.19" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-28.29" y1="1.35" x2="28.29" y2="1.35" width="0.2" layer="21"/>
-<wire x1="28.29" y1="1.35" x2="28.29" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="28.29" y1="-1.35" x2="-28.29" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="-28.29" y1="-1.35" x2="-28.29" y2="1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-28.49" y="1.55"/>
-<vertex x="28.49" y="1.55"/>
-<vertex x="28.49" y="-1.55"/>
-<vertex x="-28.49" y="-1.55"/>
-</polygon>
-<circle x="-27.84" y="-0.9" radius="0.1" width="0.2" layer="21"/>
-<text x="-29.0776" y="0.5061" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-28.9976" y="-1.1942" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="61302211821" urn="urn:adsk.eagle:package:14805555/2" type="model" library_version="5">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
-<packageinstances>
-<packageinstance name="61302211821"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3166,45 +2938,17 @@ design rules under a new name.</description>
 <attribute name="VBR" value="38.65V" x="7.874" y="18.435" size="1.778" layer="27" display="off"/>
 <attribute name="VCLAMP" value="53.3V" x="7.874" y="18.435" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RX4" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="51.308" y="17.8" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="51.308" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="39.9mA" x="51.308" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="51.308" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="51.308" y="19.5" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " x="51.308" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="51.308" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="51.308" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="51.308" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="51.308" y="16.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="51.308" y="14.83" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 </element>
-<element name="RX2" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="31.242" y="17.8" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="31.242" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="39.9mA" x="31.242" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="31.242" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31.242" y="19.5" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " x="31.242" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="31.242" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="31.242" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="31.242" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="31.242" y="16.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.242" y="14.83" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 </element>
-<element name="RX1" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="14.478" y="17.8" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="14.478" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="39.9mA" x="14.478" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="14.478" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="14.478" y="19.5" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " x="14.478" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="14.478" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="14.478" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="14.478" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="14.478" y="16.53" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.478" y="18.23" size="0.8128" layer="25" align="bottom-center"/>
 </element>
-<element name="RX3" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="34.798" y="17.8" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="34.798" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="39.9mA" x="34.798" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="34.798" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.798" y="19.5" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " x="34.798" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="34.798" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="34.798" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="34.798" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="34.798" y="16.53" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.798" y="18.23" size="0.8128" layer="25" align="bottom-center"/>
 </element>
 <element name="D5" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AB_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146529/2" value="33V" x="88.646" y="81.935" smashed="yes" rot="R180">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551331.pdf" x="101.346" y="69.235" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3317,34 +3061,6 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-S3-DEVKITC-1-N8R2/?ref=eda" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.36" y="71.37" size="1.27" layer="27" rot="R270" align="top-left"/>
-</element>
-<element name="J4" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61302211821" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 " x="45.72" y="125.75" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61302211821?ae" x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Socket Header" x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="3A" x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="THT" x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.6424" y="126.2561" size="0.8128" layer="25" align="bottom-right"/>
-<attribute name="PACKAGING" value="Tray" x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 61302211821 " x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 22 " x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="ROWS" value="Single" x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Straight" x="15.24" y="195.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7224" y="124.5558" size="0.8128" layer="27" align="bottom-right"/>
-</element>
-<element name="J8" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61302211821" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 " x="45.72" y="120.67" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61302211821?ae" x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Socket Header" x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="3A" x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="THT" x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.6424" y="121.1761" size="0.8128" layer="25" align="bottom-right"/>
-<attribute name="PACKAGING" value="Tray" x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 61302211821 " x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 22 " x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="ROWS" value="Single" x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Straight" x="12.7" y="190.52" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7224" y="119.4758" size="0.8128" layer="27" align="bottom-right"/>
 </element>
 <element name="J10" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222006" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 " x="17.78" y="7.62" smashed="yes">
 <attribute name="CONTACT-RESISTANCE" value="20mOhm" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
@@ -3552,45 +3268,17 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="10nF" x="88.9" y="20.21" size="0.4064" layer="27" align="bottom-center"/>
 <attribute name="VR" value="50V(DC)" x="25.54" y="33.49" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RX5" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="91.948" y="17.8" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="91.948" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="39.9mA" x="91.948" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="91.948" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="91.948" y="19.5" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " x="91.948" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="91.948" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="91.948" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="91.948" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="91.948" y="16.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="91.948" y="14.83" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 </element>
-<element name="RX6" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="71.882" y="17.8" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="71.882" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="39.9mA" x="71.882" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="71.882" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="71.882" y="19.5" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " x="71.882" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="71.882" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="71.882" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="71.882" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="71.882" y="16.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="71.882" y="14.83" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 </element>
-<element name="RX7" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="55.118" y="17.8" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="55.118" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="39.9mA" x="55.118" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="55.118" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="55.118" y="19.5" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " x="55.118" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="55.118" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="55.118" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="55.118" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="55.118" y="16.53" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.118" y="18.23" size="0.8128" layer="25" align="bottom-center"/>
 </element>
-<element name="RX8" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" package="WRIS-KWKB_0612" package3d_urn="urn:adsk.eagle:package:13351506/2" value="470Ohm" x="75.438" y="17.8" smashed="yes" rot="R90">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" x="75.438" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IR" value="39.9mA" x="75.438" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="75.438" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="75.438" y="19.5" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " x="75.438" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRATED" value="0.75W" x="75.438" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TCR" value="±200ppm/ °C" x="75.438" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" x="75.438" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RX8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="75.438" y="16.53" smashed="yes" rot="R90">
+<attribute name="NAME" x="75.438" y="18.23" size="0.8128" layer="25" align="bottom-center"/>
 </element>
 <element name="D7" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="67.945" y="17.8" smashed="yes" rot="R180">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4559,7 +4247,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="RX4" pad="1"/>
-<polygon width="0.1524" layer="1" isolate="0.254">
+<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
 <vertex x="48.26" y="19.324"/>
 <vertex x="51.054" y="19.324"/>
 <vertex x="51.054" y="16.276"/>
@@ -4567,7 +4255,7 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="D4" pad="1"/>
 </signal>
-<signal name="N$6" class="1">
+<signal name="N$6" class="1" airwireshidden="yes">
 <contactref element="RX2" pad="1"/>
 <polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="27.94" y="19.324"/>
@@ -4579,7 +4267,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$8" class="1">
 <contactref element="RX1" pad="2"/>
-<polygon width="0.1524" layer="1" isolate="0.254">
+<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
 <vertex x="14.986" y="19.324"/>
 <vertex x="17.78" y="19.324"/>
 <vertex x="17.78" y="16.276"/>
@@ -4589,7 +4277,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$9" class="1">
 <contactref element="RX3" pad="2"/>
-<polygon width="0.1524" layer="1" isolate="0.254">
+<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
 <vertex x="35.306" y="19.324"/>
 <vertex x="38.1" y="19.324"/>
 <vertex x="38.1" y="16.276"/>
@@ -4933,166 +4621,6 @@ design rules under a new name.</description>
 <contactref element="J2" pad="5"/>
 <contactref element="D11" pad="3"/>
 <contactref element="X2" pad="1"/>
-<wire x1="80.95909375" y1="95.237084375" x2="91.03" y2="93.98" width="0" layer="19" extent="1-1"/>
-<wire x1="80.95909375" y1="96.507084375" x2="80.95909375" y2="95.237084375" width="0" layer="19" extent="1-1"/>
-<wire x1="80.95909375" y1="91.427084375" x2="80.95909375" y2="95.237084375" width="0" layer="19" extent="1-1"/>
-<wire x1="80.95909375" y1="90.157084375" x2="80.95909375" y2="91.427084375" width="0" layer="19" extent="1-1"/>
-<wire x1="80.858915625" y1="88.725475" x2="80.95909375" y2="90.157084375" width="0" layer="19" extent="1-1"/>
-<wire x1="80.230353125" y1="78.77565625" x2="80.858915625" y2="88.725475" width="0" layer="19" extent="1-1"/>
-<wire x1="79.1812" y1="77.81" x2="80.230353125" y2="78.77565625" width="0" layer="19" extent="1-1"/>
-<wire x1="79.209259375" y1="76.70893125" x2="79.1812" y2="77.81" width="0" layer="19" extent="1-1"/>
-<wire x1="81.661" y1="76.855" x2="80.230353125" y2="78.77565625" width="0" layer="19" extent="1-1"/>
-<wire x1="82.931" y1="76.855" x2="81.661" y2="76.855" width="0" layer="19" extent="1-1"/>
-<wire x1="82.931" y1="75.585" x2="82.931" y2="76.855" width="0" layer="19" extent="1-1"/>
-<wire x1="82.931" y1="74.315" x2="82.931" y2="75.585" width="0" layer="19" extent="1-1"/>
-<wire x1="82.04404375" y1="73.409353125" x2="82.931" y2="74.315" width="0" layer="19" extent="1-1"/>
-<wire x1="81.20535" y1="74.85375" x2="82.04404375" y2="73.409353125" width="0" layer="19" extent="1-1"/>
-<wire x1="86.36" y1="74.95" x2="82.931" y2="75.585" width="0" layer="19" extent="1-1"/>
-<wire x1="86.36" y1="72.41" x2="86.36" y2="74.95" width="0" layer="19" extent="1-1"/>
-<wire x1="86.36" y1="69.87" x2="86.36" y2="72.41" width="0" layer="19" extent="1-1"/>
-<wire x1="79.121" y1="70.505" x2="82.04404375" y2="73.409353125" width="0" layer="19" extent="1-1"/>
-<wire x1="79.01" y1="67.56" x2="79.121" y2="70.505" width="0" layer="19" extent="1-1"/>
-<wire x1="79.01" y1="66.56" x2="79.01" y2="67.56" width="0" layer="19" extent="1-1"/>
-<wire x1="80.01" y1="66.56" x2="79.01" y2="66.56" width="0" layer="19" extent="1-1"/>
-<wire x1="80.01" y1="65.56" x2="80.01" y2="66.56" width="0" layer="19" extent="1-1"/>
-<wire x1="79.01" y1="65.56" x2="79.01" y2="66.56" width="0" layer="19" extent="1-1"/>
-<wire x1="79.01" y1="64.56" x2="79.01" y2="65.56" width="0" layer="19" extent="1-1"/>
-<wire x1="78.383653125" y1="64.433653125" x2="79.01" y2="64.56" width="0" layer="19" extent="1-1"/>
-<wire x1="78.01" y1="63.56" x2="78.383653125" y2="64.433653125" width="0" layer="19" extent="1-1"/>
-<wire x1="79.01" y1="63.56" x2="79.01" y2="64.56" width="0" layer="19" extent="1-1"/>
-<wire x1="80.01" y1="63.56" x2="79.01" y2="63.56" width="0" layer="19" extent="1-1"/>
-<wire x1="80.01" y1="64.56" x2="80.01" y2="65.56" width="0" layer="19" extent="1-1"/>
-<wire x1="81.01" y1="64.56" x2="80.01" y2="64.56" width="0" layer="19" extent="1-1"/>
-<wire x1="82.01" y1="64.56" x2="81.01" y2="64.56" width="0" layer="19" extent="1-1"/>
-<wire x1="81.01" y1="65.56" x2="80.01" y2="65.56" width="0" layer="19" extent="1-1"/>
-<wire x1="81.01" y1="63.56" x2="80.01" y2="63.56" width="0" layer="19" extent="1-1"/>
-<wire x1="78.01" y1="67.56" x2="79.01" y2="67.56" width="0" layer="19" extent="1-1"/>
-<wire x1="78.01" y1="66.56" x2="79.01" y2="66.56" width="0" layer="19" extent="1-1"/>
-<wire x1="77.01" y1="66.56" x2="78.01" y2="66.56" width="0" layer="19" extent="1-1"/>
-<wire x1="80.01" y1="62.56" x2="80.01" y2="63.56" width="0" layer="19" extent="1-1"/>
-<wire x1="78.01" y1="65.56" x2="79.01" y2="65.56" width="0" layer="19" extent="1-1"/>
-<wire x1="77.01" y1="65.56" x2="77.01" y2="66.56" width="0" layer="19" extent="1-1"/>
-<wire x1="79.01" y1="62.56" x2="79.01" y2="63.56" width="0" layer="19" extent="1-1"/>
-<wire x1="79.01" y1="61.56" x2="79.01" y2="62.56" width="0" layer="19" extent="1-1"/>
-<wire x1="77.01" y1="63.56" x2="78.01" y2="63.56" width="0" layer="19" extent="1-1"/>
-<wire x1="77.01" y1="64.56" x2="77.01" y2="65.56" width="0" layer="19" extent="1-1"/>
-<wire x1="76.01" y1="65.56" x2="77.01" y2="65.56" width="0" layer="19" extent="1-1"/>
-<wire x1="76.01" y1="63.56" x2="77.01" y2="63.56" width="0" layer="19" extent="1-1"/>
-<wire x1="77.01" y1="62.56" x2="77.01" y2="63.56" width="0" layer="19" extent="1-1"/>
-<wire x1="78.01" y1="61.56" x2="79.01" y2="61.56" width="0" layer="19" extent="1-1"/>
-<wire x1="78.01" y1="62.56" x2="78.01" y2="63.56" width="0" layer="19" extent="1-1"/>
-<wire x1="76.01" y1="64.56" x2="77.01" y2="64.56" width="0" layer="19" extent="1-1"/>
-<wire x1="75.01" y1="64.56" x2="76.01" y2="64.56" width="0" layer="19" extent="1-1"/>
-<wire x1="91.02" y1="67.8888" x2="86.36" y2="69.87" width="0" layer="19" extent="1-1"/>
-<wire x1="73.533" y1="73.767" x2="79.209259375" y2="76.70893125" width="0" layer="19" extent="1-1"/>
-<wire x1="72.39" y1="73.64" x2="73.533" y2="73.767" width="0" layer="19" extent="1-1"/>
-<wire x1="71.12" y1="73.64" x2="72.39" y2="73.64" width="0" layer="19" extent="1-1"/>
-<wire x1="91.44" y1="60.98" x2="91.02" y2="67.8888" width="0" layer="19" extent="1-1"/>
-<wire x1="91.44" y1="58.44" x2="91.44" y2="60.98" width="0" layer="19" extent="1-1"/>
-<wire x1="91.44" y1="55.9" x2="91.44" y2="58.44" width="0" layer="19" extent="1-1"/>
-<wire x1="91.44" y1="48.28" x2="91.44" y2="55.9" width="0" layer="19" extent="1-1"/>
-<wire x1="91.44" y1="45.74" x2="91.44" y2="48.28" width="0" layer="19" extent="1-1"/>
-<wire x1="91.948" y1="42.184" x2="91.44" y2="45.74" width="0" layer="19" extent="1-1"/>
-<wire x1="92.146" y1="81.935" x2="86.36" y2="74.95" width="0" layer="19" extent="1-1"/>
-<wire x1="62.23" y1="84.303" x2="71.12" y2="73.64" width="0" layer="19" extent="1-1"/>
-<wire x1="59.69" y1="84.175" x2="62.23" y2="84.303" width="0" layer="19" extent="1-1"/>
-<wire x1="57.15" y1="84.175" x2="59.69" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="54.61" y1="84.303" x2="57.15" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="52.07" y1="84.303" x2="54.61" y2="84.303" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="84.175" x2="52.07" y2="84.303" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="84.175" x2="49.53" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="84.303" x2="46.99" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="41.91" y1="84.303" x2="44.45" y2="84.303" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="84.175" x2="41.91" y2="84.303" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="84.175" x2="39.37" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="34.29" y1="84.303" x2="36.83" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="84.303" x2="34.29" y2="84.303" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="84.175" x2="31.75" y2="84.303" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="84.175" x2="29.21" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="84.303" x2="26.67" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="75.717" x2="49.53" y2="84.175" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="75.717" x2="49.53" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="75.717" x2="46.99" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="75.717" x2="39.37" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="75.717" x2="36.83" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="75.717" x2="31.75" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="75.717" x2="26.67" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="75.717" x2="19.05" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="69.85" x2="16.51" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="66.06" x2="8.89" y2="69.85" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="66.06" x2="17.78" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="63.855" x2="17.78" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="63.855" x2="17.78" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="18.88" y1="60.21" x2="19.05" y2="63.855" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="55.9" x2="19.05" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="54.63" x2="15.24" y2="55.9" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="54.63" x2="15.24" y2="55.9" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="55.9" x2="13.97" y2="54.63" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="53.36" x2="13.97" y2="54.63" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="54.63" x2="12.7" y2="55.9" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="55.9" x2="11.43" y2="54.63" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="49.55" x2="16.51" y2="54.63" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="55.9" x2="10.16" y2="55.9" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="53.36" x2="5.08" y2="55.9" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="50.82" x2="5.08" y2="53.36" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="46.99" x2="5.08" y2="50.82" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="46.99" x2="8.89" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="14.986" y1="41.93" x2="11.43" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="17.526" y1="41.93" x2="14.986" y2="41.93" width="0" layer="19" extent="1-1"/>
-<wire x1="20.066" y1="41.93" x2="17.526" y2="41.93" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="41.61" x2="20.066" y2="41.93" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="43.2" x2="26.67" y2="41.61" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="41.61" x2="26.67" y2="41.61" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="41.61" x2="29.21" y2="41.61" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="43.2" x2="31.75" y2="41.61" width="0" layer="19" extent="1-1"/>
-<wire x1="34.29" y1="43.2" x2="31.75" y2="43.2" width="0" layer="19" extent="1-1"/>
-<wire x1="34.29" y1="41.61" x2="34.29" y2="43.2" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="44.47" x2="26.67" y2="43.2" width="0" layer="19" extent="1-1"/>
-<wire x1="28.067" y1="49.042" x2="29.21" y2="44.47" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="63.855" x2="20.32" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="66.06" x2="26.67" y2="63.855" width="0" layer="19" extent="1-1"/>
-<wire x1="29.04" y1="60.21" x2="26.67" y2="63.855" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="63.855" x2="27.94" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="33.02" y1="66.06" x2="31.75" y2="63.855" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="66.06" x2="33.02" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="66.06" x2="35.56" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="66.06" x2="38.1" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="63.855" x2="38.1" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="63.855" x2="35.56" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="39.2" y1="60.21" x2="39.37" y2="63.855" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="63.855" x2="40.64" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="48.26" y1="66.06" x2="46.99" y2="63.855" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="66.06" x2="48.26" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="63.855" x2="46.99" y2="63.855" width="0" layer="19" extent="1-1"/>
-<wire x1="49.36" y1="60.21" x2="49.53" y2="63.855" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="58.44" x2="49.53" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="48.26" y1="58.44" x2="49.53" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="54.29" y1="64.79" x2="50.8" y2="66.06" width="0" layer="19" extent="1-1"/>
-<wire x1="54.61" y1="66.06" x2="54.29" y2="64.79" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="54.63" x2="49.53" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="53.36" x2="49.53" y2="54.63" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="52.09" x2="49.53" y2="53.36" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="50.82" x2="50.8" y2="52.09" width="0" layer="19" extent="1-1"/>
-<wire x1="54.29" y1="53.975" x2="50.8" y2="52.09" width="0" layer="19" extent="1-1"/>
-<wire x1="57.15" y1="52.09" x2="55.88" y2="52.09" width="0" layer="19" extent="1-1"/>
-<wire x1="57.15" y1="53.36" x2="57.15" y2="52.09" width="0" layer="19" extent="1-1"/>
-<wire x1="57.15" y1="54.63" x2="57.15" y2="53.36" width="0" layer="19" extent="1-1"/>
-<wire x1="62.23" y1="46.99" x2="57.15" y2="52.09" width="0" layer="19" extent="1-1"/>
-<wire x1="66.04" y1="48.28" x2="62.23" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="68.707" y1="47.772" x2="66.04" y2="48.28" width="0" layer="19" extent="1-1"/>
-<wire x1="69.85" y1="44.47" x2="68.707" y2="47.772" width="0" layer="19" extent="1-1"/>
-<wire x1="72.39" y1="43.2" x2="69.85" y2="44.47" width="0" layer="19" extent="1-1"/>
-<wire x1="72.39" y1="41.61" x2="72.39" y2="43.2" width="0" layer="19" extent="1-1"/>
-<wire x1="74.93" y1="43.2" x2="72.39" y2="43.2" width="0" layer="19" extent="1-1"/>
-<wire x1="74.93" y1="41.61" x2="74.93" y2="43.2" width="0" layer="19" extent="1-1"/>
-<wire x1="69.85" y1="41.61" x2="72.39" y2="41.61" width="0" layer="19" extent="1-1"/>
-<wire x1="67.31" y1="41.61" x2="69.85" y2="41.61" width="0" layer="19" extent="1-1"/>
-<wire x1="67.31" y1="43.2" x2="67.31" y2="41.61" width="0" layer="19" extent="1-1"/>
-<wire x1="51.308" y1="42.184" x2="50.8" y2="50.82" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="91.44" x2="24.13" y2="84.303" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="96.52" x2="10.16" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="96.52" x2="10.16" y2="96.52" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="91.44" x2="10.16" y2="91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IX00">
 <contactref element="U1" pad="J1_20"/>
@@ -5258,7 +4786,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$15" class="1">
 <contactref element="RX5" pad="1"/>
-<polygon width="0.1524" layer="1" isolate="0.254">
+<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
 <vertex x="88.9" y="19.324"/>
 <vertex x="91.694" y="19.324"/>
 <vertex x="91.694" y="16.276"/>
@@ -5268,7 +4796,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$16" class="1">
 <contactref element="RX6" pad="1"/>
-<polygon width="0.1524" layer="1" isolate="0.254">
+<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
 <vertex x="68.58" y="19.324"/>
 <vertex x="71.374" y="19.324"/>
 <vertex x="71.374" y="16.276"/>
@@ -5278,7 +4806,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$18" class="1">
 <contactref element="RX7" pad="2"/>
-<polygon width="0.1524" layer="1" isolate="0.254">
+<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
 <vertex x="55.626" y="19.324"/>
 <vertex x="58.42" y="19.324"/>
 <vertex x="58.42" y="16.276"/>
@@ -5288,7 +4816,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$19" class="1">
 <contactref element="RX8" pad="2"/>
-<polygon width="0.1524" layer="1" isolate="0.254">
+<polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
 <vertex x="75.946" y="19.324"/>
 <vertex x="78.74" y="19.324"/>
 <vertex x="78.74" y="16.276"/>

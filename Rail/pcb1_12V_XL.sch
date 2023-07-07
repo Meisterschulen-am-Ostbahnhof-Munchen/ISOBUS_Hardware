@@ -15548,306 +15548,6 @@ Updated by Yingchun,Shan 2019-10-16
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_Resistor_WRIS-KWKB" urn="urn:adsk.eagle:library:13351500">
-<description>&lt;BR&gt;Wurth Elektronik - Resistors - Thick Film Resistors - WRIS-KWKB&lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-
-&lt;HR&gt;
-Eagle Version 9, Library Revision 2019a, 2019-09-18&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="WRIS-KWKB_0612" urn="urn:adsk.eagle:footprint:13351502/1" library_version="2">
-<description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
-&lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
-&lt;BR&gt;Size : 0612</description>
-<smd name="1" x="0" y="0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
-<smd name="2" x="0" y="-0.75" dx="3.2" dy="0.9" layer="1" thermals="no"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
-<polygon width="0.1" layer="39">
-<vertex x="-1.8" y="1.4"/>
-<vertex x="1.8" y="1.4"/>
-<vertex x="1.8" y="-1.4"/>
-<vertex x="-1.8" y="-1.4"/>
-</polygon>
-<text x="0" y="1.7" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-2.3" y="-2.5" size="0.8128" layer="25">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="WRIS-KWKB_0612" urn="urn:adsk.eagle:package:13351506/2" type="model" library_version="2">
-<description>&lt;B&gt;WRIS-KWKB Thick Film Resistors
-&lt;BR&gt;&lt;/B&gt;High Power Current Sensing, Wide Terminal
-&lt;BR&gt;Size : 0612</description>
-<packageinstances>
-<packageinstance name="WRIS-KWKB_0612"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="R" urn="urn:adsk.eagle:symbol:13351505/1" library_version="2">
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.08" y="-4.572" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WRIS-KWKB_0612" urn="urn:adsk.eagle:component:13351509/2" prefix="R" library_version="2">
-<description>&lt;b&gt;WRIS-KWKB Thick Film Resistors
-&lt;br&gt;High Power Current Sensing, Wide Terminal
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;/b&gt;&lt;/b&gt; 
-&lt;br&gt;Product series for high power current sensing up to 2 W Mounting style: SMT-Chip (wide terminal)
-&lt;br&gt;Resistance range: 2.2 Ω ‒ 18 kΩ
-&lt;br&gt;Resistance tolerance: ±1 %; ±5 %
-&lt;br&gt;Rated Power: 0.75 W ‒ 2W
-&lt;br&gt;TCR: ±200 ppm/°C
-&lt;br&gt;Operating temperature: -55°C up to +155°C
-&lt;br&gt;Sizes: 0612 / 1020 / 1225
-&lt;br&gt;Recommended soldering: Reflow soldering
-&lt;br&gt;
-
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;Electric motor
-&lt;br&gt;Camera
-&lt;br&gt;Lighting control
-&lt;br&gt;TV
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o135741v209%20Family_WRIS-KWKB.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o135741v209%20Family_WRIS-KWKB.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WRIS-KWKB"&gt;https://katalog.we-online.com/en/pbs/WRIS-KWKB&lt;/a&gt;&lt;p&gt;
-
-&lt;/b&gt;Created by Ella Wu  2019-09-06&lt;br&gt;
-&lt;/b&gt;2019(C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WRIS-KWKB_0612">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13351506/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_561020132004">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132004.pdf" constant="no"/>
-<attribute name="IR" value="126.3mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132004 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB061247R0J304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="47Ohm" constant="no"/>
-</technology>
-<technology name="_561020132008">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132008.pdf" constant="no"/>
-<attribute name="IR" value="86600mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132008 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121000F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="100Ohm" constant="no"/>
-</technology>
-<technology name="_561020132009">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132009.pdf" constant="no"/>
-<attribute name="IR" value="86.6mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132009 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121000J304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="100Ohm" constant="no"/>
-</technology>
-<technology name="_561020132010">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132010.pdf" constant="no"/>
-<attribute name="IR" value="82.6mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132010 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121100J304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="110Ohm" constant="no"/>
-</technology>
-<technology name="_561020132011">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132011.pdf" constant="no"/>
-<attribute name="IR" value="79.1mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132011 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121200F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="120Ohm" constant="no"/>
-</technology>
-<technology name="_561020132014">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132014.pdf" constant="no"/>
-<attribute name="IR" value="55.9mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132014 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06122400F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="240Ohm" constant="no"/>
-</technology>
-<technology name="_561020132023">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132023.pdf" constant="no"/>
-<attribute name="IR" value="39.9mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132023 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06124700J304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="470Ohm" constant="no"/>
-</technology>
-<technology name="_561020132030">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132030.pdf" constant="no"/>
-<attribute name="IR" value="25mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132030 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121201F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="1200Ohm" constant="no"/>
-</technology>
-<technology name="_561020132031">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132031.pdf" constant="no"/>
-<attribute name="IR" value="22.4mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132031 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121501F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="1500Ohm" constant="no"/>
-</technology>
-<technology name="_561020132032">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132032.pdf" constant="no"/>
-<attribute name="IR" value="20.4mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132032 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121801F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="1800Ohm" constant="no"/>
-</technology>
-<technology name="_561020132034">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132034.pdf" constant="no"/>
-<attribute name="IR" value="18.5mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132034 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06122201F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="2200Ohm" constant="no"/>
-</technology>
-<technology name="_561020132037">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132037.pdf" constant="no"/>
-<attribute name="IR" value="16.7mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132037 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06122701F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="2700Ohm" constant="no"/>
-</technology>
-<technology name="_561020132059">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/561020132059.pdf" constant="no"/>
-<attribute name="IR" value="6.5mA" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 561020132059 " constant="no"/>
-<attribute name="PRATED" value="0.75W" constant="no"/>
-<attribute name="TCR" value="±200ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="KB06121802F304DAATP0000" constant="no"/>
-<attribute name="VALUE" value="18000Ohm" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Wurth_LEDs_WL-SMTW" urn="urn:adsk.eagle:library:19062651">
 <description>&lt;BR&gt;Wurth Elektronik - LEDs - Singnal LEDs &amp; Horticulture LEDs - TOP LED  - WL-SMTW&lt;br&gt;&lt;Hr&gt;
 
@@ -16825,330 +16525,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https:/
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_Connectors_WR-PHD" urn="urn:adsk.eagle:library:14804658">
-<description>&lt;BR&gt;Wurth Elektronik - Connectors - Board-to-Board Connectors - WR-PHD &lt;br&gt;
-&lt;Hr&gt;
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2022, 2022-12-06&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="61302211821" urn="urn:adsk.eagle:footprint:14805051/1" library_version="5">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
-<pad name="1" x="-26.67" y="0" drill="1.02"/>
-<pad name="2" x="-24.13" y="0" drill="1.02"/>
-<pad name="3" x="-21.59" y="0" drill="1.02"/>
-<pad name="4" x="-19.05" y="0" drill="1.02"/>
-<pad name="5" x="-16.51" y="0" drill="1.02"/>
-<pad name="6" x="-13.97" y="0" drill="1.02"/>
-<pad name="7" x="-11.43" y="0" drill="1.02"/>
-<pad name="8" x="-8.89" y="0" drill="1.02"/>
-<pad name="9" x="-6.35" y="0" drill="1.02"/>
-<pad name="10" x="-3.81" y="0" drill="1.02"/>
-<pad name="11" x="-1.27" y="0" drill="1.02"/>
-<pad name="12" x="1.27" y="0" drill="1.02"/>
-<pad name="13" x="3.81" y="0" drill="1.02"/>
-<pad name="14" x="6.35" y="0" drill="1.02"/>
-<pad name="15" x="8.89" y="0" drill="1.02"/>
-<pad name="16" x="11.43" y="0" drill="1.02"/>
-<pad name="17" x="13.97" y="0" drill="1.02"/>
-<pad name="18" x="16.51" y="0" drill="1.02"/>
-<pad name="19" x="19.05" y="0" drill="1.02"/>
-<pad name="20" x="21.59" y="0" drill="1.02"/>
-<pad name="21" x="24.13" y="0" drill="1.02"/>
-<pad name="22" x="26.67" y="0" drill="1.02"/>
-<wire x1="-28.19" y1="-1.25" x2="28.19" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="28.19" y1="-1.25" x2="28.19" y2="1.25" width="0.1" layer="51"/>
-<wire x1="28.19" y1="1.25" x2="-28.19" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-28.19" y1="1.25" x2="-28.19" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-28.29" y1="1.35" x2="28.29" y2="1.35" width="0.2" layer="21"/>
-<wire x1="28.29" y1="1.35" x2="28.29" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="28.29" y1="-1.35" x2="-28.29" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="-28.29" y1="-1.35" x2="-28.29" y2="1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-28.49" y="1.55"/>
-<vertex x="28.49" y="1.55"/>
-<vertex x="28.49" y="-1.55"/>
-<vertex x="-28.49" y="-1.55"/>
-</polygon>
-<circle x="-27.84" y="-0.9" radius="0.1" width="0.2" layer="21"/>
-<text x="-29.0776" y="0.5061" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-28.9976" y="-1.1942" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="61302211821" urn="urn:adsk.eagle:package:14805555/2" type="model" library_version="5">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
-<packageinstances>
-<packageinstance name="61302211821"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="22ST" urn="urn:adsk.eagle:symbol:38495010/1" library_version="5">
-<description>Socket Header THT,22Pins</description>
-<pin name="1" x="-27.94" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="-25.4" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="-22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="-20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="5" x="-17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="6" x="-15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="7" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="8" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="9" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="10" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="11" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="12" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="13" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="14" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="15" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="16" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="17" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="18" x="15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="19" x="17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="20" x="20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="21" x="22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="22" x="25.4" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<text x="-30.28" y="-0.922" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-30.23" y="-2.58" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
-<wire x1="-29.21" y1="0" x2="26.67" y2="0" width="0.254" layer="94"/>
-<wire x1="26.67" y1="-2.54" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-2.54" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-2.54" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-2.54" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-2.54" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-2.54" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-2.54" x2="-22.86" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-2.54" x2="-25.4" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-2.54" x2="-27.94" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="-2.54" x2="-29.21" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-29.21" y1="-2.54" x2="-29.21" y2="0" width="0.254" layer="94"/>
-<wire x1="26.67" y1="0" x2="26.67" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="-1.705" x2="-27.94" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-1.705" x2="-25.4" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-1.705" x2="-22.86" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-1.705" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-1.705" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-1.705" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-1.705" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-1.705" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-1.705" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-1.705" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.705" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-1.705" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-1.705" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-1.705" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-1.705" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-1.705" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
-<circle x="-27.94" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-25.4" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="25.4" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="6130XX11821_61302211821" urn="urn:adsk.eagle:component:38495236/1" prefix="J" library_version="5">
-<description>&lt;b&gt;WR-PHD 2.54 mm Socket Header &lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pins:1;​ 2;​ 3;​ 4;​ 5;​ 6;​ 7;​ 8;​ 9;​ 10;​ 12;​ 13;​ 14;​ 15;​ 16;​ 18;​ 20;​ 22;​ 24;​ 25;​ 32;​ 36;​ 40
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Pitch：2.54 mm
-&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
-&lt;BR&gt;Rows：Single
-&lt;BR&gt;Gender：Socket Header;​ Female
-&lt;BR&gt;Type：Straight
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material :PBT
-&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
-&lt;BR&gt;Contact Material:Copper Alloy
-&lt;BR&gt;Contact Plating:Gold
-&lt;BR&gt;Contact Type:Stamped
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
-&lt;BR&gt;Operating Temperature:-40 up to +125 °C
-&lt;BR&gt;Compliance:Lead free / RoHS
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Rated Current:3 A
-&lt;BR&gt;IR 1:3 A
-&lt;BR&gt;Withstanding Voltage:500 V (AC)
-&lt;BR&gt;Contact Resistance:20 mΩ
-&lt;BR&gt;RISO:1000 MΩ
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
-&lt;BR&gt;Packaging:Tray
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33218v209%20Family_WR-PHD_613xxx11821.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o33218v209%20Family_WR-PHD_613xxx11821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://katalog.we-online.com/en/em/PHD_2_54_SOCKET_HEADER_6130XX11821"&gt;https://katalog.we-online.com/en/em/PHD_2_54_SOCKET_HEADER_6130XX11821&lt;/a&gt;&lt;p&gt;
-&lt;BR&gt;
-Updated by Yingchun,Shan 2019-10-21
-&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="22ST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61302211821">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14805555/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61302211821?ae"/>
-<attribute name="GENDER" value="Socket Header"/>
-<attribute name="IR" value="3A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61302211821 "/>
-<attribute name="PINS" value=" 22 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="ROWS" value="Single"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61302211821 "/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17192,10 +16568,10 @@ Updated by Yingchun,Shan 2019-10-21
 <part name="C11" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0402" device="_16V(DC)" package3d_urn="urn:adsk.eagle:package:18489133/5" technology="_885012205037" value="100nF"/>
 <part name="C12" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H1.25" device="_10V(DC)" package3d_urn="urn:adsk.eagle:package:18489127/2" technology="_885012107011" value="22uF"/>
 <part name="D0" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AB_3000W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146529/2" technology="_824551331" value="33V"/>
-<part name="RX4" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX2" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX1" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX3" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
+<part name="RX4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm"/>
+<part name="RX2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm"/>
+<part name="RX1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm"/>
+<part name="RX3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm"/>
 <part name="D5" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" deviceset="WE-TVSP_DO-214AB_3000W_BI" device="" package3d_urn="urn:adsk.eagle:package:12146529/2" technology="_824551331" value="33V"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="60R"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="60R"/>
@@ -17243,8 +16619,6 @@ Updated by Yingchun,Shan 2019-10-21
 <part name="U1" library="ESP32-S3-DEVKITC-1-N8R2" deviceset="ESP32-S3-DEVKITC-1-N8R2" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J4" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 "/>
-<part name="J8" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 "/>
 <part name="J10" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222006" device="" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 "/>
 <part name="J11" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222006" device="" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 "/>
 <part name="J12" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222006" device="" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 "/>
@@ -17269,10 +16643,10 @@ Updated by Yingchun,Shan 2019-10-21
 <part name="C20" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
 <part name="C21" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207092" value="10nF"/>
 <part name="C22" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207092" value="10nF"/>
-<part name="RX5" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX6" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX7" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
-<part name="RX8" library="Wurth_Resistor_WRIS-KWKB" library_urn="urn:adsk.eagle:library:13351500" deviceset="WRIS-KWKB_0612" device="" package3d_urn="urn:adsk.eagle:package:13351506/2" technology="_561020132023" value="470Ohm"/>
+<part name="RX5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm"/>
+<part name="RX6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm"/>
+<part name="RX7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm"/>
+<part name="RX8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm"/>
 <part name="ECU_GND3" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="ECU_GND11" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="PWR_GND21" library="supply_isobus" deviceset="PWR_GND" device=""/>
@@ -18019,14 +17393,6 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <instance part="P+5" gate="1" x="137.16" y="104.14" smashed="yes">
 <attribute name="VALUE" x="134.62" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J4" gate="G$1" x="30.48" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.402" y="111.96" size="1.016" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="33.06" y="112.01" size="1.016" layer="96" rot="R90" align="bottom-right"/>
-</instance>
-<instance part="J8" gate="G$1" x="40.64" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.562" y="111.96" size="1.016" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="43.22" y="112.01" size="1.016" layer="96" rot="R90" align="bottom-right"/>
-</instance>
 <instance part="ECU_GND25" gate="ECU_GND" x="137.16" y="22.86" smashed="yes">
 <attribute name="VALUE" x="134.62" y="20.32" size="1.778" layer="96"/>
 </instance>
@@ -18360,19 +17726,15 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 </instance>
 <instance part="RX4" gate="G$1" x="160.02" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="157.48" y="43.18" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.592" y="38.1" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RX2" gate="G$1" x="157.48" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.94" y="144.78" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="162.052" y="139.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RX1" gate="G$1" x="157.48" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.94" y="96.52" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="162.052" y="91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RX3" gate="G$1" x="160.02" y="-5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="157.48" y="-5.08" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.592" y="-10.16" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="ECU_GND8" gate="ECU_GND" x="91.44" y="68.58" smashed="yes">
 <attribute name="VALUE" x="88.9" y="66.04" size="1.778" layer="96"/>
@@ -18664,28 +18026,28 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 </net>
 <net name="N$1" class="1">
 <segment>
-<wire x1="160.02" y1="27.94" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="27.94" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="RX4" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$6" class="1">
 <segment>
-<wire x1="157.48" y1="129.54" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="129.54" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="RX2" gate="G$1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$8" class="1">
 <segment>
-<wire x1="157.48" y1="111.76" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="111.76" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="RX1" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$9" class="1">
 <segment>
-<wire x1="160.02" y1="10.16" x2="160.02" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="10.16" x2="160.02" y2="0" width="0.1524" layer="91"/>
 <pinref part="RX3" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="-"/>
 </segment>
@@ -18744,22 +18106,22 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="PWR_GND16" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="50.8" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="48.26" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="RX4" gate="G$1" pin="2"/>
 <pinref part="PWR_GND8" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="-12.7" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-10.16" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="RX3" gate="G$1" pin="1"/>
 <pinref part="PWR_GND7" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="88.9" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="91.44" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="RX1" gate="G$1" pin="1"/>
 <pinref part="PWR_GND12" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="152.4" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="149.86" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="RX2" gate="G$1" pin="2"/>
 <pinref part="PWR_GND11" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
@@ -18867,19 +18229,15 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 </instance>
 <instance part="RX5" gate="G$1" x="160.02" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="157.48" y="43.18" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.592" y="38.1" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RX6" gate="G$1" x="157.48" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.94" y="144.78" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="162.052" y="139.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RX7" gate="G$1" x="157.48" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.94" y="96.52" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="162.052" y="91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RX8" gate="G$1" x="160.02" y="-5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="157.48" y="-5.08" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.592" y="-10.16" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="ECU_GND3" gate="ECU_GND" x="91.44" y="68.58" smashed="yes">
 <attribute name="VALUE" x="88.9" y="66.04" size="1.778" layer="96"/>
@@ -19105,28 +18463,28 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 </net>
 <net name="N$15" class="1">
 <segment>
-<wire x1="160.02" y1="27.94" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="27.94" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="RX5" gate="G$1" pin="1"/>
 <pinref part="D9" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$16" class="1">
 <segment>
-<wire x1="157.48" y1="129.54" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="129.54" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="RX6" gate="G$1" pin="1"/>
 <pinref part="D7" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$18" class="1">
 <segment>
-<wire x1="157.48" y1="111.76" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="111.76" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="RX7" gate="G$1" pin="2"/>
 <pinref part="D8" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$19" class="1">
 <segment>
-<wire x1="160.02" y1="10.16" x2="160.02" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="10.16" x2="160.02" y2="0" width="0.1524" layer="91"/>
 <pinref part="RX8" gate="G$1" pin="2"/>
 <pinref part="D10" gate="G$1" pin="-"/>
 </segment>
@@ -19153,22 +18511,22 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="PWR_GND24" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="50.8" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="48.26" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="RX5" gate="G$1" pin="2"/>
 <pinref part="PWR_GND22" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="-12.7" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-10.16" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="RX8" gate="G$1" pin="1"/>
 <pinref part="PWR_GND21" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="88.9" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="91.44" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="RX7" gate="G$1" pin="1"/>
 <pinref part="PWR_GND26" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="152.4" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="149.86" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="RX6" gate="G$1" pin="2"/>
 <pinref part="PWR_GND25" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
