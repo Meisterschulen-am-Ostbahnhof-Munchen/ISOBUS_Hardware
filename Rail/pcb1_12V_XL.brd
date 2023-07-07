@@ -23,12 +23,12 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -2542,6 +2542,149 @@ Copyright: Würth Elektronik</description>
 </package3d>
 </packages3d>
 </library>
+<library name="fliegl-elektronik">
+<packages>
+<package name="SMC">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-3.5606" y1="3.105" x2="3.5606" y2="3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="0.543" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.83" y1="0" x2="0.543" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.543" y1="-1" x2="0.543" y2="1" width="0.2032" layer="21"/>
+<rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
+<rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
+<rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
+<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="Wurth_Capacitors_WCAP-ASLI" urn="urn:adsk.eagle:library:18353966">
+<description>&lt;BR&gt;Wurth Elektronik - Capacitors - Aluminum Electrolytic Capacitors - WCAP-ASLI&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-03-02&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-ASLI_12.5X14(DXL)" urn="urn:adsk.eagle:footprint:18353971/1" library_version="2">
+<description>&lt;B&gt;WCAP-ASLI&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,12.5X14X4.5(DiameterXLengthXP)</description>
+<smd name="2" x="-5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<smd name="1" x="5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<wire x1="-6.85" y1="6.85" x2="4.05" y2="6.85" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-6.85" x2="-6.85" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-6.85" x2="4.05" y2="-6.85" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="6.85" x2="-6.85" y2="1.55" width="0.2" layer="21"/>
+<wire x1="4.05" y1="6.85" x2="6.85" y2="4.05" width="0.2" layer="21"/>
+<wire x1="4.05" y1="-6.85" x2="6.85" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="6.85" y1="4.05" x2="6.85" y2="1.55" width="0.2" layer="21"/>
+<wire x1="6.85" y1="-4.05" x2="6.85" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="-6.75" y1="6.75" x2="-6.75" y2="-6.75" width="0.1" layer="51"/>
+<wire x1="-6.75" y1="-6.75" x2="4" y2="-6.75" width="0.1" layer="51"/>
+<wire x1="4" y1="-6.75" x2="6.75" y2="-4" width="0.1" layer="51"/>
+<wire x1="6.75" y1="-4" x2="6.75" y2="4" width="0.1" layer="51"/>
+<wire x1="6.75" y1="4" x2="4" y2="6.75" width="0.1" layer="51"/>
+<wire x1="4" y1="6.75" x2="-6.75" y2="6.75" width="0.1" layer="51"/>
+<text x="-1" y="7.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.7" y="-8.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="7.7" y="-3" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="7.7" y="-3" size="1.27" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="6.25" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="4.15" y="7.05"/>
+<vertex x="-7.05" y="7.05"/>
+<vertex x="-7.05" y="1.45"/>
+<vertex x="-8.15" y="1.45"/>
+<vertex x="-8.15" y="-1.45"/>
+<vertex x="-7.05" y="-1.45"/>
+<vertex x="-7.05" y="-7.05"/>
+<vertex x="4.2" y="-7.05"/>
+<vertex x="7.05" y="-4.1"/>
+<vertex x="7.05" y="-1.45"/>
+<vertex x="8.15" y="-1.45"/>
+<vertex x="8.15" y="1.45"/>
+<vertex x="7.05" y="1.45"/>
+<vertex x="7.05" y="4.15"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-ASLI_12.5X14(DXL)" urn="urn:adsk.eagle:package:18353982/3" type="model" library_version="2">
+<description>&lt;B&gt;WCAP-ASLI&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,12.5X14X4.5(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLI_12.5X14(DXL)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3008,16 +3151,16 @@ design rules under a new name.</description>
 <element name="RX3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="34.798" y="16.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.798" y="18.23" size="0.8128" layer="25" align="bottom-center"/>
 </element>
-<element name="D5" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AB_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146529/2" value="33V" x="88.646" y="81.935" smashed="yes" rot="R180">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551331.pdf" x="101.346" y="69.235" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IPEAK" value="56.3A" x="101.346" y="69.235" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT" value="SMT" x="101.346" y="69.235" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.376" y="76.905" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 824551331 " x="101.346" y="69.235" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PDISS" value="3000W" x="101.346" y="69.235" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="91.896" y="86.775" size="1.27" layer="27" rot="R180"/>
-<attribute name="VBR" value="38.65V" x="101.346" y="69.235" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VCLAMP" value="53.3V" x="101.346" y="69.235" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="D5" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AB_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146529/2" value="33V" x="88.646" y="85.745" smashed="yes" rot="R180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551331.pdf" x="101.346" y="73.045" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IPEAK" value="56.3A" x="101.346" y="73.045" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="SMT" x="101.346" y="73.045" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="87.376" y="80.715" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 824551331 " x="101.346" y="73.045" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PDISS" value="3000W" x="101.346" y="73.045" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="91.896" y="90.585" size="1.27" layer="27" rot="R180"/>
+<attribute name="VBR" value="38.65V" x="101.346" y="73.045" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VCLAMP" value="53.3V" x="101.346" y="73.045" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="60R" x="80.8388" y="82.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.025" y="83.3588" size="0.8128" layer="25" rot="R180"/>
@@ -3823,6 +3966,25 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Board Stacker" x="72.39" y="59.69" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="68.8924" y="58.2458" size="0.8128" layer="27" align="bottom-right"/>
 </element>
+<element name="D006" library="fliegl-elektronik" package="SMC" value="MBRS340T3" x="86.36" y="76.2" smashed="yes" rot="R90">
+<attribute name="ARTIKEL_NR" value="513891" x="85.09" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="83.001" y="72.741" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="90.989" y="72.741" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C23" library="Wurth_Capacitors_WCAP-ASLI" library_urn="urn:adsk.eagle:library:18353966" package="WCAP-ASLI_12.5X14(DXL)" package3d_urn="urn:adsk.eagle:package:18353982/3" value="330  µF " x="85.09" y="50.8" smashed="yes" rot="R180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080662019.pdf" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DF" value="12%" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIAMETER" value="12.5mm" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="I-LEAK" value="165uA" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="I-RIPPLE" value="800mA" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="L" value="14mm" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="86.09" y="43" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value=" 865080662019 " x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140331M050DVCTGB000" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="85.79" y="59.7" size="1.27" layer="27" rot="R180" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="S$1">
@@ -4269,12 +4431,11 @@ design rules under a new name.</description>
 <wire x1="39.37" y1="44.45" x2="41.91" y2="46.99" width="0.1524" layer="16"/>
 </signal>
 <signal name="ECU_PWR">
-<contactref element="C10" pad="2"/>
-<polygon width="0.2032" layer="1" isolate="0.254">
-<vertex x="83.6812" y="40.8632"/>
+<polygon width="0.2032" layer="1" isolate="0.3048">
+<vertex x="83.6812" y="78.079653125"/>
 <vertex x="83.6812" y="97.19"/>
 <vertex x="89.47" y="97.19"/>
-<vertex x="89.47" y="40.8632"/>
+<vertex x="89.47" y="78.079653125"/>
 </polygon>
 <contactref element="D5" pad="2"/>
 <polygon width="0.2032" layer="16" isolate="0.254">
@@ -4311,7 +4472,7 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="20.32" y1="96.52" x2="20.32" y2="91.44" width="1.27" layer="1"/>
 <wire x1="15.24" y1="96.52" x2="15.24" y2="91.44" width="1.27" layer="1"/>
-<contactref element="G1" pad="3"/>
+<contactref element="D006" pad="A"/>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="RX4" pad="1"/>
@@ -4560,8 +4721,6 @@ design rules under a new name.</description>
 <via x="91.44" y="60.98" extent="1-16" drill="0.35"/>
 <via x="91.44" y="58.44" extent="1-16" drill="0.35"/>
 <via x="86.36" y="74.95" extent="1-16" drill="0.35"/>
-<via x="86.36" y="72.41" extent="1-16" drill="0.35"/>
-<via x="86.36" y="69.87" extent="1-16" drill="0.35"/>
 <via x="91.44" y="55.9" extent="1-16" drill="0.35"/>
 <via x="91.44" y="48.28" extent="1-16" drill="0.35"/>
 <via x="91.44" y="45.74" extent="1-16" drill="0.35"/>
@@ -4665,6 +4824,7 @@ design rules under a new name.</description>
 <via x="82.55" y="58.44" extent="1-16" drill="0.35"/>
 <via x="81.28" y="58.44" extent="1-16" drill="0.35"/>
 <via x="81.28" y="59.71" extent="1-16" drill="0.35"/>
+<contactref element="C23" pad="2"/>
 </signal>
 <signal name="IX00">
 <contactref element="U1" pad="J1_20"/>
@@ -5315,6 +5475,20 @@ design rules under a new name.</description>
 <wire x1="86.36" y1="35.58" x2="76.2" y2="35.58" width="0.254" layer="16"/>
 <via x="87.63" y="33.04" extent="1-16" drill="0.35"/>
 <wire x1="87.63" y1="33.04" x2="87.63" y2="32.085" width="0.254" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="C10" pad="2"/>
+<contactref element="G1" pad="3"/>
+<contactref element="D006" pad="C"/>
+<contactref element="C23" pad="1"/>
+<polygon width="0.2032" layer="1" isolate="0.254" thermals="no">
+<vertex x="89.47" y="48.26"/>
+<vertex x="76.2" y="48.26"/>
+<vertex x="76.2" y="53.34"/>
+<vertex x="83.6812" y="53.34"/>
+<vertex x="83.6812" y="74.33"/>
+<vertex x="89.47" y="74.33"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -14131,6 +14131,392 @@ Updated by Yingchun,Shan 2019-10-16
 </deviceset>
 </devicesets>
 </library>
+<library name="fliegl-elektronik">
+<packages>
+<package name="SMC">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-3.5606" y1="3.105" x2="3.5606" y2="3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="0.543" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.83" y1="0" x2="0.543" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.543" y1="-1" x2="0.543" y2="1" width="0.2032" layer="21"/>
+<rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
+<rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
+<rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
+<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SCHOTTKY-1">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MBRS3*0T3" prefix="D">
+<description>&lt;b&gt;SCHOTTKY BARRIER RECTIFIER 3.0 AMPERES 20, 30, 40 VOLT&lt;/b&gt;&lt;p&gt;
+Source: MBRS340T3-D.pdf</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="2">
+<attribute name="ARTIKEL_NR" value=""/>
+</technology>
+<technology name="3">
+<attribute name="ARTIKEL_NR" value=""/>
+</technology>
+<technology name="4">
+<attribute name="ARTIKEL_NR" value="513891"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Wurth_Capacitors_WCAP-ASLI" urn="urn:adsk.eagle:library:18353966">
+<description>&lt;BR&gt;Wurth Elektronik - Capacitors - Aluminum Electrolytic Capacitors - WCAP-ASLI&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-03-02&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-ASLI_12.5X14(DXL)" urn="urn:adsk.eagle:footprint:18353971/1" library_version="2">
+<description>&lt;B&gt;WCAP-ASLI&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,12.5X14X4.5(DiameterXLengthXP)</description>
+<smd name="2" x="-5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<smd name="1" x="5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<wire x1="-6.85" y1="6.85" x2="4.05" y2="6.85" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-6.85" x2="-6.85" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-6.85" x2="4.05" y2="-6.85" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="6.85" x2="-6.85" y2="1.55" width="0.2" layer="21"/>
+<wire x1="4.05" y1="6.85" x2="6.85" y2="4.05" width="0.2" layer="21"/>
+<wire x1="4.05" y1="-6.85" x2="6.85" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="6.85" y1="4.05" x2="6.85" y2="1.55" width="0.2" layer="21"/>
+<wire x1="6.85" y1="-4.05" x2="6.85" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="-6.75" y1="6.75" x2="-6.75" y2="-6.75" width="0.1" layer="51"/>
+<wire x1="-6.75" y1="-6.75" x2="4" y2="-6.75" width="0.1" layer="51"/>
+<wire x1="4" y1="-6.75" x2="6.75" y2="-4" width="0.1" layer="51"/>
+<wire x1="6.75" y1="-4" x2="6.75" y2="4" width="0.1" layer="51"/>
+<wire x1="6.75" y1="4" x2="4" y2="6.75" width="0.1" layer="51"/>
+<wire x1="4" y1="6.75" x2="-6.75" y2="6.75" width="0.1" layer="51"/>
+<text x="-1" y="7.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.7" y="-8.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="7.7" y="-3" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="7.7" y="-3" size="1.27" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="6.25" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="4.15" y="7.05"/>
+<vertex x="-7.05" y="7.05"/>
+<vertex x="-7.05" y="1.45"/>
+<vertex x="-8.15" y="1.45"/>
+<vertex x="-8.15" y="-1.45"/>
+<vertex x="-7.05" y="-1.45"/>
+<vertex x="-7.05" y="-7.05"/>
+<vertex x="4.2" y="-7.05"/>
+<vertex x="7.05" y="-4.1"/>
+<vertex x="7.05" y="-1.45"/>
+<vertex x="8.15" y="-1.45"/>
+<vertex x="8.15" y="1.45"/>
+<vertex x="7.05" y="1.45"/>
+<vertex x="7.05" y="4.15"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-ASLI_12.5X14(DXL)" urn="urn:adsk.eagle:package:18353982/3" type="model" library_version="2">
+<description>&lt;B&gt;WCAP-ASLI&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,12.5X14X4.5(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLI_12.5X14(DXL)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C_POLAR" urn="urn:adsk.eagle:symbol:18353977/2" library_version="2">
+<description>C_POLARIZED</description>
+<pin name="+" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="2.54" y="-1.905" size="1.4224" layer="94">+</text>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.927859375" y1="0" x2="2.57048125" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WCAP-ASLI_12.5X14" urn="urn:adsk.eagle:component:18353989/2" prefix="C" library_version="2">
+<description>&lt;b&gt;WCAP-ASLI Aluminium Electrolytic Capacitors &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 0.1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 100 V(DC) 
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C 
+&lt;BR&gt;Endurance: 2000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance, especially for filtering applications 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14723v209%20Family_WCAP-ASLI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14723v209%20Family_WCAP-ASLI.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLI/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLI/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLI_12.5X14(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18353982/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_865080162017">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080162017.pdf" constant="no"/>
+<attribute name="DF" value="24%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="207.9uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1100mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080162017 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140332M6R3DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="3300  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+</technology>
+<technology name="_865080262015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080262015.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="220uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1100mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080262015 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140222M010DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="2200  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+</technology>
+<technology name="_865080362017">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080362017.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="240uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1100mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080362017 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140152M016DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="1500  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+</technology>
+<technology name="_865080462016">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080462016.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="250uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1100mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080462016 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140102M025DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="1000  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+</technology>
+<technology name="_865080562016">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080562016.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="164.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1100mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080562016 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140471M035DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="470  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+</technology>
+<technology name="_865080562017">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080562017.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="238uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1100mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080562017 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140681M035DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="680  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+</technology>
+<technology name="_865080662019">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080662019.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="165uA" constant="no"/>
+<attribute name="I-RIPPLE" value="800mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080662019 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140331M050DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="330  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+</technology>
+<technology name="_865080762015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080762015.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="138.6uA" constant="no"/>
+<attribute name="I-RIPPLE" value="300mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080762015 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140221M063DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="220  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+</technology>
+<technology name="_865080862008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865080862008.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="47uA" constant="no"/>
+<attribute name="I-RIPPLE" value="240mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865080862008 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140470M100DVCTGB000 ASEH140470M100DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+</technology>
+<technology name="_865081762009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865081762009.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="80uA" constant="no"/>
+<attribute name="I-RIPPLE" value="380mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865081762009 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140101M080DVCTGB000" constant="no"/>
+<attribute name="VALUE" value="100  µF " constant="no"/>
+<attribute name="VR" value="80V(DC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14341,6 +14727,8 @@ Updated by Yingchun,Shan 2019-10-16
 <part name="ECU_GND29" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="G1" library="IFX27001TF V50" deviceset="IFX27001TF_V50" device=""/>
 <part name="J4" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX21121_61300421121" device="" package3d_urn="urn:adsk.eagle:package:14805408/2" value=" 61300421121 "/>
+<part name="D006" library="fliegl-elektronik" deviceset="MBRS3*0T3" device="" technology="4"/>
+<part name="C23" library="Wurth_Capacitors_WCAP-ASLI" library_urn="urn:adsk.eagle:library:18353966" deviceset="WCAP-ASLI_12.5X14" device="" package3d_urn="urn:adsk.eagle:package:18353982/3" technology="_865080662019" value="330  µF "/>
 </parts>
 <sheets>
 <sheet>
@@ -14660,9 +15048,9 @@ Updated by Yingchun,Shan 2019-10-16
 <instance part="P+4" gate="1" x="53.34" y="99.06" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="55.88" y="93.98" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="C10" gate="G$1" x="12.7" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.32" y="74.835" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="17.775" y="74.575" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
+<instance part="C10" gate="G$1" x="25.4" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.02" y="74.835" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="30.475" y="74.575" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="C12" gate="G$1" x="66.04" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.66" y="64.675" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
@@ -14696,6 +15084,14 @@ Updated by Yingchun,Shan 2019-10-16
 <attribute name="NAME" x="69.94" y="79.09" size="1.016" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="70.08" y="76.87" size="1.016" layer="96" align="bottom-right"/>
 </instance>
+<instance part="D006" gate="G$1" x="0" y="83.82" smashed="yes">
+<attribute name="NAME" x="-2.286" y="85.725" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-2.286" y="80.391" size="1.778" layer="96"/>
+</instance>
+<instance part="C23" gate="G$1" x="15.24" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.86" y="67.215" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="20.315" y="66.955" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14718,16 +15114,12 @@ Updated by Yingchun,Shan 2019-10-16
 </net>
 <net name="ECU_PWR" class="0">
 <segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="-20.32" y1="83.82" x2="-10.16" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="83.82" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="78.74" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
-<junction x="12.7" y="83.82"/>
 <pinref part="D5" gate="G$1" pin="2"/>
 <junction x="-10.16" y="83.82"/>
+<wire x1="-10.16" y1="83.82" x2="-2.54" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="83.82" x2="-10.16" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="ECU_PWR2" gate="ECU_PWR" pin="ECU_PWR"/>
-<pinref part="G1" gate="G1" pin="I"/>
+<pinref part="D006" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <wire x1="-27.94" y1="129.54" x2="-27.94" y2="127" width="0.1524" layer="91"/>
@@ -14743,17 +15135,21 @@ Updated by Yingchun,Shan 2019-10-16
 <wire x1="40.64" y1="53.34" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="53.34" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="53.34" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="53.34" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
 <junction x="40.64" y="53.34"/>
 <wire x1="-10.16" y1="53.34" x2="-20.32" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-10.16" y="53.34"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="71.12" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
-<junction x="12.7" y="53.34"/>
+<wire x1="25.4" y1="71.12" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<junction x="25.4" y="53.34"/>
 <pinref part="ECU_GND2" gate="ECU_GND" pin="ECU_GND"/>
 <pinref part="G1" gate="G1" pin="GND/ADJ"/>
+<wire x1="15.24" y1="63.5" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<junction x="15.24" y="53.34"/>
+<pinref part="C23" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="1"/>
@@ -14783,6 +15179,21 @@ Updated by Yingchun,Shan 2019-10-16
 <wire x1="73.66" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
 <junction x="73.66" y="73.66"/>
 <junction x="66.04" y="73.66"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="78.74" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
+<junction x="25.4" y="83.82"/>
+<pinref part="G1" gate="G1" pin="I"/>
+<wire x1="2.54" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="D006" gate="G$1" pin="C"/>
+<wire x1="15.24" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="71.12" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
+<junction x="15.24" y="83.82"/>
+<pinref part="C23" gate="G$1" pin="+"/>
 </segment>
 </net>
 </nets>
