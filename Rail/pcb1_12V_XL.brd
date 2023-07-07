@@ -638,8 +638,8 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:footprint:18489051/1" library_version="19">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1210&lt;/b&gt;&lt;br&gt;3.2x2.5x2.5(LXWXH);</description>
-<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
+<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
+<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
 <wire x1="-1.6" y1="1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
