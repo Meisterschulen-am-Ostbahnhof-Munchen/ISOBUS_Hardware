@@ -16247,9 +16247,9 @@ Copyright: Würth Elektronik</description>
 <wire x1="0.75" y1="-0.65" x2="0.75" y2="-1.2" width="0.1" layer="51"/>
 <wire x1="0.75" y1="-1.2" x2="1.15" y2="-1.2" width="0.1" layer="51"/>
 <wire x1="1.15" y1="-1.2" x2="1.15" y2="-0.65" width="0.1" layer="51"/>
-<smd name="3" x="0" y="1.05" dx="0.9" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.05" dx="0.9" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.05" dx="0.9" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="1.05" dx="0.9" dy="1.4" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="-1.05" dx="0.9" dy="1.4" layer="1" thermals="no"/>
+<smd name="1" x="-0.95" y="-1.05" dx="0.9" dy="1.4" layer="1" thermals="no"/>
 <text x="0" y="2.2" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
 <polygon width="0.1" layer="39">
