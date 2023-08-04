@@ -3,13 +3,13 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1.27" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -232,6 +232,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="33f80b2f-3025-41da-9222-1f657163f287" lastsyncedrevisionid="33f80b2f-3025-41da-9222-1f657163f287" lastboardhashguid="8938bf13-636a-4ef8-5333-37305fbbb8bd" lastpushedtime="2023-08-04T22:23:09Z" linktopcb3d="false"/>
 <plain>
 <wire x1="52.04" y1="41.46" x2="50.54" y2="41.46" width="0.1524" layer="22"/>
 <wire x1="50.54" y1="41.46" x2="50.54" y2="39.86" width="0.1524" layer="22"/>
@@ -813,49 +814,139 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="638207222006" urn="urn:adsk.eagle:footprint:15267896/2" library_version="5">
+<package name="638207222005" urn="urn:adsk.eagle:footprint:15267897/2" library_version="5">
 <description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
-&lt;br&gt;&lt;/b&gt;6pins</description>
-<pad name="1" x="-12.7" y="2.54" drill="1.5"/>
-<pad name="4" x="2.54" y="2.54" drill="1.5"/>
-<pad name="5" x="7.62" y="2.54" drill="1.5"/>
-<pad name="A5" x="7.62" y="-2.54" drill="1.5"/>
-<pad name="2" x="-7.62" y="2.54" drill="1.5"/>
-<pad name="3" x="-2.54" y="2.54" drill="1.5"/>
-<pad name="6" x="12.7" y="2.54" drill="1.5"/>
-<pad name="A6" x="12.7" y="-2.54" drill="1.5"/>
-<pad name="A4" x="2.54" y="-2.54" drill="1.5"/>
-<pad name="A3" x="-2.54" y="-2.54" drill="1.5"/>
-<pad name="A2" x="-7.62" y="-2.54" drill="1.5"/>
-<pad name="A1" x="-12.7" y="-2.54" drill="1.5"/>
-<wire x1="-14.76" y1="5" x2="14.76" y2="5" width="0.1" layer="51"/>
-<wire x1="14.76" y1="5" x2="14.76" y2="-3.97" width="0.1" layer="51"/>
-<wire x1="14.76" y1="-3.97" x2="14.76" y2="-5.9" width="0.1" layer="51"/>
-<wire x1="14.76" y1="-5.9" x2="-14.76" y2="-5.9" width="0.1" layer="51"/>
-<wire x1="-14.76" y1="-5.9" x2="-14.76" y2="-3.97" width="0.1" layer="51"/>
-<wire x1="-14.76" y1="-3.97" x2="-14.76" y2="5" width="0.1" layer="51"/>
-<wire x1="-14.86" y1="5.1" x2="14.86" y2="5.1" width="0.2" layer="21"/>
-<wire x1="14.86" y1="5.1" x2="14.86" y2="-6" width="0.2" layer="21"/>
-<wire x1="14.86" y1="-6" x2="-14.86" y2="-6" width="0.2" layer="21"/>
-<wire x1="-14.86" y1="-6" x2="-14.86" y2="5.1" width="0.2" layer="21"/>
-<wire x1="-14.76" y1="-3.97" x2="14.76" y2="-3.97" width="0.1" layer="51"/>
+&lt;br&gt;&lt;/b&gt;5pins</description>
+<pad name="1" x="-10.16" y="2.54" drill="1.5"/>
+<pad name="5" x="10.16" y="2.54" drill="1.5"/>
+<pad name="A5" x="10.16" y="-2.54" drill="1.5"/>
+<pad name="A1" x="-10.16" y="-2.54" drill="1.5"/>
+<pad name="3" x="0" y="2.54" drill="1.5"/>
+<pad name="A3" x="0" y="-2.54" drill="1.5"/>
+<pad name="2" x="-5.08" y="2.54" drill="1.5"/>
+<pad name="4" x="5.08" y="2.54" drill="1.5"/>
+<pad name="A4" x="5.08" y="-2.54" drill="1.5"/>
+<pad name="A2" x="-5.08" y="-2.54" drill="1.5"/>
+<wire x1="-12.22" y1="5" x2="12.22" y2="5" width="0.1" layer="51"/>
+<wire x1="12.22" y1="5" x2="12.22" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="12.22" y1="-3.97" x2="12.22" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="12.22" y1="-5.9" x2="-12.22" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="-12.22" y1="-5.9" x2="-12.22" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="-12.22" y1="-3.97" x2="-12.22" y2="5" width="0.1" layer="51"/>
+<wire x1="-12.32" y1="5.1" x2="12.32" y2="5.1" width="0.2" layer="21"/>
+<wire x1="12.32" y1="5.1" x2="12.32" y2="-6" width="0.2" layer="21"/>
+<wire x1="12.32" y1="-6" x2="-12.32" y2="-6" width="0.2" layer="21"/>
+<wire x1="-12.32" y1="-6" x2="-12.32" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-12.22" y1="-3.97" x2="12.22" y2="-3.97" width="0.1" layer="51"/>
 <polygon width="0.1" layer="39">
-<vertex x="-15.06" y="5.3"/>
-<vertex x="15.06" y="5.3"/>
-<vertex x="15.06" y="-6.2"/>
-<vertex x="-15.06" y="-6.2"/>
+<vertex x="-12.52" y="5.3"/>
+<vertex x="12.52" y="5.3"/>
+<vertex x="12.52" y="-6.2"/>
+<vertex x="-12.52" y="-6.2"/>
 </polygon>
 <text x="0" y="5.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="-3.7" y="-8.25" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-13" y="-0.4" size="1.016" layer="21">1</text>
+<text x="-10.5" y="-0.5" size="1.016" layer="21">1</text>
+</package>
+<package name="638207222007" urn="urn:adsk.eagle:footprint:15267895/2" library_version="5">
+<description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
+&lt;br&gt;&lt;/b&gt;7pins</description>
+<pad name="1" x="-15.24" y="2.54" drill="1.5"/>
+<pad name="5" x="5.08" y="2.54" drill="1.5"/>
+<pad name="6" x="10.16" y="2.54" drill="1.5"/>
+<pad name="A5" x="5.08" y="-2.54" drill="1.5"/>
+<pad name="3" x="-5.08" y="2.54" drill="1.5"/>
+<pad name="A7" x="15.24" y="-2.54" drill="1.5"/>
+<pad name="2" x="-10.16" y="2.54" drill="1.5"/>
+<pad name="4" x="0" y="2.54" drill="1.5"/>
+<pad name="7" x="15.24" y="2.54" drill="1.5"/>
+<pad name="A6" x="10.16" y="-2.54" drill="1.5"/>
+<pad name="A4" x="0" y="-2.54" drill="1.5"/>
+<pad name="A3" x="-5.08" y="-2.54" drill="1.5"/>
+<pad name="A2" x="-10.16" y="-2.54" drill="1.5"/>
+<pad name="A1" x="-15.24" y="-2.54" drill="1.5"/>
+<wire x1="-17.3" y1="5" x2="17.3" y2="5" width="0.1" layer="51"/>
+<wire x1="17.3" y1="5" x2="17.3" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="17.3" y1="-3.97" x2="17.3" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="17.3" y1="-5.9" x2="-17.3" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="-17.3" y1="-5.9" x2="-17.3" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="-17.3" y1="-3.97" x2="-17.3" y2="5" width="0.1" layer="51"/>
+<wire x1="-17.4" y1="5.1" x2="17.4" y2="5.1" width="0.2" layer="21"/>
+<wire x1="17.4" y1="5.1" x2="17.4" y2="-6" width="0.2" layer="21"/>
+<wire x1="17.4" y1="-6" x2="-17.4" y2="-6" width="0.2" layer="21"/>
+<wire x1="-17.4" y1="-6" x2="-17.4" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-17.3" y1="-3.97" x2="17.3" y2="-3.97" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-17.6" y="5.3"/>
+<vertex x="17.6" y="5.3"/>
+<vertex x="17.6" y="-6.2"/>
+<vertex x="-17.6" y="-6.2"/>
+</polygon>
+<text x="0" y="5.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.7" y="-8.25" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-15.7" y="-0.4" size="1.016" layer="21">1</text>
+</package>
+<package name="638207222008" urn="urn:adsk.eagle:footprint:15267894/2" library_version="5">
+<description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
+&lt;br&gt;&lt;/b&gt;8pins</description>
+<pad name="1" x="-17.78" y="2.54" drill="1.5"/>
+<pad name="4" x="-2.54" y="2.54" drill="1.5"/>
+<pad name="5" x="2.54" y="2.54" drill="1.5"/>
+<pad name="8" x="17.78" y="2.54" drill="1.5"/>
+<pad name="2" x="-12.7" y="2.54" drill="1.5"/>
+<pad name="3" x="-7.62" y="2.54" drill="1.5"/>
+<pad name="6" x="7.62" y="2.54" drill="1.5"/>
+<pad name="7" x="12.7" y="2.54" drill="1.5"/>
+<pad name="A8" x="17.78" y="-2.54" drill="1.5"/>
+<pad name="A7" x="12.7" y="-2.54" drill="1.5"/>
+<pad name="A6" x="7.62" y="-2.54" drill="1.5"/>
+<pad name="A5" x="2.54" y="-2.54" drill="1.5"/>
+<pad name="A4" x="-2.54" y="-2.54" drill="1.5"/>
+<pad name="A3" x="-7.62" y="-2.54" drill="1.5"/>
+<pad name="A2" x="-12.7" y="-2.54" drill="1.5"/>
+<pad name="A1" x="-17.78" y="-2.54" drill="1.5"/>
+<wire x1="-19.84" y1="5" x2="19.84" y2="5" width="0.1" layer="51"/>
+<wire x1="19.84" y1="5" x2="19.84" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="19.84" y1="-3.97" x2="19.84" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="19.84" y1="-5.9" x2="-19.84" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="-19.84" y1="-5.9" x2="-19.84" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="-19.84" y1="-3.97" x2="-19.84" y2="5" width="0.1" layer="51"/>
+<wire x1="-19.94" y1="5.1" x2="19.94" y2="5.1" width="0.2" layer="21"/>
+<wire x1="19.94" y1="5.1" x2="19.94" y2="-6" width="0.2" layer="21"/>
+<wire x1="19.94" y1="-6" x2="-19.94" y2="-6" width="0.2" layer="21"/>
+<wire x1="-19.94" y1="-6" x2="-19.94" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-19.84" y1="-3.97" x2="19.84" y2="-3.97" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-20.14" y="5.3"/>
+<vertex x="20.14" y="5.3"/>
+<vertex x="20.14" y="-6.2"/>
+<vertex x="-20.14" y="-6.2"/>
+</polygon>
+<text x="0" y="5.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.7" y="-8.25" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-18.2" y="-0.7" size="1.016" layer="21">1</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="638207222006" urn="urn:adsk.eagle:package:15267959/3" type="model" library_version="5">
+<package3d name="638207222005" urn="urn:adsk.eagle:package:15267960/3" type="model" library_version="5">
 <description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
-&lt;br&gt;&lt;/b&gt;6pins</description>
+&lt;br&gt;&lt;/b&gt;5pins</description>
 <packageinstances>
-<packageinstance name="638207222006"/>
+<packageinstance name="638207222005"/>
+</packageinstances>
+</package3d>
+<package3d name="638207222007" urn="urn:adsk.eagle:package:15267958/3" type="model" library_version="5">
+<description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
+&lt;br&gt;&lt;/b&gt;7pins</description>
+<packageinstances>
+<packageinstance name="638207222007"/>
+</packageinstances>
+</package3d>
+<package3d name="638207222008" urn="urn:adsk.eagle:package:15267957/3" type="model" library_version="5">
+<description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
+&lt;br&gt;&lt;/b&gt;8pins</description>
+<packageinstances>
+<packageinstance name="638207222008"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2532,12 +2623,60 @@ Copyright: Würth Elektronik</description>
 <text x="-3.5776" y="0.2561" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-3.4976" y="-1.4442" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
+<package name="61302211821" urn="urn:adsk.eagle:footprint:14805051/1" library_version="5">
+<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
+<pad name="1" x="-26.67" y="0" drill="1.02"/>
+<pad name="2" x="-24.13" y="0" drill="1.02"/>
+<pad name="3" x="-21.59" y="0" drill="1.02"/>
+<pad name="4" x="-19.05" y="0" drill="1.02"/>
+<pad name="5" x="-16.51" y="0" drill="1.02"/>
+<pad name="6" x="-13.97" y="0" drill="1.02"/>
+<pad name="7" x="-11.43" y="0" drill="1.02"/>
+<pad name="8" x="-8.89" y="0" drill="1.02"/>
+<pad name="9" x="-6.35" y="0" drill="1.02"/>
+<pad name="10" x="-3.81" y="0" drill="1.02"/>
+<pad name="11" x="-1.27" y="0" drill="1.02"/>
+<pad name="12" x="1.27" y="0" drill="1.02"/>
+<pad name="13" x="3.81" y="0" drill="1.02"/>
+<pad name="14" x="6.35" y="0" drill="1.02"/>
+<pad name="15" x="8.89" y="0" drill="1.02"/>
+<pad name="16" x="11.43" y="0" drill="1.02"/>
+<pad name="17" x="13.97" y="0" drill="1.02"/>
+<pad name="18" x="16.51" y="0" drill="1.02"/>
+<pad name="19" x="19.05" y="0" drill="1.02"/>
+<pad name="20" x="21.59" y="0" drill="1.02"/>
+<pad name="21" x="24.13" y="0" drill="1.02"/>
+<pad name="22" x="26.67" y="0" drill="1.02"/>
+<wire x1="-28.19" y1="-1.25" x2="28.19" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="28.19" y1="-1.25" x2="28.19" y2="1.25" width="0.1" layer="51"/>
+<wire x1="28.19" y1="1.25" x2="-28.19" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-28.19" y1="1.25" x2="-28.19" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-28.29" y1="1.35" x2="28.29" y2="1.35" width="0.2" layer="21"/>
+<wire x1="28.29" y1="1.35" x2="28.29" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="28.29" y1="-1.35" x2="-28.29" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="-28.29" y1="-1.35" x2="-28.29" y2="1.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-28.49" y="1.55"/>
+<vertex x="28.49" y="1.55"/>
+<vertex x="28.49" y="-1.55"/>
+<vertex x="-28.49" y="-1.55"/>
+</polygon>
+<circle x="-27.84" y="-0.9" radius="0.1" width="0.2" layer="21"/>
+<text x="-29.0776" y="0.5061" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-28.9976" y="-1.1942" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="61300421121" urn="urn:adsk.eagle:package:14805408/2" type="model" library_version="5">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54mm Dual Pin Header, 4 Pins</description>
 <packageinstances>
 <packageinstance name="61300421121"/>
+</packageinstances>
+</package3d>
+<package3d name="61302211821" urn="urn:adsk.eagle:package:14805555/2" type="model" library_version="5">
+<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
+<packageinstances>
+<packageinstance name="61302211821"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3293,48 +3432,6 @@ Your Multi-CB Team
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-S3-DEVKITC-1-N8R2/?ref=eda" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.36" y="71.37" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="J10" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222006" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 " x="17.78" y="7.62" smashed="yes">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222006.pdf" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Male" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="16A" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="THT" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.78" y="13.47" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 638207222006 " x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 6 " x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="5.08mm" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Vertical" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.08" y="-0.63" size="1.27" layer="27"/>
-<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="17.78" y="7.62" size="1.778" layer="27" display="off"/>
-</element>
-<element name="J11" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222006" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 " x="48.26" y="7.62" smashed="yes">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222006.pdf" x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Male" x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="16A" x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="THT" x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.26" y="13.47" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 638207222006 " x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 6 " x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="5.08mm" x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Vertical" x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="44.56" y="-0.63" size="1.27" layer="27"/>
-<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="48.26" y="7.62" size="1.778" layer="27" display="off"/>
-</element>
-<element name="J12" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222006" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 " x="78.74" y="7.62" smashed="yes">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222006.pdf" x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Male" x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="16A" x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="THT" x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="78.74" y="13.47" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 638207222006 " x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 6 " x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="5.08mm" x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Vertical" x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="75.04" y="-0.63" size="1.27" layer="27"/>
-<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="78.74" y="7.62" size="1.778" layer="27" display="off"/>
-</element>
 <element name="X2" library="con-JST VH" package="B4P-VH" value="B4P-VH" x="85.09" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="93.57" y="94.615" size="1.27" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="91.03" y="97.155" size="1.27" layer="27" rot="R180"/>
@@ -3566,34 +3663,6 @@ Your Multi-CB Team
 <attribute name="V-F-TYP" value="2V" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="78.995" y="15.92" size="0.6096" layer="27" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
-</element>
-<element name="J1" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222006" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 " x="48.26" y="93.98" smashed="yes" rot="R180">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222006.pdf" x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="GENDER" value="Male" x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IR" value="16A" x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT" value="THT" x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="48.26" y="88.13" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 638207222006 " x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PINS" value=" 6 " x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PITCH" value="5.08mm" x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="Vertical" x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="51.96" y="102.23" size="1.27" layer="27" rot="R180"/>
-<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="48.26" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="J2" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222006" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 " x="17.78" y="93.98" smashed="yes" rot="R180">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222006.pdf" x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="GENDER" value="Male" x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IR" value="16A" x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT" value="THT" x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="17.78" y="88.13" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 638207222006 " x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PINS" value=" 6 " x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PITCH" value="5.08mm" x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="Vertical" x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="21.48" y="102.23" size="1.27" layer="27" rot="R180"/>
-<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="17.78" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C25" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_1206_H0.8" package3d_urn="urn:adsk.eagle:package:18489111/2" value="100nF" x="57.2516" y="85.725" smashed="yes" rot="R270">
 <attribute name="CERAMIC-TYPE" value="X7R Class II" x="61.0616" y="100.965" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4015,6 +4084,104 @@ Your Multi-CB Team
 <attribute name="VALUE" x="85.79" y="59.7" size="1.27" layer="27" rot="R180" align="bottom-center"/>
 <attribute name="VR" value="50V(DC)" x="85.09" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="J3" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61302211821" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 " x="35.56" y="69.85" smashed="yes" rot="R180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61302211821?ae" x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="GENDER" value="Socket Header" x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IR" value="3A" x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="THT" x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="64.6376" y="69.3439" size="0.8128" layer="25" rot="R180" align="bottom-right"/>
+<attribute name="PACKAGING" value="Tray" x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value=" 61302211821 " x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PINS" value=" 22 " x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROWS" value="Single" x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="Straight" x="35.56" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="64.5576" y="71.0442" size="0.8128" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J6" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61302211821" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 " x="35.56" y="46.99" smashed="yes" rot="R180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61302211821?ae" x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="GENDER" value="Socket Header" x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IR" value="3A" x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="THT" x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="64.6376" y="46.4839" size="0.8128" layer="25" rot="R180" align="bottom-right"/>
+<attribute name="PACKAGING" value="Tray" x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value=" 61302211821 " x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PINS" value=" 22 " x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROWS" value="Single" x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="Straight" x="35.56" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="64.5576" y="48.1842" size="0.8128" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J7" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222005" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 " x="15.24" y="93.98" smashed="yes">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222005.pdf" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="GENDER" value="Male" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="16A" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="THT" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="15.24" y="99.83" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 638207222005 " x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 5 " x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="5.08mm" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Vertical" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.54" y="85.73" size="1.27" layer="27"/>
+<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J8" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222007" package3d_urn="urn:adsk.eagle:package:15267958/3" value=" 638207222007 " x="45.72" y="93.98" smashed="yes">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222007.pdf" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="GENDER" value="Male" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="16A" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="THT" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.72" y="99.83" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 638207222007 " x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 7 " x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="5.08mm" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Vertical" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="42.02" y="85.73" size="1.27" layer="27"/>
+<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J13" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222005" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 " x="15.24" y="7.62" smashed="yes" rot="R180">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222005.pdf" x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="GENDER" value="Male" x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IR" value="16A" x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="THT" x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15.24" y="1.77" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 638207222005 " x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PINS" value=" 5 " x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PITCH" value="5.08mm" x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="Vertical" x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="18.94" y="15.87" size="1.27" layer="27" rot="R180"/>
+<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="15.24" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="J15" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222008" package3d_urn="urn:adsk.eagle:package:15267957/3" value=" 638207222008 " x="48.26" y="7.62" smashed="yes" rot="R180">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222008.pdf" x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="GENDER" value="Male" x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IR" value="16A" x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="THT" x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="48.26" y="1.77" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 638207222008 " x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PINS" value=" 8 " x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PITCH" value="5.08mm" x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="Vertical" x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="51.96" y="15.87" size="1.27" layer="27" rot="R180"/>
+<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="48.26" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="J1" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222005" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 " x="81.28" y="7.62" smashed="yes" rot="R180">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222005.pdf" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="GENDER" value="Male" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IR" value="16A" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="THT" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="81.28" y="1.77" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 638207222005 " x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PINS" value=" 5 " x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PITCH" value="5.08mm" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="Vertical" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="84.98" y="15.87" size="1.27" layer="27" rot="R180"/>
+<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="S$1">
@@ -4246,8 +4413,6 @@ Your Multi-CB Team
 <via x="36.29" y="38.35" extent="1-16" drill="0.3" shape="square"/>
 <via x="25.114" y="38.35" extent="1-16" drill="0.3" shape="square"/>
 <via x="25.114" y="39.62" extent="1-16" drill="0.3" shape="square"/>
-<contactref element="J10" pad="A2"/>
-<contactref element="J10" pad="2"/>
 <contactref element="U5" pad="15"/>
 <contactref element="C13" pad="1"/>
 <contactref element="C1" pad="1"/>
@@ -4324,6 +4489,8 @@ Your Multi-CB Team
 <via x="76.93" y="38.35" extent="1-16" drill="0.3" shape="square"/>
 <via x="65.754" y="38.35" extent="1-16" drill="0.3" shape="square"/>
 <via x="65.754" y="39.62" extent="1-16" drill="0.3" shape="square"/>
+<contactref element="J13" pad="4"/>
+<contactref element="J13" pad="A4"/>
 </signal>
 <signal name="Q4">
 <contactref element="U3" pad="13"/>
@@ -4338,8 +4505,8 @@ Your Multi-CB Team
 <vertex x="43.434" y="2.54"/>
 </polygon>
 <contactref element="D4" pad="2"/>
-<contactref element="J11" pad="3"/>
-<contactref element="J11" pad="A3"/>
+<contactref element="J15" pad="A5"/>
+<contactref element="J15" pad="5"/>
 </signal>
 <signal name="Q3">
 <contactref element="U3" pad="10"/>
@@ -4354,8 +4521,8 @@ Your Multi-CB Team
 <vertex x="42.926" y="2.56"/>
 </polygon>
 <contactref element="D3" pad="2"/>
-<contactref element="J11" pad="A2"/>
-<contactref element="J11" pad="2"/>
+<contactref element="J15" pad="A6"/>
+<contactref element="J15" pad="6"/>
 </signal>
 <signal name="Q1C">
 <contactref element="R13" pad="1"/>
@@ -4421,8 +4588,8 @@ Your Multi-CB Team
 <vertex x="23.114" y="2.54"/>
 </polygon>
 <contactref element="D2" pad="2"/>
-<contactref element="J10" pad="5"/>
-<contactref element="J10" pad="A5"/>
+<contactref element="J13" pad="1"/>
+<contactref element="J13" pad="A1"/>
 </signal>
 <signal name="Q1">
 <contactref element="U2" pad="10"/>
@@ -4437,8 +4604,8 @@ Your Multi-CB Team
 <vertex x="22.606" y="2.54"/>
 </polygon>
 <contactref element="D1" pad="2"/>
-<contactref element="J10" pad="4"/>
-<contactref element="J10" pad="A4"/>
+<contactref element="J13" pad="A2"/>
+<contactref element="J13" pad="2"/>
 </signal>
 <signal name="AGNDU3">
 <contactref element="U3" pad="1"/>
@@ -4508,19 +4675,16 @@ Your Multi-CB Team
 <vertex x="90.74" y="43.85"/>
 <vertex x="90.74" y="40.8632"/>
 </polygon>
-<contactref element="J2" pad="4"/>
-<contactref element="J2" pad="A4"/>
-<contactref element="J2" pad="3"/>
-<contactref element="J2" pad="A3"/>
 <polygon width="0.2032" layer="1" isolate="0.254">
 <vertex x="89.47" y="93.8412"/>
 <vertex x="1.4732" y="93.8412"/>
 <vertex x="1.4732" y="99.1"/>
 <vertex x="89.47" y="99.1"/>
 </polygon>
-<wire x1="20.32" y1="96.52" x2="20.32" y2="91.44" width="1.27" layer="1"/>
 <wire x1="15.24" y1="96.52" x2="15.24" y2="91.44" width="1.27" layer="1"/>
 <contactref element="D006" pad="A"/>
+<contactref element="J7" pad="A3"/>
+<contactref element="J7" pad="3"/>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="RX4" pad="1"/>
@@ -4646,22 +4810,6 @@ Your Multi-CB Team
 <via x="5.08" y="38.12" extent="1-16" drill="0.35"/>
 <via x="6.35" y="39.39" extent="1-16" drill="0.35"/>
 <via x="5.08" y="39.39" extent="1-16" drill="0.35"/>
-<contactref element="J10" pad="6"/>
-<contactref element="J10" pad="A6"/>
-<contactref element="J10" pad="3"/>
-<contactref element="J10" pad="A3"/>
-<contactref element="J10" pad="1"/>
-<contactref element="J10" pad="A1"/>
-<contactref element="J11" pad="4"/>
-<contactref element="J11" pad="A4"/>
-<contactref element="J11" pad="5"/>
-<contactref element="J11" pad="A5"/>
-<contactref element="J12" pad="A2"/>
-<contactref element="J12" pad="2"/>
-<contactref element="J12" pad="3"/>
-<contactref element="J12" pad="A3"/>
-<contactref element="J12" pad="6"/>
-<contactref element="J12" pad="A6"/>
 <polygon width="0.2032" layer="1" isolate="0.254" rank="2">
 <vertex x="53.5432" y="2.54"/>
 <vertex x="53.5432" y="22.245"/>
@@ -4694,8 +4842,6 @@ Your Multi-CB Team
 <contactref element="RX8" pad="1"/>
 <contactref element="RX7" pad="1"/>
 <contactref element="RX6" pad="2"/>
-<contactref element="J11" pad="1"/>
-<contactref element="J11" pad="A1"/>
 <via x="13.97" y="12.72" extent="1-16" drill="0.35"/>
 <via x="15.24" y="12.72" extent="1-16" drill="0.35"/>
 <via x="16.51" y="12.72" extent="1-16" drill="0.35"/>
@@ -4777,6 +4923,22 @@ Your Multi-CB Team
 <via x="5.08" y="15.26" extent="1-16" drill="0.35"/>
 <via x="3.81" y="15.26" extent="1-16" drill="0.35"/>
 <via x="5.08" y="13.99" extent="1-16" drill="0.35"/>
+<contactref element="J13" pad="A3"/>
+<contactref element="J13" pad="3"/>
+<contactref element="J15" pad="A4"/>
+<contactref element="J15" pad="4"/>
+<contactref element="J15" pad="A8"/>
+<contactref element="J15" pad="8"/>
+<contactref element="J15" pad="A3"/>
+<contactref element="J15" pad="3"/>
+<contactref element="J15" pad="7"/>
+<contactref element="J15" pad="A7"/>
+<contactref element="J1" pad="A5"/>
+<contactref element="J1" pad="5"/>
+<contactref element="J1" pad="4"/>
+<contactref element="J1" pad="A4"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J1" pad="A1"/>
 </signal>
 <signal name="ECU_GND" class="1">
 <contactref element="C12" pad="1"/>
@@ -4934,10 +5096,6 @@ Your Multi-CB Team
 <via x="82.931" y="75.585" extent="1-16" drill="0.35"/>
 <via x="82.931" y="76.855" extent="1-16" drill="0.35"/>
 <via x="81.661" y="76.855" extent="1-16" drill="0.35"/>
-<contactref element="J2" pad="A6"/>
-<contactref element="J2" pad="6"/>
-<contactref element="J2" pad="A5"/>
-<contactref element="J2" pad="5"/>
 <contactref element="D11" pad="3"/>
 <contactref element="X2" pad="1"/>
 <contactref element="G1" pad="1"/>
@@ -4970,6 +5128,12 @@ Your Multi-CB Team
 <via x="55.88" y="49.55" extent="1-16" drill="0.35"/>
 <via x="73.66" y="49.55" extent="1-16" drill="0.35"/>
 <via x="80.01" y="43.2" extent="1-16" drill="0.35"/>
+<contactref element="J7" pad="1"/>
+<contactref element="J7" pad="A1"/>
+<wire x1="63.5" y1="43.2" x2="62.23" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="46.99" x2="5.08" y2="50.82" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="46.99" x2="8.89" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="69.85" x2="16.51" y2="75.717" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IX00">
 <contactref element="U1" pad="J1_20"/>
@@ -4999,8 +5163,6 @@ Your Multi-CB Team
 <contactref element="U1" pad="J1_16"/>
 </signal>
 <signal name="Q5">
-<contactref element="J11" pad="6"/>
-<contactref element="J11" pad="A6"/>
 <contactref element="U5" pad="10"/>
 <contactref element="U5" pad="9"/>
 <contactref element="U5" pad="8"/>
@@ -5013,10 +5175,10 @@ Your Multi-CB Team
 <vertex x="63.246" y="2.54"/>
 </polygon>
 <contactref element="D8" pad="2"/>
+<contactref element="J15" pad="A2"/>
+<contactref element="J15" pad="2"/>
 </signal>
 <signal name="Q7">
-<contactref element="J12" pad="4"/>
-<contactref element="J12" pad="A4"/>
 <contactref element="U6" pad="10"/>
 <contactref element="U6" pad="9"/>
 <contactref element="U6" pad="8"/>
@@ -5029,10 +5191,10 @@ Your Multi-CB Team
 <vertex x="83.566" y="2.54"/>
 </polygon>
 <contactref element="D10" pad="2"/>
+<contactref element="J1" pad="A3"/>
+<contactref element="J1" pad="3"/>
 </signal>
 <signal name="Q8">
-<contactref element="J12" pad="5"/>
-<contactref element="J12" pad="A5"/>
 <contactref element="U6" pad="13"/>
 <contactref element="U6" pad="12"/>
 <contactref element="U6" pad="14"/>
@@ -5045,10 +5207,10 @@ Your Multi-CB Team
 <vertex x="84.074" y="2.54"/>
 </polygon>
 <contactref element="D9" pad="2"/>
+<contactref element="J1" pad="A2"/>
+<contactref element="J1" pad="2"/>
 </signal>
 <signal name="Q6">
-<contactref element="J12" pad="1"/>
-<contactref element="J12" pad="A1"/>
 <contactref element="U5" pad="13"/>
 <contactref element="U5" pad="12"/>
 <contactref element="U5" pad="14"/>
@@ -5061,6 +5223,8 @@ Your Multi-CB Team
 <vertex x="63.754" y="2.54"/>
 </polygon>
 <contactref element="D7" pad="2"/>
+<contactref element="J15" pad="A1"/>
+<contactref element="J15" pad="1"/>
 </signal>
 <signal name="S$2">
 </signal>
@@ -5214,8 +5378,6 @@ Your Multi-CB Team
 <contactref element="R29" pad="2"/>
 <contactref element="R27" pad="2"/>
 <contactref element="C24" pad="1"/>
-<contactref element="J1" pad="1"/>
-<contactref element="J1" pad="A1"/>
 <wire x1="60.96" y1="91.44" x2="60.96" y2="87.63" width="0.508" layer="1"/>
 <wire x1="60.96" y1="87.63" x2="60.96" y2="82.067" width="0.508" layer="1"/>
 <wire x1="59.5884" y1="87.275" x2="60.605" y2="87.275" width="0.508" layer="1"/>
@@ -5223,13 +5385,13 @@ Your Multi-CB Team
 <wire x1="62.4586" y1="87.147" x2="61.443" y2="87.147" width="0.508" layer="1"/>
 <wire x1="61.443" y1="87.147" x2="60.96" y2="87.63" width="0.508" layer="1"/>
 <wire x1="60.96" y1="96.52" x2="60.96" y2="91.44" width="0.508" layer="1"/>
+<contactref element="J8" pad="A7"/>
+<contactref element="J8" pad="7"/>
 </signal>
 <signal name="I7">
 <contactref element="R30" pad="2"/>
 <contactref element="R28" pad="2"/>
 <contactref element="C25" pad="1"/>
-<contactref element="J1" pad="2"/>
-<contactref element="J1" pad="A2"/>
 <wire x1="55.88" y1="91.44" x2="55.88" y2="87.63" width="0.508" layer="1"/>
 <wire x1="55.88" y1="87.63" x2="55.88" y2="82.067" width="0.508" layer="1"/>
 <wire x1="54.3814" y1="87.147" x2="55.397" y2="87.147" width="0.508" layer="1"/>
@@ -5237,6 +5399,8 @@ Your Multi-CB Team
 <wire x1="57.2516" y1="87.275" x2="56.235" y2="87.275" width="0.508" layer="1"/>
 <wire x1="56.235" y1="87.275" x2="55.88" y2="87.63" width="0.508" layer="1"/>
 <wire x1="55.88" y1="96.52" x2="55.88" y2="91.44" width="0.508" layer="1"/>
+<contactref element="J8" pad="A6"/>
+<contactref element="J8" pad="6"/>
 </signal>
 <signal name="S$5">
 </signal>
@@ -5258,11 +5422,11 @@ Your Multi-CB Team
 <wire x1="49.4284" y1="87.275" x2="50.445" y2="87.275" width="0.508" layer="1"/>
 <wire x1="52.2986" y1="87.147" x2="51.283" y2="87.147" width="0.508" layer="1"/>
 <wire x1="51.283" y1="87.147" x2="50.8" y2="87.63" width="0.508" layer="1"/>
-<contactref element="J1" pad="3"/>
-<contactref element="J1" pad="A3"/>
 <wire x1="50.8" y1="91.44" x2="50.8" y2="87.63" width="0.508" layer="1"/>
 <wire x1="50.8" y1="87.63" x2="50.445" y2="87.275" width="0.508" layer="1"/>
 <wire x1="50.8" y1="91.44" x2="50.8" y2="96.52" width="0.508" layer="1"/>
+<contactref element="J8" pad="5"/>
+<contactref element="J8" pad="A5"/>
 </signal>
 <signal name="I5">
 <contactref element="R52" pad="2"/>
@@ -5273,14 +5437,12 @@ Your Multi-CB Team
 <wire x1="45.237" y1="87.147" x2="45.72" y2="87.63" width="0.508" layer="1"/>
 <wire x1="47.0916" y1="87.275" x2="46.075" y2="87.275" width="0.508" layer="1"/>
 <wire x1="46.075" y1="87.275" x2="45.72" y2="87.63" width="0.508" layer="1"/>
-<contactref element="J1" pad="4"/>
-<contactref element="J1" pad="A4"/>
 <wire x1="45.72" y1="91.44" x2="45.72" y2="87.63" width="0.508" layer="1"/>
 <wire x1="45.72" y1="96.52" x2="45.72" y2="91.44" width="0.508" layer="1"/>
+<contactref element="J8" pad="A4"/>
+<contactref element="J8" pad="4"/>
 </signal>
 <signal name="I4">
-<contactref element="J1" pad="A5"/>
-<contactref element="J1" pad="5"/>
 <contactref element="R43" pad="2"/>
 <contactref element="R42" pad="2"/>
 <contactref element="C41" pad="1"/>
@@ -5291,10 +5453,10 @@ Your Multi-CB Team
 <wire x1="41.123" y1="87.147" x2="40.64" y2="87.63" width="0.508" layer="1"/>
 <wire x1="40.64" y1="91.44" x2="40.64" y2="87.63" width="0.508" layer="1"/>
 <wire x1="40.64" y1="91.44" x2="40.64" y2="96.52" width="0.508" layer="1"/>
+<contactref element="J8" pad="A3"/>
+<contactref element="J8" pad="3"/>
 </signal>
 <signal name="I3">
-<contactref element="J1" pad="A6"/>
-<contactref element="J1" pad="6"/>
 <contactref element="R40" pad="2"/>
 <contactref element="R39" pad="2"/>
 <contactref element="C39" pad="1"/>
@@ -5305,10 +5467,10 @@ Your Multi-CB Team
 <wire x1="35.915" y1="87.275" x2="35.56" y2="87.63" width="0.508" layer="1"/>
 <wire x1="35.56" y1="91.44" x2="35.56" y2="87.63" width="0.508" layer="1"/>
 <wire x1="35.56" y1="91.44" x2="35.56" y2="96.52" width="0.508" layer="1"/>
+<contactref element="J8" pad="A2"/>
+<contactref element="J8" pad="2"/>
 </signal>
 <signal name="I2">
-<contactref element="J2" pad="A1"/>
-<contactref element="J2" pad="1"/>
 <contactref element="R25" pad="2"/>
 <contactref element="R24" pad="2"/>
 <contactref element="C33" pad="1"/>
@@ -5319,10 +5481,10 @@ Your Multi-CB Team
 <wire x1="30.963" y1="87.147" x2="30.48" y2="87.63" width="0.508" layer="1"/>
 <wire x1="30.48" y1="91.44" x2="30.48" y2="87.63" width="0.508" layer="1"/>
 <wire x1="30.48" y1="91.44" x2="30.48" y2="96.52" width="0.508" layer="1"/>
+<contactref element="J8" pad="A1"/>
+<contactref element="J8" pad="1"/>
 </signal>
 <signal name="I1">
-<contactref element="J2" pad="A2"/>
-<contactref element="J2" pad="2"/>
 <contactref element="R22" pad="2"/>
 <contactref element="R21" pad="2"/>
 <contactref element="C31" pad="1"/>
@@ -5333,6 +5495,8 @@ Your Multi-CB Team
 <wire x1="25.755" y1="87.275" x2="25.4" y2="87.63" width="0.508" layer="1"/>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="87.63" width="0.508" layer="1"/>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="96.52" width="0.508" layer="1"/>
+<contactref element="J7" pad="A5"/>
+<contactref element="J7" pad="5"/>
 </signal>
 <signal name="CI5">
 <contactref element="R52" pad="1"/>
@@ -5596,6 +5760,21 @@ Your Multi-CB Team
 <vertex x="83.6812" y="74.33"/>
 </polygon>
 </signal>
+<signal name="N$7">
+<wire x1="20.32" y1="96.52" x2="20.32" y2="91.44" width="1.27" layer="1"/>
+<contactref element="J7" pad="4"/>
+<contactref element="J7" pad="A4"/>
+</signal>
+<signal name="N$16" class="1">
+<contactref element="J7" pad="A2"/>
+<contactref element="J7" pad="2"/>
+<wire x1="10.16" y1="91.44" x2="10.16" y2="96.52" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="J13" pad="A5"/>
+<contactref element="J13" pad="5"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="10.16" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -5611,6 +5790,11 @@ Your Multi-CB Team
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
