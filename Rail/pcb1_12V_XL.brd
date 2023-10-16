@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mm"/>
+<grid distance="10.62992" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -232,7 +232,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="33f80b2f-3025-41da-9222-1f657163f287" lastsyncedrevisionid="33f80b2f-3025-41da-9222-1f657163f287" lastboardhashguid="8938bf13-636a-4ef8-5333-37305fbbb8bd" lastpushedtime="2023-08-04T22:23:09Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="42242b72-a9b3-4739-a844-9cee953d63f4" lastsyncedrevisionid="42242b72-a9b3-4739-a844-9cee953d63f4" lastboardhashguid="9c99f7cd-cfef-2415-b362-01d43430a85c" lastpushedtime="2023-10-16T11:14:31Z" linktopcb3d="true"/>
 <plain>
 <wire x1="52.04" y1="41.46" x2="50.54" y2="41.46" width="0.1524" layer="22"/>
 <wire x1="50.54" y1="41.46" x2="50.54" y2="39.86" width="0.1524" layer="22"/>
@@ -374,60 +374,6 @@
 <text x="71.12" y="63.5" size="1.778" layer="25">+5V</text>
 </plain>
 <libraries>
-<library name="con-JST VH">
-<description>
-&lt;b&gt;JST Connectors&lt;/b&gt; - VH Series, 3.96mm pitch disconnectable crimp style connectors, through-hole&lt;p&gt;
-
-&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
-USE AT YOUR OWN RISK!&lt;p&gt;
-
-&lt;author&gt;Author: kylie &lt;/author&gt;, 02/2017&lt;p&gt;
-
-&lt;a href="http://www.jst-mfg.com/product/detail_e.php?series=262"&gt;
-&lt;img src="http://www.jst-mfg.com/product/images/pict/vh.jpg"  &gt;&lt;/a&gt;&lt;p&gt;
-&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eVH.pdf"&gt; Data sheet (PDF)&lt;/a&gt;
-</description>
-<packages>
-<package name="B4P-VH">
-<description>
-
-&lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, vertical (top entry type), 4 pins&lt;p&gt;
-
-</description>
-<pad name="1" x="-5.94" y="0" drill="1.7" diameter="3" shape="square"/>
-<pad name="2" x="-1.98" y="0" drill="1.7" diameter="3" shape="octagon" rot="R45"/>
-<pad name="3" x="1.98" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<pad name="4" x="5.94" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<text x="-8.48" y="-0.635" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="-5.94" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-7.89" y1="2" x2="7.89" y2="2" width="0.1524" layer="21"/>
-<wire x1="7.89" y1="2" x2="7.89" y2="-4.8" width="0.1524" layer="21"/>
-<wire x1="7.89" y1="-4.8" x2="-7.89" y2="-4.8" width="0.1524" layer="21"/>
-<wire x1="-7.89" y1="-4.8" x2="-7.89" y2="2" width="0.1524" layer="21"/>
-<wire x1="-6.64" y1="3.7" x2="6.64" y2="3.7" width="0.1524" layer="21"/>
-<wire x1="-6.64" y1="3.7" x2="-6.64" y2="2" width="0.1524" layer="21"/>
-<wire x1="6.64" y1="3.7" x2="6.64" y2="2" width="0.1524" layer="21"/>
-<wire x1="-7.89" y1="2" x2="-6.64" y2="2" width="0.1524" layer="51"/>
-<wire x1="-6.64" y1="2" x2="6.64" y2="2" width="0.1524" layer="51"/>
-<wire x1="6.64" y1="2" x2="7.89" y2="2" width="0.1524" layer="51"/>
-<wire x1="7.89" y1="2" x2="7.89" y2="-4.8" width="0.1524" layer="51"/>
-<wire x1="7.89" y1="-4.8" x2="-7.89" y2="-4.8" width="0.1524" layer="51"/>
-<wire x1="-7.89" y1="-4.8" x2="-7.89" y2="2" width="0.1524" layer="51"/>
-<wire x1="-6.64" y1="3.7" x2="6.64" y2="3.7" width="0.1524" layer="51"/>
-<wire x1="-6.64" y1="3.7" x2="-6.64" y2="2" width="0.1524" layer="51"/>
-<wire x1="6.64" y1="3.7" x2="6.64" y2="2" width="0.1524" layer="51"/>
-<rectangle x1="-6.51" y1="-0.57" x2="-5.37" y2="0.57" layer="51"/>
-<rectangle x1="-2.55" y1="-0.57" x2="-1.41" y2="0.57" layer="51"/>
-<rectangle x1="1.41" y1="-0.57" x2="2.55" y2="0.57" layer="51"/>
-<rectangle x1="5.37" y1="-0.57" x2="6.51" y2="0.57" layer="51"/>
-<polygon width="0.1524" layer="51">
-<vertex x="-5.94" y="-4.65"/>
-<vertex x="-6.24" y="-4.15"/>
-<vertex x="-5.64" y="-4.15"/>
-</polygon>
-</package>
-</packages>
-</library>
 <library name="TLE9250VSJ">
 <packages>
 <package name="SOIC127P602X173-8N-V">
@@ -2824,6 +2770,144 @@ Copyright: Würth Elektronik</description>
 </package3d>
 </packages3d>
 </library>
+<library name="Wurth_Connectors_WR-WTB" urn="urn:adsk.eagle:library:15818693">
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Connectors - Wire-to-Board Connectors - WR-WTB &lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-07-05&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="645004114822" urn="urn:adsk.eagle:footprint:15818771/1" library_version="5">
+<description>&lt;b&gt;WR-WTB&lt;/b&gt;&lt;br&gt; 3.96 mm Male Vertical Locking Header,  4 Pins</description>
+<pad name="1" x="5.94" y="0.5" drill="1.8"/>
+<pad name="2" x="1.98" y="0.5" drill="1.8"/>
+<pad name="3" x="-1.98" y="0.5" drill="1.8"/>
+<pad name="4" x="-5.94" y="0.5" drill="1.8"/>
+<text x="8.975" y="3.68" size="1.016" layer="25">&gt;NAME</text>
+<text x="9" y="0.9" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-7.92" y1="5.65" x2="7.92" y2="5.65" width="0.1" layer="51"/>
+<wire x1="7.92" y1="5.65" x2="7.92" y2="1.9" width="0.1" layer="51"/>
+<wire x1="7.92" y1="1.9" x2="7.92" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="7.92" y1="-5.1" x2="5.12" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="2.96" y1="-5.1" x2="0.95" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-5.1" x2="-2.96" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-5.12" y1="-5.1" x2="-7.92" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="-5.1" x2="-7.92" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="1.9" x2="-7.92" y2="5.65" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="5.06" x2="7.92" y2="5.06" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="2.1" x2="7.92" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="1.9" x2="7.92" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-2.96" y1="-5.1" x2="-2.96" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="-2.96" y1="-4.6" x2="-5.12" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="-5.12" y1="-4.6" x2="-5.12" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="2.96" y1="-5.1" x2="2.96" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="2.96" y1="-4.6" x2="5.12" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="5.12" y1="-4.6" x2="5.12" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-5.1" x2="-0.95" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-4.6" x2="0.95" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="0.95" y1="-4.6" x2="0.95" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-8.02" y1="5.75" x2="8.02" y2="5.75" width="0.2" layer="21"/>
+<wire x1="8.02" y1="5.75" x2="8.02" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="8.02" y1="-5.2" x2="5.02" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="5.02" y1="-5.2" x2="5.02" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="5.02" y1="-4.7" x2="3.06" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="3.06" y1="-4.7" x2="3.06" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="3.06" y1="-5.2" x2="0.85" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="0.85" y1="-5.2" x2="0.85" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="0.85" y1="-4.7" x2="-0.85" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="-0.85" y1="-4.7" x2="-0.85" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-0.85" y1="-5.2" x2="-3.06" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-3.06" y1="-5.2" x2="-3.06" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="-3.06" y1="-4.7" x2="-5.02" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="-5.02" y1="-4.7" x2="-5.02" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-5.02" y1="-5.2" x2="-8.02" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-8.02" y1="-5.2" x2="-8.02" y2="5.75" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-8.22" y="5.9"/>
+<vertex x="8.22" y="5.9"/>
+<vertex x="8.22" y="-5.4"/>
+<vertex x="-8.22" y="-5.4"/>
+</polygon>
+<circle x="7.52" y="-0.5" radius="0.1" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="645004114822" urn="urn:adsk.eagle:package:15819025/2" type="model" library_version="5">
+<description>&lt;b&gt;WR-WTB&lt;/b&gt;&lt;br&gt; 3.96 mm Male Vertical Locking Header,  4 Pins</description>
+<packageinstances>
+<packageinstance name="645004114822"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3431,10 +3515,6 @@ Your Multi-CB Team
 <attribute name="PRICE" value="None" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-S3-DEVKITC-1-N8R2/?ref=eda" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.36" y="71.37" size="1.27" layer="27" rot="R270" align="top-left"/>
-</element>
-<element name="X2" library="con-JST VH" package="B4P-VH" value="B4P-VH" x="85.09" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="93.57" y="94.615" size="1.27" layer="25" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="91.03" y="97.155" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U5" library="BTS7030-2EPA" package="SOP65P600X115-15N-V" value="" x="63.5" y="29.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.77" y="28.474" size="0.8128" layer="25" font="vector" ratio="13" rot="SR0"/>
@@ -4182,6 +4262,23 @@ Your Multi-CB Team
 <attribute name="VALUE" x="84.98" y="15.87" size="1.27" layer="27" rot="R180"/>
 <attribute name="WORKING-VOLTAGE" value="300V(AC)" x="81.28" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="J2" library="Wurth_Connectors_WR-WTB" library_urn="urn:adsk.eagle:library:15818693" package="645004114822" package3d_urn="urn:adsk.eagle:package:15819025/2" value="645004114822" x="85.09" y="94.48" smashed="yes" rot="R180">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/645004114822?ae" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="GENDER" value="Male" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IR" value="7A" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="L" value="15.84mm" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="THT" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="76.115" y="90.8" size="1.016" layer="25" rot="R180"/>
+<attribute name="PACKAGING" value="Bag" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART-NUMBER" value="645004114822" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PCB-CABLE-PANEL" value="PCB" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PINS" value=" 4 " x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PITCH" value="3.96mm" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="Vertical" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="76.09" y="93.58" size="1.016" layer="27" rot="R180"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="S$1">
@@ -4207,7 +4304,6 @@ Your Multi-CB Team
 <signal name="CAN_P">
 <contactref element="U4" pad="7"/>
 <contactref element="R1" pad="2"/>
-<contactref element="X2" pad="3"/>
 <contactref element="D11" pad="2"/>
 <wire x1="53.975" y1="56.31" x2="53.975" y2="57.553" width="0.254" layer="1"/>
 <wire x1="53.975" y1="57.553" x2="53.592" y2="57.936" width="0.254" layer="1"/>
@@ -4237,11 +4333,11 @@ Your Multi-CB Team
 <wire x1="79.5414625" y1="75.90693125" x2="79.83453125" y2="76.2" width="0.254" layer="1"/>
 <wire x1="79.83453125" y1="76.2" x2="80.01" y2="76.2" width="0.254" layer="1"/>
 <wire x1="74.839" y1="74.126225" x2="76.912775" y2="76.2" width="0.254" layer="1"/>
+<contactref element="J2" pad="2"/>
 </signal>
 <signal name="CAN_N">
 <contactref element="U4" pad="6"/>
 <contactref element="R3" pad="2"/>
-<contactref element="X2" pad="4"/>
 <contactref element="D11" pad="1"/>
 <wire x1="52.705" y1="56.31" x2="52.705" y2="57.553" width="0.254" layer="1"/>
 <wire x1="52.705" y1="57.553" x2="53.088" y2="57.936" width="0.254" layer="1"/>
@@ -4265,6 +4361,7 @@ Your Multi-CB Team
 <wire x1="60.194" y1="60.194" x2="73.0829" y2="73.0829" width="0.254" layer="1"/>
 <wire x1="76.20000625" y1="76.20000625" x2="76.20000625" y2="77.46999375" width="0.254" layer="1"/>
 <wire x1="76.20000625" y1="77.46999375" x2="76.2" y2="77.47" width="0.254" layer="1"/>
+<contactref element="J2" pad="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U4" pad="5"/>
@@ -4662,7 +4759,6 @@ Your Multi-CB Team
 <contactref element="J5" pad="2"/>
 <contactref element="J5" pad="4"/>
 <contactref element="J5" pad="6"/>
-<contactref element="X2" pad="2"/>
 <polygon width="0.2032" layer="1" isolate="0.254">
 <vertex x="82.4112" y="40.8632"/>
 <vertex x="82.4112" y="43.85"/>
@@ -4685,6 +4781,9 @@ Your Multi-CB Team
 <contactref element="D006" pad="A"/>
 <contactref element="J7" pad="A3"/>
 <contactref element="J7" pad="3"/>
+<contactref element="J2" pad="3"/>
+<wire x1="85.146" y1="85.745" x2="87.07" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="86.614" y1="41.93" x2="86.36" y2="79.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="RX4" pad="1"/>
@@ -5097,7 +5196,6 @@ Your Multi-CB Team
 <via x="82.931" y="76.855" extent="1-16" drill="0.35"/>
 <via x="81.661" y="76.855" extent="1-16" drill="0.35"/>
 <contactref element="D11" pad="3"/>
-<contactref element="X2" pad="1"/>
 <contactref element="G1" pad="1"/>
 <via x="80.01" y="58.44" extent="1-16" drill="0.35"/>
 <via x="78.74" y="57.17" extent="1-16" drill="0.35"/>
@@ -5130,6 +5228,7 @@ Your Multi-CB Team
 <via x="80.01" y="43.2" extent="1-16" drill="0.35"/>
 <contactref element="J7" pad="1"/>
 <contactref element="J7" pad="A1"/>
+<contactref element="J2" pad="4"/>
 <wire x1="63.5" y1="43.2" x2="62.23" y2="46.99" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="46.99" x2="5.08" y2="50.82" width="0" layer="19" extent="1-1"/>
 <wire x1="11.43" y1="46.99" x2="8.89" y2="46.99" width="0" layer="19" extent="1-1"/>
