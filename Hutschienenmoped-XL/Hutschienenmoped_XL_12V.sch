@@ -233,170 +233,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="con-JST VH">
-<description>
-&lt;b&gt;JST Connectors&lt;/b&gt; - VH Series, 3.96mm pitch disconnectable crimp style connectors, through-hole&lt;p&gt;
-
-&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
-USE AT YOUR OWN RISK!&lt;p&gt;
-
-&lt;author&gt;Author: kylie &lt;/author&gt;, 02/2017&lt;p&gt;
-
-&lt;a href="http://www.jst-mfg.com/product/detail_e.php?series=262"&gt;
-&lt;img src="http://www.jst-mfg.com/product/images/pict/vh.jpg"  &gt;&lt;/a&gt;&lt;p&gt;
-&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eVH.pdf"&gt; Data sheet (PDF)&lt;/a&gt;
-</description>
-<packages>
-<package name="B4P-VH">
-<description>
-
-&lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, vertical (top entry type), 4 pins&lt;p&gt;
-
-</description>
-<pad name="1" x="-5.94" y="0" drill="1.7" diameter="3" shape="square"/>
-<pad name="2" x="-1.98" y="0" drill="1.7" diameter="3" shape="octagon" rot="R45"/>
-<pad name="3" x="1.98" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<pad name="4" x="5.94" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<text x="-8.48" y="-0.635" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="-5.94" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-7.89" y1="2" x2="7.89" y2="2" width="0.1524" layer="21"/>
-<wire x1="7.89" y1="2" x2="7.89" y2="-4.8" width="0.1524" layer="21"/>
-<wire x1="7.89" y1="-4.8" x2="-7.89" y2="-4.8" width="0.1524" layer="21"/>
-<wire x1="-7.89" y1="-4.8" x2="-7.89" y2="2" width="0.1524" layer="21"/>
-<wire x1="-6.64" y1="3.7" x2="6.64" y2="3.7" width="0.1524" layer="21"/>
-<wire x1="-6.64" y1="3.7" x2="-6.64" y2="2" width="0.1524" layer="21"/>
-<wire x1="6.64" y1="3.7" x2="6.64" y2="2" width="0.1524" layer="21"/>
-<wire x1="-7.89" y1="2" x2="-6.64" y2="2" width="0.1524" layer="51"/>
-<wire x1="-6.64" y1="2" x2="6.64" y2="2" width="0.1524" layer="51"/>
-<wire x1="6.64" y1="2" x2="7.89" y2="2" width="0.1524" layer="51"/>
-<wire x1="7.89" y1="2" x2="7.89" y2="-4.8" width="0.1524" layer="51"/>
-<wire x1="7.89" y1="-4.8" x2="-7.89" y2="-4.8" width="0.1524" layer="51"/>
-<wire x1="-7.89" y1="-4.8" x2="-7.89" y2="2" width="0.1524" layer="51"/>
-<wire x1="-6.64" y1="3.7" x2="6.64" y2="3.7" width="0.1524" layer="51"/>
-<wire x1="-6.64" y1="3.7" x2="-6.64" y2="2" width="0.1524" layer="51"/>
-<wire x1="6.64" y1="3.7" x2="6.64" y2="2" width="0.1524" layer="51"/>
-<rectangle x1="-6.51" y1="-0.57" x2="-5.37" y2="0.57" layer="51"/>
-<rectangle x1="-2.55" y1="-0.57" x2="-1.41" y2="0.57" layer="51"/>
-<rectangle x1="1.41" y1="-0.57" x2="2.55" y2="0.57" layer="51"/>
-<rectangle x1="5.37" y1="-0.57" x2="6.51" y2="0.57" layer="51"/>
-<polygon width="0.1524" layer="51">
-<vertex x="-5.94" y="-4.65"/>
-<vertex x="-6.24" y="-4.15"/>
-<vertex x="-5.64" y="-4.15"/>
-</polygon>
-</package>
-<package name="B4P-VH-FB-B">
-<description>
-
-&lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, vertical (top entry type), 4 pins&lt;p&gt;
-
-</description>
-<pad name="1" x="-5.94" y="0" drill="1.7" diameter="3" shape="square"/>
-<pad name="2" x="-1.98" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<pad name="3" x="1.98" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<pad name="4" x="5.94" y="0" drill="1.7" diameter="3" shape="octagon"/>
-<hole x="7.44" y="-3.4" drill="1.4"/>
-<text x="-8.48" y="-0.635" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="-5.94" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-8.86" y1="4.4" x2="-5.95" y2="4.4" width="0.1524" layer="21"/>
-<wire x1="5.95" y1="4.4" x2="8.86" y2="4.4" width="0.1524" layer="21"/>
-<wire x1="8.86" y1="4.4" x2="8.86" y2="-5.3" width="0.1524" layer="21"/>
-<wire x1="8.86" y1="-5.3" x2="-8.86" y2="-5.3" width="0.1524" layer="21"/>
-<wire x1="-8.86" y1="-5.3" x2="-8.86" y2="4.4" width="0.1524" layer="21"/>
-<wire x1="-5.95" y1="3.2" x2="5.95" y2="3.2" width="0.1524" layer="21"/>
-<wire x1="-5.95" y1="3.2" x2="-5.95" y2="4.4" width="0.1524" layer="21"/>
-<wire x1="5.95" y1="3.2" x2="5.95" y2="4.4" width="0.1524" layer="21"/>
-<wire x1="-8.86" y1="4.4" x2="-5.95" y2="4.4" width="0.1524" layer="51"/>
-<wire x1="5.95" y1="4.4" x2="8.86" y2="4.4" width="0.1524" layer="51"/>
-<wire x1="8.86" y1="4.4" x2="8.86" y2="-5.3" width="0.1524" layer="51"/>
-<wire x1="8.86" y1="-5.3" x2="-8.86" y2="-5.3" width="0.1524" layer="51"/>
-<wire x1="-8.86" y1="-5.3" x2="-8.86" y2="4.4" width="0.1524" layer="51"/>
-<wire x1="-5.95" y1="3.2" x2="5.95" y2="3.2" width="0.1524" layer="51"/>
-<wire x1="-5.95" y1="3.2" x2="-5.95" y2="4.4" width="0.1524" layer="51"/>
-<wire x1="5.95" y1="3.2" x2="5.95" y2="4.4" width="0.1524" layer="51"/>
-<wire x1="-8.06" y1="-4.4" x2="-8.06" y2="3.6" width="0.1524" layer="51"/>
-<wire x1="-8.06" y1="3.6" x2="-6.75" y2="3.6" width="0.1524" layer="51"/>
-<wire x1="-6.75" y1="3.6" x2="-6.75" y2="2" width="0.1524" layer="51"/>
-<wire x1="-6.75" y1="2" x2="6.75" y2="2" width="0.1524" layer="51"/>
-<wire x1="6.75" y1="2" x2="6.75" y2="3.6" width="0.1524" layer="51"/>
-<wire x1="6.75" y1="3.6" x2="8.06" y2="3.6" width="0.1524" layer="51"/>
-<wire x1="8.06" y1="3.6" x2="8.06" y2="-4.4" width="0.1524" layer="51"/>
-<wire x1="8.06" y1="-4.4" x2="-8.06" y2="-4.4" width="0.1524" layer="51"/>
-<rectangle x1="-6.51" y1="-0.57" x2="-5.37" y2="0.57" layer="51"/>
-<rectangle x1="-2.55" y1="-0.57" x2="-1.41" y2="0.57" layer="51"/>
-<rectangle x1="1.41" y1="-0.57" x2="2.55" y2="0.57" layer="51"/>
-<rectangle x1="5.37" y1="-0.57" x2="6.51" y2="0.57" layer="51"/>
-<polygon width="0.1524" layer="51">
-<vertex x="-5.94" y="-5.05"/>
-<vertex x="-6.24" y="-4.55"/>
-<vertex x="-5.64" y="-4.55"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="M_1R04">
-<wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<text x="-1.27" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="B4P-VH" prefix="X">
-<description>
-&lt;b&gt;JST VH Series header&lt;/b&gt; 3.96mm pitch disconnectable crimp style connectors, vertical (side entry type), 4 pins&lt;p&gt;
-</description>
-<gates>
-<gate name="G$1" symbol="M_1R04" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="B4P-VH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B" package="B4P-VH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-FB-B" package="B4P-VH-FB-B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TLE9250VSJ">
 <packages>
 <package name="SOIC127P602X173-8N-V">
@@ -15071,6 +14907,244 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLI/"&gt;htt
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Connectors_WR-WTB" urn="urn:adsk.eagle:library:15818693">
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Connectors - Wire-to-Board Connectors - WR-WTB &lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-07-05&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="645004114822" urn="urn:adsk.eagle:footprint:15818771/1" library_version="5">
+<description>&lt;b&gt;WR-WTB&lt;/b&gt;&lt;br&gt; 3.96 mm Male Vertical Locking Header,  4 Pins</description>
+<pad name="1" x="5.94" y="0.5" drill="1.8"/>
+<pad name="2" x="1.98" y="0.5" drill="1.8"/>
+<pad name="3" x="-1.98" y="0.5" drill="1.8"/>
+<pad name="4" x="-5.94" y="0.5" drill="1.8"/>
+<text x="8.975" y="3.68" size="1.016" layer="25">&gt;NAME</text>
+<text x="9" y="0.9" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-7.92" y1="5.65" x2="7.92" y2="5.65" width="0.1" layer="51"/>
+<wire x1="7.92" y1="5.65" x2="7.92" y2="1.9" width="0.1" layer="51"/>
+<wire x1="7.92" y1="1.9" x2="7.92" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="7.92" y1="-5.1" x2="5.12" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="2.96" y1="-5.1" x2="0.95" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-5.1" x2="-2.96" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-5.12" y1="-5.1" x2="-7.92" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="-5.1" x2="-7.92" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="1.9" x2="-7.92" y2="5.65" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="5.06" x2="7.92" y2="5.06" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="2.1" x2="7.92" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-7.92" y1="1.9" x2="7.92" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-2.96" y1="-5.1" x2="-2.96" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="-2.96" y1="-4.6" x2="-5.12" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="-5.12" y1="-4.6" x2="-5.12" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="2.96" y1="-5.1" x2="2.96" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="2.96" y1="-4.6" x2="5.12" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="5.12" y1="-4.6" x2="5.12" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-5.1" x2="-0.95" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-4.6" x2="0.95" y2="-4.6" width="0.1" layer="51"/>
+<wire x1="0.95" y1="-4.6" x2="0.95" y2="-5.1" width="0.1" layer="51"/>
+<wire x1="-8.02" y1="5.75" x2="8.02" y2="5.75" width="0.2" layer="21"/>
+<wire x1="8.02" y1="5.75" x2="8.02" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="8.02" y1="-5.2" x2="5.02" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="5.02" y1="-5.2" x2="5.02" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="5.02" y1="-4.7" x2="3.06" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="3.06" y1="-4.7" x2="3.06" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="3.06" y1="-5.2" x2="0.85" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="0.85" y1="-5.2" x2="0.85" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="0.85" y1="-4.7" x2="-0.85" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="-0.85" y1="-4.7" x2="-0.85" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-0.85" y1="-5.2" x2="-3.06" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-3.06" y1="-5.2" x2="-3.06" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="-3.06" y1="-4.7" x2="-5.02" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="-5.02" y1="-4.7" x2="-5.02" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-5.02" y1="-5.2" x2="-8.02" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-8.02" y1="-5.2" x2="-8.02" y2="5.75" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-8.22" y="5.9"/>
+<vertex x="8.22" y="5.9"/>
+<vertex x="8.22" y="-5.4"/>
+<vertex x="-8.22" y="-5.4"/>
+</polygon>
+<circle x="7.52" y="-0.5" radius="0.1" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="645004114822" urn="urn:adsk.eagle:package:15819025/2" type="model" library_version="5">
+<description>&lt;b&gt;WR-WTB&lt;/b&gt;&lt;br&gt; 3.96 mm Male Vertical Locking Header,  4 Pins</description>
+<packageinstances>
+<packageinstance name="645004114822"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="4MT" urn="urn:adsk.eagle:symbol:15818721/1" library_version="5">
+<description>4Pins Male THT</description>
+<pin name="1" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="7.64" y="-1.655" size="1.016" layer="95">&gt;NAME</text>
+<text x="7.38" y="-3.06" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="-3.81" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="5.08" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="0" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="645004114822" urn="urn:adsk.eagle:component:15819255/4" prefix="J" library_version="5">
+<description>&lt;b&gt;WR-WTB 3.96 mm Male Vertical Locking Header&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
+&lt;BR&gt;
+&lt;BR&gt;Pitch:3.96mm
+&lt;BR&gt;Gender:Male
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Insulator Material :PA66
+&lt;BR&gt;Insulator Flammability Rating:UL94 V-2
+&lt;BR&gt;Color:White
+&lt;BR&gt;Contact Material:Copper Alloy
+&lt;BR&gt;Contact Plating:Tin
+&lt;BR&gt;Contact Type:Stamped
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
+&lt;BR&gt;Operating Temperature:-40 up to +105 °C
+&lt;BR&gt;Compliance: RoHS
+&lt;BR&gt;Working Voltage:250 V (AC)
+&lt;BR&gt;Withstanding Voltage:1500 V (AC)
+&lt;BR&gt;Contact Resistance:20 mΩ
+&lt;BR&gt;RISO:1000 MΩ
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
+&lt;BR&gt;UL Approval:E323964
+&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
+&lt;BR&gt;Packaging:Bag
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33361v209%20Family_WR-WTB_6450xx114822.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33361v209%20Family_WR-WTB_6450xx114822.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+Details see: &lt;a href="https://katalog.we-online.com/en/em/WTB_3_96_MALE_LOCKING_HEADER_6450XX114822"&gt;https://katalog.we-online.com/en/em/WTB_3_96_MALE_LOCKING_HEADER_6450XX114822&lt;/a&gt;&lt;p&gt;
+&lt;BR&gt;
+Updated by Yingchun,Shan 2019-11-05
+&lt;BR&gt;
+2019 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="4MT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="645004114822">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15819025/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/645004114822?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="7A"/>
+<attribute name="L" value="15.84mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Bag"/>
+<attribute name="PART-NUMBER" value="645004114822"/>
+<attribute name="PCB-CABLE-PANEL" value="PCB"/>
+<attribute name="PINS" value=" 4 "/>
+<attribute name="PITCH" value="3.96mm"/>
+<attribute name="TYPE" value="Vertical"/>
+<attribute name="VALUE" value="645004114822"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15167,7 +15241,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLI/"&gt;htt
 <part name="PWR_GND18" library="supply_isobus" deviceset="PWR_GND" device=""/>
 <part name="PWR_GND19" library="supply_isobus" deviceset="PWR_GND" device=""/>
 <part name="PWR_GND20" library="supply_isobus" deviceset="PWR_GND" device=""/>
-<part name="X2" library="con-JST VH" deviceset="B4P-VH" device=""/>
 <part name="U5" library="BTS7030-2EPA" deviceset="BTS7030-2EPA" device=""/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
@@ -15285,6 +15358,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLI/"&gt;htt
 <part name="J13" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222005" device="" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 "/>
 <part name="J15" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222008" device="" package3d_urn="urn:adsk.eagle:package:15267957/3" value=" 638207222008 "/>
 <part name="J1" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222005" device="" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 "/>
+<part name="J2" library="Wurth_Connectors_WR-WTB" library_urn="urn:adsk.eagle:library:15818693" deviceset="645004114822" device="" package3d_urn="urn:adsk.eagle:package:15819025/2" value="645004114822"/>
 </parts>
 <sheets>
 <sheet>
@@ -15663,10 +15737,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLI/"&gt;htt
 <instance part="ECU_GND2" gate="ECU_GND" x="-20.32" y="50.8" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="G$1" x="-30.48" y="137.16" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="-20.32" y="138.43" size="1.778" layer="96" rot="MR270"/>
-<attribute name="NAME" x="-36.322" y="138.43" size="1.778" layer="95" rot="MR270"/>
-</instance>
 <instance part="ECU_GND28" gate="ECU_GND" x="-25.4" y="119.38" smashed="yes">
 <attribute name="VALUE" x="-27.94" y="116.84" size="1.778" layer="96"/>
 </instance>
@@ -15686,24 +15756,32 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLI/"&gt;htt
 <attribute name="NAME" x="11.86" y="67.215" size="1.4224" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="20.315" y="66.955" size="1.4224" layer="96" rot="R90" align="bottom-center"/>
 </instance>
+<instance part="J2" gate="G$1" x="-27.94" y="149.86" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-35.58" y="148.205" size="1.016" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-35.32" y="146.8" size="1.016" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="CAN_P" class="0">
 <segment>
-<wire x1="-30.48" y1="129.54" x2="-30.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="144.78" x2="-30.48" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="119.38" x2="-43.18" y2="119.38" width="0.1524" layer="91"/>
 <label x="-43.18" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X2" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<junction x="-30.48" y="144.78"/>
+<wire x1="-30.48" y1="144.78" x2="-30.48" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_N" class="0">
 <segment>
-<wire x1="-33.02" y1="129.54" x2="-33.02" y2="127" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="144.78" x2="-33.02" y2="127" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="127" x2="-43.18" y2="127" width="0.1524" layer="91"/>
 <label x="-43.18" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X2" gate="G$1" pin="4"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<junction x="-33.02" y="144.78"/>
+<wire x1="-33.02" y1="144.78" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ECU_PWR" class="0">
@@ -15716,10 +15794,12 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLI/"&gt;htt
 <pinref part="D006" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<wire x1="-27.94" y1="129.54" x2="-27.94" y2="127" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="144.78" x2="-27.94" y2="127" width="0.1524" layer="91"/>
 <pinref part="ECU_PWR3" gate="ECU_PWR" pin="ECU_PWR"/>
 <wire x1="-12.7" y1="127" x2="-27.94" y2="127" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+<junction x="-27.94" y="144.78"/>
+<wire x1="-27.94" y1="144.78" x2="-27.94" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ECU_GND" class="1">
@@ -15746,9 +15826,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLI/"&gt;htt
 <pinref part="C23" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="1"/>
 <pinref part="ECU_GND28" gate="ECU_GND" pin="ECU_GND"/>
-<wire x1="-25.4" y1="129.54" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="144.78" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+<junction x="-25.4" y="144.78"/>
+<wire x1="-25.4" y1="144.78" x2="-25.4" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
