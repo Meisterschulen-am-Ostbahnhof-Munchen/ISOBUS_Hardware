@@ -1,3 +1,7 @@
-## Hutschienenmoped XL
+## Hutschienenmoped
 
-![WhatsApp Image 2023-08-14 at 18 57 22](https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/assets/69573151/baf0eca3-65d9-4757-8b9f-a9a591d207e7)
+![IMG20231021210804-removebg](https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/assets/69573151/4f6c0437-dc0a-457a-baf9-4184267d1fb8)
+
+
+
+![](https://user-images.githubusercontent.com/69573151/130034499-ade4596b-8bae-4b48-abe8-2d4ee707ee7e.jpeg)
