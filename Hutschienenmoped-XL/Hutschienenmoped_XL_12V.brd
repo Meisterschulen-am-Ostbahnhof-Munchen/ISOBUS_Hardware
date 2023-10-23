@@ -232,7 +232,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="42242b72-a9b3-4739-a844-9cee953d63f4" lastsyncedrevisionid="42242b72-a9b3-4739-a844-9cee953d63f4" lastboardhashguid="9c99f7cd-cfef-2415-b362-01d43430a85c" lastpushedtime="2023-10-16T11:14:31Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="2023-10-23T01:33:52Z" lastsyncedchangeguid="" latestrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastsyncedrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastboardhashguid="82ad717c-d072-d87e-5770-55bde4ad53ec" lastpushedtime="2023-10-23T01:33:21Z" linktopcb3d="true"/>
 <plain>
 <wire x1="52.04" y1="41.46" x2="50.54" y2="41.46" width="0.1524" layer="22"/>
 <wire x1="50.54" y1="41.46" x2="50.54" y2="39.86" width="0.1524" layer="22"/>
@@ -240,16 +240,12 @@
 <wire x1="5.34" y1="39.86" x2="5.34" y2="41.46" width="0.1524" layer="22"/>
 <wire x1="5.34" y1="41.46" x2="3.84" y2="41.46" width="0.1524" layer="22"/>
 <wire x1="3.84" y1="39.86" x2="5.34" y2="39.86" width="0.1524" layer="22"/>
-<wire x1="95.65" y1="101.8" x2="95.65" y2="0" width="0.001" layer="20"/>
-<wire x1="-0.65" y1="0" x2="-0.65" y2="101.8" width="0.001" layer="20"/>
 <wire x1="3.84" y1="41.46" x2="4.64" y2="41.46" width="0.1524" layer="21"/>
 <wire x1="4.64" y1="41.46" x2="4.64" y2="39.86" width="0.1524" layer="21"/>
 <wire x1="4.64" y1="39.86" x2="3.84" y2="39.86" width="0.1524" layer="21"/>
 <wire x1="51.24" y1="39.86" x2="51.24" y2="41.46" width="0.1524" layer="21"/>
 <wire x1="51.24" y1="41.46" x2="52.04" y2="41.46" width="0.1524" layer="21"/>
 <wire x1="52.04" y1="39.86" x2="51.24" y2="39.86" width="0.1524" layer="21"/>
-<wire x1="95.65" y1="101.8" x2="-0.65" y2="101.8" width="0.001" layer="20"/>
-<wire x1="95.65" y1="0" x2="-0.65" y2="0" width="0.001" layer="20"/>
 <rectangle x1="51.24" y1="39.86" x2="52.04" y2="41.46" layer="39" rot="R180"/>
 <rectangle x1="3.84" y1="39.86" x2="4.64" y2="41.46" layer="39"/>
 <rectangle x1="3.84" y1="39.86" x2="5.34" y2="41.46" layer="40"/>
@@ -372,6 +368,10 @@
 <text x="90.17" y="35.58" size="1.778" layer="26" rot="MR0">PWR</text>
 <text x="66.04" y="35.58" size="1.778" layer="26" rot="MR0">PWR_GND</text>
 <text x="71.12" y="63.5" size="1.778" layer="25">+5V</text>
+<wire x1="-0.65" y1="101.8" x2="-0.65" y2="0" width="0.001" layer="20"/>
+<wire x1="-0.65" y1="0" x2="95.65" y2="0" width="0.001" layer="20"/>
+<wire x1="95.65" y1="0" x2="95.65" y2="101.8" width="0.001" layer="20"/>
+<wire x1="95.65" y1="101.8" x2="-0.65" y2="101.8" width="0.001" layer="20"/>
 </plain>
 <libraries>
 <library name="TLE9250VSJ">
@@ -3365,21 +3365,21 @@ Your Multi-CB Team
 <attribute name="VALUE" value="22uF" x="89.57" y="70.0888" size="0.4064" layer="27" rot="R180" align="bottom-center"/>
 <attribute name="VR" value="25V(DC)" x="108.5708" y="48.788" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C12" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H1.25_R" package3d_urn="urn:adsk.eagle:package:18489127/2" value="22uF" x="81.108146875" y="72.925271875" smashed="yes" rot="R270">
-<attribute name="CERAMIC-TYPE" value="X5R Class II" x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107011?ae" x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DF" value="10%" x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="81.108146875" y="72.925271875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUNT" value="SMT" x="81.108146875" y="72.925271875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="79.2548625" y="72.92526875" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C" x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012107011 " x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="QMIN" value="-" x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RISO" value="0.005GOhm" x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZE" value="0805" x="81.108146875" y="72.925271875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M010DFCT10000" x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="22uF" x="79.70815" y="72.92526875" size="0.4064" layer="27" rot="R270" align="bottom-center"/>
-<attribute name="VR" value="10V(DC)" x="98.78655" y="114.37806875" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C12" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H1.25_R" package3d_urn="urn:adsk.eagle:package:18489127/2" value="22uF" x="81.1081" y="72.9253" smashed="yes" rot="R270">
+<attribute name="CERAMIC-TYPE" value="X5R Class II" x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107011?ae" x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DF" value="10%" x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="81.1081" y="72.9253" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUNT" value="SMT" x="81.1081" y="72.9253" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="79.254815625" y="72.925296875" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C" x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012107011 " x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="QMIN" value="-" x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RISO" value="0.005GOhm" x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZE" value="0805" x="81.1081" y="72.9253" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M010DFCT10000" x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="22uF" x="79.708103125" y="72.925296875" size="0.4064" layer="27" rot="R270" align="bottom-center"/>
+<attribute name="VR" value="10V(DC)" x="98.786503125" y="114.378096875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D0" library="Wurth_EMC Components_WE-TVSP" library_urn="urn:adsk.eagle:library:14283044" package="WE-TVSP_DO-214AB_BIDIRECTIONAL" package3d_urn="urn:adsk.eagle:package:12146529/2" value="33V" x="7.874" y="18.435" smashed="yes">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824551331.pdf" x="7.874" y="18.435" size="1.778" layer="27" display="off"/>
@@ -4116,16 +4116,16 @@ Your Multi-CB Team
 <attribute name="VALUE" x="41.1" y="60.96" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
 <attribute name="VBR" value="4.5V" x="38.1" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D11" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" package="WE-TVS_SOT23-3L" package3d_urn="urn:adsk.eagle:package:12152380/4" value="24Vdc" x="80.858915625" y="87.675475" smashed="yes">
-<attribute name="C-CH" value="38pF" x="80.858915625" y="87.675475" size="1.778" layer="27" display="off"/>
-<attribute name="CHANNELS" value=" 2 " x="80.858915625" y="87.675475" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824094024.pdf" x="80.858915625" y="87.675475" size="1.778" layer="27" display="off"/>
-<attribute name="IPEAK" value="6A" x="80.858915625" y="87.675475" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="SMT" x="80.858915625" y="87.675475" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="80.858915625" y="89.875475" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 824094024 " x="80.858915625" y="87.675475" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="80.858915625" y="84.675475" size="0.8128" layer="27" align="bottom-center"/>
-<attribute name="VBR" value="26.2V" x="80.858915625" y="87.675475" size="1.778" layer="27" display="off"/>
+<element name="D11" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" package="WE-TVS_SOT23-3L" package3d_urn="urn:adsk.eagle:package:12152380/4" value="24Vdc" x="80.8589" y="87.6755" smashed="yes">
+<attribute name="C-CH" value="38pF" x="80.8589" y="87.6755" size="1.778" layer="27" display="off"/>
+<attribute name="CHANNELS" value=" 2 " x="80.8589" y="87.6755" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/824094024.pdf" x="80.8589" y="87.6755" size="1.778" layer="27" display="off"/>
+<attribute name="IPEAK" value="6A" x="80.8589" y="87.6755" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="80.8589" y="87.6755" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.8589" y="89.8755" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 824094024 " x="80.8589" y="87.6755" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.8589" y="84.6755" size="0.8128" layer="27" align="bottom-center"/>
+<attribute name="VBR" value="26.2V" x="80.8589" y="87.6755" size="1.778" layer="27" display="off"/>
 </element>
 <element name="G1" library="IFX27001TF V50" package="INF-PG-TO252-3-11_N" value="" x="81.28" y="64.77" smashed="yes" rot="R135">
 <attribute name="NAME" x="82.0366" y="58.8798" size="2.032" layer="25" font="vector" ratio="13" rot="SR135"/>
@@ -4310,10 +4310,10 @@ Your Multi-CB Team
 <wire x1="53.592" y1="57.936" x2="53.592" y2="58.42" width="0.254" layer="1"/>
 <wire x1="53.592" y1="58.42" x2="54.862" y2="59.69" width="0.254" layer="1"/>
 <wire x1="54.862" y1="59.69" x2="60.402775" y2="59.69" width="0.254" layer="1"/>
-<wire x1="81.808915625" y1="86.625475" x2="83.82" y2="88.636559375" width="0.254" layer="1"/>
+<wire x1="81.8089" y1="86.6255" x2="83.82" y2="88.636559375" width="0.254" layer="1"/>
 <wire x1="83.82" y1="93.27" x2="83.11" y2="93.98" width="0.254" layer="1"/>
 <wire x1="83.82" y1="88.636559375" x2="83.82" y2="93.27" width="0.254" layer="1"/>
-<wire x1="81.808915625" y1="86.625475" x2="81.808915625" y2="84.450115625" width="0.254" layer="1"/>
+<wire x1="81.8089" y1="86.6255" x2="81.808915625" y2="84.450115625" width="0.254" layer="1"/>
 <wire x1="81.808915625" y1="84.450115625" x2="80.8388" y2="83.48" width="0.254" layer="1"/>
 <wire x1="80.8388" y1="83.48" x2="81.62" y2="83.48" width="0.254" layer="1"/>
 <wire x1="81.62" y1="83.48" x2="82.55" y2="82.55" width="0.254" layer="1"/>
@@ -4344,10 +4344,10 @@ Your Multi-CB Team
 <wire x1="53.088" y1="58.62876875" x2="54.65323125" y2="60.194" width="0.254" layer="1"/>
 <wire x1="53.088" y1="57.936" x2="53.088" y2="58.62876875" width="0.254" layer="1"/>
 <wire x1="54.65323125" y1="60.194" x2="60.194" y2="60.194" width="0.254" layer="1"/>
-<wire x1="79.908915625" y1="86.625475" x2="78.74" y2="87.794390625" width="0.254" layer="1"/>
+<wire x1="79.9089" y1="86.6255" x2="78.74" y2="87.794390625" width="0.254" layer="1"/>
 <wire x1="78.74" y1="93.57" x2="79.15" y2="93.98" width="0.254" layer="1"/>
 <wire x1="78.74" y1="87.794390625" x2="78.74" y2="93.57" width="0.254" layer="1"/>
-<wire x1="79.908915625" y1="86.625475" x2="78.2988" y2="85.015359375" width="0.254" layer="1"/>
+<wire x1="79.9089" y1="86.6255" x2="78.2988" y2="85.015359375" width="0.254" layer="1"/>
 <wire x1="78.2988" y1="85.015359375" x2="78.2988" y2="83.48" width="0.254" layer="1"/>
 <wire x1="78.2988" y1="83.48" x2="77.13" y2="83.48" width="0.254" layer="1"/>
 <wire x1="77.13" y1="83.48" x2="76.2" y2="82.55" width="0.254" layer="1"/>
