@@ -232,7 +232,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="2023-10-23T01:33:52Z" lastsyncedchangeguid="" latestrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastsyncedrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastboardhashguid="82ad717c-d072-d87e-5770-55bde4ad53ec" lastpushedtime="2023-10-23T01:33:21Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="2023-10-23T01:33:52Z" lastsyncedchangeguid="" latestrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastsyncedrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastboardhashguid="82ad717c-d072-d87e-5770-55bde4ad53ec" lastpushedtime="2023-10-23T01:33:21Z" linktopcb3d="false"/>
 <plain>
 <wire x1="52.04" y1="41.46" x2="50.54" y2="41.46" width="0.1524" layer="22"/>
 <wire x1="50.54" y1="41.46" x2="50.54" y2="39.86" width="0.1524" layer="22"/>
@@ -2165,9 +2165,10 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WL-SMTW_3528" urn="urn:adsk.eagle:footprint:19062490/4" library_version="5">
+<package name="WL-SMTW_3528" urn="urn:adsk.eagle:footprint:19062490/5" library_version="8">
 <description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
-&lt;br&gt;&lt;br&gt;Size:3528, 3.5x2.8x1.9mm(LXWXH), SMT, 2pins</description>
+&lt;br&gt;&lt;br&gt;Size:3528, SMT, 2pins
+&lt;br&gt;3.5x2.8x1.9mm(LXWXH)</description>
 <wire x1="-1.75" y1="1.4" x2="-1.15" y2="1.4" width="0.1" layer="51"/>
 <wire x1="-1.15" y1="1.4" x2="1.75" y2="1.4" width="0.1" layer="51"/>
 <wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.1" layer="51"/>
@@ -2185,10 +2186,10 @@ Copyright: Würth Elektronik</description>
 <wire x1="-1.75" y1="0.8" x2="-1.15" y2="1.4" width="0.1" layer="51"/>
 <smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180" thermals="no"/>
 <smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180" thermals="no"/>
-<text x="0.06" y="2.04" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.14" y="-2.51" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="2.8" y="0" size="0.6096" layer="21" align="center">+</text>
-<text x="2.8" y="0" size="0.6096" layer="51" align="center">+</text>
+<text x="0" y="2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="2.8" y="0" size="0.8128" layer="21" align="center">+</text>
+<text x="2.8" y="0" size="0.8128" layer="51" align="center">+</text>
 <polygon width="0.1" layer="39">
 <vertex x="2.4" y="1.7"/>
 <vertex x="2.4" y="-1.7"/>
@@ -2198,18 +2199,19 @@ Copyright: Würth Elektronik</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="WL-SMTW_3528" urn="urn:adsk.eagle:package:19062500/5" type="model" library_version="5">
+<package3d name="WL-SMTW_3528" urn="urn:adsk.eagle:package:19062500/6" type="model" library_version="8">
 <description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
-&lt;br&gt;&lt;br&gt;Size:3528, 3.5x2.8x1.9mm(LXWXH), SMT, 2pins</description>
+&lt;br&gt;&lt;br&gt;Size:3528, SMT, 2pins
+&lt;br&gt;3.5x2.8x1.9mm(LXWXH)</description>
 <packageinstances>
 <packageinstance name="WL-SMTW_3528"/>
 </packageinstances>
 </package3d>
 </packages3d>
 </library>
-<library name="ESP32-S3-DEVKITC-1-N8R2">
+<library name="ESP32-S3-DEVKITC-1-N8R2" urn="urn:adsk.eagle:library:34329045">
 <packages>
-<package name="XCVR_ESP32-S3-DEVKITC-1-N8R2">
+<package name="XCVR_ESP32-S3-DEVKITC-1-N8R2" urn="urn:adsk.eagle:footprint:34329046/1" library_version="3">
 <wire x1="-12.7" y1="-31.37" x2="-12.7" y2="31.37" width="0.127" layer="51"/>
 <wire x1="-12.7" y1="31.37" x2="12.7" y2="31.37" width="0.127" layer="51"/>
 <wire x1="12.7" y1="31.37" x2="12.7" y2="-31.37" width="0.127" layer="51"/>
@@ -2272,6 +2274,13 @@ Copyright: Würth Elektronik</description>
 <pad name="J3_1" x="11.43" y="29.97" drill="1.02"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="XCVR_ESP32-S3-DEVKITC-1-N8R2" urn="urn:adsk.eagle:package:34329048/2" type="model" library_version="3">
+<packageinstances>
+<packageinstance name="XCVR_ESP32-S3-DEVKITC-1-N8R2"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="Wurth_EMC Components_WE-TVS" urn="urn:adsk.eagle:library:14282971">
 <description>&lt;BR&gt;Wurth Elektronik - EMC Components - ESD Protection - WE-TVS&lt;br&gt;&lt;Hr&gt;
@@ -3449,63 +3458,63 @@ Your Multi-CB Team
 <attribute name="TYPE" value="Board Stacker" x="17.526" y="40.66" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.0284" y="39.7158" size="0.8128" layer="27" align="bottom-right"/>
 </element>
-<element name="D2" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="27.305" y="17.8" smashed="yes" rot="R180">
+<element name="D2" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/6" value="150141VS73100" x="27.305" y="17.8" smashed="yes" rot="R180">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141VS73100.pdf" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EMITTING-COLOR" value="Bright Green" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="I-V-TYP" value="90mcd" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="570nm" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="572nm" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="SMT" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.325" y="19.2" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="150141VS73100" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PHI-V-TYP" value="-" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="27.685" y="19.68" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="27.305" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D1" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="18.415" y="17.8" smashed="yes">
+<element name="D1" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/6" value="150141VS73100" x="18.415" y="17.8" smashed="yes">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141VS73100.pdf" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="EMITTING-COLOR" value="Bright Green" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="I-V-TYP" value="90mcd" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="570nm" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="572nm" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.435" y="19.2" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="150141VS73100" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="PHI-V-TYP" value="-" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="18.035" y="15.92" size="0.6096" layer="27" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="18.415" y="17.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D4" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="47.371" y="17.8" smashed="yes" rot="R180">
+<element name="D4" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/6" value="150141VS73100" x="47.371" y="17.8" smashed="yes" rot="R180">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141VS73100.pdf" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EMITTING-COLOR" value="Bright Green" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="I-V-TYP" value="90mcd" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="570nm" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="572nm" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="SMT" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="47.391" y="19.2" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="150141VS73100" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PHI-V-TYP" value="-" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="47.751" y="19.68" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="47.371" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D3" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="38.735" y="17.8" smashed="yes">
+<element name="D3" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/6" value="150141VS73100" x="38.735" y="17.8" smashed="yes">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141VS73100.pdf" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="EMITTING-COLOR" value="Bright Green" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="I-V-TYP" value="90mcd" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="570nm" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="572nm" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.755" y="19.2" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="150141VS73100" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="PHI-V-TYP" value="-" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="38.355" y="15.92" size="0.6096" layer="27" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="ESP32-S3-DEVKITC-1-N8R2" package="XCVR_ESP32-S3-DEVKITC-1-N8R2" value="ESP32-S3-DEVKITC-1-N8R2" x="32.26" y="58.42" smashed="yes" rot="R270">
+<element name="U1" library="ESP32-S3-DEVKITC-1-N8R2" library_urn="urn:adsk.eagle:library:34329045" package="XCVR_ESP32-S3-DEVKITC-1-N8R2" package3d_urn="urn:adsk.eagle:package:34329048/2" value="ESP32-S3-DEVKITC-1-N8R2" x="32.26" y="58.42" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" WiFi Development Tools - 802.11 (Engineering Samples Only) ESP32-S3 General-Purpose Development Board, ESP32-S3-WROOM-1-N8R2, with Pin Header " x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Espressif Systems" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3688,59 +3697,59 @@ Your Multi-CB Team
 <element name="RX8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470Ohm" x="75.438" y="16.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="75.438" y="18.23" size="0.8128" layer="25" align="bottom-center"/>
 </element>
-<element name="D7" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="67.945" y="17.8" smashed="yes" rot="R180">
+<element name="D7" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/6" value="150141VS73100" x="67.945" y="17.8" smashed="yes" rot="R180">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141VS73100.pdf" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EMITTING-COLOR" value="Bright Green" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="I-V-TYP" value="90mcd" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="570nm" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="572nm" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="SMT" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="67.965" y="19.2" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="150141VS73100" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PHI-V-TYP" value="-" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="68.325" y="19.68" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="67.945" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D8" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="59.055" y="17.8" smashed="yes">
+<element name="D8" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/6" value="150141VS73100" x="59.055" y="17.8" smashed="yes">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141VS73100.pdf" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="EMITTING-COLOR" value="Bright Green" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="I-V-TYP" value="90mcd" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="570nm" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="572nm" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.075" y="19.2" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="150141VS73100" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="PHI-V-TYP" value="-" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="58.675" y="15.92" size="0.6096" layer="27" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="59.055" y="17.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D9" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="88.011" y="17.8" smashed="yes" rot="R180">
+<element name="D9" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/6" value="150141VS73100" x="88.011" y="17.8" smashed="yes" rot="R180">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141VS73100.pdf" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EMITTING-COLOR" value="Bright Green" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="I-V-TYP" value="90mcd" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="570nm" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="572nm" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT" value="SMT" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="88.031" y="19.2" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="150141VS73100" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PHI-V-TYP" value="-" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="88.391" y="19.68" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="88.011" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D10" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/5" value="150141VS73100" x="79.375" y="17.8" smashed="yes">
+<element name="D10" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" package="WL-SMTW_3528" package3d_urn="urn:adsk.eagle:package:19062500/6" value="150141VS73100" x="79.375" y="17.8" smashed="yes">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141VS73100.pdf" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="EMITTING-COLOR" value="Bright Green" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="I-V-TYP" value="90mcd" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="570nm" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="572nm" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="79.395" y="19.2" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="150141VS73100" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="PHI-V-TYP" value="-" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="150141VS73100" x="78.995" y="15.92" size="0.6096" layer="27" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="79.375" y="17.8" size="1.778" layer="27" display="off"/>
 </element>
@@ -4395,6 +4404,8 @@ Your Multi-CB Team
 <wire x1="52.39" y1="53.975" x2="52.39" y2="52.39" width="1.016" layer="1"/>
 <wire x1="52.39" y1="52.39" x2="52.07" y2="52.07" width="1.016" layer="1"/>
 <via x="52.07" y="52.07" extent="1-16" drill="0.35"/>
+<wire x1="59.69" y1="69.85" x2="62.23" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="51.435" y1="56.31" x2="59.69" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="C15" pad="1"/>
@@ -4782,8 +4793,6 @@ Your Multi-CB Team
 <contactref element="J7" pad="A3"/>
 <contactref element="J7" pad="3"/>
 <contactref element="J2" pad="3"/>
-<wire x1="85.146" y1="85.745" x2="87.07" y2="93.98" width="0" layer="19" extent="1-1"/>
-<wire x1="86.614" y1="41.93" x2="86.36" y2="79.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="RX4" pad="1"/>
@@ -5815,6 +5824,7 @@ Your Multi-CB Team
 <wire x1="54.61" y1="67.31" x2="71.12" y2="67.31" width="1.016" layer="15"/>
 <wire x1="76.2" y1="69.85" x2="74.93" y2="71.12" width="1.016" layer="15"/>
 <wire x1="74.93" y1="68.58" x2="73.66" y2="69.85" width="1.016" layer="15"/>
+<wire x1="11.43" y1="68.58" x2="11.43" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGNDU4">
 <contactref element="U5" pad="1"/>
