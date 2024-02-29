@@ -3,13 +3,13 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10.62992" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mm"/>
+<grid distance="1.98" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -232,7 +232,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="2023-10-23T01:33:52Z" lastsyncedchangeguid="" latestrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastsyncedrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastboardhashguid="82ad717c-d072-d87e-5770-55bde4ad53ec" lastpushedtime="2023-10-23T01:33:21Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:AZr2ohsdTDeaNf8dmFIMlA" pcbguid="" lastpulledtime="2023-10-23T01:33:52Z" lastsyncedchangeguid="" latestrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastsyncedrevisionid="b4ab290a-28b0-4e91-8173-ceadddb1cde1" lastboardhashguid="82ad717c-d072-d87e-5770-55bde4ad53ec" lastpushedtime="2023-10-23T01:33:21Z" linktopcb3d="true"/>
 <plain>
 <wire x1="52.04" y1="41.46" x2="50.54" y2="41.46" width="0.1524" layer="22"/>
 <wire x1="50.54" y1="41.46" x2="50.54" y2="39.86" width="0.1524" layer="22"/>
@@ -332,9 +332,9 @@
 <text x="20.32" y="1.29" size="1.778" layer="25" align="bottom-center">Q1</text>
 <text x="25.4" y="1.29" size="1.778" layer="25" align="bottom-center">Q2</text>
 <text x="13.09" y="110" size="1.778" layer="21">nutzbare Breite: 99 mm, Länge: 95 mm</text>
-<wire x1="0" y1="100.4" x2="95" y2="100.4" width="0.1524" layer="21"/>
+<wire x1="0" y1="100.4" x2="95" y2="100.4" width="0.1524" layer="248"/>
 <wire x1="95" y1="100.4" x2="95" y2="1.4" width="0.1524" layer="21"/>
-<wire x1="95" y1="1.4" x2="0" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="95" y1="1.4" x2="0" y2="1.4" width="0.1524" layer="248"/>
 <wire x1="0" y1="1.4" x2="0" y2="100.4" width="0.1524" layer="21"/>
 <wire x1="92.68" y1="41.46" x2="91.18" y2="41.46" width="0.1524" layer="22"/>
 <wire x1="91.18" y1="41.46" x2="91.18" y2="39.86" width="0.1524" layer="22"/>
@@ -372,6 +372,44 @@
 <wire x1="-0.65" y1="0" x2="95.65" y2="0" width="0.001" layer="20"/>
 <wire x1="95.65" y1="0" x2="95.65" y2="101.8" width="0.001" layer="20"/>
 <wire x1="95.65" y1="101.8" x2="-0.65" y2="101.8" width="0.001" layer="20"/>
+<wire x1="2.54" y1="127.02" x2="2.54" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="63.5" y1="127.02" x2="63.5" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="58.42" y1="127.02" x2="58.42" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="53.34" y1="127.02" x2="53.34" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="48.26" y1="127.02" x2="48.26" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="43.18" y1="127.02" x2="43.18" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="33.02" y1="127.02" x2="33.02" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="38.1" y1="127.02" x2="38.1" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="127.02" x2="7.62" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="127.02" x2="12.7" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="127.02" x2="17.78" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="127.02" x2="22.86" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="27.94" y1="127.02" x2="27.94" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="85.09" y1="127.02" x2="85.09" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="89.05" y1="127.02" x2="89.05" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="93.01" y1="127.02" x2="93.01" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="81.13" y1="127.02" x2="81.13" y2="85.11" width="0.1524" layer="21"/>
+<wire x1="77.17" y1="127.02" x2="77.17" y2="85.11" width="0.1524" layer="21"/>
+<text x="5.08" y="99.84" size="1.778" layer="25" align="bottom-center">M</text>
+<text x="15.24" y="99.84" size="1.778" layer="25" align="bottom-center">+</text>
+<text x="10.16" y="99.84" size="1.778" layer="25" align="bottom-center">M</text>
+<text x="5.08" y="84.6" size="1.778" layer="25" align="bottom-center">M</text>
+<text x="10.16" y="84.6" size="1.778" layer="25" align="bottom-center">M</text>
+<text x="15.24" y="84.6" size="1.778" layer="25" align="bottom-center">+</text>
+<text x="20.32" y="99.84" size="1.778" layer="25" align="bottom-center">+</text>
+<text x="20.32" y="84.6" size="1.778" layer="25" align="bottom-center">+</text>
+<text x="25.4" y="99.84" size="1.778" layer="25" align="bottom-center">I1</text>
+<text x="30.48" y="99.84" size="1.778" layer="25" align="bottom-center">I2</text>
+<text x="35.56" y="99.84" size="1.778" layer="25" align="bottom-center">I3</text>
+<text x="40.64" y="99.84" size="1.778" layer="25" align="bottom-center">I4</text>
+<text x="45.72" y="99.84" size="1.778" layer="25" align="bottom-center">I5</text>
+<text x="50.8" y="99.84" size="1.778" layer="25" align="bottom-center">I6</text>
+<text x="55.88" y="99.84" size="1.778" layer="25" align="bottom-center">I7</text>
+<text x="60.96" y="99.84" size="1.778" layer="25" align="bottom-center">I8</text>
+<text x="91.03" y="99.84" size="1.778" layer="25" align="bottom-center">M</text>
+<text x="87.07" y="99.84" size="1.778" layer="25" align="bottom-center">+</text>
+<text x="83.11" y="99.84" size="1.778" layer="25" align="bottom-center">H</text>
+<text x="79.15" y="99.84" size="1.778" layer="25" align="bottom-center">L</text>
 </plain>
 <libraries>
 <library name="TLE9250VSJ">
@@ -4207,7 +4245,7 @@ Your Multi-CB Team
 <attribute name="GENDER" value="Male" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="IR" value="16A" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT" value="THT" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="15.24" y="99.83" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="15.24" y="79.51" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value=" 638207222005 " x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="PINS" value=" 5 " x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="PITCH" value="5.08mm" x="15.24" y="93.98" size="1.778" layer="27" display="off"/>
@@ -4221,7 +4259,7 @@ Your Multi-CB Team
 <attribute name="GENDER" value="Male" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="IR" value="16A" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT" value="THT" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45.72" y="99.83" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="20.32" y="79.51" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value=" 638207222007 " x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="PINS" value=" 7 " x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="PITCH" value="5.08mm" x="45.72" y="93.98" size="1.778" layer="27" display="off"/>
@@ -4793,6 +4831,9 @@ Your Multi-CB Team
 <contactref element="J7" pad="A3"/>
 <contactref element="J7" pad="3"/>
 <contactref element="J2" pad="3"/>
+<contactref element="J7" pad="4"/>
+<contactref element="J7" pad="A4"/>
+<wire x1="20.32" y1="91.44" x2="20.32" y2="96.52" width="1.27" layer="1"/>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="RX4" pad="1"/>
@@ -5238,6 +5279,8 @@ Your Multi-CB Team
 <contactref element="J7" pad="1"/>
 <contactref element="J7" pad="A1"/>
 <contactref element="J2" pad="4"/>
+<contactref element="J7" pad="A2"/>
+<contactref element="J7" pad="2"/>
 <wire x1="63.5" y1="43.2" x2="62.23" y2="46.99" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="46.99" x2="5.08" y2="50.82" width="0" layer="19" extent="1-1"/>
 <wire x1="11.43" y1="46.99" x2="8.89" y2="46.99" width="0" layer="19" extent="1-1"/>
@@ -5868,16 +5911,6 @@ Your Multi-CB Team
 <vertex x="83.6812" y="55.7412"/>
 <vertex x="83.6812" y="74.33"/>
 </polygon>
-</signal>
-<signal name="N$7">
-<wire x1="20.32" y1="96.52" x2="20.32" y2="91.44" width="1.27" layer="1"/>
-<contactref element="J7" pad="4"/>
-<contactref element="J7" pad="A4"/>
-</signal>
-<signal name="N$16" class="1">
-<contactref element="J7" pad="A2"/>
-<contactref element="J7" pad="2"/>
-<wire x1="10.16" y1="91.44" x2="10.16" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="J13" pad="A5"/>

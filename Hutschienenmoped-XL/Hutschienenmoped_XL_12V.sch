@@ -15679,6 +15679,11 @@ Updated by Yingchun,Shan 2019-11-05
 <pinref part="J7" gate="G$1" pin="3"/>
 <junction x="91.44" y="132.08"/>
 </segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="4"/>
+<pinref part="ECU_PWR6" gate="ECU_PWR" pin="ECU_PWR"/>
+<wire x1="93.98" y1="132.08" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ECU_GND" class="1">
 <segment>
@@ -15687,21 +15692,10 @@ Updated by Yingchun,Shan 2019-11-05
 <pinref part="J7" gate="G$1" pin="1"/>
 <junction x="86.36" y="132.08"/>
 </segment>
-</net>
-<net name="N$7" class="0">
 <segment>
-<wire x1="93.98" y1="132.08" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="ECU_PWR6" gate="ECU_PWR" pin="ECU_PWR"/>
-<pinref part="J7" gate="G$1" pin="4"/>
-<junction x="93.98" y="132.08"/>
-</segment>
-</net>
-<net name="N$16" class="1">
-<segment>
-<wire x1="88.9" y1="132.08" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="ECU_GND26" gate="ECU_GND" pin="ECU_GND"/>
 <pinref part="J7" gate="G$1" pin="2"/>
-<junction x="88.9" y="132.08"/>
+<wire x1="88.9" y1="88.9" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
