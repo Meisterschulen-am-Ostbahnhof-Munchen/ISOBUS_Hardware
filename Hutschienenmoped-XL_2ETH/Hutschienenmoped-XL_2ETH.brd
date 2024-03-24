@@ -8,8 +8,8 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -4035,11 +4035,11 @@ Your Multi-CB Team
 <param name="rvMicroViaOuter" value="0"/>
 <param name="rvMicroViaInner" value="0"/>
 <param name="rlMinPadTop" value="0.45mm"/>
-<param name="rlMaxPadTop" value="0.5mm"/>
+<param name="rlMaxPadTop" value="1mm"/>
 <param name="rlMinPadInner" value="0.15mm"/>
 <param name="rlMaxPadInner" value="0.3mm"/>
 <param name="rlMinPadBottom" value="0.45mm"/>
-<param name="rlMaxPadBottom" value="0.5mm"/>
+<param name="rlMaxPadBottom" value="1mm"/>
 <param name="rlMinViaOuter" value="0.25mm"/>
 <param name="rlMaxViaOuter" value="0.5mm"/>
 <param name="rlMinViaInner" value="0.15mm"/>
@@ -4063,7 +4063,7 @@ Your Multi-CB Team
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="0.2mm"/>
+<param name="slThermalIsolate" value="0.45mm"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -5543,10 +5543,13 @@ Your Multi-CB Team
 <contactref element="D15" pad="4"/>
 <contactref element="D17" pad="4"/>
 <polygon width="0.2032" layer="15" isolate="0.254" rank="2">
-<vertex x="1.4732" y="40.8632"/>
-<vertex x="1.4732" y="99.1"/>
+<vertex x="-68.5268" y="12"/>
+<vertex x="-68.5268" y="99.1"/>
 <vertex x="93.7768" y="99.1"/>
 <vertex x="93.7768" y="40.8632"/>
+<vertex x="10" y="40.8632"/>
+<vertex x="0" y="40.8632"/>
+<vertex x="0" y="12"/>
 </polygon>
 <wire x1="16.68" y1="60.01" x2="16.68" y2="58.59" width="1.016" layer="1"/>
 <wire x1="16.68" y1="58.59" x2="16.51" y2="58.42" width="1.016" layer="1"/>
@@ -5573,12 +5576,6 @@ Your Multi-CB Team
 <contactref element="W2-J1" pad="7"/>
 <contactref element="W1-J2" pad="1"/>
 <contactref element="W2-J2" pad="1"/>
-<wire x1="-8.11" y1="37.8" x2="-3.03" y2="40.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.89" y1="25.1" x2="-8.11" y2="37.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.03" y1="40.34" x2="-25.89" y2="25.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.11" y1="37.8" x2="-37.03" y2="40.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.89" y1="25.1" x2="-42.11" y2="37.8" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="58.42" x2="-3.03" y2="40.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="C15" pad="1"/>
@@ -5602,7 +5599,7 @@ Your Multi-CB Team
 <vertex x="93.7768" y="40.4568"/>
 <vertex x="93.7768" y="20.34"/>
 </polygon>
-<polygon width="0.2032" layer="1" isolate="0.254" rank="2">
+<polygon width="0.2032" layer="1" isolate="0.254" rank="3">
 <vertex x="7.874" y="2.54"/>
 <vertex x="7.874" y="23.261"/>
 <vertex x="12.4968" y="23.261"/>
@@ -6044,11 +6041,14 @@ Your Multi-CB Team
 <contactref element="RX3" pad="1"/>
 <contactref element="RX1" pad="1"/>
 <contactref element="RX2" pad="2"/>
-<polygon width="0.2032" layer="1" isolate="0.254" rank="2">
-<vertex x="1.4732" y="2.54"/>
-<vertex x="1.4732" y="40.386"/>
-<vertex x="7.4168" y="40.386"/>
+<polygon width="0.45" layer="1" isolate="0.45" rank="2">
 <vertex x="7.4168" y="2.54"/>
+<vertex x="-68.5268" y="2.54"/>
+<vertex x="-68.5268" y="14"/>
+<vertex x="-1" y="14"/>
+<vertex x="1.4732" y="14"/>
+<vertex x="1.4732" y="40.136"/>
+<vertex x="7.4168" y="40.136"/>
 </polygon>
 <polygon width="0.2032" layer="2" isolate="0.254" rank="4">
 <vertex x="2.7432" y="3.83"/>
@@ -6227,10 +6227,6 @@ Your Multi-CB Team
 <contactref element="MP2" pad="1"/>
 <contactref element="MP3" pad="1"/>
 <contactref element="MP4" pad="1"/>
-<wire x1="-38" y1="6" x2="-64" y2="6" width="0" layer="19" extent="1-1"/>
-<wire x1="-30" y1="6" x2="-38" y2="6" width="0" layer="19" extent="1-1"/>
-<wire x1="-4" y1="6" x2="-30" y2="6" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="12.72" x2="-4" y2="6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ECU_GND" class="1">
 <contactref element="C12" pad="1"/>
@@ -6245,11 +6241,13 @@ Your Multi-CB Team
 <contactref element="R7" pad="1"/>
 <contactref element="U4" pad="2"/>
 <contactref element="U4" pad="8"/>
-<polygon width="0.2032" layer="1" isolate="0.254" rank="2">
-<vertex x="1.4732" y="40.8632"/>
-<vertex x="1.4732" y="99.1"/>
+<polygon width="0.45" layer="1" isolate="0.45" rank="2">
+<vertex x="-68.5268" y="15"/>
+<vertex x="-68.5268" y="99.1"/>
 <vertex x="93.7768" y="99.1"/>
 <vertex x="93.7768" y="40.8632"/>
+<vertex x="0" y="40.8632"/>
+<vertex x="0" y="15"/>
 </polygon>
 <polygon width="0.2032" layer="16" isolate="0.254" rank="2">
 <vertex x="1.4732" y="40.8632"/>
@@ -6434,18 +6432,15 @@ Your Multi-CB Team
 <contactref element="W2-J1" pad="2"/>
 <contactref element="W2-J2" pad="6"/>
 <contactref element="W1-J2" pad="6"/>
-<wire x1="5.08" y1="50.82" x2="-7" y2="45.1" width="0" layer="19" extent="1-1"/>
+<wire x1="59.5884" y1="84.175" x2="62.4586" y2="84.303" width="0" layer="19" extent="1-1"/>
+<wire x1="26.7716" y1="84.175" x2="23.9014" y2="84.303" width="0" layer="19" extent="1-1"/>
+<wire x1="31.9786" y1="84.303" x2="29.1084" y2="84.175" width="0" layer="19" extent="1-1"/>
+<wire x1="36.9316" y1="84.175" x2="34.0614" y2="84.303" width="0" layer="19" extent="1-1"/>
+<wire x1="42.1386" y1="84.303" x2="39.2684" y2="84.175" width="0" layer="19" extent="1-1"/>
+<wire x1="54.3814" y1="84.303" x2="57.2516" y2="84.175" width="0" layer="19" extent="1-1"/>
+<wire x1="47.0916" y1="84.175" x2="44.2214" y2="84.303" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="75.717" x2="36.83" y2="75.717" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="75.717" x2="31.75" y2="75.717" width="0" layer="19" extent="1-1"/>
-<wire x1="-27" y1="45.1" x2="-7" y2="45.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.97" y1="37.8" x2="-27" y2="45.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-41" y1="45.1" x2="-30.97" y2="37.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.03" y1="25.1" x2="-30.97" y2="37.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.11" y1="22.56" x2="-37.03" y2="25.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-61" y1="45.1" x2="-41" y2="45.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.97" y1="37.8" x2="-61" y2="45.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.03" y1="25.1" x2="-7" y2="45.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.11" y1="22.56" x2="-3.03" y2="25.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT">
 <contactref element="ESP32-J3" pad="14"/>
@@ -7059,62 +7054,53 @@ Your Multi-CB Team
 <signal name="MOSI">
 <contactref element="W1-J1" pad="3"/>
 <contactref element="W2-J1" pad="3"/>
+<contactref element="ESP32-J1" pad="17"/>
+<wire x1="-8.11" y1="27.64" x2="21.59" y2="69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.11" y1="27.64" x2="-8.11" y2="27.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="W2-J1" pad="4"/>
 <contactref element="W1-J1" pad="4"/>
+<contactref element="ESP32-J1" pad="20"/>
+<wire x1="-3.03" y1="30.18" x2="13.97" y2="69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.03" y1="30.18" x2="-3.03" y2="30.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCLK">
 <contactref element="W1-J1" pad="5"/>
 <contactref element="W2-J1" pad="5"/>
+<contactref element="ESP32-J1" pad="16"/>
+<wire x1="-8.11" y1="32.72" x2="24.13" y2="69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.11" y1="32.72" x2="-8.11" y2="32.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CS0">
 <contactref element="W1-J1" pad="6"/>
+<contactref element="ESP32-J1" pad="14"/>
+<wire x1="-37.03" y1="35.26" x2="29.21" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CS1">
 <contactref element="W2-J1" pad="6"/>
+<contactref element="ESP32-J1" pad="12"/>
+<wire x1="-3.03" y1="35.26" x2="34.29" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INT0">
 <contactref element="W1-J2" pad="5"/>
+<contactref element="ESP32-J3" pad="16"/>
+<wire x1="-59.89" y1="35.26" x2="24.13" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INT1">
 <contactref element="W2-J2" pad="5"/>
+<contactref element="ESP32-J3" pad="15"/>
+<wire x1="-25.89" y1="35.26" x2="26.67" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RST1">
 <contactref element="W2-J2" pad="3"/>
+<contactref element="ESP32-J3" pad="10"/>
+<wire x1="-25.89" y1="30.18" x2="39.37" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RST0">
 <contactref element="W1-J2" pad="3"/>
-</signal>
-<signal name="N$7">
-<contactref element="ESP32-J3" pad="10"/>
-</signal>
-<signal name="N$16">
-<contactref element="ESP32-J3" pad="15"/>
-</signal>
-<signal name="N$21">
-<contactref element="ESP32-J3" pad="16"/>
-</signal>
-<signal name="N$22">
-<contactref element="ESP32-J1" pad="20"/>
-</signal>
-<signal name="N$23">
-<contactref element="ESP32-J1" pad="17"/>
-</signal>
-<signal name="N$24">
-<contactref element="ESP32-J1" pad="16"/>
-</signal>
-<signal name="N$25">
-<contactref element="ESP32-J1" pad="14"/>
-</signal>
-<signal name="N$26">
-<contactref element="ESP32-J1" pad="12"/>
-</signal>
-<signal name="N$27">
 <contactref element="ESP32-J1" pad="9"/>
+<wire x1="-59.89" y1="30.18" x2="41.91" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
