@@ -23302,6 +23302,13 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 </sheet>
 <sheet>
 <plain>
+<text x="147.32" y="83.82" size="1.27" layer="97">usb</text>
+<text x="147.32" y="81.28" size="1.27" layer="97">usb</text>
+<text x="147.32" y="127" size="1.27" layer="97">prg</text>
+<text x="147.32" y="124.46" size="1.27" layer="97">prg</text>
+<text x="147.32" y="104.14" size="1.27" layer="97">psram</text>
+<text x="147.32" y="101.6" size="1.27" layer="97">psram</text>
+<text x="147.32" y="99.06" size="1.27" layer="97">psram</text>
 </plain>
 <instances>
 <instance part="ESP32-J3" gate="G$1" x="139.7" y="101.6" smashed="yes" rot="MR270">
@@ -23513,6 +23520,69 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="ESP32-J3" gate="G$1" pin="9"/>
 <wire x1="144.78" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
 <label x="149.86" y="109.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="ESP32-J3" gate="G$1" pin="10"/>
+<wire x1="144.78" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
+<label x="149.86" y="106.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="ESP32-J3" gate="G$1" pin="15"/>
+<wire x1="144.78" y1="93.98" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
+<label x="149.86" y="93.98" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="ESP32-J3" gate="G$1" pin="16"/>
+<wire x1="144.78" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
+<label x="149.86" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="20"/>
+<wire x1="104.14" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
+<label x="109.22" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="17"/>
+<wire x1="104.14" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
+<label x="109.22" y="88.9" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="16"/>
+<wire x1="104.14" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
+<label x="109.22" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="14"/>
+<wire x1="104.14" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
+<label x="109.22" y="96.52" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="12"/>
+<wire x1="104.14" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<label x="109.22" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="9"/>
+<wire x1="104.14" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<label x="109.22" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
