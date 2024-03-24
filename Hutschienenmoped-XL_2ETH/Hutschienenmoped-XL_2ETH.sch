@@ -14089,6 +14089,46 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <circle x="-10.16" y="1.8" radius="0.1" width="0.2" layer="21"/>
 </package>
+<package name="61301015721" urn="urn:adsk.eagle:footprint:14805116/1" library_version="8">
+<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header Bottom Entry, 10 Pins</description>
+<pad name="1" x="-11.43" y="2.54" drill="1"/>
+<pad name="2" x="-8.89" y="-2.54" drill="1"/>
+<pad name="3" x="-6.35" y="2.54" drill="1"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1"/>
+<pad name="5" x="-1.27" y="2.54" drill="1"/>
+<pad name="6" x="1.27" y="-2.54" drill="1"/>
+<pad name="7" x="3.81" y="2.54" drill="1"/>
+<pad name="8" x="6.35" y="-2.54" drill="1"/>
+<pad name="9" x="8.89" y="2.54" drill="1"/>
+<pad name="10" x="11.43" y="-2.54" drill="1"/>
+<hole x="-11.43" y="0" drill="1.1"/>
+<hole x="-8.89" y="0" drill="1.1"/>
+<hole x="-6.35" y="0" drill="1.1"/>
+<hole x="-3.81" y="0" drill="1.1"/>
+<hole x="-1.27" y="0" drill="1.1"/>
+<hole x="1.27" y="0" drill="1.1"/>
+<hole x="3.81" y="0" drill="1.1"/>
+<hole x="6.35" y="0" drill="1.1"/>
+<hole x="8.89" y="0" drill="1.1"/>
+<hole x="11.43" y="0" drill="1.1"/>
+<wire x1="12.95" y1="-1.27" x2="-12.95" y2="-1.27" width="0.1" layer="51"/>
+<wire x1="-12.95" y1="-1.27" x2="-12.95" y2="1.27" width="0.1" layer="51"/>
+<wire x1="-12.95" y1="1.27" x2="12.95" y2="1.27" width="0.1" layer="51"/>
+<wire x1="12.95" y1="1.27" x2="12.95" y2="-1.27" width="0.1" layer="51"/>
+<wire x1="-13.05" y1="1.37" x2="13.05" y2="1.37" width="0.2" layer="21"/>
+<wire x1="13.05" y1="1.37" x2="13.05" y2="-1.37" width="0.2" layer="21"/>
+<wire x1="13.05" y1="-1.37" x2="-13.05" y2="-1.37" width="0.2" layer="21"/>
+<wire x1="-13.05" y1="-1.37" x2="-13.05" y2="1.37" width="0.2" layer="21"/>
+<text x="-13.9272" y="0.7541" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-13.8672" y="-1.8922" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="13.25" y="-3.54"/>
+<vertex x="-13.25" y="-3.54"/>
+<vertex x="-13.25" y="3.54"/>
+<vertex x="13.25" y="3.54"/>
+</polygon>
+<circle x="-12.7" y="1.8" radius="0.1" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="61300421121" urn="urn:adsk.eagle:package:14805408/2" type="model" library_version="5">
@@ -14113,6 +14153,12 @@ Copyright: Würth Elektronik</description>
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header Bottom Entry,  8 Pins</description>
 <packageinstances>
 <packageinstance name="61300815721"/>
+</packageinstances>
+</package3d>
+<package3d name="61301015721" urn="urn:adsk.eagle:package:14805620/2" type="model" library_version="8">
+<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header Bottom Entry, 10 Pins</description>
+<packageinstances>
+<packageinstance name="61301015721"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -14304,6 +14350,53 @@ Copyright: Würth Elektronik</description>
 <circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
 <text x="-10.16" y="0.762" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
 <text x="-10.16" y="-2.54" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
+</symbol>
+<symbol name="10ST_1" urn="urn:adsk.eagle:symbol:38495094/2" library_version="8">
+<description>Socket Header THT,10Pins</description>
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="10" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-11.43" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="13.97" y2="2.54" width="0.254" layer="94"/>
+<wire x1="13.97" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="-2.54" x2="-11.43" y2="2.54" width="0.254" layer="94"/>
+<wire x1="13.97" y1="2.54" x2="13.97" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.705" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="1.705" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.705" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="1.705" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.705" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.705" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="0" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<text x="-12.7" y="0.762" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-12.7" y="-2.54" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -14656,6 +14749,96 @@ Updated by Ella Wu 2021-12-08
 <attribute name="ROWS" value="Single"/>
 <attribute name="TYPE" value="Bottom Entry"/>
 <attribute name="VALUE" value=" 61300815721 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="6130XX15721_61301015721" urn="urn:adsk.eagle:component:38495384/2" prefix="J" library_version="8">
+<description>&lt;b&gt;WR-PHD 2.54 mm Socket Header Bottom Entry&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
+&lt;BR&gt;
+&lt;BR&gt;Pins:4;​ 5;​ 6;​ 8;​ 10;​ 20
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
+&lt;BR&gt;
+&lt;BR&gt;Pitch：2.54 mm
+&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
+&lt;BR&gt;Rows：Single
+&lt;BR&gt;Gender：Socket Header
+&lt;BR&gt;Type：Bottom Entry
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Insulator Material PA9T 
+&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
+&lt;BR&gt;Contact Material:Copper Alloy
+&lt;BR&gt;Contact Plating:Gold
+&lt;BR&gt;Contact Type:Stamped
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
+&lt;BR&gt;Operating Temperature:-40 up to +125 °C
+&lt;BR&gt;Compliance:Lead free / RoHS
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Rated Current:3 A
+&lt;BR&gt;IR1:3A
+&lt;BR&gt;Withstanding Voltage:500 V (AC)
+&lt;BR&gt;Contact Resistance:20 mΩ
+&lt;BR&gt;RISO:1000 MΩ
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;UL Approval:E323964
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Packaging:Tube
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o33213v209%20Family_WR-PHD_6130xx15721.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o33213v209%20Family_WR-PHD_6130xx15721.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+Details see: &lt;a href="https://www.we-online.com/catalog/en/PHD_2_54_SOCKET_HEADER_BOTTOM_ENTRY_6130XX15721"&gt;https://www.we-online.com/catalog/en/PHD_2_54_SOCKET_HEADER_BOTTOM_ENTRY_6130XX15721&lt;/a&gt;&lt;p&gt;
+&lt;BR&gt;
+Updated by Ella Wu 2021-12-08
+&lt;BR&gt;
+2021 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="10ST_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61301015721">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14805620/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61301015721?ae"/>
+<attribute name="GENDER" value="Socket Header"/>
+<attribute name="IR" value="3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tube"/>
+<attribute name="PART-NUMBER" value=" 61301015721 "/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="ROWS" value="Single"/>
+<attribute name="TYPE" value="Bottom Entry"/>
+<attribute name="VALUE" value=" 61301015721 "/>
 </technology>
 </technologies>
 </device>
@@ -22410,6 +22593,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/SMSI_SMT_STEEL_SPA
 <part name="MP8" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
 <part name="W2-J2" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61300615721" device="" package3d_urn="urn:adsk.eagle:package:14805618/2" value=" 61300615721 "/>
 <part name="W2-J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61300815721" device="" package3d_urn="urn:adsk.eagle:package:14805619/2" value=" 61300815721 "/>
+<part name="J3" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61301015721" device="" package3d_urn="urn:adsk.eagle:package:14805620/2" value=" 61301015721 "/>
 </parts>
 <sheets>
 <sheet>
@@ -25213,6 +25397,10 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 <instance part="W2-J1" gate="G$1" x="177.8" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.038" y="93.98" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 <attribute name="VALUE" x="180.34" y="93.98" size="1.778" layer="96" rot="R90" align="bottom-right"/>
+</instance>
+<instance part="J3" gate="G$1" x="152.4" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="151.638" y="139.7" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="154.94" y="139.7" size="1.778" layer="96" rot="R90" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
