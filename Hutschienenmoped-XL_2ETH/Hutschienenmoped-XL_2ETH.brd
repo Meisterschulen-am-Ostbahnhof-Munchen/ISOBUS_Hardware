@@ -4094,16 +4094,16 @@ Your Multi-CB Team
 <attribute name="VALUE" value="150141VS73100" x="38.355" y="15.92" size="0.6096" layer="27" align="bottom-center"/>
 <attribute name="VIEWING-ANGLE" value="120°" x="38.735" y="17.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="ESP32-S3-DEVKITC-1-N8R2" library_urn="urn:adsk.eagle:library:34329045" package="XCVR_ESP32-S3-DEVKITC-1-N8R2" package3d_urn="urn:adsk.eagle:package:34329048/2" value="ESP32-S3-DEVKITC-1-N8R2" x="32.26" y="58.42" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" WiFi Development Tools - 802.11 (Engineering Samples Only) ESP32-S3 General-Purpose Development Board, ESP32-S3-WROOM-1-N8R2, with Pin Header " x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Espressif Systems" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="ESP32-S3-DEVKITC-1-N8R2" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="58.53" y="73.91" size="1.27" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-S3-DEVKITC-1-N8R2/?ref=eda" x="102.11" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-0.36" y="71.37" size="1.27" layer="27" rot="R270" align="top-left"/>
+<element name="U1" library="ESP32-S3-DEVKITC-1-N8R2" library_urn="urn:adsk.eagle:library:34329045" package="XCVR_ESP32-S3-DEVKITC-1-N8R2" package3d_urn="urn:adsk.eagle:package:34329048/2" value="ESP32-S3-DEVKITC-1-N8R2" x="146.4" y="54.45" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="206.25" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" WiFi Development Tools - 802.11 (Engineering Samples Only) ESP32-S3 General-Purpose Development Board, ESP32-S3-WROOM-1-N8R2, with Pin Header " x="206.25" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Espressif Systems" x="206.25" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="ESP32-S3-DEVKITC-1-N8R2" x="206.25" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="162.67" y="59.94" size="1.27" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="206.25" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="206.25" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-S3-DEVKITC-1-N8R2/?ref=eda" x="206.25" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="103.78" y="57.4" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="U5" library="BTS7030-2EPA" package="SOP65P600X115-15N-V" value="" x="63.5" y="29.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.77" y="28.474" size="0.8128" layer="25" font="vector" ratio="13" rot="SR0"/>
