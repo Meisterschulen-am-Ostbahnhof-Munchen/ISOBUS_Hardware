@@ -22436,6 +22436,10 @@ Updated by Ella Wu 2021-12-08
 <part name="ECU_GND37" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="ECU_GND38" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="ECU_GND39" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND40" library="supply_isobus" deviceset="ECU_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23336,6 +23340,20 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <instance part="P+1" gate="1" x="134.62" y="88.9" smashed="yes">
 <attribute name="VALUE" x="132.08" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="R14" gate="G$1" x="198.12" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.6214" y="102.87" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="201.422" y="102.87" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R15" gate="G$1" x="223.52" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="222.0214" y="102.87" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="226.822" y="102.87" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="ECU_GND39" gate="ECU_GND" x="198.12" y="99.06" smashed="yes">
+<attribute name="VALUE" x="195.58" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="ECU_GND40" gate="ECU_GND" x="223.52" y="99.06" smashed="yes">
+<attribute name="VALUE" x="220.98" y="96.52" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23440,6 +23458,12 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="ESP32-J3" gate="G$1" pin="17"/>
 <label x="149.86" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="111.76" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
+<label x="226.06" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CI3" class="0">
 <segment>
@@ -23474,6 +23498,14 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="144.78" y1="76.2" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
 <junction x="144.78" y="76.2"/>
 <pinref part="ECU_GND32" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="ECU_GND39" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="ECU_GND40" gate="ECU_GND" pin="ECU_GND"/>
 </segment>
 </net>
 <net name="CI4" class="0">
@@ -23517,6 +23549,12 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="ESP32-J3" gate="G$1" pin="9"/>
 <wire x1="144.78" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
 <label x="149.86" y="109.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="111.76" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
+<label x="226.06" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RST1" class="0">
