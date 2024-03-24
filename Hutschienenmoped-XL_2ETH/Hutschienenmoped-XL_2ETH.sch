@@ -22629,6 +22629,12 @@ Updated by Ella Wu 2021-12-08
 <pinref part="PWR_GND5" gate="PWR_GND" pin="PWR_GND"/>
 <pinref part="J15" gate="G$1" pin="7"/>
 </segment>
+<segment>
+<pinref part="J13" gate="G$1" pin="5"/>
+<pinref part="PWR_GND2" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="-30.48" y1="96.52" x2="-30.48" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-30.48" y="96.52"/>
+</segment>
 </net>
 <net name="Q5" class="0">
 <segment>
@@ -22762,15 +22768,6 @@ Updated by Ella Wu 2021-12-08
 <pinref part="ECU_GND26" gate="ECU_GND" pin="ECU_GND"/>
 <pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<wire x1="-30.48" y1="96.52" x2="-30.48" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="PWR_GND2" gate="PWR_GND" pin="PWR_GND"/>
-<pinref part="J13" gate="G$1" pin="5"/>
-<junction x="-30.48" y="96.52"/>
-<wire x1="-30.48" y1="96.52" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
