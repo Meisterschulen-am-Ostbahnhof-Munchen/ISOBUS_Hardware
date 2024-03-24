@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -22,10 +22,10 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -5542,14 +5542,13 @@ Your Multi-CB Team
 <contactref element="D13" pad="4"/>
 <contactref element="D15" pad="4"/>
 <contactref element="D17" pad="4"/>
-<polygon width="0.2032" layer="15" isolate="0.254" rank="2">
+<polygon width="0.2032" layer="15" isolate="0.35" rank="2">
 <vertex x="-68.5268" y="12"/>
 <vertex x="-68.5268" y="99.1"/>
 <vertex x="93.7768" y="99.1"/>
 <vertex x="93.7768" y="40.8632"/>
-<vertex x="10" y="40.8632"/>
-<vertex x="0" y="40.8632"/>
-<vertex x="0" y="12"/>
+<vertex x="2" y="40.8632"/>
+<vertex x="2" y="12"/>
 </polygon>
 <wire x1="16.68" y1="60.01" x2="16.68" y2="58.59" width="1.016" layer="1"/>
 <wire x1="16.68" y1="58.59" x2="16.51" y2="58.42" width="1.016" layer="1"/>
@@ -5595,8 +5594,8 @@ Your Multi-CB Team
 <contactref element="C2" pad="1"/>
 <polygon width="0.2032" layer="1" isolate="0.254" rank="3">
 <vertex x="7.8232" y="20.34"/>
-<vertex x="7.8232" y="40.4568"/>
-<vertex x="93.7768" y="40.4568"/>
+<vertex x="7.8232" y="40.136"/>
+<vertex x="93.7768" y="40.136"/>
 <vertex x="93.7768" y="20.34"/>
 </polygon>
 <polygon width="0.2032" layer="1" isolate="0.254" rank="3">
@@ -5608,8 +5607,8 @@ Your Multi-CB Team
 <contactref element="D0" pad="2"/>
 <polygon width="0.2032" layer="16" isolate="0.254" rank="3">
 <vertex x="7.8232" y="20.34"/>
-<vertex x="7.8232" y="40.4568"/>
-<vertex x="93.7768" y="40.4568"/>
+<vertex x="7.8232" y="40.136"/>
+<vertex x="93.7768" y="40.136"/>
 <vertex x="93.7768" y="20.34"/>
 </polygon>
 <polygon width="0.2032" layer="16" isolate="0.254" rank="2">
@@ -6045,9 +6044,8 @@ Your Multi-CB Team
 <vertex x="7.4168" y="2.54"/>
 <vertex x="-68.5268" y="2.54"/>
 <vertex x="-68.5268" y="14"/>
-<vertex x="-1" y="14"/>
-<vertex x="1.4732" y="14"/>
-<vertex x="1.4732" y="40.136"/>
+<vertex x="1" y="14"/>
+<vertex x="1" y="40.136"/>
 <vertex x="7.4168" y="40.136"/>
 </polygon>
 <polygon width="0.2032" layer="2" isolate="0.254" rank="4">
@@ -6062,11 +6060,13 @@ Your Multi-CB Team
 <vertex x="93.7768" y="40.4568"/>
 <vertex x="93.7768" y="3.83"/>
 </polygon>
-<polygon width="0.2032" layer="16" isolate="0.254" rank="4">
-<vertex x="1.4732" y="2.54"/>
-<vertex x="1.4732" y="40.4568"/>
-<vertex x="93.7768" y="40.4568"/>
+<polygon width="0.45" layer="16" isolate="0.254" rank="4">
 <vertex x="93.7768" y="2.54"/>
+<vertex x="-68.5268" y="2.54"/>
+<vertex x="-68.5268" y="14"/>
+<vertex x="1" y="14"/>
+<vertex x="1" y="40.136"/>
+<vertex x="93.7768" y="40.136"/>
 </polygon>
 <contactref element="J9" pad="1"/>
 <contactref element="J9" pad="3"/>
@@ -6249,17 +6249,21 @@ Your Multi-CB Team
 <vertex x="0" y="40.8632"/>
 <vertex x="0" y="15"/>
 </polygon>
-<polygon width="0.2032" layer="16" isolate="0.254" rank="2">
-<vertex x="1.4732" y="40.8632"/>
-<vertex x="1.4732" y="99.1"/>
+<polygon width="0.45" layer="16" isolate="0.254" rank="2">
+<vertex x="-68.5268" y="15"/>
+<vertex x="-68.5268" y="99.1"/>
 <vertex x="93.7768" y="99.1"/>
 <vertex x="93.7768" y="40.8632"/>
+<vertex x="0" y="40.8632"/>
+<vertex x="0" y="15"/>
 </polygon>
 <polygon width="0.2032" layer="2" isolate="0.254" rank="2">
-<vertex x="1.4732" y="40.8632"/>
-<vertex x="1.4732" y="99.1"/>
+<vertex x="-68.5268" y="12"/>
+<vertex x="-68.5268" y="99.1"/>
 <vertex x="93.7768" y="99.1"/>
 <vertex x="93.7768" y="40.8632"/>
+<vertex x="2" y="40.8632"/>
+<vertex x="2" y="12"/>
 </polygon>
 <via x="72.39" y="73.64" extent="1-16" drill="0.35"/>
 <via x="71.12" y="73.64" extent="1-16" drill="0.35"/>
