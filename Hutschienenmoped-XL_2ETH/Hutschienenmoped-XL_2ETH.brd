@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="6" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -987,6 +987,16 @@
 <wire x1="0.66633125" y1="55.3946" x2="0.66633125" y2="55.4454" width="0.1" layer="21" curve="180"/>
 <wire x1="0.51633125" y1="55.2454" x2="0.51633125" y2="55.1946" width="0.1" layer="21" curve="180"/>
 <wire x1="0.51633125" y1="55.1946" x2="0.51633125" y2="55.2454" width="0.1" layer="21" curve="180"/>
+<wire x1="-4" y1="2.5" x2="-4" y2="57.5" width="0.1524" layer="21"/>
+<wire x1="-30" y1="2.5" x2="-30" y2="57.5" width="0.1524" layer="21"/>
+<wire x1="-38" y1="2.5" x2="-38" y2="57.5" width="0.1524" layer="21"/>
+<wire x1="-64" y1="2.5" x2="-64" y2="57.5" width="0.1524" layer="21"/>
+<wire x1="-64" y1="57.5" x2="-38" y2="57.5" width="0.1524" layer="21"/>
+<wire x1="-30" y1="57.5" x2="-4" y2="57.5" width="0.1524" layer="21"/>
+<wire x1="-64" y1="2.5" x2="-38" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-30" y1="2.5" x2="-4" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-30" y1="-0.45" x2="-4" y2="-0.45" width="0.1524" layer="21"/>
+<wire x1="-64" y1="-0.45" x2="-38" y2="-0.45" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="TLE9250VSJ">
@@ -3162,64 +3172,6 @@ Copyright: Würth Elektronik</description>
 <text x="-29.0776" y="0.5061" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-28.9976" y="-1.1942" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
-<package name="61300811821" urn="urn:adsk.eagle:footprint:14805041/2" library_version="8">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header,  8 Pins</description>
-<pad name="1" x="-8.89" y="0" drill="1.02"/>
-<pad name="2" x="-6.35" y="0" drill="1.02"/>
-<pad name="3" x="-3.81" y="0" drill="1.02"/>
-<pad name="4" x="-1.27" y="0" drill="1.02"/>
-<pad name="5" x="1.27" y="0" drill="1.02"/>
-<pad name="6" x="3.81" y="0" drill="1.02"/>
-<pad name="7" x="6.35" y="0" drill="1.02"/>
-<pad name="8" x="8.89" y="0" drill="1.02"/>
-<wire x1="-10.41" y1="-1.25" x2="10.41" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="10.41" y1="-1.25" x2="10.41" y2="1.25" width="0.1" layer="51"/>
-<wire x1="10.41" y1="1.25" x2="-10.41" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-10.41" y1="1.25" x2="-10.41" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-10.51" y1="1.35" x2="10.51" y2="1.35" width="0.2" layer="21"/>
-<wire x1="10.51" y1="1.35" x2="10.51" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="10.51" y1="-1.35" x2="-10.51" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="-10.51" y1="-1.35" x2="-10.51" y2="1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-10.71" y="1.55"/>
-<vertex x="10.71" y="1.55"/>
-<vertex x="10.71" y="-1.55"/>
-<vertex x="-10.71" y="-1.55"/>
-</polygon>
-<circle x="-10.92" y="-1.5" radius="0.1" width="0.2" layer="21"/>
-<text x="-11.12" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-11.12" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
-<text x="-11.12" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-11.12" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
-</package>
-<package name="61300611821" urn="urn:adsk.eagle:footprint:14805039/2" library_version="8">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header,  6 Pins</description>
-<pad name="1" x="-6.35" y="0" drill="1.02"/>
-<pad name="2" x="-3.81" y="0" drill="1.02"/>
-<pad name="3" x="-1.27" y="0" drill="1.02"/>
-<pad name="4" x="1.27" y="0" drill="1.02"/>
-<pad name="5" x="3.81" y="0" drill="1.02"/>
-<pad name="6" x="6.35" y="0" drill="1.02"/>
-<wire x1="-7.87" y1="-1.25" x2="7.87" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="7.87" y1="-1.25" x2="7.87" y2="1.25" width="0.1" layer="51"/>
-<wire x1="7.87" y1="1.25" x2="-7.87" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-7.87" y1="1.25" x2="-7.87" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-7.97" y1="1.35" x2="7.97" y2="1.35" width="0.2" layer="21"/>
-<wire x1="7.97" y1="1.35" x2="7.97" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="7.97" y1="-1.35" x2="-7.97" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="-7.97" y1="-1.35" x2="-7.97" y2="1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-8.17" y="1.55"/>
-<vertex x="8.17" y="1.55"/>
-<vertex x="8.17" y="-1.55"/>
-<vertex x="-8.17" y="-1.55"/>
-</polygon>
-<circle x="-8.38" y="-1.5" radius="0.1" width="0.2" layer="21"/>
-<text x="-8.58" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-8.58" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
-<text x="-8.58" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-8.58" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
-</package>
 <package name="61300615721" urn="urn:adsk.eagle:footprint:14805114/1" library_version="8">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header Bottom Entry,  6 Pins</description>
 <pad name="1" x="-6.35" y="2.54" drill="1"/>
@@ -3300,18 +3252,6 @@ Copyright: Würth Elektronik</description>
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
 <packageinstances>
 <packageinstance name="61302211821"/>
-</packageinstances>
-</package3d>
-<package3d name="61300811821" urn="urn:adsk.eagle:package:14805545/3" type="model" library_version="8">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header,  8 Pins</description>
-<packageinstances>
-<packageinstance name="61300811821"/>
-</packageinstances>
-</package3d>
-<package3d name="61300611821" urn="urn:adsk.eagle:package:14805543/3" type="model" library_version="8">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header,  6 Pins</description>
-<packageinstances>
-<packageinstance name="61300611821"/>
 </packageinstances>
 </package3d>
 <package3d name="61300615721" urn="urn:adsk.eagle:package:14805618/2" type="model" library_version="8">
@@ -5361,81 +5301,49 @@ Your Multi-CB Team
 <attribute name="VALUE" x="76.09" y="93.58" size="1.016" layer="27" rot="R180"/>
 <attribute name="WORKING-VOLTAGE" value="250V(AC)" x="85.09" y="94.48" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J10" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300811821" package3d_urn="urn:adsk.eagle:package:14805545/3" value=" 61300811821 " x="0" y="-70" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61300811821?ae" x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Socket Header" x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="3A" x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="THT" x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-11.12" y="-69.7" size="1.27" layer="25" align="bottom-right"/>
-<attribute name="NAME" x="-11.12" y="-69.7" size="1.27" layer="25" align="bottom-right"/>
-<attribute name="PACKAGING" value="Tray" x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 61300811821 " x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 8 " x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="ROWS" value="Single" x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Straight" x="0" y="-70" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-11.12" y="-71.3" size="1.27" layer="27" align="bottom-right"/>
-<attribute name="VALUE" x="-11.12" y="-71.3" size="1.27" layer="27" align="bottom-right"/>
+<element name="MP1" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-64" y="6" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-64" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="4.2mm" x="-64" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-64" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63.9467" y="10.4327" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="6mm" x="-64" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value="9774025360R" x="-64" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="2.5mm" x="-64" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M3" x="-64" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="M3 x 2.5mm" x="-67.6226" y="0.6359" size="1.27" layer="27"/>
 </element>
-<element name="J11" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300611821" package3d_urn="urn:adsk.eagle:package:14805543/3" value=" 61300611821 " x="0" y="-140" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61300611821?ae" x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Socket Header" x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="3A" x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="THT" x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-8.58" y="-139.7" size="1.27" layer="25" align="bottom-right"/>
-<attribute name="NAME" x="-8.58" y="-139.7" size="1.27" layer="25" align="bottom-right"/>
-<attribute name="PACKAGING" value="Tray" x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 61300611821 " x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 6 " x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="ROWS" value="Single" x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Straight" x="0" y="-140" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-8.58" y="-141.3" size="1.27" layer="27" align="bottom-right"/>
-<attribute name="VALUE" x="-8.58" y="-141.3" size="1.27" layer="27" align="bottom-right"/>
+<element name="MP2" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-38" y="6" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-38" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="4.2mm" x="-38" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-38" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.9467" y="10.4327" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="6mm" x="-38" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value="9774025360R" x="-38" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="2.5mm" x="-38" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M3" x="-38" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="M3 x 2.5mm" x="-41.6226" y="0.6359" size="1.27" layer="27"/>
 </element>
-<element name="MP1" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-64" y="12" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-64" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="4.2mm" x="-64" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="-64" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-63.9467" y="16.4327" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="6mm" x="-64" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value="9774025360R" x="-64" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="2.5mm" x="-64" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M3" x="-64" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="M3 x 2.5mm" x="-67.6226" y="6.6359" size="1.27" layer="27"/>
+<element name="MP3" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-30" y="6" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-30" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="4.2mm" x="-30" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-30" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-29.9467" y="10.4327" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="6mm" x="-30" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value="9774025360R" x="-30" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="2.5mm" x="-30" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M3" x="-30" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="M3 x 2.5mm" x="-33.6226" y="0.6359" size="1.27" layer="27"/>
 </element>
-<element name="MP2" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-38" y="12" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-38" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="4.2mm" x="-38" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="-38" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-37.9467" y="16.4327" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="6mm" x="-38" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value="9774025360R" x="-38" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="2.5mm" x="-38" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M3" x="-38" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="M3 x 2.5mm" x="-41.6226" y="6.6359" size="1.27" layer="27"/>
-</element>
-<element name="MP3" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-30" y="12" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-30" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="4.2mm" x="-30" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="-30" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-29.9467" y="16.4327" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="6mm" x="-30" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value="9774025360R" x="-30" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="2.5mm" x="-30" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M3" x="-30" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="M3 x 2.5mm" x="-33.6226" y="6.6359" size="1.27" layer="27"/>
-</element>
-<element name="MP4" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-4" y="12" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-4" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="4.2mm" x="-4" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="-4" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.9467" y="16.4327" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="6mm" x="-4" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value="9774025360R" x="-4" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="2.5mm" x="-4" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M3" x="-4" y="12" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="M3 x 2.5mm" x="-7.6226" y="6.6359" size="1.27" layer="27"/>
+<element name="MP4" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-4" y="6" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-4" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="4.2mm" x="-4" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-4" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.9467" y="10.4327" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="6mm" x="-4" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value="9774025360R" x="-4" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="2.5mm" x="-4" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M3" x="-4" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="M3 x 2.5mm" x="-7.6226" y="0.6359" size="1.27" layer="27"/>
 </element>
 <element name="J12" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" package="61300615721" package3d_urn="urn:adsk.eagle:package:14805618/2" value=" 61300615721 " x="-55" y="-146" smashed="yes">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61300615721?ae" x="-55" y="-146" size="1.778" layer="27" display="off"/>
@@ -5464,6 +5372,50 @@ Your Multi-CB Team
 <attribute name="ROWS" value="Single" x="-56" y="-154" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Bottom Entry" x="-56" y="-154" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-67.3272" y="-155.8922" size="1.016" layer="27" align="bottom-right"/>
+</element>
+<element name="MP5" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-61" y="45.1" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="4.2mm" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-60.9467" y="49.5327" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="6mm" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value="9774025360R" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="2.5mm" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M3" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-64.6226" y="39.7359" size="1.27" layer="27"/>
+</element>
+<element name="MP6" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-41" y="45.1" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="4.2mm" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-40.9467" y="49.5327" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="6mm" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value="9774025360R" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="2.5mm" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M3" x="-70" y="58.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-44.6226" y="39.7359" size="1.27" layer="27"/>
+</element>
+<element name="MP7" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-27" y="45.1" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="4.2mm" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-26.9467" y="49.5327" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="6mm" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value="9774025360R" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="2.5mm" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M3" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.6226" y="39.7359" size="1.27" layer="27"/>
+</element>
+<element name="MP8" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774025360" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm" x="-7" y="45.1" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774025360R.pdf" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="4.2mm" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-6.9467" y="49.5327" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="6mm" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value="9774025360R" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="2.5mm" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M3" x="-54" y="71.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-10.6226" y="39.7359" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>

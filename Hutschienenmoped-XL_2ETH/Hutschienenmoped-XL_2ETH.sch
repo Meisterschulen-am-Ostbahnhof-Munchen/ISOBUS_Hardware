@@ -14021,64 +14021,6 @@ Copyright: Würth Elektronik</description>
 <text x="-29.0776" y="0.5061" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-28.9976" y="-1.1942" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
-<package name="61300811821" urn="urn:adsk.eagle:footprint:14805041/2" library_version="8">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header,  8 Pins</description>
-<pad name="1" x="-8.89" y="0" drill="1.02"/>
-<pad name="2" x="-6.35" y="0" drill="1.02"/>
-<pad name="3" x="-3.81" y="0" drill="1.02"/>
-<pad name="4" x="-1.27" y="0" drill="1.02"/>
-<pad name="5" x="1.27" y="0" drill="1.02"/>
-<pad name="6" x="3.81" y="0" drill="1.02"/>
-<pad name="7" x="6.35" y="0" drill="1.02"/>
-<pad name="8" x="8.89" y="0" drill="1.02"/>
-<wire x1="-10.41" y1="-1.25" x2="10.41" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="10.41" y1="-1.25" x2="10.41" y2="1.25" width="0.1" layer="51"/>
-<wire x1="10.41" y1="1.25" x2="-10.41" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-10.41" y1="1.25" x2="-10.41" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-10.51" y1="1.35" x2="10.51" y2="1.35" width="0.2" layer="21"/>
-<wire x1="10.51" y1="1.35" x2="10.51" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="10.51" y1="-1.35" x2="-10.51" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="-10.51" y1="-1.35" x2="-10.51" y2="1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-10.71" y="1.55"/>
-<vertex x="10.71" y="1.55"/>
-<vertex x="10.71" y="-1.55"/>
-<vertex x="-10.71" y="-1.55"/>
-</polygon>
-<circle x="-10.92" y="-1.5" radius="0.1" width="0.2" layer="21"/>
-<text x="-11.12" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-11.12" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
-<text x="-11.12" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-11.12" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
-</package>
-<package name="61300611821" urn="urn:adsk.eagle:footprint:14805039/2" library_version="8">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header,  6 Pins</description>
-<pad name="1" x="-6.35" y="0" drill="1.02"/>
-<pad name="2" x="-3.81" y="0" drill="1.02"/>
-<pad name="3" x="-1.27" y="0" drill="1.02"/>
-<pad name="4" x="1.27" y="0" drill="1.02"/>
-<pad name="5" x="3.81" y="0" drill="1.02"/>
-<pad name="6" x="6.35" y="0" drill="1.02"/>
-<wire x1="-7.87" y1="-1.25" x2="7.87" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="7.87" y1="-1.25" x2="7.87" y2="1.25" width="0.1" layer="51"/>
-<wire x1="7.87" y1="1.25" x2="-7.87" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-7.87" y1="1.25" x2="-7.87" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-7.97" y1="1.35" x2="7.97" y2="1.35" width="0.2" layer="21"/>
-<wire x1="7.97" y1="1.35" x2="7.97" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="7.97" y1="-1.35" x2="-7.97" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="-7.97" y1="-1.35" x2="-7.97" y2="1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-8.17" y="1.55"/>
-<vertex x="8.17" y="1.55"/>
-<vertex x="8.17" y="-1.55"/>
-<vertex x="-8.17" y="-1.55"/>
-</polygon>
-<circle x="-8.38" y="-1.5" radius="0.1" width="0.2" layer="21"/>
-<text x="-8.58" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-8.58" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
-<text x="-8.58" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-8.58" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
-</package>
 <package name="61300615721" urn="urn:adsk.eagle:footprint:14805114/1" library_version="8">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header Bottom Entry,  6 Pins</description>
 <pad name="1" x="-6.35" y="2.54" drill="1"/>
@@ -14159,18 +14101,6 @@ Copyright: Würth Elektronik</description>
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
 <packageinstances>
 <packageinstance name="61302211821"/>
-</packageinstances>
-</package3d>
-<package3d name="61300811821" urn="urn:adsk.eagle:package:14805545/3" type="model" library_version="8">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header,  8 Pins</description>
-<packageinstances>
-<packageinstance name="61300811821"/>
-</packageinstances>
-</package3d>
-<package3d name="61300611821" urn="urn:adsk.eagle:package:14805543/3" type="model" library_version="8">
-<description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header,  6 Pins</description>
-<packageinstances>
-<packageinstance name="61300611821"/>
 </packageinstances>
 </package3d>
 <package3d name="61300615721" urn="urn:adsk.eagle:package:14805618/2" type="model" library_version="8">
@@ -14306,80 +14236,6 @@ Copyright: Würth Elektronik</description>
 <circle x="20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
 <circle x="22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
 <circle x="25.4" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-</symbol>
-<symbol name="8ST" urn="urn:adsk.eagle:symbol:38495043/2" library_version="8">
-<description>Socket Header THT,8Pins</description>
-<pin name="1" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="5" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="6" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="7" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="8" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<wire x1="-8.89" y1="0" x2="11.43" y2="0" width="0.254" layer="94"/>
-<wire x1="11.43" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-2.54" x2="-8.89" y2="0" width="0.254" layer="94"/>
-<wire x1="11.43" y1="0" x2="11.43" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-1.705" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-1.705" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<text x="-10.16" y="-1.778" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-10.16" y="-5.08" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
-</symbol>
-<symbol name="6ST" urn="urn:adsk.eagle:symbol:38495064/2" library_version="8">
-<description>Socket Header THT,6Pins</description>
-<pin name="1" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="5" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="6" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<wire x1="-8.89" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
-<wire x1="6.35" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-2.54" x2="-8.89" y2="0" width="0.254" layer="94"/>
-<wire x1="6.35" y1="0" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-1.705" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<circle x="5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
-<text x="-10.16" y="-1.778" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-10.16" y="-5.08" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
 </symbol>
 <symbol name="6ST_1" urn="urn:adsk.eagle:symbol:38495084/2" library_version="8">
 <description>Socket Header THT,6Pins</description>
@@ -14626,178 +14482,6 @@ Updated by Yingchun,Shan 2019-10-21
 <attribute name="ROWS" value="Single"/>
 <attribute name="TYPE" value="Straight"/>
 <attribute name="VALUE" value=" 61302211821 "/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6130XX11821_61300811821" urn="urn:adsk.eagle:component:38495276/3" prefix="J" library_version="8">
-<description>&lt;b&gt;WR-PHD 2.54 mm Socket Header&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Article Properties&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pins 2 unitless; 3 unitless; 4 unitless; 5 unitless; 6 unitless; 7 unitless; 8 unitless; 9 unitless; 10 unitless; 12 unitless; 13 unitless; 14 unitless; 15 unitless; 16 unitless; 18 unitless; 20 unitless; 22 unitless; 24 unitless; 32 unitless; 36 unitless; 40 unitless
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;General Information&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature	-40 °C up to +105 °C
-&lt;BR&gt;Pitch	2.54 mm
-&lt;BR&gt;Durability	25 Mating cycles; 500 Mating cycles
-&lt;BR&gt;Rows	Single
-&lt;BR&gt;Gender	Socket Header
-&lt;BR&gt;Type	Straight
-
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Material Properties&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material	PBT
-&lt;BR&gt;Insulator Flammability Rating	UL94 V-0
-&lt;BR&gt;Contact Material	Copper Alloy
-&lt;BR&gt;Contact Plating	Gold
-&lt;BR&gt;Contact Type	Stamped
-
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Certification&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;UL Approval	E323964
-
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Packaging Properties&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging	Tray
-
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Electrical Properties&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-&lt;BR&gt;Contact Resistance	20 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o33218v209%20Family_WR-PHD_613xxx11821.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o33218v209%20Family_WR-PHD_613xxx11821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="www.we-online.com/catalog/PHD_2_54_SOCKET_HEADER_6130XX11821/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/PHD_2_54_SOCKET_HEADER_6130XX11821&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-21&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="8ST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61300811821">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14805545/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61300811821?ae"/>
-<attribute name="GENDER" value="Socket Header"/>
-<attribute name="IR" value="3A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61300811821 "/>
-<attribute name="PINS" value=" 8 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="ROWS" value="Single"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61300811821 "/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6130XX11821_61300611821" urn="urn:adsk.eagle:component:38495393/3" prefix="J" library_version="8">
-<description>&lt;b&gt;WR-PHD 2.54 mm Socket Header&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Article Properties&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pins 2 unitless; 3 unitless; 4 unitless; 5 unitless; 6 unitless; 7 unitless; 8 unitless; 9 unitless; 10 unitless; 12 unitless; 13 unitless; 14 unitless; 15 unitless; 16 unitless; 18 unitless; 20 unitless; 22 unitless; 24 unitless; 32 unitless; 36 unitless; 40 unitless
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;General Information&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature	-40 °C up to +105 °C
-&lt;BR&gt;Pitch	2.54 mm
-&lt;BR&gt;Durability	25 Mating cycles; 500 Mating cycles
-&lt;BR&gt;Rows	Single
-&lt;BR&gt;Gender	Socket Header
-&lt;BR&gt;Type	Straight
-
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Material Properties&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material	PBT
-&lt;BR&gt;Insulator Flammability Rating	UL94 V-0
-&lt;BR&gt;Contact Material	Copper Alloy
-&lt;BR&gt;Contact Plating	Gold
-&lt;BR&gt;Contact Type	Stamped
-
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Certification&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;UL Approval	E323964
-
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Packaging Properties&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging	Tray
-
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Electrical Properties&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-&lt;BR&gt;Contact Resistance	20 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o33218v209%20Family_WR-PHD_613xxx11821.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o33218v209%20Family_WR-PHD_613xxx11821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="www.we-online.com/catalog/PHD_2_54_SOCKET_HEADER_6130XX11821/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/PHD_2_54_SOCKET_HEADER_6130XX11821&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-21&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="6ST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61300611821">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14805543/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61300611821?ae"/>
-<attribute name="GENDER" value="Socket Header"/>
-<attribute name="IR" value="3A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61300611821 "/>
-<attribute name="PINS" value=" 6 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="ROWS" value="Single"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61300611821 "/>
 </technology>
 </technologies>
 </device>
@@ -22708,8 +22392,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/SMSI_SMT_STEEL_SPA
 <part name="J15" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222008" device="" package3d_urn="urn:adsk.eagle:package:15267957/3" value=" 638207222008 "/>
 <part name="J1" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222005" device="" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 "/>
 <part name="J2" library="Wurth_Connectors_WR-WTB" library_urn="urn:adsk.eagle:library:15818693" deviceset="645004114822" device="" package3d_urn="urn:adsk.eagle:package:15819025/2" value="645004114822"/>
-<part name="J10" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61300811821" device="" package3d_urn="urn:adsk.eagle:package:14805545/3" value=" 61300811821 "/>
-<part name="J11" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61300611821" device="" package3d_urn="urn:adsk.eagle:package:14805543/3" value=" 61300611821 "/>
 <part name="MP1" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
 <part name="MP2" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
 <part name="MP3" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
@@ -22722,6 +22404,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/SMSI_SMT_STEEL_SPA
 <part name="ECU_GND32" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="MP5" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
+<part name="MP6" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
+<part name="MP7" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
+<part name="MP8" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
 </parts>
 <sheets>
 <sheet>
@@ -25478,14 +25164,6 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 <frame x1="0" y1="0" x2="386.08" y2="218.44" columns="8" rows="5" layer="94"/>
 </plain>
 <instances>
-<instance part="J10" gate="G$1" x="68.58" y="170.18" smashed="yes">
-<attribute name="NAME" x="58.42" y="168.402" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="58.42" y="165.1" size="1.778" layer="96" align="bottom-right"/>
-</instance>
-<instance part="J11" gate="G$1" x="71.12" y="154.94" smashed="yes">
-<attribute name="NAME" x="60.96" y="153.162" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="60.96" y="149.86" size="1.778" layer="96" align="bottom-right"/>
-</instance>
 <instance part="MP1" gate="G$1" x="66.04" y="119.38" smashed="yes">
 <attribute name="NAME" x="66.04" y="122.936" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="62.992" y="114.808" size="1.27" layer="95"/>
@@ -25509,6 +25187,22 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 <instance part="J14" gate="G$1" x="114.3" y="129.54" smashed="yes">
 <attribute name="NAME" x="104.14" y="130.302" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="104.14" y="127" size="1.778" layer="96" align="bottom-right"/>
+</instance>
+<instance part="MP5" gate="G$1" x="81.28" y="119.38" smashed="yes">
+<attribute name="NAME" x="81.28" y="122.936" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="78.232" y="114.808" size="1.27" layer="95"/>
+</instance>
+<instance part="MP6" gate="G$1" x="81.28" y="109.22" smashed="yes">
+<attribute name="NAME" x="81.28" y="112.776" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="78.232" y="104.648" size="1.27" layer="95"/>
+</instance>
+<instance part="MP7" gate="G$1" x="81.28" y="99.06" smashed="yes">
+<attribute name="NAME" x="81.28" y="102.616" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="78.232" y="94.488" size="1.27" layer="95"/>
+</instance>
+<instance part="MP8" gate="G$1" x="81.28" y="88.9" smashed="yes">
+<attribute name="NAME" x="81.28" y="92.456" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="78.232" y="84.328" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>
