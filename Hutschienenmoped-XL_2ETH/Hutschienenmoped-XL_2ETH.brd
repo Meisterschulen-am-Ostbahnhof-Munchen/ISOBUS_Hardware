@@ -3901,19 +3901,16 @@ Copyright: Würth Elektronik</description>
 </library>
 <library name="WE-special">
 <packages>
-<package name="61301015721" urn="urn:adsk.eagle:footprint:14805116/1">
+<package name="61301015721" urn="urn:adsk.eagle:footprint:14805116/1" locally_modified="yes">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt;2.54 mm Socket Header Bottom Entry, 10 Pins</description>
-<pad name="1" x="-11.43" y="2.54" drill="1"/>
-<pad name="2" x="-8.89" y="-2.54" drill="1"/>
-<pad name="3" x="-6.35" y="2.54" drill="1"/>
-<pad name="4" x="-3.81" y="-2.54" drill="1"/>
-<pad name="5" x="-1.27" y="2.54" drill="1"/>
-<pad name="6" x="1.27" y="-2.54" drill="1"/>
-<pad name="7" x="3.81" y="2.54" drill="1"/>
-<pad name="8" x="6.35" y="-2.54" drill="1"/>
-<pad name="9" x="8.89" y="2.54" drill="1"/>
-<pad name="10" x="11.43" y="-2.54" drill="1"/>
-<hole x="-11.43" y="0" drill="1.1"/>
+<pad name="1" x="-8.89" y="-2.54" drill="1"/>
+<pad name="2" x="-6.35" y="2.54" drill="1"/>
+<pad name="3" x="-3.81" y="-2.54" drill="1"/>
+<pad name="4" x="-1.27" y="2.54" drill="1"/>
+<pad name="5" x="1.27" y="-2.54" drill="1"/>
+<pad name="6" x="3.81" y="2.54" drill="1"/>
+<pad name="7" x="6.35" y="-2.54" drill="1"/>
+<pad name="8" x="8.89" y="2.54" drill="1"/>
 <hole x="-8.89" y="0" drill="1.1"/>
 <hole x="-6.35" y="0" drill="1.1"/>
 <hole x="-3.81" y="0" drill="1.1"/>
@@ -3922,7 +3919,6 @@ Copyright: Würth Elektronik</description>
 <hole x="3.81" y="0" drill="1.1"/>
 <hole x="6.35" y="0" drill="1.1"/>
 <hole x="8.89" y="0" drill="1.1"/>
-<hole x="11.43" y="0" drill="1.1"/>
 <wire x1="12.95" y1="-1.27" x2="-12.95" y2="-1.27" width="0.1" layer="51"/>
 <wire x1="-12.95" y1="-1.27" x2="-12.95" y2="1.27" width="0.1" layer="51"/>
 <wire x1="-12.95" y1="1.27" x2="12.95" y2="1.27" width="0.1" layer="51"/>
@@ -4038,11 +4034,11 @@ Your Multi-CB Team
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0"/>
 <param name="rvMicroViaInner" value="0"/>
-<param name="rlMinPadTop" value="0.35mm"/>
+<param name="rlMinPadTop" value="0.45mm"/>
 <param name="rlMaxPadTop" value="0.5mm"/>
 <param name="rlMinPadInner" value="0.15mm"/>
 <param name="rlMaxPadInner" value="0.3mm"/>
-<param name="rlMinPadBottom" value="0.35mm"/>
+<param name="rlMinPadBottom" value="0.45mm"/>
 <param name="rlMaxPadBottom" value="0.5mm"/>
 <param name="rlMinViaOuter" value="0.25mm"/>
 <param name="rlMaxViaOuter" value="0.5mm"/>
@@ -5571,6 +5567,18 @@ Your Multi-CB Team
 <via x="52.07" y="52.07" extent="1-16" drill="0.35"/>
 <contactref element="ESP32-J1" pad="2"/>
 <contactref element="ESP32-J1" pad="1"/>
+<contactref element="W2-J1" pad="8"/>
+<contactref element="W1-J1" pad="8"/>
+<contactref element="W1-J1" pad="7"/>
+<contactref element="W2-J1" pad="7"/>
+<contactref element="W1-J2" pad="1"/>
+<contactref element="W2-J2" pad="1"/>
+<wire x1="-8.11" y1="37.8" x2="-3.03" y2="40.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.89" y1="25.1" x2="-8.11" y2="37.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.03" y1="40.34" x2="-25.89" y2="25.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.11" y1="37.8" x2="-37.03" y2="40.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.89" y1="25.1" x2="-42.11" y2="37.8" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="58.42" x2="-3.03" y2="40.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="C15" pad="1"/>
@@ -6215,6 +6223,14 @@ Your Multi-CB Team
 <contactref element="J1" pad="A4"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="A1"/>
+<contactref element="MP1" pad="1"/>
+<contactref element="MP2" pad="1"/>
+<contactref element="MP3" pad="1"/>
+<contactref element="MP4" pad="1"/>
+<wire x1="-38" y1="6" x2="-64" y2="6" width="0" layer="19" extent="1-1"/>
+<wire x1="-30" y1="6" x2="-38" y2="6" width="0" layer="19" extent="1-1"/>
+<wire x1="-4" y1="6" x2="-30" y2="6" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="12.72" x2="-4" y2="6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ECU_GND" class="1">
 <contactref element="C12" pad="1"/>
@@ -6408,6 +6424,28 @@ Your Multi-CB Team
 <contactref element="ESP32-J3" pad="1"/>
 <contactref element="ESP32-J3" pad="21"/>
 <contactref element="ESP32-J3" pad="22"/>
+<contactref element="MP5" pad="1"/>
+<contactref element="MP6" pad="1"/>
+<contactref element="MP7" pad="1"/>
+<contactref element="MP8" pad="1"/>
+<contactref element="W1-J1" pad="2"/>
+<contactref element="W1-J1" pad="1"/>
+<contactref element="W2-J1" pad="1"/>
+<contactref element="W2-J1" pad="2"/>
+<contactref element="W2-J2" pad="6"/>
+<contactref element="W1-J2" pad="6"/>
+<wire x1="5.08" y1="50.82" x2="-7" y2="45.1" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="75.717" x2="36.83" y2="75.717" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="75.717" x2="31.75" y2="75.717" width="0" layer="19" extent="1-1"/>
+<wire x1="-27" y1="45.1" x2="-7" y2="45.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.97" y1="37.8" x2="-27" y2="45.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-41" y1="45.1" x2="-30.97" y2="37.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.03" y1="25.1" x2="-30.97" y2="37.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.11" y1="22.56" x2="-37.03" y2="25.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-61" y1="45.1" x2="-41" y2="45.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.97" y1="37.8" x2="-61" y2="45.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.03" y1="25.1" x2="-7" y2="45.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.11" y1="22.56" x2="-3.03" y2="25.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT">
 <contactref element="ESP32-J3" pad="14"/>
@@ -7017,6 +7055,39 @@ Your Multi-CB Team
 <contactref element="J13" pad="A5"/>
 <contactref element="J13" pad="5"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="10.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MOSI">
+<contactref element="W1-J1" pad="3"/>
+<contactref element="W2-J1" pad="3"/>
+<wire x1="-42.11" y1="27.64" x2="-8.11" y2="27.64" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MISO">
+<contactref element="W2-J1" pad="4"/>
+<contactref element="W1-J1" pad="4"/>
+<wire x1="-37.03" y1="30.18" x2="-3.03" y2="30.18" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SCLK">
+<contactref element="W1-J1" pad="5"/>
+<contactref element="W2-J1" pad="5"/>
+<wire x1="-42.11" y1="32.72" x2="-8.11" y2="32.72" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS0">
+<contactref element="W1-J1" pad="6"/>
+</signal>
+<signal name="CS1">
+<contactref element="W2-J1" pad="6"/>
+</signal>
+<signal name="INT0">
+<contactref element="W1-J2" pad="5"/>
+</signal>
+<signal name="INT1">
+<contactref element="W2-J2" pad="5"/>
+</signal>
+<signal name="RST1">
+<contactref element="W2-J2" pad="3"/>
+</signal>
+<signal name="RST0">
+<contactref element="W1-J2" pad="3"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
