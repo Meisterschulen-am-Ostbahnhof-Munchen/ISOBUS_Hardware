@@ -22396,8 +22396,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/SMSI_SMT_STEEL_SPA
 <part name="MP2" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
 <part name="MP3" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
 <part name="MP4" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
-<part name="J12" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61300615721" device="" package3d_urn="urn:adsk.eagle:package:14805618/2" value=" 61300615721 "/>
-<part name="J14" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61300815721" device="" package3d_urn="urn:adsk.eagle:package:14805619/2" value=" 61300815721 "/>
+<part name="W1-J2" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61300615721" device="" package3d_urn="urn:adsk.eagle:package:14805618/2" value=" 61300615721 "/>
+<part name="W1-J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61300815721" device="" package3d_urn="urn:adsk.eagle:package:14805619/2" value=" 61300815721 "/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="ECU_GND30" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="ECU_GND31" library="supply_isobus" deviceset="ECU_GND" device=""/>
@@ -22408,6 +22408,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/SMSI_SMT_STEEL_SPA
 <part name="MP6" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
 <part name="MP7" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
 <part name="MP8" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" deviceset="WA-SMSI_9774XXX360" device="_9774025360R" package3d_urn="urn:adsk.eagle:package:14321862/4" value="M3 x 2.5mm"/>
+<part name="W2-J2" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61300615721" device="" package3d_urn="urn:adsk.eagle:package:14805618/2" value=" 61300615721 "/>
+<part name="W2-J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX15721_61300815721" device="" package3d_urn="urn:adsk.eagle:package:14805619/2" value=" 61300815721 "/>
 </parts>
 <sheets>
 <sheet>
@@ -25180,13 +25182,13 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 <attribute name="NAME" x="66.04" y="92.456" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="62.992" y="84.328" size="1.27" layer="95"/>
 </instance>
-<instance part="J12" gate="G$1" x="114.3" y="142.24" smashed="yes">
-<attribute name="NAME" x="106.68" y="143.002" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="106.68" y="139.7" size="1.778" layer="96" align="bottom-right"/>
+<instance part="W1-J2" gate="G$1" x="195.58" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.818" y="147.32" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="198.12" y="147.32" size="1.778" layer="96" rot="R90" align="bottom-right"/>
 </instance>
-<instance part="J14" gate="G$1" x="114.3" y="129.54" smashed="yes">
-<attribute name="NAME" x="104.14" y="130.302" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="104.14" y="127" size="1.778" layer="96" align="bottom-right"/>
+<instance part="W1-J1" gate="G$1" x="177.8" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="177.038" y="142.24" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="180.34" y="142.24" size="1.778" layer="96" rot="R90" align="bottom-right"/>
 </instance>
 <instance part="MP5" gate="G$1" x="81.28" y="119.38" smashed="yes">
 <attribute name="NAME" x="81.28" y="122.936" size="1.27" layer="95" align="bottom-center"/>
@@ -25203,6 +25205,14 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 <instance part="MP8" gate="G$1" x="81.28" y="88.9" smashed="yes">
 <attribute name="NAME" x="81.28" y="92.456" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="78.232" y="84.328" size="1.27" layer="95"/>
+</instance>
+<instance part="W2-J2" gate="G$1" x="195.58" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.818" y="99.06" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="198.12" y="99.06" size="1.778" layer="96" rot="R90" align="bottom-right"/>
+</instance>
+<instance part="W2-J1" gate="G$1" x="177.8" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="177.038" y="93.98" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="180.34" y="93.98" size="1.778" layer="96" rot="R90" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
