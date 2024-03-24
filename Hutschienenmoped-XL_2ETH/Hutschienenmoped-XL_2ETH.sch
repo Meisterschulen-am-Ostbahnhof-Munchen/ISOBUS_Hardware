@@ -22198,8 +22198,6 @@ Updated by Ella Wu 2021-12-08
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="ECU Type I non terminated"/>
-<variantdef name="b"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
