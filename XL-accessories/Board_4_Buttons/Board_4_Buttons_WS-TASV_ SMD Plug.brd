@@ -562,18 +562,18 @@ design rules under a new name.</description>
 <attribute name="QTY" value=" 250 " x="45" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="430162073826" x="41.506" y="-7.8258" size="1.27" layer="27"/>
 </element>
-<element name="J2" library="Wurth_Connectors_WR-TBL Rising Cage Clamp" library_urn="urn:adsk.eagle:library:16280519" package="691709710305" package3d_urn="urn:adsk.eagle:package:16248446/4" value="691709710305" x="0" y="20.5" smashed="yes" rot="MR180">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/691709710305?ae" x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="IR-UL" value="6A" x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUNT" value="THT" x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="0" y="12" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 691709710305 " x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PINS" value=" 5 " x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PITCH" value="5mm" x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TYPE" value="Horizontal" x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="0" y="26.5" size="1.27" layer="28" rot="MR180" align="bottom-center"/>
-<attribute name="WIRE" value="33 to 14 (AWG) 0.2 to 1.5 (mm²)" x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="WORKING-VOLTAGE-UL" value="300V (AC)" x="0" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="J2" library="Wurth_Connectors_WR-TBL Rising Cage Clamp" library_urn="urn:adsk.eagle:library:16280519" package="691709710305" package3d_urn="urn:adsk.eagle:package:16248446/4" value="691709710305" x="0" y="17.5" smashed="yes" rot="MR180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/691709710305?ae" x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="IR-UL" value="6A" x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUNT" value="THT" x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="0" y="9" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 691709710305 " x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PINS" value=" 5 " x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PITCH" value="5mm" x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TYPE" value="Horizontal" x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="0" y="23.5" size="1.27" layer="28" rot="MR180" align="bottom-center"/>
+<attribute name="WIRE" value="33 to 14 (AWG) 0.2 to 1.5 (mm²)" x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="WORKING-VOLTAGE-UL" value="300V (AC)" x="0" y="17.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -598,7 +598,7 @@ design rules under a new name.</description>
 <wire x1="-12" y1="-1" x2="-12" y2="-2.5" width="0.508" layer="1"/>
 <contactref element="J2" pad="1"/>
 <wire x1="-10" y1="1" x2="-12" y2="-1" width="0.508" layer="16"/>
-<wire x1="-10" y1="15.35" x2="-10" y2="1" width="0.508" layer="16"/>
+<wire x1="-10" y1="12.35" x2="-10" y2="1" width="0.508" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="S1" pad="1"/>
@@ -607,7 +607,7 @@ design rules under a new name.</description>
 <wire x1="-39" y1="2.5" x2="-52" y2="2.5" width="0.508" layer="1"/>
 <wire x1="-39" y1="2.5" x2="-34.5" y2="7" width="0.508" layer="1"/>
 <contactref element="J2" pad="2"/>
-<wire x1="-5" y1="15.35" x2="-5" y2="9" width="0.508" layer="16"/>
+<wire x1="-5" y1="12.35" x2="-5" y2="9" width="0.508" layer="16"/>
 <via x="-5" y="9" extent="1-16" drill="0.5"/>
 <wire x1="-7" y1="7" x2="-5" y2="9" width="0.508" layer="1"/>
 <wire x1="-34.5" y1="7" x2="-7" y2="7" width="0.508" layer="1"/>
@@ -619,7 +619,7 @@ design rules under a new name.</description>
 <wire x1="-8" y1="2.5" x2="-4.5" y2="2.5" width="0.508" layer="1"/>
 <wire x1="-4.5" y1="2.5" x2="0" y2="7" width="0.508" layer="1"/>
 <contactref element="J2" pad="3"/>
-<wire x1="0" y1="15.35" x2="0" y2="9" width="0.508" layer="16"/>
+<wire x1="0" y1="12.35" x2="0" y2="9" width="0.508" layer="16"/>
 <via x="0" y="9" extent="1-16" drill="0.5"/>
 <wire x1="0" y1="7" x2="0" y2="9" width="0.508" layer="1"/>
 </signal>
@@ -630,7 +630,7 @@ design rules under a new name.</description>
 <wire x1="9" y1="2.5" x2="8" y2="2.5" width="0.508" layer="1"/>
 <wire x1="5.08" y1="6.42" x2="9" y2="2.5" width="0.508" layer="1"/>
 <contactref element="J2" pad="4"/>
-<wire x1="5" y1="15.35" x2="5" y2="9" width="0.508" layer="16"/>
+<wire x1="5" y1="12.35" x2="5" y2="9" width="0.508" layer="16"/>
 <via x="5" y="9" extent="1-16" drill="0.5"/>
 <wire x1="5" y1="9" x2="5.08" y2="8.92" width="0.508" layer="1"/>
 <wire x1="5.08" y1="8.92" x2="5.08" y2="6.42" width="0.508" layer="1"/>
@@ -641,7 +641,7 @@ design rules under a new name.</description>
 <wire x1="52" y1="2.5" x2="38" y2="2.5" width="0.508" layer="1"/>
 <wire x1="38" y1="2.5" x2="34.25" y2="7" width="0.508" layer="1"/>
 <contactref element="J2" pad="5"/>
-<wire x1="10" y1="15.35" x2="10" y2="9" width="0.508" layer="16"/>
+<wire x1="10" y1="12.35" x2="10" y2="9" width="0.508" layer="16"/>
 <via x="10" y="9" extent="1-16" drill="0.5"/>
 <wire x1="12" y1="7" x2="10" y2="9" width="0.508" layer="1"/>
 <wire x1="34.25" y1="7" x2="12" y2="7" width="0.508" layer="1"/>
