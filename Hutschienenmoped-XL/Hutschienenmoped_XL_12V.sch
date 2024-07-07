@@ -1073,7 +1073,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:footprint:18489051/1" library_version="19">
+<package name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:footprint:18489051/1" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1210&lt;/b&gt;&lt;br&gt;3.2x2.5x2.5(LXWXH);</description>
 <smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
 <smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
@@ -1092,7 +1092,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.2" y="-1.55"/>
 </polygon>
 </package>
-<package name="WCAP-CSGP_0805_H0.8_R" urn="urn:adsk.eagle:footprint:18489072/1" library_version="19">
+<package name="WCAP-CSGP_0805_H0.8_R" urn="urn:adsk.eagle:footprint:18489072/1" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x0.8( LxWxH) ;</description>
 <smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
 <smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
@@ -1111,7 +1111,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-1.6" y="-0.925"/>
 </polygon>
 </package>
-<package name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:footprint:18489080/1" library_version="19">
+<package name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:footprint:18489080/1" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
 <smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
 <smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
@@ -1130,26 +1130,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-1.6" y="-0.925"/>
 </polygon>
 </package>
-<package name="WCAP-CSGP_0805_H0.8_W" urn="urn:adsk.eagle:footprint:18489066/1" library_version="19">
-<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Wave,2 x 1.25x0.8( LxWxH) ;</description>
-<smd name="1" x="-1.15" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
-<smd name="2" x="1.15" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
-<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="-0.4" y1="0.725" x2="0.4" y2="0.725" width="0.2" layer="21"/>
-<wire x1="0.4" y1="-0.725" x2="-0.4" y2="-0.725" width="0.2" layer="21"/>
-<text x="0.1" y="1.2" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.5" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-1.8" y="0.925"/>
-<vertex x="1.8" y="0.925"/>
-<vertex x="1.8" y="-0.925"/>
-<vertex x="-1.8" y="-0.925"/>
-</polygon>
-</package>
-<package name="WCAP-CSGP_1206_H0.8" urn="urn:adsk.eagle:footprint:18489064/1" library_version="19">
+<package name="WCAP-CSGP_1206_H0.8" urn="urn:adsk.eagle:footprint:18489064/1" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1206&lt;/b&gt;&lt;br&gt;3.2X1.6X0.8(LXWXH) ;</description>
 <smd name="1" x="-1.55" y="0" dx="0.9" dy="1.6" layer="1" thermals="no"/>
 <smd name="2" x="1.55" y="0" dx="0.9" dy="1.6" layer="1" thermals="no"/>
@@ -1168,45 +1149,64 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.2" y="-1.1"/>
 </polygon>
 </package>
+<package name="WCAP-CSGP_0805_H0.8_W" urn="urn:adsk.eagle:footprint:18489066/1" library_version="22">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Wave,2 x 1.25x0.8( LxWxH) ;</description>
+<smd name="1" x="-1.15" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="1.15" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="0.725" x2="0.4" y2="0.725" width="0.2" layer="21"/>
+<wire x1="0.4" y1="-0.725" x2="-0.4" y2="-0.725" width="0.2" layer="21"/>
+<text x="0.1" y="1.2" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.8" y="0.925"/>
+<vertex x="1.8" y="0.925"/>
+<vertex x="1.8" y="-0.925"/>
+<vertex x="-1.8" y="-0.925"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
-<package3d name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:package:18489097/2" type="model" library_version="19">
+<package3d name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:package:18489097/2" type="model" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1210&lt;/b&gt;&lt;br&gt;3.2x2.5x2.5(LXWXH);</description>
 <packageinstances>
 <packageinstance name="WCAP-CSGP_1210_H2.5"/>
 </packageinstances>
 </package3d>
-<package3d name="WCAP-CSGP_0805_H0.8_R" urn="urn:adsk.eagle:package:18489119/2" type="model" library_version="19">
+<package3d name="WCAP-CSGP_0805_H0.8_R" urn="urn:adsk.eagle:package:18489119/2" type="model" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x0.8( LxWxH) ;</description>
 <packageinstances>
 <packageinstance name="WCAP-CSGP_0805_H0.8_R"/>
 </packageinstances>
 </package3d>
-<package3d name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:package:18489127/2" type="model" library_version="19">
+<package3d name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:package:18489127/2" type="model" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
 <packageinstances>
 <packageinstance name="WCAP-CSGP_0805_H1.25_R"/>
 </packageinstances>
 </package3d>
-<package3d name="WCAP-CSGP_0805_H0.8_W" urn="urn:adsk.eagle:package:18489113/2" type="model" library_version="19">
-<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Wave,2 x 1.25x0.8( LxWxH) ;</description>
-<packageinstances>
-<packageinstance name="WCAP-CSGP_0805_H0.8_W"/>
-</packageinstances>
-</package3d>
-<package3d name="WCAP-CSGP_1206_H0.8" urn="urn:adsk.eagle:package:18489111/2" type="model" library_version="19">
+<package3d name="WCAP-CSGP_1206_H0.8" urn="urn:adsk.eagle:package:18489111/2" type="model" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1206&lt;/b&gt;&lt;br&gt;3.2X1.6X0.8(LXWXH) ;</description>
 <packageinstances>
 <packageinstance name="WCAP-CSGP_1206_H0.8"/>
 </packageinstances>
 </package3d>
+<package3d name="WCAP-CSGP_0805_H0.8_W" urn="urn:adsk.eagle:package:18489113/2" type="model" library_version="22">
+<description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Wave,2 x 1.25x0.8( LxWxH) ;</description>
+<packageinstances>
+<packageinstance name="WCAP-CSGP_0805_H0.8_W"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="C" urn="urn:adsk.eagle:symbol:37075561/1" library_version="19">
+<symbol name="C" urn="urn:adsk.eagle:symbol:37075561/2" library_version="22">
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="1.27" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
@@ -1214,7 +1214,7 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:component:37075569/1" prefix="C" library_version="19">
+<deviceset name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:component:37075569/2" prefix="C" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1210 &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 
 
@@ -1275,45 +1275,48 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109014?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109014 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.005GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210226M025DFCT10000"/>
 <attribute name="VALUE" value="22uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_885012109015">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109015?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109015 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.005GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210226K025DFCT10000"/>
 <attribute name="VALUE" value="20uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_885012209074">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012209074?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012209074 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.005GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1210226K025DFCT10000"/>
 <attribute name="VALUE" value="22uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 </technologies>
 </device>
@@ -1331,45 +1334,48 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109006?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109006 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210226M010DFCT10000"/>
 <attribute name="VALUE" value="22uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_885012109007">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109007?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109007 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.002GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210476M010DFCT10000"/>
 <attribute name="VALUE" value="47uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_885012209006">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012209006?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012209006 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1210226K010DFCT10000"/>
 <attribute name="VALUE" value="22uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 </technologies>
 </device>
@@ -1387,30 +1393,32 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109010?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109010 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210226M016DFCT10000"/>
 <attribute name="VALUE" value="22uF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_885012109011">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109011?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109011 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.002GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210476M016DFCT10000"/>
 <attribute name="VALUE" value="47uF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 </technologies>
 </device>
@@ -1428,30 +1436,32 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012209048?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012209048 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1210475K050DFCT10000"/>
 <attribute name="VALUE" value="4.7uF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_885012209073">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012209073?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012209073 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.01GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1210106K050DFCT10000"/>
 <attribute name="VALUE" value="10uF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 </technologies>
 </device>
@@ -1469,45 +1479,48 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109002?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109002 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210226M6R3DFCT10000"/>
 <attribute name="VALUE" value="22uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_885012109003">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109003?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109003 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.002GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210476M6R3DFCT10000"/>
 <attribute name="VALUE" value="47uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_885012109004">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012109004?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012109004 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.001GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R1210107M6R3DFCT10000"/>
 <attribute name="VALUE" value="100uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 </technologies>
 </device>
@@ -1525,21 +1538,22 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012209071?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012209071 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.05GOhm"/>
 <attribute name="SIZE" value="1210"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1210225K100DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WCAP-CSGP_0805_H0.8" urn="urn:adsk.eagle:component:37075581/1" prefix="C" library_version="19">
+<deviceset name="WCAP-CSGP_0805_H0.8" urn="urn:adsk.eagle:component:37075581/2" prefix="C" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 
 
@@ -1600,225 +1614,240 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007007?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007007 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J010DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007008">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007008?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007008 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J010DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207004">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207004?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207004 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K010DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207005">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207005?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207005 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805221K010DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207006">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207006?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207006 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K010DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207007">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207007?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207007 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K010DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207008">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207008?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207008 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K010DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207009">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207009?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207009 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805222K010DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207010">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207010?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207010 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K010DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207011">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207011?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207011 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K010DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207012">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207012?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207012 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K010DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207013">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207013?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207013 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K010DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207014">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207014?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207014 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K010DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207015">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207015?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207015 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K010DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207016">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207016?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207016 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K010DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -1836,345 +1865,368 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007020?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007020 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J016DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007021">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007021?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007021 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J016DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007022">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007022?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007022 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805152J016DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007023">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007023?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007023 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805222J016DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207027">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207027?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207027 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K016DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207028">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207028?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207028 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805151K016DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207029">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207029?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207029 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805221K016DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207030">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207030?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207030 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805331K016DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207031">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207031?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207031 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K016DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207032">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207032?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207032 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805681K016DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207033">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207033?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207033 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K016DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207034">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207034?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207034 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K016DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207035">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207035?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207035 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805222K016DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207036">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207036?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207036 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K016DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207037">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207037?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207037 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805472K016DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207038">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207038?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207038 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805682K016DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207039">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207039?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207039 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K016DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207040">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207040?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207040 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K016DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207041">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207041?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207041 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K016DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207042">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207042?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207042 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K016DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207043">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207043?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207043 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K016DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207044">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207044?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207044 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="7.4GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K016DFCT10000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207045">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207045?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207045 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K016DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -2192,360 +2244,384 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007038?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007038 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J025DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007039">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007039?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007039 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805681J025DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007040">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007040?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007040 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J025DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007041">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007041?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007041 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805152J025DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007042">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007042?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007042 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805222J025DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207054">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207054?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207054 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K025DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207055">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207055?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207055 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805151K025DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207056">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207056?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207056 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805221K025DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207057">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207057?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207057 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805331K025DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207058">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207058?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207058 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K025DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207059">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207059?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207059 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805681K025DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207060">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207060?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207060 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K025DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207061">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207061?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207061 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K025DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207062">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207062?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207062 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805222K025DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207063">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207063?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207063 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K025DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207064">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207064?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207064 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805472K025DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207065">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207065?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207065 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805682K025DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207066">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207066?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207066 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K025DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207067">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207067?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207067 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K025DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207068">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207068?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207068 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K025DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207069">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207069?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207069 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K025DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207070">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207070?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207070 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K025DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207071">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207071?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207071 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="7.4GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K025DFCT10000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207072">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207072?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207072 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K025DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -2563,375 +2639,400 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007061?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007061 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J050DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007062">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007062?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007062 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805681J050DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007063">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007063?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007063 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J050DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007064">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007064?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007064 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805152J050DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007065">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007065?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007065 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805222J050DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207080">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207080?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207080 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K050DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207081">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207081?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207081 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805151K050DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207082">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207082?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207082 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805221K050DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207083">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207083?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207083 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805331K050DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207084">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207084?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207084 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K050DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207085">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207085?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207085 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805681K050DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207086">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207086?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207086 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K050DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207087">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207087?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207087 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K050DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207088">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207088?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207088 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805222K050DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207089">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207089?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207089 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K050DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207090">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207090?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207090 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805472K050DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207091">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207091?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207091 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805682K050DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207092">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207092?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207092 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K050DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207093">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207093?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207093 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K050DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207094">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207094?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207094 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K050DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207095">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207095?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207095 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K050DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207096">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207096?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207096 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K050DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207097">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207097?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207097 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="7.4GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K050DFCT10000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207098">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207098?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207098 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K050DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207098R">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207098R?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value="885012207098R"/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K050DFCT20000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -2949,255 +3050,272 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007086?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007086 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J100DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007087">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007087?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007087 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805681J100DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007088">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007088?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007088 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J100DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007089">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007089?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007089 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805152J100DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207110">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207110?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207110 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K100DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207111">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207111?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207111 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805151K100DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207113">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207113?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207113 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805331K100DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207114">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207114?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207114 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K100DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207115">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207115?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207115 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805681K100DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207116">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207116?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207116 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K100DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207117">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207117?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207117 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K100DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207119">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207119?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207119 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K100DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207120">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207120?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207120 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805472K100DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207121">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207121?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207121 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805682K100DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207122">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207122?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207122 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K100DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207123">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207123?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207123 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="6.7GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K100DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207124">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207124?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207124 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="4.5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K100DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -3215,225 +3333,240 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007007?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007007 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J010DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007008">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007008?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007008 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J010DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207004">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207004?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207004 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K010DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207005">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207005?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207005 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805221K010DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207006">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207006?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207006 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K010DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207007">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207007?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207007 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K010DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207008">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207008?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207008 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K010DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207009">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207009?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207009 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805222K010DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207010">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207010?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207010 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K010DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207011">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207011?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207011 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K010DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207012">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207012?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207012 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K010DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207013">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207013?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207013 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K010DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207014">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207014?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207014 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K010DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207015">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207015?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207015 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K010DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207016">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207016?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207016 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K010DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -3451,345 +3584,368 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007020?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007020 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J016DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007021">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007021?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007021 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J016DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007022">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007022?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007022 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805152J016DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007023">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007023?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007023 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805222J016DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207027">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207027?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207027 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K016DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207028">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207028?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207028 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805151K016DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207029">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207029?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207029 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805221K016DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207030">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207030?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207030 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805331K016DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207031">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207031?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207031 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K016DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207032">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207032?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207032 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805681K016DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207033">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207033?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207033 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K016DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207034">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207034?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207034 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K016DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207035">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207035?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207035 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805222K016DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207036">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207036?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207036 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K016DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207037">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207037?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207037 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805472K016DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207038">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207038?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207038 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805682K016DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207039">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207039?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207039 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K016DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207040">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207040?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207040 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K016DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207041">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207041?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207041 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K016DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207042">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207042?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207042 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K016DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207043">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207043?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207043 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K016DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207044">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207044?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207044 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="7.4GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K016DFCT10000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207045">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207045?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207045 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K016DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -3807,360 +3963,384 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007038?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007038 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J025DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007039">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007039?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007039 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805681J025DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007040">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007040?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007040 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J025DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007041">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007041?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007041 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805152J025DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007042">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007042?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007042 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805222J025DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207054">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207054?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207054 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K025DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207055">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207055?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207055 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805151K025DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207056">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207056?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207056 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805221K025DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207057">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207057?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207057 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805331K025DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207058">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207058?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207058 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K025DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207059">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207059?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207059 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805681K025DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207060">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207060?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207060 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K025DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207061">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207061?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207061 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K025DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207062">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207062?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207062 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805222K025DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207063">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207063?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207063 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K025DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207064">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207064?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207064 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805472K025DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207065">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207065?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207065 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805682K025DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207066">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207066?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207066 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K025DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207067">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207067?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207067 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K025DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207068">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207068?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207068 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K025DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207069">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207069?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207069 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K025DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207070">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207070?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207070 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K025DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207071">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207071?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207071 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="7.4GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K025DFCT10000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207072">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207072?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207072 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K025DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -4178,375 +4358,400 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007061?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007061 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J050DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007062">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007062?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007062 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805681J050DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007063">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007063?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007063 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J050DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007064">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007064?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007064 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805152J050DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007065">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007065?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007065 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805222J050DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207080">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207080?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207080 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K050DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207081">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207081?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207081 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805151K050DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207082">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207082?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207082 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805221K050DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207083">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207083?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207083 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805331K050DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207084">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207084?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207084 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K050DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207085">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207085?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207085 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805681K050DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207086">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207086?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207086 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K050DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207087">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207087?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207087 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K050DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207088">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207088?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207088 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805222K050DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207089">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207089?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207089 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K050DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207090">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207090?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207090 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805472K050DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207091">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207091?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207091 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805682K050DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207092">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207092?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207092 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K050DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207093">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207093?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207093 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K050DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207094">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207094?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207094 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K050DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207095">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207095?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207095 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K050DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207096">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207096?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207096 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K050DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207097">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207097?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207097 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="7.4GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K050DFCT10000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207098">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207098?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207098 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K050DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207098R">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207098R?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value="885012207098R"/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K050DFCT20000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -4564,261 +4769,278 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007086?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007086 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805471J100DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007087">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007087?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007087 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805681J100DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007088">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007088?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007088 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805102J100DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007089">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007089?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007089 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805152J100DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207110">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207110?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207110 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805101K100DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207111">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207111?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207111 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805151K100DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207113">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207113?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207113 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805331K100DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207114">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207114?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207114 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805471K100DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207115">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207115?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207115 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805681K100DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207116">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207116?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207116 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805102K100DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207117">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207117?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207117 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805152K100DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207119">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207119?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207119 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805332K100DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207120">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207120?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207120 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805472K100DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207121">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207121?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207121 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805682K100DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207122">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207122?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207122 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805103K100DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207123">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207123?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207123 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="6.7GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805153K100DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207124">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207124?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207124 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="4.5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805223K100DFCT10000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WCAP-CSGP_0805_H1.25" urn="urn:adsk.eagle:component:37075572/1" prefix="C" library_version="19">
+<deviceset name="WCAP-CSGP_0805_H1.25" urn="urn:adsk.eagle:component:37075572/3" prefix="C" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805  &lt;/B&gt;&lt;BR&gt;
 &lt;B&gt;General Purpose &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 
@@ -4859,8 +5081,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 
 &lt;/b&gt;&lt;br&gt;            
 Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/multilayer_ceramic_chip_capacitors/mlcc_general_purpose"&gt;https://www.we-online.com/catalog/en/pbs/capacitors/multilayer_ceramic_chip_capacitors/mlcc_general_purpose&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;Updated by Ella Wu 2022-09-02
-&lt;br&gt;2022(C) Würth Elektronik</description>
+&lt;br&gt;Updated by Ella Wu 2024-01-18
+&lt;br&gt;2024(C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -4879,135 +5101,176 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107001?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107001 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.05GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M6R3DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107002">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107002?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107002 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.03GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M6R3DFCT10000"/>
 <attribute name="VALUE" value="3.3uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107003">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107003?ae"/>
 <attribute name="DF" value="15%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107003 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M6R3DFCT10000"/>
 <attribute name="VALUE" value="4.7uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107004">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107004?ae"/>
 <attribute name="DF" value="15%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107004 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.01GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M6R3DFCT10000"/>
 <attribute name="VALUE" value="10uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107005">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107005?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107005 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.005GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M6R3DFCT10000"/>
 <attribute name="VALUE" value="22uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107006">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107006?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107006 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.002GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805476M6R3DFCT10000"/>
 <attribute name="VALUE" value="47uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
+</technology>
+<technology name="_885012107019">
+<attribute name="CERAMIC-TYPE" value="X5R Class II"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107019?ae"/>
+<attribute name="DF" value="10%"/>
+<attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
+<attribute name="PART-NUMBER" value=" 885012107019 "/>
+<attribute name="QMIN" value="-"/>
+<attribute name="RISO" value="0.002GOhm"/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="VALUE" value="22uF"/>
+<attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
+</technology>
+<technology name="_885012107027">
+<attribute name="CERAMIC-TYPE" value="X5R Class II"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107027?ae"/>
+<attribute name="DF" value=" 0.125 "/>
+<attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
+<attribute name="PART-NUMBER" value=" 885012107027 "/>
+<attribute name="QMIN" value="-"/>
+<attribute name="RISO" value="0.005GOhm"/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="VALUE" value="10uF"/>
+<attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207001">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207001?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207001 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.05GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K6R3DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207002">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207002?ae"/>
 <attribute name="DF" value="15%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207002 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K6R3DFCT10000"/>
 <attribute name="VALUE" value="4.7uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207003">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207003?ae"/>
 <attribute name="DF" value="15%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207003 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.01GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805106K6R3DFCT10000"/>
 <attribute name="VALUE" value="10uF"/>
 <attribute name="VR" value="6.3V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -5025,240 +5288,256 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007009?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007009 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805103J010DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107007">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107007?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107007 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.05GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M010DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107008">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107008?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107008 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.03GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M010DFCT10000"/>
 <attribute name="VALUE" value="3.3uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107009">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107009?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107009 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M010DFCT10000"/>
 <attribute name="VALUE" value="4.7uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107010">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107010?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107010 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.01GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M010DFCT10000"/>
 <attribute name="VALUE" value="10uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107011">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107011?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107011 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.005GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805226M010DFCT10000"/>
 <attribute name="VALUE" value="22uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207017">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207017?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207017 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="3.3GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K010DFCT10000"/>
 <attribute name="VALUE" value="150nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207018">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207018?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207018 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="2.3GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K010DFCT10000"/>
 <attribute name="VALUE" value="220nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207019">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207019?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207019 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="1.5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K010DFCT10000"/>
 <attribute name="VALUE" value="330nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207020">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207020?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207020 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="1.1GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K010DFCT10000"/>
 <attribute name="VALUE" value="470nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207021">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207021?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207021 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.7GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K010DFCT10000"/>
 <attribute name="VALUE" value="680nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207022">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207022?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207022 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K010DFCT10000"/>
 <attribute name="VALUE" value="1uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207023">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207023?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207023 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.3GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805155K010DFCT10000"/>
 <attribute name="VALUE" value="1.5uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207024">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207024?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207024 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.05GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K010DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207025">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207025?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207025 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K010DFCT10000"/>
 <attribute name="VALUE" value="4.7uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207026">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207026?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207026 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.01GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805106K010DFCT10000"/>
 <attribute name="VALUE" value="10uF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -5276,195 +5555,208 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007024?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007024 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805332J016DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007025">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007025?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007025 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805472J016DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107012">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107012?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107012 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.02GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M016DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107013">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107013?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107013 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.05GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M016DFCT10000"/>
 <attribute name="VALUE" value="4.7uF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107014">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107014?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107014 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.01GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805106M016DFCT10000"/>
 <attribute name="VALUE" value="10uF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207046">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207046?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207046 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K016DFCT10000"/>
 <attribute name="VALUE" value="150nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207047">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207047?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207047 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="3.3GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K016DFCT10000"/>
 <attribute name="VALUE" value="220nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207048">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207048?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207048 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="2.3GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K016DFCT10000"/>
 <attribute name="VALUE" value="330nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207049">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207049?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207049 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="1.5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K016DFCT10000"/>
 <attribute name="VALUE" value="470nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207050">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207050?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207050 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="1.1GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K016DFCT10000"/>
 <attribute name="VALUE" value="680nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207051">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207051?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207051 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.7GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K016DFCT10000"/>
 <attribute name="VALUE" value="1uF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207052">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207052?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207052 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K016DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207053">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207053?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207053 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.05GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805475K016DFCT10000"/>
 <attribute name="VALUE" value="4.7uF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -5482,195 +5774,240 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007043?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007043 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805332J025DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007044">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007044?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007044 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805472J025DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107015">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107015?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107015 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805105M025DFCT10000"/>
 <attribute name="VALUE" value="1uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107016">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107016?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107016 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805225M025DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107017">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107017?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107017 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805335M025DFCT10000"/>
 <attribute name="VALUE" value="3.3uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012107018">
 <attribute name="CERAMIC-TYPE" value="X5R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107018?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
 <attribute name="PART-NUMBER" value=" 885012107018 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X5R0805475M025DFCT10000"/>
 <attribute name="VALUE" value="4.7uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
+</technology>
+<technology name="_885012107019">
+<attribute name="CERAMIC-TYPE" value="X5R Class II"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107019?ae"/>
+<attribute name="DF" value="10%"/>
+<attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
+<attribute name="PART-NUMBER" value=" 885012107019 "/>
+<attribute name="QMIN" value="-"/>
+<attribute name="RISO" value="0.002GOhm"/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="VALUE" value="22uF"/>
+<attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
+</technology>
+<technology name="_885012107027">
+<attribute name="CERAMIC-TYPE" value="X5R Class II"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012107027?ae"/>
+<attribute name="DF" value=" 0.125 "/>
+<attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 up to +85 °C"/>
+<attribute name="PART-NUMBER" value=" 885012107027 "/>
+<attribute name="QMIN" value="-"/>
+<attribute name="RISO" value="0.005GOhm"/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="VALUE" value="10uF"/>
+<attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207073">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207073?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207073 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K025DFCT10000"/>
 <attribute name="VALUE" value="150nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207074">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207074?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207074 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K025DFCT10000"/>
 <attribute name="VALUE" value="220nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207075">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207075?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207075 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K025DFCT10000"/>
 <attribute name="VALUE" value="330nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207076">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207076?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207076 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K025DFCT10000"/>
 <attribute name="VALUE" value="470nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207077">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207077?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207077 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805684K025DFCT10000"/>
 <attribute name="VALUE" value="680nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207078">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207078?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207078 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K025DFCT10000"/>
 <attribute name="VALUE" value="1uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207079">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207079?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207079 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805225K025DFCT10000"/>
 <attribute name="VALUE" value="2.2uF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -5688,120 +6025,128 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007066?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007066 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805332J050DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007067">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007067?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007067 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805472J050DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207099">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207099?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207099 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805154K050DFCT10000"/>
 <attribute name="VALUE" value="150nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207100">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207100?ae"/>
 <attribute name="DF" value="3%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207100 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805224K050DFCT10000"/>
 <attribute name="VALUE" value="220nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207101">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207101?ae"/>
 <attribute name="DF" value="3%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207101 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805334K050DFCT10000"/>
 <attribute name="VALUE" value="330nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207102">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207102?ae"/>
 <attribute name="DF" value="3%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207102 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K050DFCT10000"/>
 <attribute name="VALUE" value="470nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207103">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207103?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207103 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="-"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K050DFCT10000"/>
 <attribute name="VALUE" value="1uF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207103R">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207103R?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value="885012207103R"/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.1GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805105K050DFCT20000"/>
 <attribute name="VALUE" value="1uF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
@@ -5819,111 +6164,118 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007091?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007091 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805332J100DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012007092">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012007092?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012007092 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP00805472J100DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207125">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207125?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207125 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="3GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805333K100DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207126">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207126?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207126 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="2.1GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805473K100DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207127">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207127?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207127 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="1.5GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805683K100DFCT10000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207128">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207128?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207128 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="1GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805104K100DFCT10000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 <technology name="_885012207130">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207130?ae"/>
 <attribute name="DF" value="10%"/>
 <attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012207130 "/>
-<attribute name="QMIN" value="" constant="no"/>
+<attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="0.2GOhm"/>
 <attribute name="SIZE" value="0805"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R0805474K100DFCT10000"/>
 <attribute name="VALUE" value="470nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WCAP-CSGP_1206_H0.8" urn="urn:adsk.eagle:component:37075571/1" prefix="C" library_version="19">
+<deviceset name="WCAP-CSGP_1206_H0.8" urn="urn:adsk.eagle:component:37075571/2" prefix="C" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1206  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 
 
@@ -5985,180 +6337,192 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008001?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008001 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206100J010DFCT10000"/>
 <attribute name="VALUE" value="10pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008002">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008002?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008002 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206220J010DFCT10000"/>
 <attribute name="VALUE" value="22pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008003">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008003?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008003 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206470J010DFCT10000"/>
 <attribute name="VALUE" value="47pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008004">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008004?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008004 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206101J010DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008005">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008005?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008005 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206471J010DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008006">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008006?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008006 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206222J010DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208004">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208004?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208004 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206331K010DFCT1000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208005">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208005?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208005 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206471K010DFCT1000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208006">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208006?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208006 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206102K010DFCT1000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208007">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208007?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208007 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206472K010DFCT1000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208008">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208008?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208008 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206103K010DFCT1000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208009">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208009?ae"/>
 <attribute name="DF" value="5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208009 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206104K010DFCT1000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="10V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 </technologies>
 </device>
@@ -6176,240 +6540,256 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008011?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008011 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206220J016DFCT10000"/>
 <attribute name="VALUE" value="22pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008012">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008012?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008012 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206101J016DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008013">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008013?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008013 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206151J016DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008014">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008014?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008014 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206221J016DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008015">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008015?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008015 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206222J016DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208020">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208020?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208020 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206221K016DFCT1000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208021">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208021?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208021 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206471K016DFCT1000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208022">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208022?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208022 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206102K016DFCT1000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208023">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208023?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208023 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206222K016DFCT1000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208024">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208024?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208024 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206332K016DFCT1000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208025">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208025?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208025 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206472K016DFCT1000"/>
 <attribute name="VALUE" value="4.7pF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208026">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208026?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208026 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206103K016DFCT1000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208027">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208027?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208027 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206223K016DFCT1000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208028">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208028?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208028 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206333K016DFCT1000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208029">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208029?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208029 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206473K016DFCT1000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208030">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208030?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208030 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206104K016DFCT1000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="16V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 </technologies>
 </device>
@@ -6427,420 +6807,448 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008018?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008018 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP012062R2D025DFCT10000"/>
 <attribute name="VALUE" value="2.2pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008019">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008019?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008019 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206100J025DFCT10000"/>
 <attribute name="VALUE" value="10pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008020">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008020?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008020 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206330J025DFCT10000"/>
 <attribute name="VALUE" value="33pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008021">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008021?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008021 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206470J025DFCT10000"/>
 <attribute name="VALUE" value="47pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008022">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008022?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008022 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206680J025DFCT10000"/>
 <attribute name="VALUE" value="68pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008023">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008023?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008023 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206101J025DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008024">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008024?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008024 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206331J025DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008025">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008025?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008025 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206471J025DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008026">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008026?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008026 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206102J025DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008027">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008027?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008027 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206222J025DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008028">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008028?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008028 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206472J025DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208042">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208042?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208042 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="2.3GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206221K025DFCT1000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208043">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208043?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208043 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="1.5GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206331K025DFCT1000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208044">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208044?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208044 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206471K025DFCT1000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208045">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208045?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208045 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206681K025DFCT1000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208046">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208046?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208046 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206102K025DFCT1000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208047">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208047?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208047 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206152K025DFCT1000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208048">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208048?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208048 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206222K025DFCT1000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208049">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208049?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208049 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206332K025DFCT1000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208050">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208050?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208050 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206472K025DFCT1000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208051">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208051?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208051 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206682K025DFCT1000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208052">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208052?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208052 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206103K025DFCT1000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208053">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208053?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208053 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206153K025DFCT1000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208054">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208054?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208054 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206223K025DFCT1000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208055">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208055?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208055 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206333K025DFCT1000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208056">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208056?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208056 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206473K025DFCT1000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208057">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208057?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208057 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="7.4GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206683K025DFCT1000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208058">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208058?ae"/>
 <attribute name="DF" value="3.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208058 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206104K025DFCT1000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="25V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 </technologies>
 </device>
@@ -6858,615 +7266,656 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008031?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008031 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP012061R0D050DFCT10000"/>
 <attribute name="VALUE" value="1pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008032">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008032?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008032 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP012061R5D050DFCT10000"/>
 <attribute name="VALUE" value="1.5pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008033">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008033?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008033 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP012062R2D050DFCT10000"/>
 <attribute name="VALUE" value="2.2pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008034">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008034?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008034 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP012063R3D050DFCT10000"/>
 <attribute name="VALUE" value="3.3pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008035">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008035?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008035 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP012064R7D050DFCT10000"/>
 <attribute name="VALUE" value="4.7pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008036">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008036?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008036 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP012066R8D050DFCT10000"/>
 <attribute name="VALUE" value="6.8pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008037">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008037?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008037 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206100J050DFCT10000"/>
 <attribute name="VALUE" value="10pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008038">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008038?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008038 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206150J050DFCT10000"/>
 <attribute name="VALUE" value="15pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008039">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008039?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008039 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206220J050DFCT10000"/>
 <attribute name="VALUE" value="22pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008040">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008040?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008040 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206330J050DFCT10000"/>
 <attribute name="VALUE" value="33pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008041">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008041?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008041 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206470J050DFCT10000"/>
 <attribute name="VALUE" value="47pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008042">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008042?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008042 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206680J050DFCT10000"/>
 <attribute name="VALUE" value="68pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008043">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008043?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008043 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206101J050DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008044">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008044?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008044 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206151J050DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008045">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008045?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008045 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206221J050DFCT10000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008046">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008046?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008046 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206331J050DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008047">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008047?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008047 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206471J050DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008048">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008048?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008048 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206681J050DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008049">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008049?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008049 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206102J050DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008050">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008050?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008050 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206152J050DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008051">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008051?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008051 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206222J050DFCT10000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008052">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008052?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008052 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206332J050DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008053">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008053?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008053 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206472J050DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208070">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208070?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208070 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="2.3GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206151K050DFCT1000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208071">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208071?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208071 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206221K050DFCT1000"/>
 <attribute name="VALUE" value="220pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208072">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208072?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208072 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206331K050DFCT1000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208073">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208073?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208073 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206471K050DFCT1000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208074">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208074?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208074 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206681K050DFCT1000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208075">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208075?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208075 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206102K050DFCT1000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208076">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208076?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208076 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206152K050DFCT1000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208077">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208077?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208077 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206222K050DFCT1000"/>
 <attribute name="VALUE" value="2.2nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208078">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208078?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208078 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206332K050DFCT1000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208079">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208079?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208079 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206472K050DFCT1000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208080">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208080?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208080 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206682K050DFCT1000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208081">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208081?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208081 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206103K050DFCT1000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208082">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208082?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208082 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206153K050DFCT1000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208083">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208083?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208083 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206223K050DFCT1000"/>
 <attribute name="VALUE" value="22nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208084">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208084?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208084 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206333K050DFCT1000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208085">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208085?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208085 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206473K050DFCT1000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208086">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208086?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208086 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="7.4GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206683K050DFCT1000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208087">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208087?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208087 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="5GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206104K050DFCT1000"/>
 <attribute name="VALUE" value="100nF"/>
 <attribute name="VR" value="50V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 </technologies>
 </device>
@@ -7484,375 +7933,400 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/pbs/capacitors/mul
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008061?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008061 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206100J100DFCT10000"/>
 <attribute name="VALUE" value="10pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008062">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008062?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008062 "/>
 <attribute name="QMIN" value="400+20C"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206150J100DFCT10000"/>
 <attribute name="VALUE" value="15pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008065">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008065?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008065 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206470J100DFCT10000"/>
 <attribute name="VALUE" value="47pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008067">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008067?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008067 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206101J100DFCT10000"/>
 <attribute name="VALUE" value="100pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008068">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008068?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008068 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206151J100DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008070">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008070?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008070 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206331J100DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008071">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008071?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008071 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206471J100DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008072">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008072?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008072 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206681J100DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008073">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008073?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008073 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206102J100DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008074">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008074?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008074 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206152J100DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012008076">
 <attribute name="CERAMIC-TYPE" value="NP0 Class I"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012008076?ae"/>
 <attribute name="DF" value="-"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012008076 "/>
 <attribute name="QMIN" value=" 1000 "/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="NP01206332J100DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208101">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208101?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208101 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206151K100DFCT10000"/>
 <attribute name="VALUE" value="150pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208103">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208103?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208103 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206331K100DFCT10000"/>
 <attribute name="VALUE" value="330pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208104">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208104?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208104 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206471K100DFCT10000"/>
 <attribute name="VALUE" value="470pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208105">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208105?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208105 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206681K100DFCT10000"/>
 <attribute name="VALUE" value="680pF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208106">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208106?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208106 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206102K100DFCT10000"/>
 <attribute name="VALUE" value="1nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208107">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208107?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208107 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206152K100DFCT10000"/>
 <attribute name="VALUE" value="1.5nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208109">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208109?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208109 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206332K100DFCT10000"/>
 <attribute name="VALUE" value="3.3nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208110">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208110?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208110 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206472K100DFCT10000"/>
 <attribute name="VALUE" value="4.7nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208111">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208111?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208111 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206682K100DFCT10000"/>
 <attribute name="VALUE" value="6.8nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208112">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208112?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208112 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="10GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206103K100DFCT10000"/>
 <attribute name="VALUE" value="10nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208113">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208113?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208113 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="6.7GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206153K100DFCT10000"/>
 <attribute name="VALUE" value="15nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208115">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208115?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208115 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="3GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206333K100DFCT10000"/>
 <attribute name="VALUE" value="33nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208116">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208116?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208116 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="2.1GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206473K100DFCT10000"/>
 <attribute name="VALUE" value="47nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_885012208117">
 <attribute name="CERAMIC-TYPE" value="X7R Class II"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012208117?ae"/>
 <attribute name="DF" value="2.5%"/>
 <attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C"/>
 <attribute name="PART-NUMBER" value=" 885012208117 "/>
 <attribute name="QMIN" value="-"/>
 <attribute name="RISO" value="1.5GOhm"/>
 <attribute name="SIZE" value="1206"/>
-<attribute name="TECHNICAL-REFERENCE" value="X7R1206683K100DFCT10000"/>
 <attribute name="VALUE" value="68nF"/>
 <attribute name="VR" value="100V(DC)"/>
+<attribute name="WIDTH" value="1.6mm"/>
 </technology>
 </technologies>
 </device>
@@ -9584,54 +10058,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
-<package name="R0402" urn="urn:adsk.eagle:footprint:25625/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1" thermals="no"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1" thermals="no"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1" thermals="no"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1" thermals="no"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="R0805W" urn="urn:adsk.eagle:footprint:23046/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt; wave soldering&lt;p&gt;</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-1.0525" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
-<smd name="2" x="1.0525" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
-<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-</package>
 <package name="R1206" urn="urn:adsk.eagle:footprint:23047/1" library_version="3">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
@@ -9647,422 +10073,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="R1206W" urn="urn:adsk.eagle:footprint:23048/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-0.8" x2="0.888" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
-<smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
-<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="R1210" urn="urn:adsk.eagle:footprint:23049/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
-<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
-<rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
-</package>
-<package name="R1210W" urn="urn:adsk.eagle:footprint:23050/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
-<smd name="2" x="1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
-<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
-<rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
-</package>
-<package name="R2010" urn="urn:adsk.eagle:footprint:23051/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
-<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
-<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
-<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
-<text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
-<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
-</package>
-<package name="R2010W" urn="urn:adsk.eagle:footprint:23052/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
-<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
-<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
-<smd name="2" x="2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
-<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
-</package>
-<package name="R2012" urn="urn:adsk.eagle:footprint:23053/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
-<smd name="2" x="0.85" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
-<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.5999" x2="0.1001" y2="0.5999" layer="35"/>
-</package>
-<package name="R2012W" urn="urn:adsk.eagle:footprint:23054/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.94" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
-<smd name="2" x="0.94" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
-<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.5999" x2="0.1001" y2="0.5999" layer="35"/>
-</package>
-<package name="R2512" urn="urn:adsk.eagle:footprint:23055/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1" thermals="no"/>
-<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1" thermals="no"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="R2512W" urn="urn:adsk.eagle:footprint:23056/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd name="1" x="-2.896" y="0" dx="2" dy="2.1" layer="1" thermals="no"/>
-<smd name="2" x="2.896" y="0" dx="2" dy="2.1" layer="1" thermals="no"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="R3216" urn="urn:adsk.eagle:footprint:23057/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-0.8" x2="0.888" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1" thermals="no"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1" thermals="no"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
-<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="R3216W" urn="urn:adsk.eagle:footprint:23058/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-0.8" x2="0.888" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
-<smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
-<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="R3225" urn="urn:adsk.eagle:footprint:23059/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
-<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
-<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
-</package>
-<package name="R3225W" urn="urn:adsk.eagle:footprint:23060/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
-<smd name="2" x="1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
-<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
-<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
-</package>
-<package name="R5025" urn="urn:adsk.eagle:footprint:23061/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
-<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
-<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
-<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
-<text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
-<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="R5025W" urn="urn:adsk.eagle:footprint:23062/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
-<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
-<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
-<smd name="2" x="2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
-<text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
-<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="R6332" urn="urn:adsk.eagle:footprint:23063/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd name="1" x="-3.1" y="0" dx="1" dy="3.2" layer="1" thermals="no"/>
-<smd name="2" x="3.1" y="0" dx="1" dy="3.2" layer="1" thermals="no"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="R6332W" urn="urn:adsk.eagle:footprint:25646/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt; wave soldering&lt;p&gt;
-Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd name="1" x="-3.196" y="0" dx="1.2" dy="3.2" layer="1" thermals="no"/>
-<smd name="2" x="3.196" y="0" dx="1.2" dy="3.2" layer="1" thermals="no"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="M0805" urn="urn:adsk.eagle:footprint:23065/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.10 W</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="0.7112" y1="0.635" x2="-0.7112" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="0.7112" y1="-0.635" x2="-0.7112" y2="-0.635" width="0.1524" layer="51"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
-<rectangle x1="0.6858" y1="-0.7112" x2="1.0414" y2="0.7112" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
-</package>
-<package name="M1206" urn="urn:adsk.eagle:footprint:23066/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.25 W</description>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
-<wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
-<rectangle x1="1.1176" y1="-0.9144" x2="1.7018" y2="0.9144" layer="51"/>
-<rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
-</package>
-<package name="M1406" urn="urn:adsk.eagle:footprint:23067/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.12 W</description>
-<wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="-0.983" x2="-2.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.973" y1="-0.983" x2="-2.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="0.983" x2="2.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.3208" y1="0.762" x2="-1.3208" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="1.3208" y1="-0.762" x2="-1.3208" y2="-0.762" width="0.1524" layer="51"/>
-<smd name="1" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
-<smd name="2" x="1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8542" y1="-0.8382" x2="-1.2954" y2="0.8382" layer="51"/>
-<rectangle x1="1.2954" y1="-0.8382" x2="1.8542" y2="0.8382" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="M2012" urn="urn:adsk.eagle:footprint:23068/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.10 W</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="0.7112" y1="0.635" x2="-0.7112" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="0.7112" y1="-0.635" x2="-0.7112" y2="-0.635" width="0.1524" layer="51"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
-<rectangle x1="0.6858" y1="-0.7112" x2="1.0414" y2="0.7112" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
-</package>
-<package name="M2309" urn="urn:adsk.eagle:footprint:23069/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.25 W</description>
-<wire x1="-4.473" y1="1.483" x2="4.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="4.473" y1="-1.483" x2="-4.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-4.473" y1="-1.483" x2="-4.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="4.473" y1="1.483" x2="4.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="2.413" y1="1.1684" x2="-2.4384" y2="1.1684" width="0.1524" layer="51"/>
-<wire x1="2.413" y1="-1.1684" x2="-2.413" y2="-1.1684" width="0.1524" layer="51"/>
-<smd name="1" x="-2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
-<smd name="2" x="2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.048" y1="-1.2446" x2="-2.3876" y2="1.2446" layer="51"/>
-<rectangle x1="2.3876" y1="-1.2446" x2="3.048" y2="1.2446" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="M3216" urn="urn:adsk.eagle:footprint:23070/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.25 W</description>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
-<wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
-<rectangle x1="1.1176" y1="-0.9144" x2="1.7018" y2="0.9144" layer="51"/>
-<rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
-</package>
-<package name="M3516" urn="urn:adsk.eagle:footprint:23071/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.12 W</description>
-<wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="-0.983" x2="-2.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.973" y1="-0.983" x2="-2.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="0.983" x2="2.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.3208" y1="0.762" x2="-1.3208" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="1.3208" y1="-0.762" x2="-1.3208" y2="-0.762" width="0.1524" layer="51"/>
-<smd name="1" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
-<smd name="2" x="1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8542" y1="-0.8382" x2="-1.2954" y2="0.8382" layer="51"/>
-<rectangle x1="1.2954" y1="-0.8382" x2="1.8542" y2="0.8382" layer="51"/>
-<rectangle x1="-0.4001" y1="-0.7" x2="0.4001" y2="0.7" layer="35"/>
-</package>
-<package name="M5923" urn="urn:adsk.eagle:footprint:23072/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.25 W</description>
-<wire x1="-4.473" y1="1.483" x2="4.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="4.473" y1="-1.483" x2="-4.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-4.473" y1="-1.483" x2="-4.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="4.473" y1="1.483" x2="4.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="2.413" y1="1.1684" x2="-2.4384" y2="1.1684" width="0.1524" layer="51"/>
-<wire x1="2.413" y1="-1.1684" x2="-2.413" y2="-1.1684" width="0.1524" layer="51"/>
-<smd name="1" x="-2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
-<smd name="2" x="2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.048" y1="-1.2446" x2="-2.3876" y2="1.2446" layer="51"/>
-<rectangle x1="2.3876" y1="-1.2446" x2="3.048" y2="1.2446" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
 <package name="0204/5" urn="urn:adsk.eagle:footprint:22991/1" library_version="3">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -10706,86 +10716,6 @@ type V526-0, grid 2.5 mm</description>
 <text x="-2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.413" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="MINI_MELF-0102R" urn="urn:adsk.eagle:footprint:23092/1" library_version="3">
-<description>&lt;b&gt;CECC Size RC2211&lt;/b&gt; Reflow Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.2032" layer="51"/>
-<wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.2032" layer="51"/>
-<wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.2032" layer="51"/>
-<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.2032" layer="51"/>
-<smd name="1" x="-0.9" y="0" dx="0.5" dy="1.3" layer="1" thermals="no"/>
-<smd name="2" x="0.9" y="0" dx="0.5" dy="1.3" layer="1" thermals="no"/>
-<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="MINI_MELF-0102W" urn="urn:adsk.eagle:footprint:23093/1" library_version="3">
-<description>&lt;b&gt;CECC Size RC2211&lt;/b&gt; Wave Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.2032" layer="51"/>
-<wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.2032" layer="51"/>
-<wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.2032" layer="51"/>
-<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.2032" layer="51"/>
-<smd name="1" x="-0.95" y="0" dx="0.6" dy="1.3" layer="1" thermals="no"/>
-<smd name="2" x="0.95" y="0" dx="0.6" dy="1.3" layer="1" thermals="no"/>
-<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="MINI_MELF-0204R" urn="urn:adsk.eagle:footprint:25676/1" library_version="3">
-<description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Reflow Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="-0.6" x2="1.7" y2="0.6" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="0.6" x2="-1.7" y2="0.6" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
-<wire x1="0.938" y1="0.6" x2="-0.938" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-0.938" y1="-0.6" x2="0.938" y2="-0.6" width="0.2032" layer="21"/>
-<smd name="1" x="-1.5" y="0" dx="0.8" dy="1.6" layer="1" thermals="no"/>
-<smd name="2" x="1.5" y="0" dx="0.8" dy="1.6" layer="1" thermals="no"/>
-<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="MINI_MELF-0204W" urn="urn:adsk.eagle:footprint:25677/1" library_version="3">
-<description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Wave Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="-0.6" x2="1.7" y2="0.6" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="0.6" x2="-1.7" y2="0.6" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
-<wire x1="0.684" y1="0.6" x2="-0.684" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-0.684" y1="-0.6" x2="0.684" y2="-0.6" width="0.2032" layer="21"/>
-<smd name="1" x="-1.5" y="0" dx="1.2" dy="1.6" layer="1" thermals="no"/>
-<smd name="2" x="1.5" y="0" dx="1.2" dy="1.6" layer="1" thermals="no"/>
-<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="MINI_MELF-0207R" urn="urn:adsk.eagle:footprint:25678/1" library_version="3">
-<description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Reflow Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="2.8" y1="-1" x2="2.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="2.8" y1="1" x2="-2.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="1.2125" y1="1" x2="-1.2125" y2="1" width="0.2032" layer="21"/>
-<wire x1="-1.2125" y1="-1" x2="1.2125" y2="-1" width="0.2032" layer="21"/>
-<smd name="1" x="-2.25" y="0" dx="1.6" dy="2.5" layer="1" thermals="no"/>
-<smd name="2" x="2.25" y="0" dx="1.6" dy="2.5" layer="1" thermals="no"/>
-<text x="-2.2225" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.2225" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="MINI_MELF-0207W" urn="urn:adsk.eagle:footprint:25679/1" library_version="3">
-<description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Wave Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="2.8" y1="-1" x2="2.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="2.8" y1="1" x2="-2.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="1.149" y1="1" x2="-1.149" y2="1" width="0.2032" layer="21"/>
-<wire x1="-1.149" y1="-1" x2="1.149" y2="-1" width="0.2032" layer="21"/>
-<smd name="1" x="-2.6" y="0" dx="2.4" dy="2.5" layer="1" thermals="no"/>
-<smd name="2" x="2.6" y="0" dx="2.4" dy="2.5" layer="1" thermals="no"/>
-<text x="-2.54" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="0922V" urn="urn:adsk.eagle:footprint:23098/1" library_version="3">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0922, grid 7.5 mm</description>
@@ -10832,27 +10762,6 @@ type RDH, grid 15 mm</description>
 <text x="4.572" y="-1.7272" size="1.27" layer="51" ratio="10" rot="R90">RDH</text>
 <rectangle x1="-6.7564" y1="-0.4064" x2="-6.4516" y2="0.4064" layer="51"/>
 <rectangle x1="6.4516" y1="-0.4064" x2="6.7564" y2="0.4064" layer="51"/>
-</package>
-<package name="MINI_MELF-0102AX" urn="urn:adsk.eagle:footprint:23100/1" library_version="3">
-<description>&lt;b&gt;Mini MELF 0102 Axial&lt;/b&gt;</description>
-<circle x="0" y="0" radius="0.6" width="0" layer="51"/>
-<circle x="0" y="0" radius="0.6" width="0" layer="52"/>
-<smd name="1" x="0" y="0" dx="1.9" dy="1.9" layer="1" roundness="100" thermals="no"/>
-<smd name="2" x="0" y="0" dx="1.9" dy="1.9" layer="16" roundness="100" thermals="no"/>
-<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="0" y="0" drill="1.3"/>
-</package>
-<package name="R0201" urn="urn:adsk.eagle:footprint:25683/1" library_version="3">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt; chip&lt;p&gt;
-Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
-<smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1" thermals="no"/>
-<smd name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1" thermals="no"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
-<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
 </package>
 <package name="VTA52" urn="urn:adsk.eagle:footprint:25684/1" library_version="3">
 <description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
@@ -10982,6 +10891,571 @@ Source: VISHAY .. vta56.pdf</description>
 <text x="-4.445" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.585" y1="-0.3048" x2="-4.6325" y2="0.3048" layer="21"/>
 <rectangle x1="4.6325" y1="-0.3048" x2="5.585" y2="0.3048" layer="21"/>
+</package>
+<package name="R0402" urn="urn:adsk.eagle:footprint:25625/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1" thermals="no"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1" thermals="no"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1" thermals="no"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1" thermals="no"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="R0805W" urn="urn:adsk.eagle:footprint:23046/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt; wave soldering&lt;p&gt;</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-1.0525" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
+<smd name="2" x="1.0525" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
+<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+</package>
+<package name="R1206W" urn="urn:adsk.eagle:footprint:23048/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+wave soldering</description>
+<wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-0.8" x2="0.888" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
+<smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
+<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+<package name="R1210" urn="urn:adsk.eagle:footprint:23049/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
+<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
+</package>
+<package name="R1210W" urn="urn:adsk.eagle:footprint:23050/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+wave soldering</description>
+<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
+<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
+</package>
+<package name="R2010" urn="urn:adsk.eagle:footprint:23051/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
+<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
+<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
+<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
+<text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
+<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
+</package>
+<package name="R2010W" urn="urn:adsk.eagle:footprint:23052/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+wave soldering</description>
+<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
+<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
+<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
+<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
+</package>
+<package name="R2012" urn="urn:adsk.eagle:footprint:23053/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
+<smd name="2" x="0.85" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
+<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1001" y1="-0.5999" x2="0.1001" y2="0.5999" layer="35"/>
+</package>
+<package name="R2012W" urn="urn:adsk.eagle:footprint:23054/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+wave soldering</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.94" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
+<smd name="2" x="0.94" y="0" dx="1.5" dy="1" layer="1" thermals="no"/>
+<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1001" y1="-0.5999" x2="0.1001" y2="0.5999" layer="35"/>
+</package>
+<package name="R2512" urn="urn:adsk.eagle:footprint:23055/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1" thermals="no"/>
+<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1" thermals="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
+<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="R2512W" urn="urn:adsk.eagle:footprint:23056/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+wave soldering</description>
+<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<smd name="1" x="-2.896" y="0" dx="2" dy="2.1" layer="1" thermals="no"/>
+<smd name="2" x="2.896" y="0" dx="2" dy="2.1" layer="1" thermals="no"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
+<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="R3216" urn="urn:adsk.eagle:footprint:23057/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-0.8" x2="0.888" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1" thermals="no"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
+<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+<package name="R3216W" urn="urn:adsk.eagle:footprint:23058/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+wave soldering</description>
+<wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-0.8" x2="0.888" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
+<smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1" thermals="no"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
+<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+<package name="R3225" urn="urn:adsk.eagle:footprint:23059/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" thermals="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
+<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
+<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
+</package>
+<package name="R3225W" urn="urn:adsk.eagle:footprint:23060/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+wave soldering</description>
+<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.499" y="0" dx="1.8" dy="1.8" layer="1" thermals="no"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
+<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
+<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
+</package>
+<package name="R5025" urn="urn:adsk.eagle:footprint:23061/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
+<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
+<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
+<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1" thermals="no"/>
+<text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
+<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="R5025W" urn="urn:adsk.eagle:footprint:23062/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+wave soldering</description>
+<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
+<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
+<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="2.311" y="0" dx="2" dy="1.8" layer="1" thermals="no"/>
+<text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
+<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="R6332" urn="urn:adsk.eagle:footprint:23063/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
+<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<smd name="1" x="-3.1" y="0" dx="1" dy="3.2" layer="1" thermals="no"/>
+<smd name="2" x="3.1" y="0" dx="1" dy="3.2" layer="1" thermals="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
+<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="R6332W" urn="urn:adsk.eagle:footprint:25646/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt; wave soldering&lt;p&gt;
+Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
+<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<smd name="1" x="-3.196" y="0" dx="1.2" dy="3.2" layer="1" thermals="no"/>
+<smd name="2" x="3.196" y="0" dx="1.2" dy="3.2" layer="1" thermals="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
+<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="M0805" urn="urn:adsk.eagle:footprint:23065/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.10 W</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="0.7112" y1="0.635" x2="-0.7112" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.635" x2="-0.7112" y2="-0.635" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
+<rectangle x1="0.6858" y1="-0.7112" x2="1.0414" y2="0.7112" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
+</package>
+<package name="M1206" urn="urn:adsk.eagle:footprint:23066/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.25 W</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
+<rectangle x1="1.1176" y1="-0.9144" x2="1.7018" y2="0.9144" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
+</package>
+<package name="M1406" urn="urn:adsk.eagle:footprint:23067/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.12 W</description>
+<wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="-0.983" x2="-2.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="-0.983" x2="-2.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="0.983" x2="2.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.3208" y1="0.762" x2="-1.3208" y2="0.762" width="0.1524" layer="51"/>
+<wire x1="1.3208" y1="-0.762" x2="-1.3208" y2="-0.762" width="0.1524" layer="51"/>
+<smd name="1" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8542" y1="-0.8382" x2="-1.2954" y2="0.8382" layer="51"/>
+<rectangle x1="1.2954" y1="-0.8382" x2="1.8542" y2="0.8382" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+<package name="M2012" urn="urn:adsk.eagle:footprint:23068/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.10 W</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="0.7112" y1="0.635" x2="-0.7112" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.635" x2="-0.7112" y2="-0.635" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1" thermals="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
+<rectangle x1="0.6858" y1="-0.7112" x2="1.0414" y2="0.7112" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
+</package>
+<package name="M2309" urn="urn:adsk.eagle:footprint:23069/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.25 W</description>
+<wire x1="-4.473" y1="1.483" x2="4.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="4.473" y1="-1.483" x2="-4.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-4.473" y1="-1.483" x2="-4.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="4.473" y1="1.483" x2="4.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.413" y1="1.1684" x2="-2.4384" y2="1.1684" width="0.1524" layer="51"/>
+<wire x1="2.413" y1="-1.1684" x2="-2.413" y2="-1.1684" width="0.1524" layer="51"/>
+<smd name="1" x="-2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
+<smd name="2" x="2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.048" y1="-1.2446" x2="-2.3876" y2="1.2446" layer="51"/>
+<rectangle x1="2.3876" y1="-1.2446" x2="3.048" y2="1.2446" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="M3216" urn="urn:adsk.eagle:footprint:23070/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.25 W</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1" thermals="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
+<rectangle x1="1.1176" y1="-0.9144" x2="1.7018" y2="0.9144" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
+</package>
+<package name="M3516" urn="urn:adsk.eagle:footprint:23071/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.12 W</description>
+<wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="-0.983" x2="-2.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="-0.983" x2="-2.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="0.983" x2="2.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.3208" y1="0.762" x2="-1.3208" y2="0.762" width="0.1524" layer="51"/>
+<wire x1="1.3208" y1="-0.762" x2="-1.3208" y2="-0.762" width="0.1524" layer="51"/>
+<smd name="1" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
+<smd name="2" x="1.7" y="0" dx="1.4" dy="1.8" layer="1" thermals="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8542" y1="-0.8382" x2="-1.2954" y2="0.8382" layer="51"/>
+<rectangle x1="1.2954" y1="-0.8382" x2="1.8542" y2="0.8382" layer="51"/>
+<rectangle x1="-0.4001" y1="-0.7" x2="0.4001" y2="0.7" layer="35"/>
+</package>
+<package name="M5923" urn="urn:adsk.eagle:footprint:23072/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.25 W</description>
+<wire x1="-4.473" y1="1.483" x2="4.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="4.473" y1="-1.483" x2="-4.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-4.473" y1="-1.483" x2="-4.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="4.473" y1="1.483" x2="4.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.413" y1="1.1684" x2="-2.4384" y2="1.1684" width="0.1524" layer="51"/>
+<wire x1="2.413" y1="-1.1684" x2="-2.413" y2="-1.1684" width="0.1524" layer="51"/>
+<smd name="1" x="-2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
+<smd name="2" x="2.85" y="0" dx="1.5" dy="2.6" layer="1" thermals="no"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.048" y1="-1.2446" x2="-2.3876" y2="1.2446" layer="51"/>
+<rectangle x1="2.3876" y1="-1.2446" x2="3.048" y2="1.2446" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="MINI_MELF-0102R" urn="urn:adsk.eagle:footprint:23092/1" library_version="3">
+<description>&lt;b&gt;CECC Size RC2211&lt;/b&gt; Reflow Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.2032" layer="51"/>
+<smd name="1" x="-0.9" y="0" dx="0.5" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.9" y="0" dx="0.5" dy="1.3" layer="1" thermals="no"/>
+<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0102W" urn="urn:adsk.eagle:footprint:23093/1" library_version="3">
+<description>&lt;b&gt;CECC Size RC2211&lt;/b&gt; Wave Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.2032" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="0.6" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="0.6" dy="1.3" layer="1" thermals="no"/>
+<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0204R" urn="urn:adsk.eagle:footprint:25676/1" library_version="3">
+<description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Reflow Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="1.7" y1="-0.6" x2="1.7" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="1.7" y1="0.6" x2="-1.7" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="0.938" y1="0.6" x2="-0.938" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.938" y1="-0.6" x2="0.938" y2="-0.6" width="0.2032" layer="21"/>
+<smd name="1" x="-1.5" y="0" dx="0.8" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="1.5" y="0" dx="0.8" dy="1.6" layer="1" thermals="no"/>
+<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0204W" urn="urn:adsk.eagle:footprint:25677/1" library_version="3">
+<description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Wave Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="1.7" y1="-0.6" x2="1.7" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="1.7" y1="0.6" x2="-1.7" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="0.684" y1="0.6" x2="-0.684" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.684" y1="-0.6" x2="0.684" y2="-0.6" width="0.2032" layer="21"/>
+<smd name="1" x="-1.5" y="0" dx="1.2" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="1.5" y="0" dx="1.2" dy="1.6" layer="1" thermals="no"/>
+<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0207R" urn="urn:adsk.eagle:footprint:25678/1" library_version="3">
+<description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Reflow Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="2.8" y1="-1" x2="2.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="2.8" y1="1" x2="-2.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.2125" y1="1" x2="-1.2125" y2="1" width="0.2032" layer="21"/>
+<wire x1="-1.2125" y1="-1" x2="1.2125" y2="-1" width="0.2032" layer="21"/>
+<smd name="1" x="-2.25" y="0" dx="1.6" dy="2.5" layer="1" thermals="no"/>
+<smd name="2" x="2.25" y="0" dx="1.6" dy="2.5" layer="1" thermals="no"/>
+<text x="-2.2225" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.2225" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0207W" urn="urn:adsk.eagle:footprint:25679/1" library_version="3">
+<description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Wave Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="2.8" y1="-1" x2="2.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="2.8" y1="1" x2="-2.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.149" y1="1" x2="-1.149" y2="1" width="0.2032" layer="21"/>
+<wire x1="-1.149" y1="-1" x2="1.149" y2="-1" width="0.2032" layer="21"/>
+<smd name="1" x="-2.6" y="0" dx="2.4" dy="2.5" layer="1" thermals="no"/>
+<smd name="2" x="2.6" y="0" dx="2.4" dy="2.5" layer="1" thermals="no"/>
+<text x="-2.54" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0102AX" urn="urn:adsk.eagle:footprint:23100/1" library_version="3">
+<description>&lt;b&gt;Mini MELF 0102 Axial&lt;/b&gt;</description>
+<circle x="0" y="0" radius="0.6" width="0" layer="51"/>
+<circle x="0" y="0" radius="0.6" width="0" layer="52"/>
+<smd name="1" x="0" y="0" dx="1.9" dy="1.9" layer="1" roundness="100" thermals="no"/>
+<smd name="2" x="0" y="0" dx="1.9" dy="1.9" layer="16" roundness="100" thermals="no"/>
+<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="0" y="0" drill="1.3"/>
+</package>
+<package name="R0201" urn="urn:adsk.eagle:footprint:25683/1" library_version="3">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt; chip&lt;p&gt;
+Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
+<smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1" thermals="no"/>
+<smd name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1" thermals="no"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
 </package>
 <package name="R4527" urn="urn:adsk.eagle:footprint:13246/1" library_version="3">
 <description>&lt;b&gt;Package 4527&lt;/b&gt;&lt;p&gt;
@@ -11135,196 +11609,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packageinstance name="R0805"/>
 </packageinstances>
 </package3d>
-<package3d name="R0402" urn="urn:adsk.eagle:package:26058/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0402"/>
-</packageinstances>
-</package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
-</package3d>
-<package3d name="R0805W" urn="urn:adsk.eagle:package:23537/2" type="model" library_version="3">
-<description>RESISTOR wave soldering</description>
-<packageinstances>
-<packageinstance name="R0805W"/>
-</packageinstances>
-</package3d>
 <package3d name="R1206" urn="urn:adsk.eagle:package:23540/2" type="model" library_version="3">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R1206"/>
-</packageinstances>
-</package3d>
-<package3d name="R1206W" urn="urn:adsk.eagle:package:23539/2" type="model" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R1206W"/>
-</packageinstances>
-</package3d>
-<package3d name="R1210" urn="urn:adsk.eagle:package:23554/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R1210"/>
-</packageinstances>
-</package3d>
-<package3d name="R1210W" urn="urn:adsk.eagle:package:23541/2" type="model" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R1210W"/>
-</packageinstances>
-</package3d>
-<package3d name="R2010" urn="urn:adsk.eagle:package:23551/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2010"/>
-</packageinstances>
-</package3d>
-<package3d name="R2010W" urn="urn:adsk.eagle:package:23542/2" type="model" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2010W"/>
-</packageinstances>
-</package3d>
-<package3d name="R2012" urn="urn:adsk.eagle:package:23543/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2012"/>
-</packageinstances>
-</package3d>
-<package3d name="R2012W" urn="urn:adsk.eagle:package:23544/2" type="model" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2012W"/>
-</packageinstances>
-</package3d>
-<package3d name="R2512" urn="urn:adsk.eagle:package:23545/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2512"/>
-</packageinstances>
-</package3d>
-<package3d name="R2512W" urn="urn:adsk.eagle:package:23565/2" type="model" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2512W"/>
-</packageinstances>
-</package3d>
-<package3d name="R3216" urn="urn:adsk.eagle:package:23557/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R3216"/>
-</packageinstances>
-</package3d>
-<package3d name="R3216W" urn="urn:adsk.eagle:package:23548/2" type="model" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R3216W"/>
-</packageinstances>
-</package3d>
-<package3d name="R3225" urn="urn:adsk.eagle:package:23549/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R3225"/>
-</packageinstances>
-</package3d>
-<package3d name="R3225W" urn="urn:adsk.eagle:package:23550/2" type="model" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R3225W"/>
-</packageinstances>
-</package3d>
-<package3d name="R5025" urn="urn:adsk.eagle:package:23552/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R5025"/>
-</packageinstances>
-</package3d>
-<package3d name="R5025W" urn="urn:adsk.eagle:package:23558/2" type="model" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R5025W"/>
-</packageinstances>
-</package3d>
-<package3d name="R6332" urn="urn:adsk.eagle:package:23559/2" type="model" library_version="3">
-<description>RESISTOR
-Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<packageinstances>
-<packageinstance name="R6332"/>
-</packageinstances>
-</package3d>
-<package3d name="R6332W" urn="urn:adsk.eagle:package:26078/2" type="model" library_version="3">
-<description>RESISTOR wave soldering
-Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<packageinstances>
-<packageinstance name="R6332W"/>
-</packageinstances>
-</package3d>
-<package3d name="M0805" urn="urn:adsk.eagle:package:23556/2" type="model" library_version="3">
-<description>RESISTOR
-MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M0805"/>
-</packageinstances>
-</package3d>
-<package3d name="M1206" urn="urn:adsk.eagle:package:23566/2" type="model" library_version="3">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M1206"/>
-</packageinstances>
-</package3d>
-<package3d name="M1406" urn="urn:adsk.eagle:package:23569/2" type="model" library_version="3">
-<description>RESISTOR
-MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M1406"/>
-</packageinstances>
-</package3d>
-<package3d name="M2012" urn="urn:adsk.eagle:package:23561/2" type="model" library_version="3">
-<description>RESISTOR
-MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M2012"/>
-</packageinstances>
-</package3d>
-<package3d name="M2309" urn="urn:adsk.eagle:package:23562/2" type="model" library_version="3">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M2309"/>
-</packageinstances>
-</package3d>
-<package3d name="M3216" urn="urn:adsk.eagle:package:23563/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M3216"/>
-</packageinstances>
-</package3d>
-<package3d name="M3516" urn="urn:adsk.eagle:package:23573/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M3516"/>
-</packageinstances>
-</package3d>
-<package3d name="M5923" urn="urn:adsk.eagle:package:23564/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M5923"/>
 </packageinstances>
 </package3d>
 <package3d name="0204/5" urn="urn:adsk.eagle:package:23488/1" type="box" library_version="3">
@@ -11523,48 +11811,6 @@ type V526-0, grid 2.5 mm</description>
 <packageinstance name="V526-0"/>
 </packageinstances>
 </package3d>
-<package3d name="MINI_MELF-0102R" urn="urn:adsk.eagle:package:23591/2" type="model" library_version="3">
-<description>CECC Size RC2211 Reflow Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102R"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0102W" urn="urn:adsk.eagle:package:23588/2" type="model" library_version="3">
-<description>CECC Size RC2211 Wave Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102W"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0204R" urn="urn:adsk.eagle:package:26109/2" type="model" library_version="3">
-<description>CECC Size RC3715 Reflow Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0204R"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0204W" urn="urn:adsk.eagle:package:26111/2" type="model" library_version="3">
-<description>CECC Size RC3715 Wave Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0204W"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0207R" urn="urn:adsk.eagle:package:26113/2" type="model" library_version="3">
-<description>CECC Size RC6123 Reflow Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0207R"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0207W" urn="urn:adsk.eagle:package:26112/2" type="model" library_version="3">
-<description>CECC Size RC6123 Wave Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0207W"/>
-</packageinstances>
-</package3d>
 <package3d name="0922V" urn="urn:adsk.eagle:package:23589/1" type="box" library_version="3">
 <description>RESISTOR
 type 0922, grid 7.5 mm</description>
@@ -11577,19 +11823,6 @@ type 0922, grid 7.5 mm</description>
 type RDH, grid 15 mm</description>
 <packageinstances>
 <packageinstance name="RDH/15"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0102AX" urn="urn:adsk.eagle:package:23594/1" type="box" library_version="3">
-<description>Mini MELF 0102 Axial</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102AX"/>
-</packageinstances>
-</package3d>
-<package3d name="R0201" urn="urn:adsk.eagle:package:26117/2" type="model" library_version="3">
-<description>RESISTOR chip
-Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
-<packageinstances>
-<packageinstance name="R0201"/>
 </packageinstances>
 </package3d>
 <package3d name="VTA52" urn="urn:adsk.eagle:package:26116/2" type="model" library_version="3">
@@ -11646,6 +11879,247 @@ MIL SIZE RNC60
 Source: VISHAY .. vta56.pdf</description>
 <packageinstances>
 <packageinstance name="VMTB60"/>
+</packageinstances>
+</package3d>
+<package3d name="R0402" urn="urn:adsk.eagle:package:26058/2" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R0402"/>
+</packageinstances>
+</package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
+<package3d name="R0805W" urn="urn:adsk.eagle:package:23537/2" type="model" library_version="3">
+<description>RESISTOR wave soldering</description>
+<packageinstances>
+<packageinstance name="R0805W"/>
+</packageinstances>
+</package3d>
+<package3d name="R1206W" urn="urn:adsk.eagle:package:23539/2" type="model" library_version="3">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R1206W"/>
+</packageinstances>
+</package3d>
+<package3d name="R1210" urn="urn:adsk.eagle:package:23554/2" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R1210"/>
+</packageinstances>
+</package3d>
+<package3d name="R1210W" urn="urn:adsk.eagle:package:23541/2" type="model" library_version="3">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R1210W"/>
+</packageinstances>
+</package3d>
+<package3d name="R2010" urn="urn:adsk.eagle:package:23551/2" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R2010"/>
+</packageinstances>
+</package3d>
+<package3d name="R2010W" urn="urn:adsk.eagle:package:23542/2" type="model" library_version="3">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R2010W"/>
+</packageinstances>
+</package3d>
+<package3d name="R2012" urn="urn:adsk.eagle:package:23543/2" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R2012"/>
+</packageinstances>
+</package3d>
+<package3d name="R2012W" urn="urn:adsk.eagle:package:23544/2" type="model" library_version="3">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R2012W"/>
+</packageinstances>
+</package3d>
+<package3d name="R2512" urn="urn:adsk.eagle:package:23545/2" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R2512"/>
+</packageinstances>
+</package3d>
+<package3d name="R2512W" urn="urn:adsk.eagle:package:23565/2" type="model" library_version="3">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R2512W"/>
+</packageinstances>
+</package3d>
+<package3d name="R3216" urn="urn:adsk.eagle:package:23557/2" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R3216"/>
+</packageinstances>
+</package3d>
+<package3d name="R3216W" urn="urn:adsk.eagle:package:23548/2" type="model" library_version="3">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R3216W"/>
+</packageinstances>
+</package3d>
+<package3d name="R3225" urn="urn:adsk.eagle:package:23549/2" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R3225"/>
+</packageinstances>
+</package3d>
+<package3d name="R3225W" urn="urn:adsk.eagle:package:23550/2" type="model" library_version="3">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R3225W"/>
+</packageinstances>
+</package3d>
+<package3d name="R5025" urn="urn:adsk.eagle:package:23552/2" type="model" library_version="3">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R5025"/>
+</packageinstances>
+</package3d>
+<package3d name="R5025W" urn="urn:adsk.eagle:package:23558/2" type="model" library_version="3">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R5025W"/>
+</packageinstances>
+</package3d>
+<package3d name="R6332" urn="urn:adsk.eagle:package:23559/2" type="model" library_version="3">
+<description>RESISTOR
+Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
+<packageinstances>
+<packageinstance name="R6332"/>
+</packageinstances>
+</package3d>
+<package3d name="R6332W" urn="urn:adsk.eagle:package:26078/2" type="model" library_version="3">
+<description>RESISTOR wave soldering
+Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
+<packageinstances>
+<packageinstance name="R6332W"/>
+</packageinstances>
+</package3d>
+<package3d name="M0805" urn="urn:adsk.eagle:package:23556/2" type="model" library_version="3">
+<description>RESISTOR
+MELF 0.10 W</description>
+<packageinstances>
+<packageinstance name="M0805"/>
+</packageinstances>
+</package3d>
+<package3d name="M1206" urn="urn:adsk.eagle:package:23566/2" type="model" library_version="3">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M1206"/>
+</packageinstances>
+</package3d>
+<package3d name="M1406" urn="urn:adsk.eagle:package:23569/2" type="model" library_version="3">
+<description>RESISTOR
+MELF 0.12 W</description>
+<packageinstances>
+<packageinstance name="M1406"/>
+</packageinstances>
+</package3d>
+<package3d name="M2012" urn="urn:adsk.eagle:package:23561/2" type="model" library_version="3">
+<description>RESISTOR
+MELF 0.10 W</description>
+<packageinstances>
+<packageinstance name="M2012"/>
+</packageinstances>
+</package3d>
+<package3d name="M2309" urn="urn:adsk.eagle:package:23562/2" type="model" library_version="3">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M2309"/>
+</packageinstances>
+</package3d>
+<package3d name="M3216" urn="urn:adsk.eagle:package:23563/1" type="box" library_version="3">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M3216"/>
+</packageinstances>
+</package3d>
+<package3d name="M3516" urn="urn:adsk.eagle:package:23573/1" type="box" library_version="3">
+<description>RESISTOR
+MELF 0.12 W</description>
+<packageinstances>
+<packageinstance name="M3516"/>
+</packageinstances>
+</package3d>
+<package3d name="M5923" urn="urn:adsk.eagle:package:23564/1" type="box" library_version="3">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M5923"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0102R" urn="urn:adsk.eagle:package:23591/2" type="model" library_version="3">
+<description>CECC Size RC2211 Reflow Soldering
+source Beyschlag</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0102R"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0102W" urn="urn:adsk.eagle:package:23588/2" type="model" library_version="3">
+<description>CECC Size RC2211 Wave Soldering
+source Beyschlag</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0102W"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0204R" urn="urn:adsk.eagle:package:26109/2" type="model" library_version="3">
+<description>CECC Size RC3715 Reflow Soldering
+source Beyschlag</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0204R"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0204W" urn="urn:adsk.eagle:package:26111/2" type="model" library_version="3">
+<description>CECC Size RC3715 Wave Soldering
+source Beyschlag</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0204W"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0207R" urn="urn:adsk.eagle:package:26113/2" type="model" library_version="3">
+<description>CECC Size RC6123 Reflow Soldering
+source Beyschlag</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0207R"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0207W" urn="urn:adsk.eagle:package:26112/2" type="model" library_version="3">
+<description>CECC Size RC6123 Wave Soldering
+source Beyschlag</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0207W"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0102AX" urn="urn:adsk.eagle:package:23594/1" type="box" library_version="3">
+<description>Mini MELF 0102 Axial</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0102AX"/>
+</packageinstances>
+</package3d>
+<package3d name="R0201" urn="urn:adsk.eagle:package:26117/2" type="model" library_version="3">
+<description>RESISTOR chip
+Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
+<packageinstances>
+<packageinstance name="R0201"/>
 </packageinstances>
 </package3d>
 <package3d name="R4527" urn="urn:adsk.eagle:package:13310/2" type="model" library_version="3">
@@ -13348,197 +13822,6 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="ESP32-S3-DEVKITC-1-N8R2" urn="urn:adsk.eagle:library:34329045">
-<packages>
-<package name="XCVR_ESP32-S3-DEVKITC-1-N8R2" urn="urn:adsk.eagle:footprint:34329046/1" library_version="3">
-<wire x1="-12.7" y1="-31.37" x2="-12.7" y2="31.37" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="31.37" x2="12.7" y2="31.37" width="0.127" layer="51"/>
-<wire x1="12.7" y1="31.37" x2="12.7" y2="-31.37" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-31.37" x2="-12.7" y2="-31.37" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-31.37" x2="-12.7" y2="31.37" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="31.37" x2="12.7" y2="31.37" width="0.127" layer="21"/>
-<wire x1="12.7" y1="31.37" x2="12.7" y2="-31.37" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-31.37" x2="-12.7" y2="-31.37" width="0.127" layer="21"/>
-<wire x1="-12.95" y1="31.62" x2="-12.95" y2="-31.62" width="0.05" layer="39"/>
-<wire x1="-12.95" y1="-31.62" x2="12.95" y2="-31.62" width="0.05" layer="39"/>
-<wire x1="12.95" y1="-31.62" x2="12.95" y2="31.62" width="0.05" layer="39"/>
-<wire x1="12.95" y1="31.62" x2="-12.95" y2="31.62" width="0.05" layer="39"/>
-<text x="-12.95" y="32.62" size="1.27" layer="25">&gt;NAME</text>
-<text x="-12.95" y="-32.62" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-13.716" y="29.972" radius="0.1" width="0.2" layer="21"/>
-<circle x="-13.716" y="29.972" radius="0.1" width="0.2" layer="51"/>
-<pad name="J1_22" x="-11.43" y="-23.37" drill="1.02"/>
-<pad name="J3_22" x="11.43" y="-23.37" drill="1.02"/>
-<pad name="J1_21" x="-11.43" y="-20.83" drill="1.02"/>
-<pad name="J1_20" x="-11.43" y="-18.29" drill="1.02"/>
-<pad name="J1_19" x="-11.43" y="-15.75" drill="1.02"/>
-<pad name="J1_18" x="-11.43" y="-13.21" drill="1.02"/>
-<pad name="J1_17" x="-11.43" y="-10.67" drill="1.02"/>
-<pad name="J1_16" x="-11.43" y="-8.13" drill="1.02"/>
-<pad name="J1_15" x="-11.43" y="-5.59" drill="1.02"/>
-<pad name="J1_14" x="-11.43" y="-3.05" drill="1.02"/>
-<pad name="J1_13" x="-11.43" y="-0.51" drill="1.02"/>
-<pad name="J1_12" x="-11.43" y="2.03" drill="1.02"/>
-<pad name="J1_11" x="-11.43" y="4.57" drill="1.02"/>
-<pad name="J1_10" x="-11.43" y="7.11" drill="1.02"/>
-<pad name="J1_9" x="-11.43" y="9.65" drill="1.02"/>
-<pad name="J1_8" x="-11.43" y="12.19" drill="1.02"/>
-<pad name="J1_7" x="-11.43" y="14.73" drill="1.02"/>
-<pad name="J1_6" x="-11.43" y="17.27" drill="1.02"/>
-<pad name="J1_5" x="-11.43" y="19.81" drill="1.02"/>
-<pad name="J1_4" x="-11.43" y="22.35" drill="1.02"/>
-<pad name="J1_3" x="-11.43" y="24.89" drill="1.02"/>
-<pad name="J1_2" x="-11.43" y="27.43" drill="1.02"/>
-<pad name="J1_1" x="-11.43" y="29.97" drill="1.02" shape="square"/>
-<pad name="J3_21" x="11.43" y="-20.83" drill="1.02"/>
-<pad name="J3_20" x="11.43" y="-18.29" drill="1.02"/>
-<pad name="J3_19" x="11.43" y="-15.75" drill="1.02"/>
-<pad name="J3_18" x="11.43" y="-13.21" drill="1.02"/>
-<pad name="J3_17" x="11.43" y="-10.67" drill="1.02"/>
-<pad name="J3_16" x="11.43" y="-8.13" drill="1.02"/>
-<pad name="J3_15" x="11.43" y="-5.59" drill="1.02"/>
-<pad name="J3_14" x="11.43" y="-3.05" drill="1.02"/>
-<pad name="J3_13" x="11.43" y="-0.51" drill="1.02"/>
-<pad name="J3_12" x="11.43" y="2.03" drill="1.02"/>
-<pad name="J3_11" x="11.43" y="4.57" drill="1.02"/>
-<pad name="J3_10" x="11.43" y="7.11" drill="1.02"/>
-<pad name="J3_9" x="11.43" y="9.65" drill="1.02"/>
-<pad name="J3_8" x="11.43" y="12.19" drill="1.02"/>
-<pad name="J3_7" x="11.43" y="14.73" drill="1.02"/>
-<pad name="J3_6" x="11.43" y="17.27" drill="1.02"/>
-<pad name="J3_5" x="11.43" y="19.81" drill="1.02"/>
-<pad name="J3_4" x="11.43" y="22.35" drill="1.02"/>
-<pad name="J3_3" x="11.43" y="24.89" drill="1.02"/>
-<pad name="J3_2" x="11.43" y="27.43" drill="1.02"/>
-<pad name="J3_1" x="11.43" y="29.97" drill="1.02"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="XCVR_ESP32-S3-DEVKITC-1-N8R2" urn="urn:adsk.eagle:package:34329048/2" type="model" library_version="3">
-<packageinstances>
-<packageinstance name="XCVR_ESP32-S3-DEVKITC-1-N8R2"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="ESP32-S3-DEVKITC-1-N8R2" urn="urn:adsk.eagle:symbol:34329047/1" library_version="3">
-<wire x1="-17.78" y1="33.02" x2="17.78" y2="33.02" width="0.254" layer="94"/>
-<wire x1="17.78" y1="33.02" x2="17.78" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-33.02" x2="-17.78" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-33.02" x2="-17.78" y2="33.02" width="0.254" layer="94"/>
-<text x="-17.78" y="35.56" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-17.78" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3V3" x="22.86" y="27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="RST" x="-22.86" y="25.4" length="middle" direction="in"/>
-<pin name="GPIO1" x="-22.86" y="17.78" length="middle"/>
-<pin name="GPIO2" x="-22.86" y="15.24" length="middle"/>
-<pin name="GPIO4" x="-22.86" y="10.16" length="middle"/>
-<pin name="GPIO3" x="-22.86" y="12.7" length="middle"/>
-<pin name="GPIO5" x="-22.86" y="7.62" length="middle"/>
-<pin name="GPIO6" x="-22.86" y="5.08" length="middle"/>
-<pin name="GPIO7" x="-22.86" y="2.54" length="middle"/>
-<pin name="GPIO8" x="-22.86" y="0" length="middle"/>
-<pin name="GPIO9" x="-22.86" y="-2.54" length="middle"/>
-<pin name="GPIO10" x="-22.86" y="-5.08" length="middle"/>
-<pin name="GPIO11" x="-22.86" y="-7.62" length="middle"/>
-<pin name="GPIO12" x="-22.86" y="-10.16" length="middle"/>
-<pin name="GPIO13" x="-22.86" y="-12.7" length="middle"/>
-<pin name="GPIO14" x="-22.86" y="-15.24" length="middle"/>
-<pin name="GPIO15" x="-22.86" y="-17.78" length="middle"/>
-<pin name="GPIO16" x="-22.86" y="-20.32" length="middle"/>
-<pin name="GPIO17" x="-22.86" y="-22.86" length="middle"/>
-<pin name="GPIO18" x="-22.86" y="-25.4" length="middle"/>
-<pin name="GPIO0" x="-22.86" y="20.32" length="middle"/>
-<pin name="GND" x="22.86" y="-30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="5V0" x="22.86" y="30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="GPIO48" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO47" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO46" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO45" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO21" x="-22.86" y="-27.94" length="middle"/>
-<pin name="USB_D+/GPIO20" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="USB_D-/GPIO19" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="U0RXD/GPIO44" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="U0TXD/GPIO43" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="MTMS/GPIO42" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="MTDI/GPIO41" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="MTDO/GPIO40" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="MTCK/GPIO39" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO38" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO37" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="GPIO36" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO35" x="22.86" y="20.32" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ESP32-S3-DEVKITC-1-N8R2" urn="urn:adsk.eagle:component:34329049/3" prefix="U" library_version="3">
-<description> &lt;a href="https://pricing.snapeda.com/parts/ESP32-S3-DEVKITC-1-N8R2/Espressif%20Systems/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ESP32-S3-DEVKITC-1-N8R2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XCVR_ESP32-S3-DEVKITC-1-N8R2">
-<connects>
-<connect gate="G$1" pin="3V3" pad="J1_1 J1_2"/>
-<connect gate="G$1" pin="5V0" pad="J1_21"/>
-<connect gate="G$1" pin="GND" pad="J1_22 J3_1 J3_21 J3_22"/>
-<connect gate="G$1" pin="GPIO0" pad="J3_14"/>
-<connect gate="G$1" pin="GPIO1" pad="J3_4"/>
-<connect gate="G$1" pin="GPIO10" pad="J1_16"/>
-<connect gate="G$1" pin="GPIO11" pad="J1_17"/>
-<connect gate="G$1" pin="GPIO12" pad="J1_18"/>
-<connect gate="G$1" pin="GPIO13" pad="J1_19"/>
-<connect gate="G$1" pin="GPIO14" pad="J1_20"/>
-<connect gate="G$1" pin="GPIO15" pad="J1_8"/>
-<connect gate="G$1" pin="GPIO16" pad="J1_9"/>
-<connect gate="G$1" pin="GPIO17" pad="J1_10"/>
-<connect gate="G$1" pin="GPIO18" pad="J1_11"/>
-<connect gate="G$1" pin="GPIO2" pad="J3_5"/>
-<connect gate="G$1" pin="GPIO21" pad="J3_18"/>
-<connect gate="G$1" pin="GPIO3" pad="J1_13"/>
-<connect gate="G$1" pin="GPIO35" pad="J3_13"/>
-<connect gate="G$1" pin="GPIO36" pad="J3_12"/>
-<connect gate="G$1" pin="GPIO37" pad="J3_11"/>
-<connect gate="G$1" pin="GPIO38" pad="J3_10"/>
-<connect gate="G$1" pin="GPIO4" pad="J1_4"/>
-<connect gate="G$1" pin="GPIO45" pad="J3_15"/>
-<connect gate="G$1" pin="GPIO46" pad="J1_14"/>
-<connect gate="G$1" pin="GPIO47" pad="J3_17"/>
-<connect gate="G$1" pin="GPIO48" pad="J3_16"/>
-<connect gate="G$1" pin="GPIO5" pad="J1_5"/>
-<connect gate="G$1" pin="GPIO6" pad="J1_6"/>
-<connect gate="G$1" pin="GPIO7" pad="J1_7"/>
-<connect gate="G$1" pin="GPIO8" pad="J1_12"/>
-<connect gate="G$1" pin="GPIO9" pad="J1_15"/>
-<connect gate="G$1" pin="MTCK/GPIO39" pad="J3_9"/>
-<connect gate="G$1" pin="MTDI/GPIO41" pad="J3_7"/>
-<connect gate="G$1" pin="MTDO/GPIO40" pad="J3_8"/>
-<connect gate="G$1" pin="MTMS/GPIO42" pad="J3_6"/>
-<connect gate="G$1" pin="RST" pad="J1_3"/>
-<connect gate="G$1" pin="U0RXD/GPIO44" pad="J3_3"/>
-<connect gate="G$1" pin="U0TXD/GPIO43" pad="J3_2"/>
-<connect gate="G$1" pin="USB_D+/GPIO20" pad="J3_19"/>
-<connect gate="G$1" pin="USB_D-/GPIO19" pad="J3_20"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34329048/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" WiFi Development Tools - 802.11 (Engineering Samples Only) ESP32-S3 General-Purpose Development Board, ESP32-S3-WROOM-1-N8R2, with Pin Header "/>
-<attribute name="MF" value="Espressif Systems"/>
-<attribute name="MP" value="ESP32-S3-DEVKITC-1-N8R2"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-S3-DEVKITC-1-N8R2/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -14170,7 +14453,7 @@ Copyright: Würth Elektronik</description>
 <text x="-3.5776" y="0.2561" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-3.4976" y="-1.4442" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
-<package name="61302211821" urn="urn:adsk.eagle:footprint:14805051/1" library_version="5">
+<package name="61302211821" urn="urn:adsk.eagle:footprint:14805051/2" library_version="8">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
 <pad name="1" x="-26.67" y="0" drill="1.02"/>
 <pad name="2" x="-24.13" y="0" drill="1.02"/>
@@ -14208,9 +14491,11 @@ Copyright: Würth Elektronik</description>
 <vertex x="28.49" y="-1.55"/>
 <vertex x="-28.49" y="-1.55"/>
 </polygon>
-<circle x="-27.84" y="-0.9" radius="0.1" width="0.2" layer="21"/>
-<text x="-29.0776" y="0.5061" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-28.9976" y="-1.1942" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
+<circle x="-28.7" y="-1.5" radius="0.1" width="0.2" layer="21"/>
+<text x="-28.9" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-28.9" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
+<text x="-28.9" y="0.3" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-28.9" y="-1.3" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -14220,7 +14505,7 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="61300421121"/>
 </packageinstances>
 </package3d>
-<package3d name="61302211821" urn="urn:adsk.eagle:package:14805555/2" type="model" library_version="5">
+<package3d name="61302211821" urn="urn:adsk.eagle:package:14805555/3" type="model" library_version="8">
 <description>&lt;B&gt;WR-PHD &lt;/B&gt;&lt;BR&gt; 2.54 mm Socket Header, 22 Pins</description>
 <packageinstances>
 <packageinstance name="61302211821"/>
@@ -14228,30 +14513,30 @@ Copyright: Würth Elektronik</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="2X2PT" urn="urn:adsk.eagle:symbol:38494929/1" library_version="5">
+<symbol name="2X2PT" urn="urn:adsk.eagle:symbol:38494929/2" library_version="8">
 <description>2X2Row Pin Header THT</description>
-<pin name="1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<text x="-6.26" y="0.35" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-6.12" y="-1.87" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="3" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<circle x="-2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
-<circle x="-2.54" y="1.27" radius="0.254" width="0.635" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <circle x="0" y="-1.27" radius="0.254" width="0.635" layer="94"/>
 <circle x="0" y="1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="2.54" y="1.27" radius="0.254" width="0.635" layer="94"/>
+<text x="-2.54" y="0.762" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
 </symbol>
-<symbol name="22ST" urn="urn:adsk.eagle:symbol:38495010/1" library_version="5">
+<symbol name="22ST" urn="urn:adsk.eagle:symbol:38495010/2" library_version="8">
 <description>Socket Header THT,22Pins</description>
 <pin name="1" x="-27.94" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="-25.4" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
@@ -14275,8 +14560,6 @@ Copyright: Würth Elektronik</description>
 <pin name="20" x="20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="21" x="22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="22" x="25.4" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<text x="-30.28" y="-0.922" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-30.23" y="-2.58" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
 <wire x1="-29.21" y1="0" x2="26.67" y2="0" width="0.254" layer="94"/>
 <wire x1="26.67" y1="-2.54" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-2.54" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
@@ -14347,10 +14630,12 @@ Copyright: Würth Elektronik</description>
 <circle x="20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
 <circle x="22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
 <circle x="25.4" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<text x="-30.48" y="-1.778" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-30.48" y="-5.08" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="6130XX21121_61300421121" urn="urn:adsk.eagle:component:38495159/1" prefix="J" library_version="5">
+<deviceset name="6130XX21121_61300421121" urn="urn:adsk.eagle:component:38495159/2" prefix="J" library_version="8">
 <description>&lt;b&gt;WR-PHD 2.54 mm THT Dual Pin Header &lt;/b&gt;&lt;BR&gt;
 &lt;BR&gt;
 &lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
@@ -14431,54 +14716,56 @@ Updated by Yingchun,Shan 2019-10-16
 </device>
 </devices>
 </deviceset>
-<deviceset name="6130XX11821_61302211821" urn="urn:adsk.eagle:component:38495236/1" prefix="J" library_version="5">
-<description>&lt;b&gt;WR-PHD 2.54 mm Socket Header &lt;/b&gt;&lt;BR&gt;
+<deviceset name="6130XX11821_61302211821" urn="urn:adsk.eagle:component:38495236/3" prefix="J" library_version="8">
+<description>&lt;b&gt;WR-PHD 2.54 mm Socket Header&lt;/b&gt;&lt;BR&gt;
 &lt;BR&gt;
-&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
+&lt;b&gt;Article Properties&lt;/b&gt;
 &lt;BR&gt;
-&lt;BR&gt;Pins:1;​ 2;​ 3;​ 4;​ 5;​ 6;​ 7;​ 8;​ 9;​ 10;​ 12;​ 13;​ 14;​ 15;​ 16;​ 18;​ 20;​ 22;​ 24;​ 25;​ 32;​ 36;​ 40
+&lt;BR&gt;Pins 2 unitless; 3 unitless; 4 unitless; 5 unitless; 6 unitless; 7 unitless; 8 unitless; 9 unitless; 10 unitless; 12 unitless; 13 unitless; 14 unitless; 15 unitless; 16 unitless; 18 unitless; 20 unitless; 22 unitless; 24 unitless; 32 unitless; 36 unitless; 40 unitless
 &lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
+&lt;BR&gt;&lt;B&gt;General Information&lt;/B&gt;
 &lt;BR&gt;
-&lt;BR&gt;Pitch：2.54 mm
-&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
-&lt;BR&gt;Rows：Single
-&lt;BR&gt;Gender：Socket Header;​ Female
-&lt;BR&gt;Type：Straight
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material :PBT
-&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
-&lt;BR&gt;Contact Material:Copper Alloy
-&lt;BR&gt;Contact Plating:Gold
-&lt;BR&gt;Contact Type:Stamped
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
-&lt;BR&gt;Operating Temperature:-40 up to +125 °C
-&lt;BR&gt;Compliance:Lead free / RoHS
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Rated Current:3 A
-&lt;BR&gt;IR 1:3 A
-&lt;BR&gt;Withstanding Voltage:500 V (AC)
-&lt;BR&gt;Contact Resistance:20 mΩ
-&lt;BR&gt;RISO:1000 MΩ
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
-&lt;BR&gt;Packaging:Tray
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33218v209%20Family_WR-PHD_613xxx11821.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o33218v209%20Family_WR-PHD_613xxx11821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;BR&gt;Operating Temperature	-40 °C up to +105 °C
+&lt;BR&gt;Pitch	2.54 mm
+&lt;BR&gt;Durability	25 Mating cycles; 500 Mating cycles
+&lt;BR&gt;Rows	Single
+&lt;BR&gt;Gender	Socket Header
+&lt;BR&gt;Type	Straight
 
-Details see: &lt;a href="https://katalog.we-online.com/en/em/PHD_2_54_SOCKET_HEADER_6130XX11821"&gt;https://katalog.we-online.com/en/em/PHD_2_54_SOCKET_HEADER_6130XX11821&lt;/a&gt;&lt;p&gt;
 &lt;BR&gt;
-Updated by Yingchun,Shan 2019-10-21
+&lt;BR&gt;&lt;B&gt;Material Properties&lt;/B&gt;
 &lt;BR&gt;
+&lt;BR&gt;Insulator Material	PBT
+&lt;BR&gt;Insulator Flammability Rating	UL94 V-0
+&lt;BR&gt;Contact Material	Copper Alloy
+&lt;BR&gt;Contact Plating	Gold
+&lt;BR&gt;Contact Type	Stamped
+
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;Certification&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;UL Approval	E323964
+
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Packaging	Tray
+
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+&lt;BR&gt;Contact Resistance	20 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o33218v209%20Family_WR-PHD_613xxx11821.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o33218v209%20Family_WR-PHD_613xxx11821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+Details see: &lt;a href="www.we-online.com/catalog/PHD_2_54_SOCKET_HEADER_6130XX11821/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/PHD_2_54_SOCKET_HEADER_6130XX11821&lt;/a&gt;&lt;p&gt;
+
+Updated by Yingchun,Shan 2019-10-21&lt;BR&gt;
 2019 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="22ST" x="0" y="0"/>
@@ -14510,7 +14797,7 @@ Updated by Yingchun,Shan 2019-10-21
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14805555/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14805555/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15160,8 +15447,6 @@ Updated by Yingchun,Shan 2019-11-05
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="ECU Type I non terminated"/>
-<variantdef name="b"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -15245,7 +15530,6 @@ Updated by Yingchun,Shan 2019-11-05
 <part name="D4" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" deviceset="WL-SMTW_3528" device="" package3d_urn="urn:adsk.eagle:package:19062500/6" technology="_150141VS73100" value="150141VS73100"/>
 <part name="D3" library="Wurth_LEDs_WL-SMTW" library_urn="urn:adsk.eagle:library:19062651" deviceset="WL-SMTW_3528" device="" package3d_urn="urn:adsk.eagle:package:19062500/6" technology="_150141VS73100" value="150141VS73100"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U1" library="ESP32-S3-DEVKITC-1-N8R2" library_urn="urn:adsk.eagle:library:34329045" deviceset="ESP32-S3-DEVKITC-1-N8R2" device="" package3d_urn="urn:adsk.eagle:package:34329048/2"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="PWR_GND17" library="supply_isobus" deviceset="PWR_GND" device=""/>
@@ -15362,14 +15646,24 @@ Updated by Yingchun,Shan 2019-11-05
 <part name="J4" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX21121_61300421121" device="" package3d_urn="urn:adsk.eagle:package:14805408/2" value=" 61300421121 "/>
 <part name="D006" library="fliegl-elektronik" deviceset="MBRS3*0T3" device="" technology="4"/>
 <part name="C23" library="Wurth_Capacitors_WCAP-ASLI" library_urn="urn:adsk.eagle:library:18353966" deviceset="WCAP-ASLI_12.5X14" device="" package3d_urn="urn:adsk.eagle:package:18353982/3" technology="_865080662019" value="330  µF "/>
-<part name="J3" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 "/>
-<part name="J6" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/2" value=" 61302211821 "/>
+<part name="ESP32-J3" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/3" value=" 61302211821 "/>
+<part name="ESP32-J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6130XX11821_61302211821" device="" package3d_urn="urn:adsk.eagle:package:14805555/3" value=" 61302211821 "/>
 <part name="J7" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222005" device="" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 "/>
 <part name="J8" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222007" device="" package3d_urn="urn:adsk.eagle:package:15267958/3" value=" 638207222007 "/>
 <part name="J13" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222005" device="" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 "/>
 <part name="J15" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222008" device="" package3d_urn="urn:adsk.eagle:package:15267957/3" value=" 638207222008 "/>
 <part name="J1" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" deviceset="638207222005" device="" package3d_urn="urn:adsk.eagle:package:15267960/3" value=" 638207222005 "/>
 <part name="J2" library="Wurth_Connectors_WR-WTB" library_urn="urn:adsk.eagle:library:15818693" deviceset="645004114822" device="" package3d_urn="urn:adsk.eagle:package:15819025/2" value="645004114822"/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="ECU_GND30" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND31" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND32" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="ECU_GND39" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND40" library="supply_isobus" deviceset="ECU_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15563,6 +15857,12 @@ Updated by Yingchun,Shan 2019-11-05
 <pinref part="PWR_GND5" gate="PWR_GND" pin="PWR_GND"/>
 <pinref part="J15" gate="G$1" pin="7"/>
 </segment>
+<segment>
+<pinref part="J13" gate="G$1" pin="5"/>
+<pinref part="PWR_GND2" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="-30.48" y1="96.52" x2="-30.48" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-30.48" y="96.52"/>
+</segment>
 </net>
 <net name="Q5" class="0">
 <segment>
@@ -15696,15 +15996,6 @@ Updated by Yingchun,Shan 2019-11-05
 <pinref part="ECU_GND26" gate="ECU_GND" pin="ECU_GND"/>
 <pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<wire x1="-30.48" y1="96.52" x2="-30.48" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="PWR_GND2" gate="PWR_GND" pin="PWR_GND"/>
-<pinref part="J13" gate="G$1" pin="5"/>
-<junction x="-30.48" y="96.52"/>
-<wire x1="-30.48" y1="96.52" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -15850,15 +16141,15 @@ Updated by Yingchun,Shan 2019-11-05
 <pinref part="J4" gate="G$1" pin="4"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="73.66" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<junction x="73.66" y="83.82"/>
+<wire x1="78.74" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
+<junction x="76.2" y="83.82"/>
 <junction x="66.04" y="83.82"/>
 <pinref part="J4" gate="G$1" pin="3"/>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
-<junction x="73.66" y="73.66"/>
+<wire x1="78.74" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<junction x="76.2" y="73.66"/>
 <junction x="66.04" y="73.66"/>
 </segment>
 </net>
@@ -16056,26 +16347,21 @@ Updated by Yingchun,Shan 2019-11-05
 </sheet>
 <sheet>
 <plain>
-<text x="96.52" y="22.86" size="1.27" layer="91">Vorschlag</text>
-<text x="172.72" y="68.58" size="1.778" layer="91">ESP32-S3 has four strapping pins: 
+<text x="101.6" y="43.18" size="1.27" layer="91">Vorschlag</text>
+<text x="17.78" y="111.76" size="1.778" layer="91">ESP32-S3 has four strapping pins: 
 • GPIO0 
 • GPIO45 
 • GPIO46 
 • GPIO3</text>
-<text x="175.26" y="101.6" size="1.778" layer="91">b In module variants that have embedded OSPI PSRAM, 
+<text x="20.32" y="144.78" size="1.778" layer="91">b In module variants that have embedded OSPI PSRAM, 
 i.e., that embed ESP32-S3R8, 
 pins 
 IO35, 
 IO36, and 
 IO37 
 connect to the OSPI PSRAM and are not available for other uses.</text>
-<wire x1="129.54" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="97"/>
-<text x="134.62" y="38.1" size="1.27" layer="97">GPIO 19/20 is reserved for the USB Connector on Board. </text>
-<text x="137.16" y="45.72" size="1.27" layer="97">U0 is the Flash Connector for Flashing new Software</text>
+<text x="139.7" y="58.42" size="1.27" layer="97">GPIO 19/20 is reserved for the USB Connector on Board. </text>
+<text x="142.24" y="66.04" size="1.27" layer="97">U0 is the Flash Connector for Flashing new Software</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -16083,26 +16369,14 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="U1" gate="G$1" x="106.68" y="63.5" smashed="yes">
-<attribute name="NAME" x="88.9" y="99.06" size="1.778" layer="95" align="top-left"/>
-<attribute name="VALUE" x="88.9" y="27.94" size="1.778" layer="96"/>
+<instance part="+3V4" gate="G$1" x="154.94" y="124.46" smashed="yes">
+<attribute name="VALUE" x="152.4" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="149.86" y="104.14" smashed="yes">
-<attribute name="VALUE" x="147.32" y="99.06" size="1.778" layer="96" rot="R90"/>
+<instance part="P+5" gate="1" x="142.24" y="124.46" smashed="yes">
+<attribute name="VALUE" x="139.7" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+5" gate="1" x="137.16" y="104.14" smashed="yes">
-<attribute name="VALUE" x="134.62" y="99.06" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="ECU_GND25" gate="ECU_GND" x="137.16" y="22.86" smashed="yes">
-<attribute name="VALUE" x="134.62" y="20.32" size="1.778" layer="96"/>
-</instance>
-<instance part="J3" gate="G$1" x="99.06" y="147.32" smashed="yes">
-<attribute name="NAME" x="68.78" y="146.398" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="68.83" y="144.74" size="1.016" layer="96" align="bottom-right"/>
-</instance>
-<instance part="J6" gate="G$1" x="99.06" y="154.94" smashed="yes">
-<attribute name="NAME" x="68.78" y="154.018" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="68.83" y="152.36" size="1.016" layer="96" align="bottom-right"/>
+<instance part="ECU_GND25" gate="ECU_GND" x="142.24" y="43.18" smashed="yes">
+<attribute name="VALUE" x="139.7" y="40.64" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -16110,251 +16384,401 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <nets>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="3V3"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="129.54" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="91.44" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="111.76" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_TXD" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO4"/>
-<wire x1="83.82" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
-<label x="76.2" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
+<label x="81.28" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAN1_RXD" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO5"/>
-<wire x1="83.82" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
-<label x="76.2" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+<label x="81.28" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CI7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO7"/>
-<wire x1="83.82" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
-<label x="76.2" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADC2" class="0">
-<segment>
-<label x="20.32" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="25.4" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="IX00" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO14"/>
-<wire x1="83.82" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
-<label x="76.2" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="IX01" class="0">
-<segment>
-<label x="20.32" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="25.4" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
+<label x="81.28" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CI5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO18"/>
-<wire x1="83.82" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
-<label x="76.2" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
+<label x="81.28" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CI8" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO6"/>
-<wire x1="83.82" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-<label x="76.2" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<label x="81.28" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="Q1C" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO21"/>
-<wire x1="83.82" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
-<label x="76.2" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="QX07" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO38"/>
-<wire x1="129.54" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
-<label x="137.16" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="88.9" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
+<label x="81.28" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="Q3C" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MTCK/GPIO39"/>
-<wire x1="129.54" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
-<label x="137.16" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="134.62" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
+<label x="142.24" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BOOT" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO0"/>
-<wire x1="83.82" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<label x="76.2" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="104.14" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
+<label x="81.28" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RST"/>
-<wire x1="83.82" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
-<label x="76.2" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="IX02" class="0">
-<segment>
-<label x="20.32" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="25.4" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
+<label x="81.28" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CI4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO3"/>
-<wire x1="83.82" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
-<label x="76.2" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADC3" class="0">
-<segment>
-<wire x1="20.32" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<label x="20.32" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADC4" class="0">
-<segment>
-<label x="20.32" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="25.4" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
+<label x="81.28" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CI6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO17"/>
-<wire x1="83.82" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
-<label x="76.2" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="IX06" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO15"/>
-<wire x1="83.82" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
-<label x="76.2" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="QX02" class="0">
-<segment>
-<label x="20.32" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="25.4" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="QX06" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO48"/>
-<wire x1="129.54" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<label x="137.16" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="88.9" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
+<label x="81.28" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="Q5C" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MTDI/GPIO41"/>
-<wire x1="129.54" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
-<label x="137.16" y="55.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="134.62" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="142.24" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="Q4C" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MTDO/GPIO40"/>
-<wire x1="129.54" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
-<label x="137.16" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="134.62" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
+<label x="142.24" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="Q6C" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MTMS/GPIO42"/>
-<wire x1="129.54" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
-<label x="137.16" y="53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="134.62" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
+<label x="142.24" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="Q8C" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO2"/>
-<wire x1="83.82" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
-<label x="76.2" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="99.06" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
+<label x="81.28" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="Q2C" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO47"/>
-<wire x1="129.54" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<label x="137.16" y="68.58" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MB_UART_RXD1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO8"/>
-<wire x1="83.82" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-<label x="76.2" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
+<label x="142.24" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CI3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO9"/>
-<wire x1="83.82" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
-<label x="76.2" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MB_UART_RXD2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO11"/>
-<wire x1="83.82" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
-<label x="76.2" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="81.28" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
+<label x="81.28" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CI2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO12"/>
-<wire x1="83.82" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
-<label x="76.2" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
+<label x="81.28" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CI1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO13"/>
-<wire x1="83.82" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
-<label x="76.2" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MB_UART_RTS1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO10"/>
-<wire x1="83.82" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
-<label x="76.2" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
+<label x="81.28" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="Q7C" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO1"/>
-<wire x1="83.82" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
-<label x="76.2" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="88.9" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
+<label x="81.28" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ECU_GND" class="1">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="129.54" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="33.02" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="53.34" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="ECU_GND25" gate="ECU_GND" pin="ECU_GND"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="5V0"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="129.54" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="93.98" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="114.3" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="147.32" y="83.82" size="1.27" layer="97">usb</text>
+<text x="147.32" y="81.28" size="1.27" layer="97">usb</text>
+<text x="147.32" y="127" size="1.27" layer="97">prg</text>
+<text x="147.32" y="124.46" size="1.27" layer="97">prg</text>
+<text x="147.32" y="104.14" size="1.27" layer="97">psram</text>
+<text x="147.32" y="101.6" size="1.27" layer="97">psram</text>
+<text x="147.32" y="99.06" size="1.27" layer="97">psram</text>
+</plain>
+<instances>
+<instance part="ESP32-J3" gate="G$1" x="139.7" y="101.6" smashed="yes" rot="MR270">
+<attribute name="NAME" x="140.622" y="131.88" size="1.016" layer="95" rot="MR270" align="bottom-right"/>
+<attribute name="VALUE" x="142.28" y="131.83" size="1.016" layer="96" rot="MR270" align="bottom-right"/>
+</instance>
+<instance part="ESP32-J1" gate="G$1" x="99.06" y="101.6" smashed="yes" rot="MR270">
+<attribute name="NAME" x="99.982" y="131.88" size="1.016" layer="95" rot="MR270" align="bottom-right"/>
+<attribute name="VALUE" x="101.64" y="131.83" size="1.016" layer="96" rot="MR270" align="bottom-right"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="104.14" y="147.32" smashed="yes">
+<attribute name="VALUE" x="101.6" y="142.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="ECU_GND30" gate="ECU_GND" x="104.14" y="66.04" smashed="yes">
+<attribute name="VALUE" x="101.6" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="ECU_GND31" gate="ECU_GND" x="152.4" y="134.62" smashed="yes">
+<attribute name="VALUE" x="149.86" y="132.08" size="1.778" layer="96"/>
+</instance>
+<instance part="ECU_GND32" gate="ECU_GND" x="144.78" y="66.04" smashed="yes">
+<attribute name="VALUE" x="142.24" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="1.905" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="P+1" gate="1" x="134.62" y="88.9" smashed="yes">
+<attribute name="VALUE" x="132.08" y="83.82" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R14" gate="G$1" x="198.12" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.6214" y="102.87" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="201.422" y="102.87" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R15" gate="G$1" x="223.52" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="222.0214" y="102.87" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="226.822" y="102.87" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="ECU_GND39" gate="ECU_GND" x="198.12" y="99.06" smashed="yes">
+<attribute name="VALUE" x="195.58" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="ECU_GND40" gate="ECU_GND" x="223.52" y="99.06" smashed="yes">
+<attribute name="VALUE" x="220.98" y="96.52" size="1.778" layer="96"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="2"/>
+<pinref part="ESP32-J1" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="127" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="129.54" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
+<junction x="104.14" y="129.54"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
+<net name="CAN1_TXD" class="0">
+<segment>
+<wire x1="104.14" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="ESP32-J1" gate="G$1" pin="4"/>
+<label x="109.22" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN1_RXD" class="0">
+<segment>
+<wire x1="104.14" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="ESP32-J1" gate="G$1" pin="5"/>
+<label x="109.22" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CI7" class="0">
+<segment>
+<wire x1="104.14" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="ESP32-J1" gate="G$1" pin="7"/>
+<label x="109.22" y="114.3" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CI5" class="0">
+<segment>
+<wire x1="104.14" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="ESP32-J1" gate="G$1" pin="11"/>
+<label x="109.22" y="104.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CI8" class="0">
+<segment>
+<wire x1="104.14" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="ESP32-J1" gate="G$1" pin="6"/>
+<label x="109.22" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q1C" class="0">
+<segment>
+<wire x1="144.78" y1="86.36" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="ESP32-J3" gate="G$1" pin="18"/>
+<label x="149.86" y="86.36" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BOOT" class="0">
+<segment>
+<wire x1="144.78" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="ESP32-J3" gate="G$1" pin="14"/>
+<label x="149.86" y="96.52" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RESET" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="3"/>
+<wire x1="104.14" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
+<label x="109.22" y="124.46" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q5C" class="0">
+<segment>
+<wire x1="144.78" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="ESP32-J3" gate="G$1" pin="7"/>
+<label x="149.86" y="114.3" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q4C" class="0">
+<segment>
+<wire x1="144.78" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="ESP32-J3" gate="G$1" pin="8"/>
+<label x="149.86" y="111.76" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q6C" class="0">
+<segment>
+<wire x1="144.78" y1="116.84" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="ESP32-J3" gate="G$1" pin="6"/>
+<label x="149.86" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q8C" class="0">
+<segment>
+<wire x1="144.78" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="ESP32-J3" gate="G$1" pin="5"/>
+<label x="149.86" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q2C" class="0">
+<segment>
+<wire x1="144.78" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="ESP32-J3" gate="G$1" pin="17"/>
+<label x="149.86" y="88.9" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="111.76" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
+<label x="226.06" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CI3" class="0">
+<segment>
+<wire x1="104.14" y1="93.98" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="ESP32-J1" gate="G$1" pin="15"/>
+<label x="109.22" y="93.98" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q7C" class="0">
+<segment>
+<wire x1="144.78" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="ESP32-J3" gate="G$1" pin="4"/>
+<label x="149.86" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ECU_GND" class="1">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="22"/>
+<pinref part="ECU_GND30" gate="ECU_GND" pin="ECU_GND"/>
+<wire x1="104.14" y1="76.2" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ESP32-J3" gate="G$1" pin="1"/>
+<pinref part="ECU_GND31" gate="ECU_GND" pin="ECU_GND"/>
+<wire x1="144.78" y1="129.54" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ESP32-J3" gate="G$1" pin="21"/>
+<pinref part="ESP32-J3" gate="G$1" pin="22"/>
+<wire x1="144.78" y1="78.74" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="76.2" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
+<junction x="144.78" y="76.2"/>
+<pinref part="ECU_GND32" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="ECU_GND39" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="ECU_GND40" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+</net>
+<net name="CI4" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="13"/>
+<wire x1="104.14" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<label x="109.22" y="99.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CI2" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="18"/>
+<wire x1="104.14" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
+<label x="109.22" y="86.36" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CI1" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="19"/>
+<wire x1="104.14" y1="83.82" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
+<label x="109.22" y="83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="21"/>
+<wire x1="104.14" y1="78.74" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="78.74" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+</net>
+<net name="CI6" class="0">
+<segment>
+<pinref part="ESP32-J1" gate="G$1" pin="10"/>
+<wire x1="104.14" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<label x="109.22" y="106.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q3C" class="0">
+<segment>
+<pinref part="ESP32-J3" gate="G$1" pin="9"/>
+<wire x1="144.78" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
+<label x="149.86" y="109.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="111.76" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
+<label x="226.06" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

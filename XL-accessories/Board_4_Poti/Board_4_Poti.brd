@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="15" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.6" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -180,7 +180,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:xY6DLsx1SxefcaT5rI3avA" pcbguid="196f8b3d-cd5b-48fa-ae28-a8c62cf61da1" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="0541154e-5c61-4f07-9f6c-2a0e47bc1266" lastsyncedrevisionid="0541154e-5c61-4f07-9f6c-2a0e47bc1266" lastboardhashguid="25efe55b-0d12-3d61-0ead-b59188621dd4" lastpushedtime="2023-08-04T22:59:52Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:xY6DLsx1SxefcaT5rI3avA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="0541154e-5c61-4f07-9f6c-2a0e47bc1266" lastsyncedrevisionid="0541154e-5c61-4f07-9f6c-2a0e47bc1266" lastboardhashguid="25efe55b-0d12-3d61-0ead-b59188621dd4" lastpushedtime="2023-08-04T22:59:52Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-60" y1="-20" x2="-73" y2="-20" width="0" layer="20"/>
 <wire x1="-73" y1="-20" x2="-78" y2="-15" width="0" layer="20" curve="-90"/>
@@ -237,6 +237,34 @@
 <wire x1="50.6" y1="0.6" x2="51" y2="1" width="0" layer="20" curve="-90"/>
 <wire x1="51" y1="1" x2="51.4" y2="0.6" width="0" layer="20" curve="-90"/>
 <wire x1="51" y1="0" x2="45" y2="0" width="0.1016" layer="21"/>
+<circle x="-45" y="0" radius="8.5" width="0.1524" layer="21"/>
+<circle x="-15" y="0" radius="8.5" width="0.1524" layer="21"/>
+<circle x="15" y="0" radius="8.5" width="0.1524" layer="21"/>
+<circle x="45" y="0" radius="8.5" width="0.1524" layer="21"/>
+<wire x1="-36.8" y1="0.6" x2="-36.8" y2="-0.6" width="0" layer="20"/>
+<wire x1="-36.8" y1="-0.6" x2="-37.2" y2="-1" width="0" layer="20" curve="-90"/>
+<wire x1="-37.2" y1="-1" x2="-37.6" y2="-0.6" width="0" layer="20" curve="-90"/>
+<wire x1="-37.6" y1="-0.6" x2="-37.6" y2="0.6" width="0" layer="20"/>
+<wire x1="-37.6" y1="0.6" x2="-37.2" y2="1" width="0" layer="20" curve="-90"/>
+<wire x1="-37.2" y1="1" x2="-36.8" y2="0.6" width="0" layer="20" curve="-90"/>
+<wire x1="-6.8" y1="0.6" x2="-6.8" y2="-0.6" width="0" layer="20"/>
+<wire x1="-6.8" y1="-0.6" x2="-7.2" y2="-1" width="0" layer="20" curve="-90"/>
+<wire x1="-7.2" y1="-1" x2="-7.6" y2="-0.6" width="0" layer="20" curve="-90"/>
+<wire x1="-7.6" y1="-0.6" x2="-7.6" y2="0.6" width="0" layer="20"/>
+<wire x1="-7.6" y1="0.6" x2="-7.2" y2="1" width="0" layer="20" curve="-90"/>
+<wire x1="-7.2" y1="1" x2="-6.8" y2="0.6" width="0" layer="20" curve="-90"/>
+<wire x1="23.2" y1="0.6" x2="23.2" y2="-0.6" width="0" layer="20"/>
+<wire x1="23.2" y1="-0.6" x2="22.8" y2="-1" width="0" layer="20" curve="-90"/>
+<wire x1="22.8" y1="-1" x2="22.4" y2="-0.6" width="0" layer="20" curve="-90"/>
+<wire x1="22.4" y1="-0.6" x2="22.4" y2="0.6" width="0" layer="20"/>
+<wire x1="22.4" y1="0.6" x2="22.8" y2="1" width="0" layer="20" curve="-90"/>
+<wire x1="22.8" y1="1" x2="23.2" y2="0.6" width="0" layer="20" curve="-90"/>
+<wire x1="53.2" y1="0.6" x2="53.2" y2="-0.6" width="0" layer="20"/>
+<wire x1="53.2" y1="-0.6" x2="52.8" y2="-1" width="0" layer="20" curve="-90"/>
+<wire x1="52.8" y1="-1" x2="52.4" y2="-0.6" width="0" layer="20" curve="-90"/>
+<wire x1="52.4" y1="-0.6" x2="52.4" y2="0.6" width="0" layer="20"/>
+<wire x1="52.4" y1="0.6" x2="52.8" y2="1" width="0" layer="20" curve="-90"/>
+<wire x1="52.8" y1="1" x2="53.2" y2="0.6" width="0" layer="20" curve="-90"/>
 </plain>
 <libraries>
 <library name="Wurth_Connectors_WR-TBL Rising Cage Clamp" urn="urn:adsk.eagle:library:16280519">
