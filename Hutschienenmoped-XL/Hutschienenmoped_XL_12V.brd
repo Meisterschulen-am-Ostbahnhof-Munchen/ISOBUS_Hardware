@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1065,8 +1065,8 @@ Copyright: Würth Elektronik</description>
 <package name="WE-TVSP_DO-214AB_BIDIRECTIONAL" urn="urn:adsk.eagle:footprint:12146521/1" library_version="3">
 <description>&lt;b&gt;WE-TVSP Power TVS Diode
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AB Bidirectional</description>
-<smd name="1" x="-3.5" y="0" dx="2.3" dy="3.3" layer="1"/>
-<smd name="2" x="3.5" y="0" dx="2.3" dy="3.3" layer="1"/>
+<smd name="1" x="-3.5" y="0" dx="2.3" dy="3.3" layer="1" thermals="no"/>
+<smd name="2" x="3.5" y="0" dx="2.3" dy="3.3" layer="1" thermals="no"/>
 <wire x1="-3.43" y1="2.95" x2="-3.43" y2="-2.95" width="0.1" layer="51"/>
 <wire x1="3.43" y1="-2.95" x2="3.43" y2="2.95" width="0.1" layer="51"/>
 <wire x1="3.53" y1="3.05" x2="-3.53" y2="3.05" width="0.2" layer="21"/>
@@ -1171,8 +1171,8 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="WCAP-CSGP_1210_H2.5" urn="urn:adsk.eagle:footprint:18489051/1" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1210&lt;/b&gt;&lt;br&gt;3.2x2.5x2.5(LXWXH);</description>
-<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
+<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
+<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1" thermals="no"/>
 <wire x1="-1.6" y1="1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
@@ -1190,8 +1190,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_0805_H0.8_R" urn="urn:adsk.eagle:footprint:18489072/1" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x0.8( LxWxH) ;</description>
-<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
@@ -1209,8 +1209,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_0805_H1.25_R" urn="urn:adsk.eagle:footprint:18489080/1" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;</description>
-<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
@@ -1228,8 +1228,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_1206_H0.8" urn="urn:adsk.eagle:footprint:18489064/1" library_version="22">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 1206&lt;/b&gt;&lt;br&gt;3.2X1.6X0.8(LXWXH) ;</description>
-<smd name="1" x="-1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
+<smd name="1" x="-1.55" y="0" dx="0.9" dy="1.6" layer="1" thermals="no"/>
+<smd name="2" x="1.55" y="0" dx="0.9" dy="1.6" layer="1" thermals="no"/>
 <wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
@@ -2600,8 +2600,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1" thermals="no"/>
 <text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
@@ -2616,8 +2616,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1" thermals="no"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1" thermals="no"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
@@ -2769,8 +2769,8 @@ Copyright: Würth Elektronik</description>
 <wire x1="-0.19" y1="0" x2="0.21" y2="0.25" width="0.1" layer="51"/>
 <wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="0.8" x2="-1.15" y2="1.4" width="0.1" layer="51"/>
-<smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
-<smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180" thermals="no"/>
+<smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180" thermals="no"/>
 <text x="0" y="2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="2.8" y="0" size="0.8128" layer="21" align="center">+</text>
@@ -2893,10 +2893,10 @@ Copyright: Würth Elektronik</description>
 <wire x1="-0.3375" y1="-1.2" x2="-1.1625" y2="-1.2" width="0.1" layer="51"/>
 <wire x1="-1.1625" y1="-1.2" x2="-1.1625" y2="-0.65" width="0.1" layer="51"/>
 <wire x1="-0.15" y1="0.75" x2="0.15" y2="0.75" width="0.2" layer="21"/>
-<smd name="4" x="-0.95" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="3" x="0.95" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.75" y="-1.1" dx="1.4" dy="1.4" layer="1"/>
+<smd name="4" x="-0.95" y="1.1" dx="1" dy="1.4" layer="1" thermals="no"/>
+<smd name="3" x="0.95" y="1.1" dx="1" dy="1.4" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1" thermals="no"/>
+<smd name="1" x="-0.75" y="-1.1" dx="1.4" dy="1.4" layer="1" thermals="no"/>
 <text x="0" y="2.2" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
 <circle x="-2" y="-1.4" radius="0.1" width="0.3" layer="21"/>
@@ -2933,9 +2933,9 @@ Copyright: Würth Elektronik</description>
 <wire x1="0.75" y1="-0.65" x2="0.75" y2="-1.2" width="0.1" layer="51"/>
 <wire x1="0.75" y1="-1.2" x2="1.15" y2="-1.2" width="0.1" layer="51"/>
 <wire x1="1.15" y1="-1.2" x2="1.15" y2="-0.65" width="0.1" layer="51"/>
-<smd name="3" x="0" y="1.05" dx="0.9" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.05" dx="0.9" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.05" dx="0.9" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="1.05" dx="0.9" dy="1.4" layer="1" thermals="no"/>
+<smd name="2" x="0.95" y="-1.05" dx="0.9" dy="1.4" layer="1" thermals="no"/>
+<smd name="1" x="-0.95" y="-1.05" dx="0.9" dy="1.4" layer="1" thermals="no"/>
 <text x="0" y="2.2" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
 <polygon width="0.1" layer="39">
@@ -3245,8 +3245,8 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="WCAP-ASLI_12.5X14(DXL)" urn="urn:adsk.eagle:footprint:18353971/1" library_version="2">
 <description>&lt;B&gt;WCAP-ASLI&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,12.5X14X4.5(DiameterXLengthXP)</description>
-<smd name="2" x="-5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
-<smd name="1" x="5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<smd name="2" x="-5.05" y="0" dx="5.8" dy="2.5" layer="1" thermals="no"/>
+<smd name="1" x="5.05" y="0" dx="5.8" dy="2.5" layer="1" thermals="no"/>
 <wire x1="-6.85" y1="6.85" x2="4.05" y2="6.85" width="0.2" layer="21"/>
 <wire x1="-6.85" y1="-6.85" x2="-6.85" y2="-1.55" width="0.2" layer="21"/>
 <wire x1="-6.85" y1="-6.85" x2="4.05" y2="-6.85" width="0.2" layer="21"/>
