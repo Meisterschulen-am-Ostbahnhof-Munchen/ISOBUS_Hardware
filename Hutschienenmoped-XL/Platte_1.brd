@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -126,6 +126,7 @@
 <hole x="50.5" y="18.75" drill="3"/>
 <hole x="50.5" y="-26.25" drill="3"/>
 <hole x="-37.59" y="0.2" drill="14.5"/>
+<circle x="52.2" y="6.916540625" radius="4.5" width="0.1524" layer="1"/>
 </plain>
 <libraries>
 </libraries>
