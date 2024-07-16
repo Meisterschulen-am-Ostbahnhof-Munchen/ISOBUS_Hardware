@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -232,7 +232,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:1radzTpiS4azWLY-vC6uLw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="26d64653-fdb8-4622-b68c-5739598a7d0e" lastsyncedrevisionid="26d64653-fdb8-4622-b68c-5739598a7d0e" lastboardhashguid="93564201-ccb4-a31b-8156-3120341aac9d" lastpushedtime="2024-07-16T17:16:33Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:1radzTpiS4azWLY-vC6uLw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="9f358769-a7fa-4dc9-9a60-951cb3fdcd53" lastsyncedrevisionid="9f358769-a7fa-4dc9-9a60-951cb3fdcd53" lastboardhashguid="45cd91ff-0d28-e6a3-29ec-e300867b1bad" lastpushedtime="2024-07-16T17:23:19Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-37.5" y1="-18.75" x2="51.49991875" y2="-18.75" width="0.001" layer="20"/>
 <wire x1="51.49991875" y1="-18.75" x2="52.198" y2="-15.5835" width="0.001" layer="20" curve="-24.86"/>
@@ -457,14 +457,14 @@
 <wire x1="14.76485" y1="18.50985" x2="14.12985" y2="18.50985" width="0.3048" layer="21"/>
 <wire x1="14.12985" y1="18.50985" x2="14.12985" y2="19.14485" width="0.3048" layer="21"/>
 <circle x="-17.76765" y="12.59735" radius="1.4" width="0.3048" layer="21"/>
-<wire x1="-32.17165" y1="11.94735" x2="-32.17165" y2="13.24735" width="0.3048" layer="21"/>
-<wire x1="-32.17165" y1="13.24735" x2="-33.66365" y2="13.24735" width="0.3048" layer="21" curve="180"/>
-<wire x1="-33.66365" y1="13.24735" x2="-33.66365" y2="11.94735" width="0.3048" layer="21"/>
-<wire x1="-33.66365" y1="11.94735" x2="-32.17165" y2="11.94735" width="0.3048" layer="21" curve="180"/>
-<wire x1="-32.17165" y1="1.54735" x2="-32.17165" y2="2.84735" width="0.3048" layer="21"/>
-<wire x1="-32.17165" y1="2.84735" x2="-33.66365" y2="2.84735" width="0.3048" layer="21" curve="180"/>
-<wire x1="-33.66365" y1="2.84735" x2="-33.66365" y2="1.54735" width="0.3048" layer="21"/>
-<wire x1="-33.66365" y1="1.54735" x2="-32.17165" y2="1.54735" width="0.3048" layer="21" curve="180"/>
+<wire x1="-32.02165" y1="11.94735" x2="-32.02165" y2="13.24735" width="0.3048" layer="21"/>
+<wire x1="-32.02165" y1="13.24735" x2="-33.81365" y2="13.24735" width="0.3048" layer="21" curve="180"/>
+<wire x1="-33.81365" y1="13.24735" x2="-33.81365" y2="11.94735" width="0.3048" layer="21"/>
+<wire x1="-33.81365" y1="11.94735" x2="-32.02165" y2="11.94735" width="0.3048" layer="21" curve="180"/>
+<wire x1="-32.02165" y1="1.54735" x2="-32.02165" y2="2.84735" width="0.3048" layer="21"/>
+<wire x1="-32.02165" y1="2.84735" x2="-33.81365" y2="2.84735" width="0.3048" layer="21" curve="180"/>
+<wire x1="-33.81365" y1="2.84735" x2="-33.81365" y2="1.54735" width="0.3048" layer="21"/>
+<wire x1="-33.81365" y1="1.54735" x2="-32.02165" y2="1.54735" width="0.3048" layer="21" curve="180"/>
 <wire x1="-42.13265" y1="10.72235" x2="-41.98265" y2="10.87235" width="0.3048" layer="21" curve="90"/>
 <wire x1="-41.98265" y1="10.87235" x2="-41.98265" y2="11.54735" width="0.3048" layer="21"/>
 <wire x1="-41.98265" y1="11.54735" x2="-42.13265" y2="11.69735" width="0.3048" layer="21" curve="90"/>

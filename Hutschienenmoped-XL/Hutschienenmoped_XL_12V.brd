@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -957,6 +957,7 @@
 <wire x1="0.66633125" y1="55.3946" x2="0.66633125" y2="55.4454" width="0.1" layer="21" curve="180"/>
 <wire x1="0.51633125" y1="55.2454" x2="0.51633125" y2="55.1946" width="0.1" layer="21" curve="180"/>
 <wire x1="0.51633125" y1="55.1946" x2="0.51633125" y2="55.2454" width="0.1" layer="21" curve="180"/>
+<dimension x1="18.415" y1="-4.28" x2="27.305" y2="-4.28" x3="22.86" y3="-8.56" textsize="1.778" layer="47" precision="9"/>
 </plain>
 <libraries>
 <library name="TLE9250VSJ">
