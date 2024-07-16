@@ -63,8 +63,6 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:1radzTpiS4azWLY-vC6uLw" pcbguid="140a38de-fe07-4016-8902-2df6469acd24" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="2bad82ba-4350-4f95-a4b2-1bffcec25756" lastsyncedrevisionid="2bad82ba-4350-4f95-a4b2-1bffcec25756" lastboardhashguid="054e17ef-e937-1674-2364-e606c7c247a7" lastpushedtime="2024-07-16T15:49:53Z" linktopcb3d="true"/>
 <plain>
-<circle x="-50.5" y="11.25" radius="1.5" width="0.001" layer="21"/>
-<circle x="-50.5" y="-18.75" radius="1.5" width="0.001" layer="21"/>
 <wire x1="53.50008125" y1="18.75" x2="-51.49991875" y2="18.75" width="0.001" layer="20"/>
 <wire x1="-51.49991875" y1="18.75" x2="-52.198" y2="15.5835" width="0.001" layer="20" curve="-24.86"/>
 <wire x1="-52.198" y1="15.5835" x2="-52.5" y2="15" width="0.001" layer="20"/>
@@ -93,9 +91,6 @@
 <wire x1="52.5" y1="7.5" x2="52.198" y2="14.4165" width="0.001" layer="20" curve="-54.73"/>
 <wire x1="52.198" y1="14.4165" x2="52.5" y2="15" width="0.001" layer="20"/>
 <wire x1="52.5" y1="15" x2="53.50008125" y2="18.75" width="0.001" layer="20" curve="29.87"/>
-<circle x="50.5" y="-11.25" radius="1.5" width="0.001" layer="21"/>
-<circle x="-50.5" y="-3.75" radius="1.5" width="0.001" layer="21"/>
-<circle x="50.5" y="3.75" radius="1.5" width="0.001" layer="21"/>
 <hole x="-50.5" y="11.25" drill="3"/>
 <hole x="-50.5" y="-3.75" drill="3"/>
 <hole x="-50.5" y="-18.75" drill="3"/>
