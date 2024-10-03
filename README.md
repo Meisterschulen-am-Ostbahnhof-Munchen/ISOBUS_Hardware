@@ -22,7 +22,7 @@ contains the Hutschienenmoped-XL, a Open Source ISOBUS ECU.
 <img src="https://raw.githubusercontent.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/refs/heads/master/certification-mark-DE000145-stacked.png" width=300> 
 
 
-Open Hardware: DE000145
+Open Hardware: DE000145 https://certification.oshwa.org/de000145.html
 
 
 
