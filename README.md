@@ -19,6 +19,8 @@ https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/tree/mas
 
 contains the Hutschienenmoped-XL, a Open Source ISOBUS ECU.
 
+Open Hardware: DE000145
+
 
 
 # Lic
