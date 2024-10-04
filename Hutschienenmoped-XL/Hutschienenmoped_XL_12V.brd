@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -3899,22 +3899,22 @@ Your Multi-CB Team
 <attribute name="VR" value="50V(DC)" x="12.81" y="-16.385" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="WIDTH" value="1.25mm" x="26.67" y="31.135" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C7" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H0.8_R" package3d_urn="urn:adsk.eagle:package:18489119/2" value="10nF" x="17.78" y="21.61" smashed="yes">
-<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-37.66" y="35.47" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207092?ae" x="-37.66" y="35.47" size="1.778" layer="27" display="off"/>
-<attribute name="DF" value="2.5%" x="-37.66" y="35.47" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.8mm" x="17.78" y="21.61" size="1.778" layer="27" display="off"/>
-<attribute name="LENGTH" value="2mm" x="17.78" y="21.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="SMT" x="17.78" y="21.61" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.78" y="22.81" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C" x="-37.66" y="35.47" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 885012207092 " x="-37.66" y="35.47" size="1.778" layer="27" display="off"/>
-<attribute name="QMIN" value="-" x="-37.66" y="35.47" size="1.778" layer="27" display="off"/>
-<attribute name="RISO" value="10GOhm" x="-37.66" y="35.47" size="1.778" layer="27" display="off"/>
-<attribute name="SIZE" value="0805" x="17.78" y="21.61" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10nF" x="17.78" y="20.21" size="0.4064" layer="27" align="bottom-center"/>
-<attribute name="VR" value="50V(DC)" x="-37.66" y="35.47" size="1.778" layer="27" display="off"/>
-<attribute name="WIDTH" value="1.25mm" x="17.78" y="21.61" size="1.778" layer="27" display="off"/>
+<element name="C7" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H0.8_R" package3d_urn="urn:adsk.eagle:package:18489119/2" value="10nF" x="17.78" y="23.737" smashed="yes">
+<attribute name="CERAMIC-TYPE" value="X7R Class II" x="-37.66" y="37.597" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/885012207092?ae" x="-37.66" y="37.597" size="1.778" layer="27" display="off"/>
+<attribute name="DF" value="2.5%" x="-37.66" y="37.597" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.8mm" x="17.78" y="23.737" size="1.778" layer="27" display="off"/>
+<attribute name="LENGTH" value="2mm" x="17.78" y="23.737" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="17.78" y="23.737" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="17.78" y="24.937" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 up to +125 °C" x="-37.66" y="37.597" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 885012207092 " x="-37.66" y="37.597" size="1.778" layer="27" display="off"/>
+<attribute name="QMIN" value="-" x="-37.66" y="37.597" size="1.778" layer="27" display="off"/>
+<attribute name="RISO" value="10GOhm" x="-37.66" y="37.597" size="1.778" layer="27" display="off"/>
+<attribute name="SIZE" value="0805" x="17.78" y="23.737" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="10nF" x="17.78" y="22.337" size="0.4064" layer="27" align="bottom-center"/>
+<attribute name="VR" value="50V(DC)" x="-37.66" y="37.597" size="1.778" layer="27" display="off"/>
+<attribute name="WIDTH" value="1.25mm" x="17.78" y="23.737" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" package="WCAP-CSGP_0805_H0.8_R" package3d_urn="urn:adsk.eagle:package:18489119/2" value="10nF" x="27.94" y="23.737" smashed="yes">
 <attribute name="CERAMIC-TYPE" value="X7R Class II" x="-35.42" y="37.597" size="1.778" layer="27" display="off"/>
@@ -5000,47 +5000,47 @@ Your Multi-CB Team
 <attribute name="QTY" value=" 500 " x="4.61" y="82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-1.3322" y="79.67" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="D014" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="115.56" y="102.72" smashed="yes">
-<attribute name="ARTIKEL_NR" value="502724" x="102.72" y="115.56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.81" y="104.72" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC" value="Farnell 1924364" x="102.72" y="115.56" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="112.81" y="99.22" size="1.27" layer="27" ratio="10"/>
+<element name="D014" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="17.78" y="21.146" smashed="yes" rot="R180">
+<attribute name="ARTIKEL_NR" value="502724" x="30.62" y="8.306" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="20.53" y="19.146" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="OC" value="Farnell 1924364" x="30.62" y="8.306" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="20.53" y="24.646" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="D016" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="115.56" y="94.16" smashed="yes">
-<attribute name="ARTIKEL_NR" value="502724" x="102.72" y="102.72" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.81" y="96.16" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC" value="Farnell 1924364" x="102.72" y="102.72" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="112.81" y="90.66" size="1.27" layer="27" ratio="10"/>
+<element name="D016" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="38.1" y="21.146" smashed="yes" rot="R180">
+<attribute name="ARTIKEL_NR" value="502724" x="50.94" y="12.586" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="40.85" y="19.146" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="OC" value="Farnell 1924364" x="50.94" y="12.586" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="40.85" y="24.646" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="D018" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="115.56" y="85.6" smashed="yes">
-<attribute name="ARTIKEL_NR" value="502724" x="102.72" y="94.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.81" y="87.6" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC" value="Farnell 1924364" x="102.72" y="94.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="112.81" y="82.1" size="1.27" layer="27" ratio="10"/>
+<element name="D018" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="48.26" y="21.146" smashed="yes">
+<attribute name="ARTIKEL_NR" value="502724" x="35.42" y="29.706" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.51" y="23.146" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC" value="Farnell 1924364" x="35.42" y="29.706" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="45.51" y="17.646" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D019" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="115.56" y="77.04" smashed="yes">
-<attribute name="ARTIKEL_NR" value="502724" x="102.72" y="85.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.81" y="79.04" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC" value="Farnell 1924364" x="102.72" y="85.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="112.81" y="73.54" size="1.27" layer="27" ratio="10"/>
+<element name="D019" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="27.94" y="21.146" smashed="yes">
+<attribute name="ARTIKEL_NR" value="502724" x="15.1" y="29.706" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.19" y="23.146" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC" value="Farnell 1924364" x="15.1" y="29.706" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="25.19" y="17.646" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D020" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="115.56" y="68.48" smashed="yes">
-<attribute name="ARTIKEL_NR" value="502724" x="102.72" y="77.04" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.81" y="70.48" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC" value="Farnell 1924364" x="102.72" y="77.04" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="112.81" y="64.98" size="1.27" layer="27" ratio="10"/>
+<element name="D020" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="58.42" y="21.146" smashed="yes" rot="R180">
+<attribute name="ARTIKEL_NR" value="502724" x="71.26" y="12.586" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="61.17" y="19.146" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="OC" value="Farnell 1924364" x="71.26" y="12.586" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="61.17" y="24.646" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="D021" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="115.56" y="59.92" smashed="yes">
-<attribute name="ARTIKEL_NR" value="502724" x="102.72" y="68.48" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.81" y="61.92" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC" value="Farnell 1924364" x="102.72" y="68.48" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="112.81" y="56.42" size="1.27" layer="27" ratio="10"/>
+<element name="D021" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="68.58" y="21.146" smashed="yes">
+<attribute name="ARTIKEL_NR" value="502724" x="55.74" y="29.706" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="65.83" y="23.146" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC" value="Farnell 1924364" x="55.74" y="29.706" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="65.83" y="17.646" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D022" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="115.56" y="51.36" smashed="yes">
-<attribute name="ARTIKEL_NR" value="502724" x="102.72" y="59.92" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.81" y="53.36" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC" value="Farnell 1924364" x="102.72" y="59.92" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="112.81" y="47.86" size="1.27" layer="27" ratio="10"/>
+<element name="D022" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="78.74" y="21.146" smashed="yes" rot="R180">
+<attribute name="ARTIKEL_NR" value="502724" x="91.58" y="12.586" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="81.49" y="19.146" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="OC" value="Farnell 1924364" x="91.58" y="12.586" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="81.49" y="24.646" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="D023" library="fliegl-elektronik" package="SMA_DO-214AC" value="GS1J-L" x="88.9" y="21.146" smashed="yes">
 <attribute name="ARTIKEL_NR" value="502724" x="76.06" y="29.706" size="1.778" layer="27" display="off"/>
@@ -5048,21 +5048,21 @@ Your Multi-CB Team
 <attribute name="OC" value="Farnell 1924364" x="76.06" y="29.706" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="86.15" y="17.646" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2" x="115.56" y="34.24" smashed="yes">
-<attribute name="NAME" x="114.925" y="35.51" size="1.27" layer="25"/>
-<attribute name="VALUE" x="114.925" y="31.7" size="1.27" layer="27"/>
+<element name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2" x="22.987" y="39.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.257" y="40.075" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="20.447" y="40.075" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R36" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2" x="115.56" y="25.68" smashed="yes">
-<attribute name="NAME" x="114.925" y="26.95" size="1.27" layer="25"/>
-<attribute name="VALUE" x="114.925" y="23.14" size="1.27" layer="27"/>
+<element name="R36" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2" x="43.18" y="39.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="44.45" y="40.075" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="40.64" y="40.075" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2" x="115.56" y="17.12" smashed="yes">
-<attribute name="NAME" x="114.925" y="18.39" size="1.27" layer="25"/>
-<attribute name="VALUE" x="114.925" y="14.58" size="1.27" layer="27"/>
+<element name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2" x="63.5" y="39.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="64.77" y="40.075" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="60.96" y="40.075" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2" x="115.56" y="8.56" smashed="yes">
-<attribute name="NAME" x="114.925" y="9.83" size="1.27" layer="25"/>
-<attribute name="VALUE" x="114.925" y="6.02" size="1.27" layer="27"/>
+<element name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2" x="80.56" y="39.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="81.83" y="40.075" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="78.02" y="40.075" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -5378,7 +5378,6 @@ Your Multi-CB Team
 <contactref element="J15" pad="A5"/>
 <contactref element="J15" pad="5"/>
 <contactref element="D018" pad="C"/>
-<wire x1="45.13" y1="26.38" x2="113.51" y2="85.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q3">
 <contactref element="U3" pad="10"/>
@@ -5396,19 +5395,17 @@ Your Multi-CB Team
 <contactref element="J15" pad="A6"/>
 <contactref element="J15" pad="6"/>
 <contactref element="D016" pad="C"/>
-<wire x1="42.53" y1="26.38" x2="113.51" y2="94.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q1C">
 <contactref element="R13" pad="1"/>
-<via x="22.83" y="40.66" extent="1-16" drill="0.35"/>
-<wire x1="22.83" y1="43.18" x2="22.83" y2="40.66" width="0.254" layer="16"/>
-<wire x1="22.83" y1="40.66" x2="22.83" y2="37.3428" width="0.254" layer="1"/>
-<wire x1="21.56" y1="36.0728" x2="22.83" y2="37.3428" width="0.254" layer="1"/>
-<wire x1="19.05" y1="46.96" x2="22.83" y2="43.18" width="0.254" layer="16"/>
+<via x="21.56" y="40.66" extent="1-16" drill="0.35"/>
+<wire x1="21.56" y1="44.45" x2="21.56" y2="40.66" width="0.254" layer="16"/>
+<wire x1="21.56" y1="40.66" x2="21.56" y2="36.0728" width="0.254" layer="1"/>
+<wire x1="19.05" y1="46.96" x2="21.56" y2="44.45" width="0.254" layer="16"/>
 <wire x1="19.05" y1="46.99" x2="19.05" y2="46.96" width="0.254" layer="16"/>
 <contactref element="ESP32-J3" pad="18"/>
 <contactref element="R33" pad="2"/>
-<wire x1="19.05" y1="46.99" x2="19.05" y2="50.648" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="50.648" x2="19.05" y2="46.99" width="0.25" layer="1"/>
 </signal>
 <signal name="Q2C">
 <contactref element="R18" pad="1"/>
@@ -5417,8 +5414,7 @@ Your Multi-CB Team
 <wire x1="24.13" y1="44.45" x2="24.16" y2="44.45" width="0.254" layer="1"/>
 <contactref element="ESP32-J3" pad="17"/>
 <contactref element="R15" pad="2"/>
-<wire x1="21.59" y1="50.648" x2="24.16" y2="43.76" width="0.25" layer="1"/>
-<wire x1="24.16" y1="43.76" x2="24.16" y2="44.45" width="0.25" layer="1"/>
+<wire x1="21.59" y1="46.99" x2="21.59" y2="50.648" width="0.25" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U2" pad="2"/>
@@ -5468,7 +5464,6 @@ Your Multi-CB Team
 <contactref element="J13" pad="1"/>
 <contactref element="J13" pad="A1"/>
 <contactref element="D019" pad="C"/>
-<wire x1="26.99" y1="23.737" x2="113.51" y2="77.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q1">
 <contactref element="U2" pad="10"/>
@@ -5486,7 +5481,6 @@ Your Multi-CB Team
 <contactref element="J13" pad="A2"/>
 <contactref element="J13" pad="2"/>
 <contactref element="D014" pad="C"/>
-<wire x1="22.21" y1="26.38" x2="113.51" y2="102.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGNDU3">
 <contactref element="U3" pad="1"/>
@@ -5505,18 +5499,14 @@ Your Multi-CB Team
 </signal>
 <signal name="Q4C">
 <contactref element="R2" pad="1"/>
-<wire x1="44.48" y1="36.0728" x2="44.48" y2="36.4660875" width="0.254" layer="1"/>
-<wire x1="44.48" y1="36.4660875" x2="43.7406875" y2="37.2054" width="0.254" layer="1"/>
-<wire x1="40.64" y1="40.66" x2="40.64" y2="38.374" width="0.254" layer="1"/>
-<wire x1="40.64" y1="38.374" x2="41.8086" y2="37.2054" width="0.254" layer="1"/>
-<wire x1="41.8086" y1="37.2054" x2="43.7406875" y2="37.2054" width="0.254" layer="1"/>
-<via x="40.64" y="40.66" extent="1-16" drill="0.35"/>
-<wire x1="40.64" y1="40.66" x2="40.64" y2="43.2" width="0.254" layer="16"/>
-<wire x1="40.64" y1="43.2" x2="44.43" y2="46.99" width="0.254" layer="16"/>
-<wire x1="44.43" y1="46.99" x2="44.45" y2="46.99" width="0.254" layer="16"/>
+<wire x1="44.704" y1="40.66" x2="44.48" y2="40.436" width="0.254" layer="1"/>
+<wire x1="44.48" y1="40.436" x2="44.48" y2="36.0728" width="0.254" layer="1"/>
+<via x="44.704" y="40.66" extent="1-16" drill="0.35"/>
+<wire x1="44.45" y1="46.99" x2="44.704" y2="46.736" width="0.254" layer="16"/>
+<wire x1="44.704" y1="46.736" x2="44.704" y2="40.66" width="0.254" layer="16"/>
 <contactref element="ESP32-J3" pad="8"/>
 <contactref element="R16" pad="2"/>
-<wire x1="44.45" y1="46.99" x2="44.45" y2="50.648" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="50.648" x2="44.45" y2="46.99" width="0.25" layer="1"/>
 </signal>
 <signal name="Q3C">
 <contactref element="R4" pad="1"/>
@@ -5526,10 +5516,7 @@ Your Multi-CB Team
 <wire x1="39.37" y1="44.45" x2="41.91" y2="46.99" width="0.254" layer="1"/>
 <contactref element="ESP32-J3" pad="9"/>
 <contactref element="R14" pad="2"/>
-<wire x1="41.021" y1="50.648" x2="40.259" y2="49.886" width="0.25" layer="1"/>
-<wire x1="40.259" y1="49.886" x2="39.37" y2="42.52" width="0.25" layer="1"/>
-<wire x1="39.37" y1="42.52" x2="39.37" y2="44.45" width="0.25" layer="1"/>
-<wire x1="41.021" y1="50.648" x2="41.91" y2="50.648" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="50.648" x2="41.91" y2="46.99" width="0.25" layer="1"/>
 </signal>
 <signal name="ECU_PWR">
 <polygon width="0.2032" layer="1" isolate="0.3048">
@@ -5832,13 +5819,6 @@ Your Multi-CB Team
 <contactref element="D021" pad="A"/>
 <contactref element="D022" pad="A"/>
 <contactref element="D023" pad="A"/>
-<wire x1="117.61" y1="94.16" x2="117.61" y2="102.72" width="0" layer="19" extent="1-1"/>
-<wire x1="117.61" y1="85.6" x2="117.61" y2="94.16" width="0" layer="19" extent="1-1"/>
-<wire x1="117.61" y1="77.04" x2="117.61" y2="85.6" width="0" layer="19" extent="1-1"/>
-<wire x1="117.61" y1="68.48" x2="117.61" y2="77.04" width="0" layer="19" extent="1-1"/>
-<wire x1="117.61" y1="59.92" x2="117.61" y2="68.48" width="0" layer="19" extent="1-1"/>
-<wire x1="117.61" y1="51.36" x2="117.61" y2="59.92" width="0" layer="19" extent="1-1"/>
-<wire x1="89.85" y1="23.737" x2="117.61" y2="51.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ECU_GND" class="1">
 <contactref element="C12" pad="1"/>
@@ -5881,8 +5861,8 @@ Your Multi-CB Team
 <via x="48.26" y="57.932" extent="1-16" drill="0.35"/>
 <via x="50.8" y="58.44" extent="1-16" drill="0.35"/>
 <via x="49.53" y="53.36" extent="1-16" drill="0.35"/>
-<via x="50.8" y="52.09" extent="1-16" drill="0.35"/>
-<via x="50.8" y="50.82" extent="1-16" drill="0.35"/>
+<via x="44.323" y="53.741" extent="1-16" drill="0.35"/>
+<via x="46.99" y="53.614" extent="1-16" drill="0.35"/>
 <via x="51.308" y="42.184" extent="1-16" drill="0.35"/>
 <via x="82.931" y="74.315" extent="1-16" drill="0.35"/>
 <via x="34.29" y="43.2" extent="1-16" drill="0.35"/>
@@ -6120,10 +6100,10 @@ Your Multi-CB Team
 <via x="45.085" y="71.755" extent="1-16" drill="0.35"/>
 <via x="51.308" y="71.501" extent="1-16" drill="0.35"/>
 <via x="62.611" y="71.882" extent="1-16" drill="0.35"/>
-<via x="22.352" y="51.582" extent="1-16" drill="0.35"/>
+<via x="21.59" y="53.614" extent="1-16" drill="0.35"/>
 <via x="22.86" y="48.407" extent="1-16" drill="0.35"/>
 <via x="20.32" y="48.407" extent="1-16" drill="0.35"/>
-<via x="18.923" y="51.709" extent="1-16" drill="0.35"/>
+<via x="19.05" y="53.741" extent="1-16" drill="0.35"/>
 <via x="17.78" y="63.266" extent="1-16" drill="0.35"/>
 <via x="30.734" y="65.552" extent="1-16" drill="0.35"/>
 <via x="29.972" y="64.663" extent="1-16" drill="0.35"/>
@@ -6149,7 +6129,7 @@ Your Multi-CB Team
 <via x="50.927" y="76.962" extent="1-16" drill="0.35"/>
 <via x="40.767" y="48.514" extent="1-16" drill="0.35"/>
 <via x="38.1" y="45.085" extent="1-16" drill="0.35"/>
-<via x="44.45" y="44.958" extent="1-16" drill="0.35"/>
+<via x="43.815" y="44.704" extent="1-16" drill="0.35"/>
 <via x="47.244" y="44.958" extent="1-16" drill="0.35"/>
 <via x="53.34" y="45.593" extent="1-16" drill="0.35"/>
 <via x="52.324" y="49.022" extent="1-16" drill="0.35"/>
@@ -6170,10 +6150,6 @@ Your Multi-CB Team
 <contactref element="R36" pad="1"/>
 <contactref element="R37" pad="1"/>
 <contactref element="R38" pad="1"/>
-<wire x1="114.61" y1="25.68" x2="114.61" y2="34.24" width="0" layer="19" extent="1-1"/>
-<wire x1="114.61" y1="17.12" x2="114.61" y2="25.68" width="0" layer="19" extent="1-1"/>
-<wire x1="114.61" y1="8.56" x2="114.61" y2="17.12" width="0" layer="19" extent="1-1"/>
-<wire x1="91.948" y1="42.184" x2="114.61" y2="34.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT">
 <contactref element="ESP32-J3" pad="14"/>
@@ -6181,13 +6157,16 @@ Your Multi-CB Team
 <signal name="RESET">
 <contactref element="ESP32-J1" pad="3"/>
 <contactref element="RESET" pad="3"/>
-<wire x1="3.36" y1="79.75" x2="4.34" y2="77.47" width="0.508" layer="16"/>
 <wire x1="50.967" y1="76.033" x2="57.15" y2="69.85" width="0.508" layer="16"/>
 <wire x1="28.15019375" y1="77.47" x2="28.69819375" y2="78.018" width="0.508" layer="16"/>
 <wire x1="28.69819375" y1="78.018" x2="41.53280625" y2="78.018" width="0.508" layer="16"/>
 <wire x1="41.53280625" y1="78.018" x2="43.51780625" y2="76.033" width="0.508" layer="16"/>
 <wire x1="43.51780625" y1="76.033" x2="50.967" y2="76.033" width="0.508" layer="16"/>
-<wire x1="4.34" y1="77.47" x2="28.15019375" y2="77.47" width="0.508" layer="16"/>
+<wire x1="5.25773125" y1="76.046" x2="3.36" y2="77.94373125" width="0.508" layer="16"/>
+<wire x1="3.36" y1="79.75" x2="3.36" y2="77.94373125" width="0.508" layer="16"/>
+<wire x1="5.25773125" y1="76.046" x2="7.46226875" y2="76.046" width="0.508" layer="16"/>
+<wire x1="7.46226875" y1="76.046" x2="8.88626875" y2="77.47" width="0.508" layer="16"/>
+<wire x1="8.88626875" y1="77.47" x2="28.15019375" y2="77.47" width="0.508" layer="16"/>
 </signal>
 <signal name="Q5">
 <contactref element="U5" pad="10"/>
@@ -6205,7 +6184,6 @@ Your Multi-CB Team
 <contactref element="J15" pad="A2"/>
 <contactref element="J15" pad="2"/>
 <contactref element="D020" pad="C"/>
-<wire x1="62.85" y1="26.38" x2="113.51" y2="68.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q7">
 <contactref element="U6" pad="10"/>
@@ -6223,7 +6201,6 @@ Your Multi-CB Team
 <contactref element="J1" pad="A3"/>
 <contactref element="J1" pad="3"/>
 <contactref element="D022" pad="C"/>
-<wire x1="83.17" y1="26.38" x2="113.51" y2="51.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Q8">
 <contactref element="U6" pad="13"/>
@@ -6258,35 +6235,34 @@ Your Multi-CB Team
 <contactref element="J15" pad="A1"/>
 <contactref element="J15" pad="1"/>
 <contactref element="D021" pad="C"/>
-<wire x1="67.63" y1="23.737" x2="113.51" y2="59.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S$2">
 </signal>
 <signal name="Q5C">
 <contactref element="R6" pad="1"/>
-<via x="63.47" y="40.66" extent="1-16" drill="0.35"/>
-<wire x1="63.47" y1="40.66" x2="63.47" y2="41.94" width="0.254" layer="16"/>
-<wire x1="63.47" y1="41.94" x2="62.21" y2="43.2" width="0.254" layer="16"/>
-<wire x1="62.21" y1="43.2" x2="50.8" y2="43.2" width="0.254" layer="16"/>
-<wire x1="63.47" y1="40.66" x2="63.47" y2="37.3428" width="0.254" layer="1"/>
-<wire x1="62.2" y1="36.0728" x2="63.47" y2="37.3428" width="0.254" layer="1"/>
+<via x="62.073" y="40.66" extent="1-16" drill="0.35"/>
+<wire x1="62.073" y1="40.66" x2="62.073" y2="43.2" width="0.254" layer="16"/>
+<wire x1="62.073" y1="43.2" x2="50.8" y2="43.2" width="0.254" layer="16"/>
+<wire x1="62.073" y1="40.66" x2="62.073" y2="36.1998" width="0.254" layer="1"/>
+<wire x1="62.2" y1="36.0728" x2="62.073" y2="36.1998" width="0.254" layer="1"/>
 <wire x1="50.8" y1="43.2" x2="47.01" y2="46.99" width="0.254" layer="16"/>
 <wire x1="47.01" y1="46.99" x2="46.99" y2="46.99" width="0.254" layer="16"/>
 <contactref element="ESP32-J3" pad="7"/>
 <contactref element="R17" pad="2"/>
-<wire x1="46.99" y1="46.99" x2="46.99" y2="50.648" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="50.648" x2="46.99" y2="46.99" width="0.25" layer="1"/>
 </signal>
 <signal name="Q6C">
 <contactref element="R5" pad="1"/>
-<via x="64.8" y="40.66" extent="1-16" drill="0.35"/>
-<wire x1="64.8" y1="40.66" x2="64.8" y2="43.15" width="0.254" layer="16"/>
-<wire x1="64.8" y1="43.15" x2="63.48" y2="44.47" width="0.254" layer="16"/>
+<via x="64.927" y="40.66" extent="1-16" drill="0.35"/>
+<wire x1="64.927" y1="40.66" x2="64.927" y2="43.023" width="0.254" layer="16"/>
+<wire x1="64.927" y1="43.023" x2="63.48" y2="44.47" width="0.254" layer="16"/>
 <wire x1="63.48" y1="44.47" x2="52.05" y2="44.47" width="0.254" layer="16"/>
-<wire x1="64.8" y1="36.0728" x2="64.8" y2="40.66" width="0.254" layer="1"/>
+<wire x1="64.927" y1="40.66" x2="64.927" y2="36.1998" width="0.254" layer="1"/>
+<wire x1="64.8" y1="36.0728" x2="64.927" y2="36.1998" width="0.254" layer="1"/>
 <wire x1="52.05" y1="44.47" x2="49.53" y2="46.99" width="0.254" layer="16"/>
 <contactref element="ESP32-J3" pad="6"/>
 <contactref element="R19" pad="2"/>
-<wire x1="49.53" y1="46.99" x2="49.53" y2="50.648" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="50.648" x2="49.53" y2="46.99" width="0.25" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U5" pad="2"/>
@@ -6310,33 +6286,37 @@ Your Multi-CB Team
 </signal>
 <signal name="Q8C">
 <contactref element="R9" pad="1"/>
-<wire x1="85.12" y1="36.0728" x2="84.4972875" y2="36.0728" width="0.254" layer="1"/>
-<wire x1="84.4972875" y1="36.0728" x2="83.3646875" y2="37.2054" width="0.254" layer="1"/>
-<wire x1="81.28" y1="40.66" x2="81.28" y2="38.12" width="0.254" layer="1"/>
-<wire x1="81.28" y1="38.12" x2="82.1946" y2="37.2054" width="0.254" layer="1"/>
-<wire x1="82.1946" y1="37.2054" x2="83.3646875" y2="37.2054" width="0.254" layer="1"/>
-<via x="81.28" y="40.66" extent="1-16" drill="0.35"/>
-<wire x1="81.28" y1="40.66" x2="81.28" y2="43.2" width="0.254" layer="16"/>
+<wire x1="85.12" y1="36.0728" x2="85.12" y2="36.1998" width="0.254" layer="1"/>
+<wire x1="82.042" y1="37.8930875" x2="82.042" y2="40.66" width="0.254" layer="1"/>
+<via x="82.042" y="40.66" extent="1-16" drill="0.35"/>
+<wire x1="82.042" y1="40.66" x2="82.042" y2="42.438" width="0.254" layer="16"/>
 <wire x1="52.07" y1="46.99" x2="55.88" y2="50.8" width="0.254" layer="16"/>
 <wire x1="55.88" y1="50.8" x2="73.68" y2="50.8" width="0.254" layer="16"/>
-<wire x1="73.68" y1="50.8" x2="81.28" y2="43.2" width="0.254" layer="16"/>
+<wire x1="73.68" y1="50.8" x2="82.042" y2="42.438" width="0.254" layer="16"/>
 <contactref element="ESP32-J3" pad="5"/>
 <contactref element="R34" pad="2"/>
-<wire x1="52.07" y1="46.99" x2="58.42" y2="50.648" width="0" layer="19" extent="1-1"/>
+<wire x1="82.3312875" y1="37.6038" x2="82.042" y2="37.8930875" width="0.254" layer="1"/>
+<wire x1="85.12" y1="36.1998" x2="83.716" y2="37.6038" width="0.254" layer="1"/>
+<wire x1="83.716" y1="37.6038" x2="82.3312875" y2="37.6038" width="0.254" layer="1"/>
+<wire x1="52.07" y1="46.99" x2="55.728" y2="50.648" width="0.25" layer="1"/>
+<wire x1="55.728" y1="50.648" x2="58.42" y2="50.648" width="0.25" layer="1"/>
 </signal>
 <signal name="Q7C">
 <contactref element="R11" pad="1"/>
-<wire x1="82.52" y1="36.0728" x2="81.4222" y2="36.0728" width="0.254" layer="1"/>
-<wire x1="81.4222" y1="36.0728" x2="80.01" y2="37.485" width="0.254" layer="1"/>
-<wire x1="80.01" y1="37.485" x2="80.01" y2="40.66" width="0.254" layer="1"/>
-<via x="80.01" y="40.66" extent="1-16" drill="0.35"/>
-<wire x1="80.01" y1="40.66" x2="80.01" y2="41.91" width="0.254" layer="16"/>
-<wire x1="72.39" y1="49.53" x2="80.01" y2="41.91" width="0.254" layer="16"/>
+<wire x1="82.52" y1="36.0728" x2="80.6602" y2="36.0728" width="0.254" layer="1"/>
+<wire x1="80.6602" y1="36.0728" x2="79.121" y2="37.612" width="0.254" layer="1"/>
+<wire x1="79.121" y1="37.612" x2="79.121" y2="40.66" width="0.254" layer="1"/>
+<via x="79.121" y="40.66" extent="1-16" drill="0.35"/>
+<wire x1="79.121" y1="40.66" x2="79.121" y2="42.799" width="0.254" layer="16"/>
+<wire x1="72.39" y1="49.53" x2="79.121" y2="42.799" width="0.254" layer="16"/>
 <wire x1="54.61" y1="46.99" x2="57.15" y2="49.53" width="0.254" layer="16"/>
 <wire x1="57.15" y1="49.53" x2="72.39" y2="49.53" width="0.254" layer="16"/>
 <contactref element="ESP32-J3" pad="4"/>
 <contactref element="R20" pad="2"/>
-<wire x1="54.61" y1="46.99" x2="60.96" y2="50.648" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="46.99" x2="57.093" y2="49.473" width="0.25" layer="1"/>
+<wire x1="60.65183125" y1="50.648" x2="60.96" y2="50.648" width="0.25" layer="1"/>
+<wire x1="57.093" y1="49.473" x2="59.47683125" y2="49.473" width="0.25" layer="1"/>
+<wire x1="59.47683125" y1="49.473" x2="60.65183125" y2="50.648" width="0.25" layer="1"/>
 </signal>
 <signal name="N$15" class="1">
 <contactref element="RX5" pad="1"/>
@@ -6804,25 +6784,29 @@ Your Multi-CB Team
 <vertex x="83.6812" y="74.33"/>
 </polygon>
 </signal>
-<signal name="N$7">
+<signal name="U5IS">
 <contactref element="R37" pad="2"/>
 <contactref element="U5" pad="4"/>
-<wire x1="63.5" y1="32.08" x2="116.51" y2="17.12" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="38.49" x2="63.5" y2="32.08" width="0.254" layer="1"/>
 </signal>
-<signal name="N$16">
+<signal name="U6IS">
 <contactref element="R38" pad="2"/>
 <contactref element="U6" pad="4"/>
-<wire x1="83.82" y1="32.08" x2="116.51" y2="8.56" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="36.70595625" x2="83.42615625" y2="37.0998" width="0.254" layer="1"/>
+<wire x1="81.9502" y1="37.0998" x2="80.56" y2="38.49" width="0.254" layer="1"/>
+<wire x1="83.82" y1="32.08" x2="83.82" y2="36.70595625" width="0.254" layer="1"/>
+<wire x1="83.42615625" y1="37.0998" x2="81.9502" y2="37.0998" width="0.254" layer="1"/>
 </signal>
-<signal name="N$20">
+<signal name="U2IS">
 <contactref element="R35" pad="2"/>
 <contactref element="U2" pad="4"/>
-<wire x1="22.86" y1="32.08" x2="116.51" y2="34.24" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="32.08" x2="22.86" y2="38.363" width="0.25" layer="1"/>
+<wire x1="22.86" y1="38.363" x2="22.987" y2="38.49" width="0.25" layer="1"/>
 </signal>
-<signal name="N$21">
+<signal name="U3IS">
 <contactref element="R36" pad="2"/>
 <contactref element="U3" pad="4"/>
-<wire x1="43.18" y1="32.08" x2="116.51" y2="25.68" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="38.49" x2="43.18" y2="32.08" width="0.25" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -17830,20 +17830,22 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="40.64" y1="-20.32" x2="40.64" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="U2IS" class="0">
 <segment>
 <pinref part="R35" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="IS"/>
 <wire x1="43.18" y1="99.06" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
+<label x="48.26" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="U3IS" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="IS"/>
 <wire x1="40.64" y1="-5.08" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
+<label x="43.18" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -18353,20 +18355,22 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <label x="86.36" y="-3.81" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="U5IS" class="0">
 <segment>
 <pinref part="R37" gate="G$1" pin="2"/>
 <pinref part="U5" gate="G$1" pin="IS"/>
 <wire x1="48.26" y1="99.06" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
+<label x="50.8" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="U6IS" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
 <pinref part="U6" gate="G$1" pin="IS"/>
 <wire x1="40.64" y1="-5.08" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
+<label x="45.72" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
