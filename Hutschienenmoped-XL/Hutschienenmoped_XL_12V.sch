@@ -73,7 +73,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -15443,6 +15443,210 @@ Updated by Yingchun,Shan 2019-11-05
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Switch_WS-TATU" urn="urn:adsk.eagle:library:18255789">
+<description>&lt;BR&gt;Wurth Elektronik - Switches - Tact Switches - WS-TATU&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-02-21&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="4312560837X6" urn="urn:adsk.eagle:footprint:18255795/1" library_version="2">
+<description>&lt;b&gt;WS-TATU&lt;/b&gt;&lt;br&gt; THT Tact Switch 6x6 mm Right Angled Type with ground terminal</description>
+<pad name="2" x="-2.25" y="-1.25" drill="1"/>
+<pad name="3" x="2.25" y="-1.25" drill="1"/>
+<pad name="1" x="-3.5" y="1.25" drill="1"/>
+<pad name="4" x="3.5" y="1.25" drill="1"/>
+<text x="0.1" y="3.7841" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="2.33" y="-5.9422" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.92" y="-9.39" size="0.254" layer="51">switch edge</text>
+<text x="-0.57" y="-3.51" size="0.254" layer="51">pcb edge</text>
+<wire x1="-1.5" y1="-3.8" x2="-1.5" y2="-9.6" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-9.6" x2="1.5" y2="-9.6" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-9.6" x2="1.5" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.75" x2="3.7" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-3.8" x2="-3.7" y2="2.75" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="2.75" x2="3.7" y2="2.75" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-3.8" x2="3.7" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="2.3" x2="-3.8" y2="2.85" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="2.85" x2="3.8" y2="2.85" width="0.2" layer="21"/>
+<wire x1="3.8" y1="2.85" x2="3.8" y2="2.3" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="0.2" x2="-3.8" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="-3.9" x2="3.8" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="3.8" y1="-3.9" x2="3.8" y2="0.2" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.45" y="3.05"/>
+<vertex x="4.45" y="3.05"/>
+<vertex x="4.45" y="-4.1"/>
+<vertex x="-4.45" y="-4.1"/>
+</polygon>
+<circle x="-2.2" y="1.8" radius="0.1" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="4312560837X6" urn="urn:adsk.eagle:package:18255800/2" type="model" library_version="2">
+<description>&lt;b&gt;WS-TATU&lt;/b&gt;&lt;br&gt; THT Tact Switch 6x6 mm Right Angled Type with ground terminal</description>
+<packageinstances>
+<packageinstance name="4312560837X6"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WS-TATU" urn="urn:adsk.eagle:symbol:18255799/1" library_version="2">
+<description>WS-TATU</description>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="3.175" width="0.254" layer="94"/>
+<wire x1="3.175" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.175" x2="6.985" y2="3.175" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.445" y1="2.159" x2="5.715" y2="2.159" width="0.254" layer="94"/>
+<wire x1="-1.47" y1="0.47" x2="1.34" y2="1.04" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.805" y2="0" width="0.254" layer="94"/>
+<wire x1="1.805" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="GND1" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<circle x="-1.27" y="0" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.27" y="0" radius="0.508" width="0.254" layer="94"/>
+<text x="-1.24" y="5.95" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.57" y="-2.68" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="431256083736" urn="urn:adsk.eagle:component:18255804/2" prefix="S" uservalue="yes" library_version="2">
+<description>&lt;b&gt;WS-TATV THT Tact Switch 6x6 mm&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : Carbon Steel
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material:LCP
+&lt;BR&gt;Actuator Flammability Rating:UL94 V-0
+&lt;BR&gt;Actuator Color:Black; Salmon; White
+&lt;BR&gt;Frame Material:PPA
+&lt;BR&gt;Frame Flammability Rating:UL94 HB
+&lt;BR&gt;Frame Color:Black
+&lt;BR&gt;Contact Material:Stainless Steel
+&lt;BR&gt;Contact Plating:Silver
+&lt;BR&gt;Terminal Material:Copper Alloy
+&lt;BR&gt;Terminal Plating:Silver
+&lt;BR&gt;VR:12 V (DC)
+&lt;BR&gt;Contact Resistance Initial:100 mΩ
+&lt;BR&gt;Contact Resistance After Life Test:2 Ω
+&lt;BR&gt;RISO:100 MΩ
+&lt;BR&gt;Withstanding Voltage:250 V (AC)
+&lt;BR&gt;Qty.:500
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Stroke  0.25 mm 
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Packaging:Bulk
+
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o61137v209%20Family_WS_TST_THT_4312560xx7x6_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o61137v209%20Family_WS_TST_THT_4312560xx7x6_pf2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/TATU_6X6_THT_RIGHT_ANGLED_WITH_GROUND_TERMINAL/"&gt;https://www.we-online.com/catalog/en/TATU_6X6_THT_RIGHT_ANGLED_WITH_GROUND_TERMINAL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-21
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-TATU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="4312560837X6">
+<connects>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4" route="any"/>
+<connect gate="G$1" pin="GND1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18255800/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/431256083736.pdf" constant="no"/>
+<attribute name="H" value="8.35mm" constant="no"/>
+<attribute name="OPERATION-FORCE" value="360g" constant="no"/>
+<attribute name="PART-NUMBER" value="431256083736" constant="no"/>
+<attribute name="QTY" value=" 500 " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15664,6 +15868,20 @@ Updated by Yingchun,Shan 2019-11-05
 <part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
 <part name="ECU_GND39" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="ECU_GND40" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="ECU_GND33" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND34" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND35" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND36" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND37" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="ECU_GND38" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="RESET" library="Wurth_Switch_WS-TATU" library_urn="urn:adsk.eagle:library:18255789" deviceset="431256083736" device="" package3d_urn="urn:adsk.eagle:package:18255800/2"/>
+<part name="ECU_GND41" library="supply_isobus" deviceset="ECU_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16564,19 +16782,68 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <instance part="P+1" gate="1" x="134.62" y="88.9" smashed="yes">
 <attribute name="VALUE" x="132.08" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R14" gate="G$1" x="198.12" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="196.6214" y="102.87" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="201.422" y="102.87" size="1.778" layer="96" rot="R90"/>
+<instance part="R14" gate="G$1" x="195.58" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.0814" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="198.882" y="49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R15" gate="G$1" x="223.52" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="222.0214" y="102.87" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="226.822" y="102.87" size="1.778" layer="96" rot="R90"/>
+<instance part="R15" gate="G$1" x="203.2" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="201.7014" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="206.502" y="49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ECU_GND39" gate="ECU_GND" x="198.12" y="99.06" smashed="yes">
-<attribute name="VALUE" x="195.58" y="96.52" size="1.778" layer="96"/>
+<instance part="ECU_GND39" gate="ECU_GND" x="195.58" y="45.72" smashed="yes">
+<attribute name="VALUE" x="195.58" y="43.18" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="ECU_GND40" gate="ECU_GND" x="223.52" y="99.06" smashed="yes">
-<attribute name="VALUE" x="220.98" y="96.52" size="1.778" layer="96"/>
+<instance part="ECU_GND40" gate="ECU_GND" x="203.2" y="45.72" smashed="yes">
+<attribute name="VALUE" x="203.2" y="43.18" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R16" gate="G$1" x="187.96" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.4614" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R17" gate="G$1" x="180.34" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.8414" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="183.642" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R19" gate="G$1" x="172.72" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R20" gate="G$1" x="165.1" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="163.6014" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="168.402" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R33" gate="G$1" x="210.82" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="209.3214" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="214.122" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R34" gate="G$1" x="218.44" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="216.9414" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="221.742" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="ECU_GND33" gate="ECU_GND" x="187.96" y="45.72" smashed="yes">
+<attribute name="VALUE" x="187.96" y="43.18" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="ECU_GND34" gate="ECU_GND" x="180.34" y="45.72" smashed="yes">
+<attribute name="VALUE" x="180.34" y="43.18" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="ECU_GND35" gate="ECU_GND" x="172.72" y="45.72" smashed="yes">
+<attribute name="VALUE" x="172.72" y="43.18" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="ECU_GND36" gate="ECU_GND" x="165.1" y="45.72" smashed="yes">
+<attribute name="VALUE" x="165.1" y="43.18" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="ECU_GND37" gate="ECU_GND" x="210.82" y="45.72" smashed="yes">
+<attribute name="VALUE" x="210.82" y="43.18" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="ECU_GND38" gate="ECU_GND" x="218.44" y="45.72" smashed="yes">
+<attribute name="VALUE" x="218.44" y="43.18" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="RESET" gate="G$1" x="71.12" y="139.7" smashed="yes">
+<attribute name="NAME" x="69.88" y="145.65" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="67.55" y="137.02" size="1.27" layer="96"/>
+</instance>
+<instance part="ECU_GND41" gate="ECU_GND" x="45.72" y="149.86" smashed="yes">
+<attribute name="VALUE" x="43.18" y="147.32" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -16633,6 +16900,12 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="ESP32-J3" gate="G$1" pin="18"/>
 <label x="149.86" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="58.42" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="93.98" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
+<label x="238.76" y="93.98" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BOOT" class="0">
 <segment>
@@ -16647,12 +16920,23 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="104.14" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 <label x="109.22" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="76.2" y1="134.62" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="G$1" pin="3"/>
+<label x="76.2" y="134.62" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="Q5C" class="0">
 <segment>
 <wire x1="144.78" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="ESP32-J3" gate="G$1" pin="7"/>
 <label x="149.86" y="114.3" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="58.42" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="104.14" x2="238.76" y2="104.14" width="0.1524" layer="91"/>
+<label x="238.76" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="Q4C" class="0">
@@ -16661,6 +16945,12 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="ESP32-J3" gate="G$1" pin="8"/>
 <label x="149.86" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="58.42" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="101.6" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
+<label x="238.76" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="Q6C" class="0">
 <segment>
@@ -16668,12 +16958,24 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="ESP32-J3" gate="G$1" pin="6"/>
 <label x="149.86" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="58.42" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="106.68" x2="238.76" y2="106.68" width="0.1524" layer="91"/>
+<label x="238.76" y="106.68" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="Q8C" class="0">
 <segment>
 <wire x1="144.78" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="ESP32-J3" gate="G$1" pin="5"/>
 <label x="149.86" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="58.42" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="238.76" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="Q2C" class="0">
@@ -16684,9 +16986,9 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="111.76" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
-<label x="226.06" y="119.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="203.2" y1="58.42" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="96.52" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
+<label x="238.76" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CI3" class="0">
@@ -16701,6 +17003,12 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="144.78" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="ESP32-J3" gate="G$1" pin="4"/>
 <label x="149.86" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="58.42" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="109.22" x2="238.76" y2="109.22" width="0.1524" layer="91"/>
+<label x="238.76" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ECU_GND" class="1">
@@ -16730,6 +17038,43 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="ECU_GND40" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="ECU_GND33" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="ECU_GND34" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="ECU_GND35" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="ECU_GND36" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="ECU_GND37" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="ECU_GND38" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="ECU_GND41" gate="ECU_GND" pin="ECU_GND"/>
+<pinref part="RESET" gate="G$1" pin="GND"/>
+<wire x1="45.72" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="152.4" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="G$1" pin="GND1"/>
+<wire x1="66.04" y1="144.78" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<junction x="66.04" y="152.4"/>
+<pinref part="RESET" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="139.7" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
+<junction x="66.04" y="144.78"/>
 </segment>
 </net>
 <net name="CI4" class="0">
@@ -16776,9 +17121,9 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="111.76" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
-<label x="226.06" y="121.92" size="1.27" layer="95" xref="yes"/>
+<wire x1="195.58" y1="58.42" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="99.06" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
+<label x="238.76" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
