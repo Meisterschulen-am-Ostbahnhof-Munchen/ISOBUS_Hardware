@@ -14849,8 +14849,8 @@ Updated by Yingchun,Shan 2019-10-21&lt;BR&gt;
 <wire x1="2.25" y1="-1.325" x2="2.25" y2="-1.25" width="0.254" layer="51" curve="-1.904406"/>
 <wire x1="2.25" y1="1.325" x2="2.25" y2="1.25" width="0.254" layer="51"/>
 <wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
-<smd name="C" x="-2.05" y="0" dx="1.778" dy="2.159" layer="1"/>
-<smd name="A" x="2.05" y="0" dx="1.778" dy="2.159" layer="1"/>
+<smd name="C" x="-2.05" y="0" dx="1.778" dy="2.159" layer="1" thermals="no"/>
+<smd name="A" x="2.05" y="0" dx="1.778" dy="2.159" layer="1" thermals="no"/>
 <text x="-2.75" y="2" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.75" y="-3.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
