@@ -14838,6 +14838,25 @@ Updated by Yingchun,Shan 2019-10-21&lt;BR&gt;
 <text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SMA_DO-214AC">
+<description>&lt;b&gt;SMA&lt;/b&gt; DO-214AC&lt;p&gt;
+&lt;a href="http://www.mouser.com/ds/2/258/GS1A-L~GS1M-L(DO-214AC)-257344.pdf"&gt; Datenblatt &lt;/a&gt;</description>
+<wire x1="-2.25" y1="1.325" x2="2.25" y2="1.325" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-1.325" x2="-2.25" y2="-1.325" width="0.254" layer="21"/>
+<wire x1="-2.25" y1="1.325" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
+<wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.254" layer="51"/>
+<wire x1="-2.25" y1="-1.325" x2="-2.25" y2="-1.25" width="0.254" layer="51"/>
+<wire x1="2.25" y1="-1.325" x2="2.25" y2="-1.25" width="0.254" layer="51" curve="-1.904406"/>
+<wire x1="2.25" y1="1.325" x2="2.25" y2="1.25" width="0.254" layer="51"/>
+<wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
+<smd name="C" x="-2.05" y="0" dx="1.778" dy="2.159" layer="1"/>
+<smd name="A" x="2.05" y="0" dx="1.778" dy="2.159" layer="1"/>
+<text x="-2.75" y="2" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.75" y="-3.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
+<rectangle x1="-2.8" y1="-0.8" x2="-2.38" y2="0.8" layer="51"/>
+<rectangle x1="-1.5" y1="-1.325" x2="-0.75" y2="1.35" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SCHOTTKY-1">
@@ -14857,6 +14876,20 @@ Updated by Yingchun,Shan 2019-10-21&lt;BR&gt;
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 <text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="D">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.27" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<text x="-1.27" y="-6.35" size="1.27" layer="96">&gt;ARTIKEL_NR</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -14881,6 +14914,51 @@ Source: MBRS340T3-D.pdf</description>
 </technology>
 <technology name="4">
 <attribute name="ARTIKEL_NR" value="513891"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GS1*-L" prefix="D">
+<description>1.0 Amp Glass Passivated Rectifier 50 to 1000 Volts&lt;p&gt;
+&lt;a href="http://www.mouser.com/ds/2/258/GS1A-L~GS1M-L(DO-214AC)-257344.pdf"&gt; Datenblatt &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA_DO-214AC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="A">
+<attribute name="ARTIKEL_NR" value=""/>
+<attribute name="OC" value=""/>
+</technology>
+<technology name="B">
+<attribute name="ARTIKEL_NR" value=""/>
+<attribute name="OC" value=""/>
+</technology>
+<technology name="D">
+<attribute name="ARTIKEL_NR" value=""/>
+<attribute name="OC" value=""/>
+</technology>
+<technology name="G">
+<attribute name="ARTIKEL_NR" value=""/>
+<attribute name="OC" value=""/>
+</technology>
+<technology name="J">
+<attribute name="ARTIKEL_NR" value="502724"/>
+<attribute name="OC" value="Farnell 1924364"/>
+</technology>
+<technology name="K">
+<attribute name="ARTIKEL_NR" value=""/>
+<attribute name="OC" value=""/>
+</technology>
+<technology name="M">
+<attribute name="ARTIKEL_NR" value=""/>
+<attribute name="OC" value=""/>
 </technology>
 </technologies>
 </device>
@@ -15658,6 +15736,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TATU_6X6_THT_RIGHT
 <class number="1" name="GND" width="0.127" drill="0">
 <clearance class="0" value="0.127"/>
 </class>
+<class number="2" name="Ampere7" width="3" drill="0.3">
+<clearance class="2" value="0.3"/>
+</class>
 </classes>
 <parts>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -15882,6 +15963,30 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TATU_6X6_THT_RIGHT
 <part name="ECU_GND38" library="supply_isobus" deviceset="ECU_GND" device=""/>
 <part name="RESET" library="Wurth_Switch_WS-TATU" library_urn="urn:adsk.eagle:library:18255789" deviceset="431256083736" device="" package3d_urn="urn:adsk.eagle:package:18255800/2"/>
 <part name="ECU_GND41" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="D014" library="fliegl-elektronik" deviceset="GS1*-L" device="" technology="J" value="GS1J-L"/>
+<part name="PWR_GND29" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="D016" library="fliegl-elektronik" deviceset="GS1*-L" device="" technology="J" value="GS1J-L"/>
+<part name="PWR_GND30" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="D018" library="fliegl-elektronik" deviceset="GS1*-L" device="" technology="J" value="GS1J-L"/>
+<part name="PWR_GND31" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="D019" library="fliegl-elektronik" deviceset="GS1*-L" device="" technology="J" value="GS1J-L"/>
+<part name="PWR_GND32" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="D020" library="fliegl-elektronik" deviceset="GS1*-L" device="" technology="J" value="GS1J-L"/>
+<part name="PWR_GND33" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="D021" library="fliegl-elektronik" deviceset="GS1*-L" device="" technology="J" value="GS1J-L"/>
+<part name="PWR_GND34" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="D022" library="fliegl-elektronik" deviceset="GS1*-L" device="" technology="J" value="GS1J-L"/>
+<part name="PWR_GND35" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="D023" library="fliegl-elektronik" deviceset="GS1*-L" device="" technology="J" value="GS1J-L"/>
+<part name="PWR_GND36" library="supply_isobus" deviceset="PWR_GND" device=""/>
+<part name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2"/>
+<part name="ECU_GND42" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="R36" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2"/>
+<part name="ECU_GND43" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2"/>
+<part name="ECU_GND44" library="supply_isobus" deviceset="ECU_GND" device=""/>
+<part name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k2"/>
+<part name="ECU_GND45" library="supply_isobus" deviceset="ECU_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17291,6 +17396,48 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <attribute name="NAME" x="155.648" y="13.252" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="163.748" y="13.312" size="1.27" layer="96" rot="R90" align="bottom-center"/>
 </instance>
+<instance part="D014" gate="G$1" x="271.78" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="264.16" y="135.89" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="269.24" y="142.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_GND29" gate="PWR_GND" x="271.78" y="124.46" smashed="yes">
+<attribute name="VALUE" x="269.24" y="121.92" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D016" gate="G$1" x="281.94" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="274.32" y="-6.35" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="279.4" y="0" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_GND30" gate="PWR_GND" x="281.94" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="279.4" y="-20.32" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D018" gate="G$1" x="292.1" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="284.48" y="-6.35" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="289.56" y="0" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_GND31" gate="PWR_GND" x="292.1" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="289.56" y="-20.32" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D019" gate="G$1" x="289.56" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="271.78" y="135.89" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="287.02" y="142.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_GND32" gate="PWR_GND" x="289.56" y="124.46" smashed="yes">
+<attribute name="VALUE" x="287.02" y="121.92" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R35" gate="G$1" x="43.18" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.91" y="93.98" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="44.45" y="93.98" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="ECU_GND42" gate="ECU_GND" x="43.18" y="81.28" smashed="yes">
+<attribute name="VALUE" x="40.64" y="78.74" size="1.778" layer="96"/>
+</instance>
+<instance part="R36" gate="G$1" x="40.64" y="-10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.37" y="-10.16" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="41.91" y="-10.16" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="ECU_GND43" gate="ECU_GND" x="40.64" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="38.1" y="-25.4" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17312,6 +17459,11 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="160.02" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
 <junction x="160.02" y="20.32"/>
 </segment>
+<segment>
+<pinref part="D018" gate="G$1" pin="C"/>
+<wire x1="292.1" y1="-2.54" x2="292.1" y2="3.81" width="0.1524" layer="91"/>
+<label x="292.1" y="3.81" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="Q3" class="0">
 <segment>
@@ -17332,6 +17484,11 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="D3" gate="G$1" pin="+"/>
 <wire x1="160.02" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <junction x="160.02" y="17.78"/>
+</segment>
+<segment>
+<pinref part="D016" gate="G$1" pin="C"/>
+<wire x1="281.94" y1="-2.54" x2="281.94" y2="3.81" width="0.1524" layer="91"/>
+<label x="281.94" y="3.81" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="Q1C" class="0">
@@ -17454,6 +17611,11 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="157.48" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 <junction x="157.48" y="121.92"/>
 </segment>
+<segment>
+<pinref part="D019" gate="G$1" pin="C"/>
+<wire x1="289.56" y1="139.7" x2="289.56" y2="146.05" width="0.1524" layer="91"/>
+<label x="289.56" y="146.05" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="Q1" class="0">
 <segment>
@@ -17474,6 +17636,11 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="D1" gate="G$1" pin="+"/>
 <wire x1="157.48" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <junction x="157.48" y="119.38"/>
+</segment>
+<segment>
+<pinref part="D014" gate="G$1" pin="C"/>
+<wire x1="271.78" y1="139.7" x2="271.78" y2="146.05" width="0.1524" layer="91"/>
+<label x="271.78" y="146.05" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="AGNDU3" class="0">
@@ -17602,6 +17769,26 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="RX2" gate="G$1" pin="2"/>
 <pinref part="PWR_GND11" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
+<segment>
+<pinref part="D014" gate="G$1" pin="A"/>
+<pinref part="PWR_GND29" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="271.78" y1="127" x2="271.78" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D016" gate="G$1" pin="A"/>
+<pinref part="PWR_GND30" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="281.94" y1="-15.24" x2="281.94" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D018" gate="G$1" pin="A"/>
+<pinref part="PWR_GND31" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="292.1" y1="-15.24" x2="292.1" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D019" gate="G$1" pin="A"/>
+<pinref part="PWR_GND32" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="289.56" y1="127" x2="289.56" y2="134.62" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ECU_GND" class="1">
 <segment>
@@ -17631,6 +17818,32 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <junction x="254" y="50.8"/>
 <pinref part="J9" gate="G$1" pin="6"/>
 <junction x="256.54" y="50.8"/>
+</segment>
+<segment>
+<pinref part="ECU_GND42" gate="ECU_GND" pin="ECU_GND"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="83.82" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ECU_GND43" gate="ECU_GND" pin="ECU_GND"/>
+<pinref part="R36" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="-20.32" x2="40.64" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="U2" gate="G$1" pin="IS"/>
+<wire x1="43.18" y1="99.06" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="R36" gate="G$1" pin="2"/>
+<pinref part="U3" gate="G$1" pin="IS"/>
+<wire x1="40.64" y1="-5.08" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -17768,6 +17981,48 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <attribute name="NAME" x="155.648" y="13.252" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="163.748" y="13.312" size="1.27" layer="96" rot="R90" align="bottom-center"/>
 </instance>
+<instance part="D020" gate="G$1" x="289.56" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="281.94" y="135.89" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="287.02" y="142.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_GND33" gate="PWR_GND" x="289.56" y="124.46" smashed="yes">
+<attribute name="VALUE" x="287.02" y="121.92" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D021" gate="G$1" x="307.34" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="299.72" y="135.89" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="304.8" y="142.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_GND34" gate="PWR_GND" x="307.34" y="124.46" smashed="yes">
+<attribute name="VALUE" x="304.8" y="121.92" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D022" gate="G$1" x="281.94" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="274.32" y="6.35" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="279.4" y="12.7" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_GND35" gate="PWR_GND" x="281.94" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="279.4" y="-7.62" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D023" gate="G$1" x="302.26" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="294.64" y="6.35" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="299.72" y="12.7" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_GND36" gate="PWR_GND" x="302.26" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="299.72" y="-7.62" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R37" gate="G$1" x="48.26" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.99" y="93.98" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="49.53" y="93.98" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="ECU_GND44" gate="ECU_GND" x="48.26" y="81.28" smashed="yes">
+<attribute name="VALUE" x="45.72" y="78.74" size="1.778" layer="96"/>
+</instance>
+<instance part="R38" gate="G$1" x="40.64" y="-10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.37" y="-10.16" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="41.91" y="-10.16" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="ECU_GND45" gate="ECU_GND" x="40.64" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="38.1" y="-25.4" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17789,6 +18044,11 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="160.02" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
 <junction x="160.02" y="20.32"/>
 </segment>
+<segment>
+<pinref part="D023" gate="G$1" pin="C"/>
+<wire x1="302.26" y1="10.16" x2="302.26" y2="16.51" width="0.1524" layer="91"/>
+<label x="302.26" y="16.51" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="Q7" class="0">
 <segment>
@@ -17809,6 +18069,11 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="D10" gate="G$1" pin="+"/>
 <wire x1="160.02" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <junction x="160.02" y="17.78"/>
+</segment>
+<segment>
+<pinref part="D022" gate="G$1" pin="C"/>
+<wire x1="281.94" y1="10.16" x2="281.94" y2="16.51" width="0.1524" layer="91"/>
+<label x="281.94" y="16.51" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="Q5C" class="0">
@@ -17902,6 +18167,11 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="157.48" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 <junction x="157.48" y="121.92"/>
 </segment>
+<segment>
+<pinref part="D021" gate="G$1" pin="C"/>
+<wire x1="307.34" y1="139.7" x2="307.34" y2="146.05" width="0.1524" layer="91"/>
+<label x="307.34" y="146.05" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="Q5" class="0">
 <segment>
@@ -17922,6 +18192,11 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="D8" gate="G$1" pin="+"/>
 <wire x1="157.48" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <junction x="157.48" y="119.38"/>
+</segment>
+<segment>
+<pinref part="D020" gate="G$1" pin="C"/>
+<wire x1="289.56" y1="139.7" x2="289.56" y2="146.05" width="0.1524" layer="91"/>
+<label x="289.56" y="146.05" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="Q8C" class="0">
@@ -18007,6 +18282,26 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <pinref part="RX6" gate="G$1" pin="2"/>
 <pinref part="PWR_GND25" gate="PWR_GND" pin="PWR_GND"/>
 </segment>
+<segment>
+<pinref part="D020" gate="G$1" pin="A"/>
+<pinref part="PWR_GND33" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="289.56" y1="127" x2="289.56" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D021" gate="G$1" pin="A"/>
+<pinref part="PWR_GND34" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="307.34" y1="127" x2="307.34" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D022" gate="G$1" pin="A"/>
+<pinref part="PWR_GND35" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="281.94" y1="-2.54" x2="281.94" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D023" gate="G$1" pin="A"/>
+<pinref part="PWR_GND36" gate="PWR_GND" pin="PWR_GND"/>
+<wire x1="302.26" y1="-2.54" x2="302.26" y2="5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ECU_GND" class="1">
 <segment>
@@ -18024,6 +18319,16 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <wire x1="86.36" y1="-20.32" x2="86.36" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="86.36" y="-20.32"/>
 <pinref part="ECU_GND11" gate="ECU_GND" pin="ECU_GND"/>
+</segment>
+<segment>
+<pinref part="ECU_GND44" gate="ECU_GND" pin="ECU_GND"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="83.82" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ECU_GND45" gate="ECU_GND" pin="ECU_GND"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="-20.32" x2="40.64" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGNDU4" class="0">
@@ -18046,6 +18351,22 @@ connect to the OSPI PSRAM and are not available for other uses.</text>
 <junction x="86.36" y="-10.16"/>
 <pinref part="C20" gate="G$1" pin="2"/>
 <label x="86.36" y="-3.81" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="U5" gate="G$1" pin="IS"/>
+<wire x1="48.26" y1="99.06" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="U6" gate="G$1" pin="IS"/>
+<wire x1="40.64" y1="-5.08" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
