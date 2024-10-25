@@ -1,7 +1,29 @@
 ## Hutschienenmoped XL
 
+Das **Hutschienenmoped XL** ist ein innovatives Gerät, das speziell für die Integration in ISOBUS-Systeme entwickelt wurde. Es handelt sich dabei um eine Open-Source-ECU (Electronic Control Unit), die mit den Standards **ISO 11783** und **IEC 61499** kompatibel ist¹. Diese Kompatibilität ermöglicht eine nahtlose Kommunikation und Steuerung von landwirtschaftlichen Maschinen und Anbaugeräten.
+
+Das Hutschienenmoped XL bietet zahlreiche Vorteile:
+- **Flexibilität**: Durch die Open-Source-Natur des Projekts können Benutzer die Software und Hardware nach ihren Bedürfnissen anpassen und erweitern.
+- **Kompatibilität**: Es unterstützt eine Vielzahl von ISOBUS-kompatiblen Geräten, was die Integration in bestehende Systeme erleichtert.
+- **Zukunftssicherheit**: Dank der Einhaltung internationaler Standards ist das Gerät zukunftssicher und kann in verschiedenen landwirtschaftlichen Anwendungen eingesetzt werden.
+
+Hast du spezielle Fragen oder benötigst du weitere Informationen zu diesem Thema? 😊
+
+¹: [Hutschienenmoped - OSHWA](https://certification.oshwa.org/de000145.html)
+
+Quelle: Unterhaltung mit Copilot, 6.10.2024
+1) Hutschienenmoped - OSHWA. https://certification.oshwa.org/de000145.html.
+2) Anbaugeräte einfach auf ISOBUS umrüsten mit dem logiBUS. https://landwirt-media.com/anbaugeraete-einfach-auf-isobus-umruesten-mit-dem-logibus/.
+3) CLAAS Axion 870 Cmatic Cebis *nur 219 BH!* - fricke24.de. https://www.fricke24.de/pdf/ADVDEM0040502/.
+
+
+
+
 this will slowly be migrated to a Fusion 360 Project: 
 
+[Hauptplatine](https://a360.co/3YcFeBx)
+
+[Zusammenbau](https://a360.co/4cJ5Ajy)
 
 
 
