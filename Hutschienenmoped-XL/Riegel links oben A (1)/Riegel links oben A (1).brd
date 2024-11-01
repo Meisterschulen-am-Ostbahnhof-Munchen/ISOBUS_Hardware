@@ -73,10 +73,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="43.5" y1="-30" x2="52.5" y2="-30" width="0" layer="20"/>
+<wire x1="52.5" y1="-30" x2="52.787" y2="-29.4487" width="0" layer="20"/>
+<wire x1="52.787" y1="-29.4487" x2="53.0297" y2="-28.9314" width="0" layer="20"/>
+<wire x1="53.0297" y1="-28.9314" x2="52.802" y2="-23.0835" width="0" layer="20" curve="50"/>
+<wire x1="52.802" y1="-23.0835" x2="52.5" y2="-22.5" width="0" layer="20"/>
+<wire x1="52.5" y1="-22.5" x2="51.8751" y2="-21.0974" width="0" layer="20" curve="-11.7"/>
+<wire x1="51.8751" y1="-21.0974" x2="43.5" y2="-21.0974" width="0" layer="20"/>
+<wire x1="43.5" y1="-21.0974" x2="43.5" y2="-30" width="0" layer="20"/>
+<circle x="50.5" y="-26.25" radius="1.5" width="0.000003125" layer="20"/>
 </plain>
 <libraries>
 </libraries>
