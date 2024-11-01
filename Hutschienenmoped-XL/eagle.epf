@@ -866,13 +866,10 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -16.256 -14.986 168.656 103.886"
 Sheet="1"
 
 [Win_2]
-Type="Control Panel"
-Number=0
-
-[Win_3]
 Type="Board Editor"
 Number=1
 File="Platte_1/Platte_1.brd"
@@ -915,6 +912,10 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=1
+
+[Win_3]
+Type="Control Panel"
+Number=0
 
 [Desktop]
 Screen="7040 1440"
