@@ -26,10 +26,9 @@ this will slowly be migrated to a Fusion 360 Project:
 [Zusammenbau](https://a360.co/4cJ5Ajy)
 
 
+![IMG20241209162237](https://github.com/user-attachments/assets/383bf22e-cba5-43bd-8128-fcb774ffd311)
 
-
-
-![WhatsApp Image 2023-08-14 at 18 57 22](https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/assets/69573151/baf0eca3-65d9-4757-8b9f-a9a591d207e7)
+![IMG20241209162234](https://github.com/user-attachments/assets/e9367dd6-669b-4474-8874-dbe8fb007cbe)
 
 
 ![image](https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/assets/69573151/a77ef262-608f-44c5-9354-b3eb979526ce)
