@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -75,7 +75,7 @@
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:9CcZVbvzTxqBQsl765sjwg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="591491ec-e171-449e-9cee-7523f4bc9c38" lastsyncedrevisionid="591491ec-e171-449e-9cee-7523f4bc9c38" lastboardhashguid="fa7be375-ab5f-149f-3e91-b35e661fc355" lastpushedtime="2024-03-24T20:05:35Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:DrcSPxU1SBmPMhIK7kDvdw" pcbguid="9b75bbeb-fb64-421f-af9e-c77acb5c75e7" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="5f049106-6f64-49cb-ae9b-23230f38e5ce" lastsyncedrevisionid="5f049106-6f64-49cb-ae9b-23230f38e5ce" lastboardhashguid="a641f209-cf45-be64-c272-31e8228ba700" lastpushedtime="2025-03-01T07:48:16Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-60" y1="-20" x2="-73" y2="-20" width="0" layer="20"/>
 <wire x1="-73" y1="-20" x2="-78" y2="-15" width="0" layer="20" curve="-90"/>
