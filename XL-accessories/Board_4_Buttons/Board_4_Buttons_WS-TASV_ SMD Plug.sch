@@ -151,7 +151,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="430162073826" urn="urn:adsk.eagle:footprint:18304275/1" library_version="10">
+<package name="430162043826" urn="urn:adsk.eagle:footprint:18304209/1" library_version="13">
 <description>&lt;B&gt;WS-TASV&lt;/B&gt;&lt;BR&gt; SMT Tact Switch 12x12 mm</description>
 <smd name="1" x="-7" y="2.5" dx="2" dy="1.8" layer="1"/>
 <smd name="2" x="7" y="2.5" dx="2" dy="1.8" layer="1"/>
@@ -181,10 +181,10 @@ Copyright: Würth Elektronik</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="430162073826" urn="urn:adsk.eagle:package:18304357/2" type="model" library_version="10">
+<package3d name="430162043826" urn="urn:adsk.eagle:package:18304303/2" type="model" library_version="13">
 <description>&lt;B&gt;WS-TASV&lt;/B&gt;&lt;BR&gt; SMT Tact Switch 12x12 mm</description>
 <packageinstances>
-<packageinstance name="430162073826"/>
+<packageinstance name="430162043826"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -209,7 +209,7 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="430162073826" urn="urn:adsk.eagle:component:18304445/6" prefix="S" library_version="10">
+<deviceset name="430162043826" urn="urn:adsk.eagle:component:18304385/6" prefix="S" library_version="13">
 <description>&lt;b&gt;WS-TASV SMT Tact Switch 12x12 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 &lt;B&gt;Material Properties&lt;/B&gt;
 &lt;BR&gt;Cover Material : Stainless Steel
@@ -256,7 +256,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_12X12_SMD/"&g
 <gate name="G$1" symbol="WS-TASX_4P1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="430162073826">
+<device name="" package="430162043826">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
@@ -264,16 +264,16 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_12X12_SMD/"&g
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18304357/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18304303/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/430162073826?ae"/>
-<attribute name="HEIGHT" value="7.3mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/430162043826?ae"/>
+<attribute name="HEIGHT" value="4.3mm"/>
 <attribute name="OPERATION-FORCE" value="260g"/>
-<attribute name="PART-NUMBER" value="430162073826"/>
-<attribute name="QTY" value=" 250 "/>
-<attribute name="VALUE" value="430162073826"/>
+<attribute name="PART-NUMBER" value="430162043826"/>
+<attribute name="QTY" value=" 400 "/>
+<attribute name="VALUE" value="430162043826"/>
 </technology>
 </technologies>
 </device>
@@ -545,10 +545,10 @@ Details see: &lt;a href="www.we-online.com/catalog/TBL_5_00_SMT_7097_HORIZONTAL_
 </class>
 </classes>
 <parts>
-<part name="S1" library="Wurth_Switch_WS-TASV" library_urn="urn:adsk.eagle:library:18304196" deviceset="430162073826" device="" package3d_urn="urn:adsk.eagle:package:18304357/2" value="430162073826"/>
-<part name="S2" library="Wurth_Switch_WS-TASV" library_urn="urn:adsk.eagle:library:18304196" deviceset="430162073826" device="" package3d_urn="urn:adsk.eagle:package:18304357/2" value="430162073826"/>
-<part name="S3" library="Wurth_Switch_WS-TASV" library_urn="urn:adsk.eagle:library:18304196" deviceset="430162073826" device="" package3d_urn="urn:adsk.eagle:package:18304357/2" value="430162073826"/>
-<part name="S4" library="Wurth_Switch_WS-TASV" library_urn="urn:adsk.eagle:library:18304196" deviceset="430162073826" device="" package3d_urn="urn:adsk.eagle:package:18304357/2" value="430162073826"/>
+<part name="S1" library="Wurth_Switch_WS-TASV" library_urn="urn:adsk.eagle:library:18304196" deviceset="430162043826" device="" package3d_urn="urn:adsk.eagle:package:18304303/2" value="430162043826"/>
+<part name="S2" library="Wurth_Switch_WS-TASV" library_urn="urn:adsk.eagle:library:18304196" deviceset="430162043826" device="" package3d_urn="urn:adsk.eagle:package:18304303/2" value="430162043826"/>
+<part name="S3" library="Wurth_Switch_WS-TASV" library_urn="urn:adsk.eagle:library:18304196" deviceset="430162043826" device="" package3d_urn="urn:adsk.eagle:package:18304303/2" value="430162043826"/>
+<part name="S4" library="Wurth_Switch_WS-TASV" library_urn="urn:adsk.eagle:library:18304196" deviceset="430162043826" device="" package3d_urn="urn:adsk.eagle:package:18304303/2" value="430162043826"/>
 <part name="J2" library="Wurth_Connectors_WR-TBL Rising Cage Clamp" library_urn="urn:adsk.eagle:library:16280519" deviceset="691709710305" device="" package3d_urn="urn:adsk.eagle:package:16248446/4" value="691709710305"/>
 </parts>
 <sheets>
