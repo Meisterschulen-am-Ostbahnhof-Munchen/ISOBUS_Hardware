@@ -15861,48 +15861,48 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TATU_6X6_THT_RIGHT
 <part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K2"/>
 <part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47K"/>
 <part name="C27" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
-<part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22K"/>
 <part name="C24" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
 <part name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K2"/>
 <part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47K"/>
 <part name="C26" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
-<part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22K"/>
 <part name="D12" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" deviceset="WE-TVS-HS_SOT143-4L_8240136" device="" package3d_urn="urn:adsk.eagle:package:12152377/4" value="3.3Vdc"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C31" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
 <part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K2"/>
 <part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47K"/>
 <part name="C32" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
-<part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22K"/>
 <part name="C33" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
 <part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K2"/>
 <part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47K"/>
 <part name="C34" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
-<part name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22K"/>
 <part name="D13" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" deviceset="WE-TVS-HS_SOT143-4L_8240136" device="" package3d_urn="urn:adsk.eagle:package:12152377/4" value="3.3Vdc"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C39" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
 <part name="R39" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K2"/>
 <part name="R40" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47K"/>
 <part name="C40" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
-<part name="R41" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R41" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22K"/>
 <part name="C41" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
 <part name="R42" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K2"/>
 <part name="R43" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47K"/>
 <part name="C42" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
-<part name="R44" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R44" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22K"/>
 <part name="D15" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" deviceset="WE-TVS-HS_SOT143-4L_8240136" device="" package3d_urn="urn:adsk.eagle:package:12152377/4" value="3.3Vdc"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C47" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
 <part name="R51" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K2"/>
 <part name="R52" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47K"/>
 <part name="C48" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
-<part name="R53" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R53" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22K"/>
 <part name="C49" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
 <part name="R54" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K2"/>
 <part name="R55" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47K"/>
 <part name="C50" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_1206_H0.8" device="_50V(DC)" package3d_urn="urn:adsk.eagle:package:18489111/2" technology="_885012208087" value="100nF"/>
-<part name="R56" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="13K"/>
+<part name="R56" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22K"/>
 <part name="D17" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" deviceset="WE-TVS-HS_SOT143-4L_8240136" device="" package3d_urn="urn:adsk.eagle:package:12152377/4" value="3.3Vdc"/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="ECU_GND13" library="supply_isobus" deviceset="ECU_GND" device=""/>
@@ -18406,6 +18406,7 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 </instance>
 <instance part="R23" gate="G$1" x="187.96" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="186.4614" y="140.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C33" gate="G$1" x="139.7" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="139.7" y="111.76" size="1.778" layer="95" rot="R270"/>
@@ -18593,6 +18594,7 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 </instance>
 <instance part="R41" gate="G$1" x="187.96" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="186.4614" y="140.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C41" gate="G$1" x="139.7" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="139.7" y="111.76" size="1.778" layer="95" rot="R270"/>
@@ -18780,6 +18782,7 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 </instance>
 <instance part="R53" gate="G$1" x="187.96" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="186.4614" y="140.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C49" gate="G$1" x="139.7" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="139.7" y="111.76" size="1.778" layer="95" rot="R270"/>
@@ -18967,6 +18970,7 @@ VIL     Low-level input voltage    –0.3       -     0.25×VDD1  V  (-0,3   - �
 </instance>
 <instance part="R32" gate="G$1" x="187.96" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="186.4614" y="140.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C24" gate="G$1" x="139.7" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="139.7" y="111.76" size="1.778" layer="95" rot="R270"/>
