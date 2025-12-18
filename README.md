@@ -1,35 +1,30 @@
 # ISOBUS Hardware
 
+Welcome to the **ISOBUS Hardware** repository by **Meisterschulen am Ostbahnhof, München**. This repository hosts hardware designs for Open Source ISOBUS ECUs.
 
+## 📂 Projects
 
-## Hutschienenmoped
+### [Hutschienenmoped](./Hutschienenmoped)
+The **Hutschienenmoped** is an Open Source ISOBUS ECU designed for DIN rail mounting.
 
-https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/tree/master/Hutschienenmoped
+* **📂 Source Code:** [View Directory](./Hutschienenmoped)
+* **📖 Documentation:** [Read the Docs](https://install-isobus-environment-docs.readthedocs.io/de/latest/HutschienenMoped.html)
 
-contains the Hutschienenmoped, a Open Source ISOBUS ECU.
+---
 
-see more here: 
+### [Hutschienenmoped XL](./Hutschienenmoped-XL)
+The **Hutschienenmoped XL** is an extended version of the Open Source ISOBUS ECU.
 
-https://install-isobus-environment-docs.readthedocs.io/de/latest/HutschienenMoped.html
+* **📂 Source Code:** [View Directory](./Hutschienenmoped-XL)
+* **🏅 Open Hardware:** Certified under [DE000145](https://certification.oshwa.org/de000145.html)
 
-## Hutschienenmoped XL
+![OSHWA Certification DE000145](./certification-mark-DE000145-stacked.png)
 
+## 📜 License
 
-https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/tree/master/Hutschienenmoped-XL
+This project is licensed under a **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
 
-contains the Hutschienenmoped-XL, a Open Source ISOBUS ECU.
+* **Hutschienenmoped** by Meisterschulen am Ostbahnhof, München
+* **ISOBUS_Hardware** by Meisterschulen am Ostbahnhof, München
 
-<img src="https://raw.githubusercontent.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware/refs/heads/master/certification-mark-DE000145-stacked.png" width=300> 
-
-
-Open Hardware: DE000145 https://certification.oshwa.org/de000145.html
-
-
-
-# Lic
-
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware">Hutschienenmoped</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Meisterschulen-am-Ostbahnhof-Munchen">Meisterschulen am Ostbahnhof, München</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
-
-
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS_Hardware">ISOBUS_Hardware</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Meisterschulen-am-Ostbahnhof-Munchen">Meisterschulen am Ostbahnhof, München</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
-
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
